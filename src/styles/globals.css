@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Sora:wght@300;400;600;700&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  /* Brand */
+  --color-primary: #5B4CF5;
+  --color-primary-light: #7B6FF7;
+  --color-primary-dark: #3D2ED4;
+  --color-secondary: #FF6B6B;
+  --color-accent: #FFD93D;
+
+  /* Backgrounds */
+  --color-bg: #0F0F1A;
+  --color-bg-card: #1A1A2E;
+  --color-bg-elevated: #16213E;
+  --color-bg-surface: #1E1E35;
+
+  /* Text */
+  --color-text-primary: #F0F0FF;
+  --color-text-secondary: #9999BB;
+  --color-text-muted: #5555770;
+
+  /* Levels */
+  --color-a1: #4ECDC4;
+  --color-a2: #44CF6C;
+  --color-b1: #FFD93D;
+  --color-b2: #FF9F43;
+  --color-c1: #FF6B6B;
+  --color-c2: #A29BFE;
+
+  /* Languages */
+  --color-turkish: #E74C3C;
+  --color-chinese: #E67E22;
+  --color-korean: #3498DB;
+  --color-arabic: #27AE60;
+  --color-spanish: #F39C12;
+  --color-italian: #8E44AD;
+  --color-japanese: #E91E63;
+
+  /* Gamification */
+  --color-xp: #FFD93D;
+  --color-streak: #FF6B35;
+  --color-life: #FF4757;
+
+  /* Spacing */
+  --sp-xs: 4px;
+  --sp-sm: 8px;
+  --sp-md: 16px;
+  --sp-lg: 24px;
+  --sp-xl: 40px;
+  --sp-2xl: 64px;
+
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-full: 9999px;
+
+  /* Fonts */
+  --font-sans: 'Plus Jakarta Sans', sans-serif;
+  --font-display: 'Sora', sans-serif;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(0,0,0,0.3);
+  --shadow-md: 0 4px 24px rgba(0,0,0,0.4);
+  --shadow-glow: 0 0 20px rgba(91,76,245,0.3);
+}
+
+html {
+  font-family: var(--font-sans);
+  background: var(--color-bg);
+  color: var(--color-text-primary);
+  -webkit-font-smoothing: antialiased;
+}
+
+body { min-height: 100vh; }
+
+#root { min-height: 100vh; }
+
+a { color: inherit; text-decoration: none; }
+
+button { cursor: pointer; font-family: inherit; border: none; background: none; }
+
+input, textarea { font-family: inherit; }

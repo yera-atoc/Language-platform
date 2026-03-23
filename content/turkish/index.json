@@ -1,0 +1,59 @@
+{
+  "language": "turkish",
+  "languageRu": "Турецкий язык",
+  "flag": "🇹🇷",
+  "exam": "ТОМЕР",
+  "examDescription": "Сертификат владения турецким языком (Türkçe yeterlik sınavı)",
+  "levels": {
+    "a1": {
+      "title": "A1 — Начинающий",
+      "description": "Базовые фразы и знакомство с языком",
+      "totalLessons": 20,
+      "xpRequired": 0,
+      "color": "#4ECDC4",
+      "lessons": [
+        { "id": "lesson_1",  "title": "Merhaba! — Приветствия",        "xp": 50  },
+        { "id": "lesson_2",  "title": "Ben kimim? — Знакомство",        "xp": 50  },
+        { "id": "lesson_3",  "title": "Sayılar 1-10 — Числа 1-10",      "xp": 60  },
+        { "id": "lesson_4",  "title": "Renkler — Цвета",                "xp": 60  },
+        { "id": "lesson_5",  "title": "Aile — Семья",                   "xp": 70  },
+        { "id": "lesson_6",  "title": "Günler ve aylar — Дни и месяцы", "xp": 70  },
+        { "id": "lesson_7",  "title": "Yiyecekler — Еда",               "xp": 80  },
+        { "id": "lesson_8",  "title": "Sayılar 11-100 — Числа 11-100",  "xp": 80  },
+        { "id": "lesson_9",  "title": "Saat — Время",                   "xp": 90  },
+        { "id": "lesson_10", "title": "Şehir — Город",                  "xp": 90  },
+        { "id": "lesson_11", "title": "Hayvanlar — Животные",           "xp": 90  },
+        { "id": "lesson_12", "title": "Vücut — Тело",                   "xp": 90  },
+        { "id": "lesson_13", "title": "Hava durumu — Погода",           "xp": 100 },
+        { "id": "lesson_14", "title": "Alışveriş — Покупки",            "xp": 100 },
+        { "id": "lesson_15", "title": "Ulaşım — Транспорт",             "xp": 100 },
+        { "id": "lesson_16", "title": "Meslekler — Профессии",          "xp": 110 },
+        { "id": "lesson_17", "title": "Ev — Дом",                       "xp": 110 },
+        { "id": "lesson_18", "title": "Giysi — Одежда",                 "xp": 110 },
+        { "id": "lesson_19", "title": "Duygular — Чувства и эмоции",    "xp": 120 },
+        { "id": "lesson_20", "title": "A1 Tekrar — Повторение A1",      "xp": 150 }
+      ]
+    },
+    "a2": {
+      "title": "A2 — Элементарный",
+      "description": "Повседневные ситуации и простые диалоги",
+      "totalLessons": 20,
+      "xpRequired": 1800,
+      "color": "#44CF6C"
+    },
+    "b1": {
+      "title": "B1 — Средний",
+      "description": "Уверенное общение на бытовые темы",
+      "totalLessons": 20,
+      "xpRequired": 5000,
+      "color": "#FFD93D"
+    },
+    "b2": {
+      "title": "B2 — Выше среднего",
+      "description": "Сложные темы и подготовка к ТОМЕР",
+      "totalLessons": 20,
+      "xpRequired": 10000,
+      "color": "#FF9F43"
+    }
+  }
+}

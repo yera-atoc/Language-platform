@@ -1,0 +1,72 @@
+{
+  "id": "lesson_1",
+  "title": "Merhaba! — Приветствия",
+  "titleRu": "Урок 1: Приветствия",
+  "level": "a1",
+  "language": "turkish",
+  "xpReward": 50,
+  "estimatedMinutes": 15,
+  "objectives": [
+    "Научиться здороваться и прощаться по-турецки",
+    "Узнать базовые вежливые фразы",
+    "Понять разницу между формальным и неформальным обращением"
+  ],
+  "vocabulary": [
+    { "tr": "Merhaba", "ru": "Привет / Здравствуйте", "pronunciation": "мэрхаба" },
+    { "tr": "Günaydın", "ru": "Доброе утро", "pronunciation": "гюнайдын" },
+    { "tr": "İyi günler", "ru": "Добрый день", "pronunciation": "ийи гюнлэр" },
+    { "tr": "İyi akşamlar", "ru": "Добрый вечер", "pronunciation": "ийи акшамлар" },
+    { "tr": "Hoşça kal", "ru": "До свидания (говорит остающийся)", "pronunciation": "хошча кал" },
+    { "tr": "Güle güle", "ru": "До свидания (говорит уходящий)", "pronunciation": "гюле гюле" },
+    { "tr": "Teşekkür ederim", "ru": "Спасибо", "pronunciation": "тэшэккюр эдэрим" },
+    { "tr": "Rica ederim", "ru": "Пожалуйста", "pronunciation": "риджа эдэрим" },
+    { "tr": "Evet", "ru": "Да", "pronunciation": "эвэт" },
+    { "tr": "Hayır", "ru": "Нет", "pronunciation": "хайыр" }
+  ],
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "multiple_choice",
+      "question": "Как по-турецки будет «Доброе утро»?",
+      "options": ["Merhaba", "Günaydın", "İyi akşamlar", "Hoşça kal"],
+      "correctAnswer": "Günaydın",
+      "explanation": "Günaydın используется утром. Дословно: «хороший рассвет»."
+    },
+    {
+      "id": "ex_2",
+      "type": "multiple_choice",
+      "question": "Что означает «Teşekkür ederim»?",
+      "options": ["Привет", "Пока", "Спасибо", "Пожалуйста"],
+      "correctAnswer": "Спасибо",
+      "explanation": "Teşekkür ederim — официальная форма «спасибо». Неформально: Sağ ol."
+    },
+    {
+      "id": "ex_3",
+      "type": "match_pairs",
+      "question": "Соедини турецкие слова с переводом",
+      "pairs": [
+        { "left": "Evet", "right": "Да" },
+        { "left": "Hayır", "right": "Нет" },
+        { "left": "Merhaba", "right": "Привет" },
+        { "left": "Rica ederim", "right": "Пожалуйста" }
+      ],
+      "correctAnswer": "all"
+    },
+    {
+      "id": "ex_4",
+      "type": "multiple_choice",
+      "question": "Ты уходишь из дома. Что скажешь остающимся?",
+      "options": ["Hoşça kal", "Güle güle", "Merhaba", "Günaydın"],
+      "correctAnswer": "Güle güle",
+      "explanation": "Güle güle говорит тот, кто уходит. Hoşça kal говорит тот, кто остаётся."
+    },
+    {
+      "id": "ex_5",
+      "type": "fill_blank",
+      "question": "Допиши фразу: «İyi _______» (Добрый день)",
+      "options": ["günler", "geceler", "sabahlar", "akşamlar"],
+      "correctAnswer": "günler",
+      "explanation": "İyi günler = Добрый день. İyi akşamlar = Добрый вечер."
+    }
+  ]
+}
