@@ -1,0 +1,71 @@
+{
+  "id": "lesson_7",
+  "title": "Yiyecekler — Еда",
+  "level": "a1",
+  "language": "turkish",
+  "xpReward": 80,
+  "estimatedMinutes": 20,
+  "vocabulary": [
+    { "tr": "ekmek", "ru": "хлеб", "pronunciation": "экмэк" },
+    { "tr": "su", "ru": "вода", "pronunciation": "су" },
+    { "tr": "çay", "ru": "чай", "pronunciation": "чай" },
+    { "tr": "kahve", "ru": "кофе", "pronunciation": "кахвэ" },
+    { "tr": "süt", "ru": "молоко", "pronunciation": "сют" },
+    { "tr": "et", "ru": "мясо", "pronunciation": "эт" },
+    { "tr": "tavuk", "ru": "курица", "pronunciation": "тавук" },
+    { "tr": "balık", "ru": "рыба", "pronunciation": "балык" },
+    { "tr": "meyve", "ru": "фрукт", "pronunciation": "мэйвэ" },
+    { "tr": "sebze", "ru": "овощ", "pronunciation": "сэбзэ" }
+  ],
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "multiple_choice",
+      "question": "Что означает слово?",
+      "word": "ekmek",
+      "pronun": "[экмэк]",
+      "options": ["молоко", "масло", "хлеб", "сыр"],
+      "correctAnswer": "хлеб",
+      "explanation": "ekmek = хлеб. Турецкий хлеб — важная часть каждой трапезы!"
+    },
+    {
+      "id": "ex_2",
+      "type": "multiple_choice",
+      "question": "Как по-турецки «курица»?",
+      "options": ["et", "balık", "tavuk", "sebze"],
+      "correctAnswer": "tavuk",
+      "explanation": "tavuk = курица. et = мясо (в целом). balık = рыба."
+    },
+    {
+      "id": "ex_3",
+      "type": "match_pairs",
+      "question": "Соедини напитки и еду с переводом",
+      "pairs": [
+        { "left": "çay", "right": "чай" },
+        { "left": "su", "right": "вода" },
+        { "left": "süt", "right": "молоко" },
+        { "left": "kahve", "right": "кофе" }
+      ],
+      "correctAnswer": "all",
+      "explanation": "çay=чай, su=вода, süt=молоко, kahve=кофе."
+    },
+    {
+      "id": "ex_4",
+      "type": "multiple_choice",
+      "question": "Что означает слово?",
+      "word": "sebze",
+      "pronun": "[сэбзэ]",
+      "options": ["фрукт", "овощ", "зелень", "орех"],
+      "correctAnswer": "овощ",
+      "explanation": "sebze = овощ. meyve = фрукт. Легко запутать — учи вместе!"
+    },
+    {
+      "id": "ex_5",
+      "type": "fill_blank",
+      "question": "«balık» означает:",
+      "options": ["мясо", "курица", "рыба", "хлеб"],
+      "correctAnswer": "рыба",
+      "explanation": "balık = рыба. В Турции рыба очень популярна — особенно в прибрежных городах."
+    }
+  ]
+}

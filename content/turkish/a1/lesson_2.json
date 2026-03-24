@@ -1,0 +1,67 @@
+{
+  "id": "lesson_2",
+  "title": "Ben kimim? — Знакомство",
+  "level": "a1",
+  "language": "turkish",
+  "xpReward": 50,
+  "estimatedMinutes": 15,
+  "vocabulary": [
+    { "tr": "Ben", "ru": "Я", "pronunciation": "бэн" },
+    { "tr": "Sen", "ru": "Ты", "pronunciation": "сэн" },
+    { "tr": "O", "ru": "Он / Она / Оно", "pronunciation": "о" },
+    { "tr": "Biz", "ru": "Мы", "pronunciation": "биз" },
+    { "tr": "Adım", "ru": "Моё имя", "pronunciation": "адым" },
+    { "tr": "Adın ne?", "ru": "Как тебя зовут?", "pronunciation": "адын нэ?" },
+    { "tr": "Memnun oldum", "ru": "Приятно познакомиться", "pronunciation": "мэмнун олдум" },
+    { "tr": "Nerelisin?", "ru": "Откуда ты?", "pronunciation": "нэрэлисин?" },
+    { "tr": "Kazakistanlıyım", "ru": "Я из Казахстана", "pronunciation": "казакистанлыйым" },
+    { "tr": "Kaç yaşındasın?", "ru": "Сколько тебе лет?", "pronunciation": "кач яшындасын?" }
+  ],
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "multiple_choice",
+      "question": "Как по-турецки «Как тебя зовут?»",
+      "options": ["Nerelisin?", "Adın ne?", "Memnun oldum", "Kaç yaşındasın?"],
+      "correctAnswer": "Adın ne?",
+      "explanation": "Adın ne? = Как тебя зовут? Дословно: «Твоё имя что?»"
+    },
+    {
+      "id": "ex_2",
+      "type": "multiple_choice",
+      "question": "Что означает «Memnun oldum»?",
+      "options": ["Пока!", "Спасибо", "Приятно познакомиться", "Не за что"],
+      "correctAnswer": "Приятно познакомиться",
+      "explanation": "Memnun oldum = Приятно познакомиться. Используется при первом знакомстве."
+    },
+    {
+      "id": "ex_3",
+      "type": "multiple_choice",
+      "question": "Что означает местоимение «O»?",
+      "options": ["Я", "Ты", "Он / Она / Оно", "Мы"],
+      "correctAnswer": "Он / Она / Оно",
+      "explanation": "В турецком «O» используется для всех: он, она, оно. Рода нет!"
+    },
+    {
+      "id": "ex_4",
+      "type": "match_pairs",
+      "question": "Соедини местоимения с переводом",
+      "pairs": [
+        { "left": "Ben", "right": "Я" },
+        { "left": "Sen", "right": "Ты" },
+        { "left": "Biz", "right": "Мы" },
+        { "left": "O", "right": "Он/Она" }
+      ],
+      "correctAnswer": "all",
+      "explanation": "Турецкие личные местоимения: Ben-Я, Sen-Ты, O-Он/Она, Biz-Мы, Siz-Вы, Onlar-Они."
+    },
+    {
+      "id": "ex_5",
+      "type": "fill_blank",
+      "question": "Допиши фразу: «_______ Aliya» (Меня зовут Алия)",
+      "options": ["Adım", "Adın", "Adı", "Ben"],
+      "correctAnswer": "Adım",
+      "explanation": "Adım = моё имя. Суффикс -ım/-im/-um/-üm = притяжательное «мой/моя»."
+    }
+  ]
+}

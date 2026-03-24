@@ -1,0 +1,71 @@
+{
+  "id": "lesson_11",
+  "title": "Hayvanlar — Животные",
+  "level": "a1",
+  "language": "turkish",
+  "xpReward": 90,
+  "estimatedMinutes": 20,
+  "vocabulary": [
+    { "tr": "kedi", "ru": "кошка", "pronunciation": "кэди" },
+    { "tr": "köpek", "ru": "собака", "pronunciation": "кёпэк" },
+    { "tr": "kuş", "ru": "птица", "pronunciation": "куш" },
+    { "tr": "at", "ru": "лошадь", "pronunciation": "ат" },
+    { "tr": "inek", "ru": "корова", "pronunciation": "инэк" },
+    { "tr": "balık", "ru": "рыба", "pronunciation": "балык" },
+    { "tr": "aslan", "ru": "лев", "pronunciation": "аслан" },
+    { "tr": "fil", "ru": "слон", "pronunciation": "фил" },
+    { "tr": "tavşan", "ru": "кролик", "pronunciation": "тавшан" },
+    { "tr": "yılan", "ru": "змея", "pronunciation": "йылан" }
+  ],
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "multiple_choice",
+      "question": "Что означает слово?",
+      "word": "köpek",
+      "pronun": "[кёпэк]",
+      "options": ["кошка", "птица", "собака", "лошадь"],
+      "correctAnswer": "собака",
+      "explanation": "köpek = собака. kedi = кошка. Оба — популярные домашние животные в Турции!"
+    },
+    {
+      "id": "ex_2",
+      "type": "multiple_choice",
+      "question": "Как по-турецки «лев»?",
+      "options": ["fil", "at", "aslan", "inek"],
+      "correctAnswer": "aslan",
+      "explanation": "aslan = лев. Aslan — популярное турецкое имя, означает «лев»."
+    },
+    {
+      "id": "ex_3",
+      "type": "match_pairs",
+      "question": "Соедини животных с переводом",
+      "pairs": [
+        { "left": "kedi", "right": "кошка" },
+        { "left": "kuş", "right": "птица" },
+        { "left": "fil", "right": "слон" },
+        { "left": "tavşan", "right": "кролик" }
+      ],
+      "correctAnswer": "all",
+      "explanation": "kedi=кошка, kuş=птица, fil=слон, tavşan=кролик."
+    },
+    {
+      "id": "ex_4",
+      "type": "multiple_choice",
+      "question": "Что означает слово?",
+      "word": "yılan",
+      "pronun": "[йылан]",
+      "options": ["рыба", "змея", "черепаха", "ящерица"],
+      "correctAnswer": "змея",
+      "explanation": "yılan = змея. Буква ı (без точки) читается как ы."
+    },
+    {
+      "id": "ex_5",
+      "type": "fill_blank",
+      "question": "«at» по-турецки означает:",
+      "options": ["корова", "овца", "лошадь", "коза"],
+      "correctAnswer": "лошадь",
+      "explanation": "at = лошадь. Очень короткое слово! inek = корова. koyun = овца."
+    }
+  ]
+}

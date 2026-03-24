@@ -1,0 +1,69 @@
+{
+  "id": "lesson_17",
+  "title": "Ev — Дом",
+  "level": "a1",
+  "language": "turkish",
+  "xpReward": 110,
+  "estimatedMinutes": 20,
+  "vocabulary": [
+    { "tr": "ev", "ru": "дом", "pronunciation": "эв" },
+    { "tr": "oda", "ru": "комната", "pronunciation": "ода" },
+    { "tr": "mutfak", "ru": "кухня", "pronunciation": "мутфак" },
+    { "tr": "banyo", "ru": "ванная / туалет", "pronunciation": "банйо" },
+    { "tr": "yatak odası", "ru": "спальня", "pronunciation": "йатак одасы" },
+    { "tr": "salon", "ru": "гостиная / зал", "pronunciation": "салон" },
+    { "tr": "kapı", "ru": "дверь", "pronunciation": "капы" },
+    { "tr": "pencere", "ru": "окно", "pronunciation": "пэнджэрэ" },
+    { "tr": "masa", "ru": "стол", "pronunciation": "маса" },
+    { "tr": "sandalye", "ru": "стул", "pronunciation": "сандалйэ" }
+  ],
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "multiple_choice",
+      "question": "Что означает слово?",
+      "word": "mutfak",
+      "pronun": "[мутфак]",
+      "options": ["спальня", "кухня", "гостиная", "ванная"],
+      "correctAnswer": "кухня",
+      "explanation": "mutfak = кухня. В турецких домах кухня — центр семейной жизни."
+    },
+    {
+      "id": "ex_2",
+      "type": "multiple_choice",
+      "question": "Как по-турецки «окно»?",
+      "options": ["kapı", "duvar", "pencere", "tavan"],
+      "correctAnswer": "pencere",
+      "explanation": "pencere = окно. kapı = дверь. duvar = стена. tavan = потолок."
+    },
+    {
+      "id": "ex_3",
+      "type": "match_pairs",
+      "question": "Соедини слова с переводом",
+      "pairs": [
+        { "left": "ev", "right": "дом" },
+        { "left": "oda", "right": "комната" },
+        { "left": "masa", "right": "стол" },
+        { "left": "sandalye", "right": "стул" }
+      ],
+      "correctAnswer": "all",
+      "explanation": "ev=дом, oda=комната, masa=стол, sandalye=стул."
+    },
+    {
+      "id": "ex_4",
+      "type": "multiple_choice",
+      "question": "Что означает «yatak odası»?",
+      "options": ["гостиная", "кабинет", "спальня", "детская"],
+      "correctAnswer": "спальня",
+      "explanation": "yatak odası = спальня. yatak = кровать. odası = его комната (притяжательный суффикс)."
+    },
+    {
+      "id": "ex_5",
+      "type": "fill_blank",
+      "question": "«banyo» означает:",
+      "options": ["кухня", "спальня", "ванная", "балкон"],
+      "correctAnswer": "ванная",
+      "explanation": "banyo = ванная/туалет. Слово пришло из итальянского «bagno»."
+    }
+  ]
+}

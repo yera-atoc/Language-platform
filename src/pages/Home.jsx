@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import useUserStore from '@store/userStore'
+import { LivesDisplay } from '@components/ui/NoLivesModal'
 import useProgressStore from '@store/progressStore'
 import turkishData from '@content/turkish/index.json'
 
@@ -66,7 +67,7 @@ export default function Home() {
         <div style={s.statsRow}>
           <StatPill color="#FFD060" icon="⚡" value={xp} />
           <StatPill color="#FF7043" icon="🔥" value={streak} />
-          <LivesPill lives={lives} max={maxLives} />
+          <LivesDisplay />
         </div>
       </header>
 

@@ -1,0 +1,71 @@
+{
+  "id": "lesson_19",
+  "title": "Duygular — Чувства и эмоции",
+  "level": "a1",
+  "language": "turkish",
+  "xpReward": 120,
+  "estimatedMinutes": 20,
+  "vocabulary": [
+    { "tr": "mutlu", "ru": "счастливый / радостный", "pronunciation": "мутлу" },
+    { "tr": "üzgün", "ru": "грустный / расстроенный", "pronunciation": "юзгюн" },
+    { "tr": "kızgın", "ru": "злой / сердитый", "pronunciation": "кызгын" },
+    { "tr": "yorgun", "ru": "уставший", "pronunciation": "йоргун" },
+    { "tr": "hasta", "ru": "больной", "pronunciation": "хаста" },
+    { "tr": "aç", "ru": "голодный", "pronunciation": "ач" },
+    { "tr": "susuz", "ru": "хотеть пить / жаждущий", "pronunciation": "сусуз" },
+    { "tr": "Nasılsın?", "ru": "Как ты?", "pronunciation": "насылсын?" },
+    { "tr": "İyiyim", "ru": "Я хорошо", "pronunciation": "ийийим" },
+    { "tr": "Kötüyüm", "ru": "Я плохо", "pronunciation": "кётюйюм" }
+  ],
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "multiple_choice",
+      "question": "Что означает слово?",
+      "word": "mutlu",
+      "pronun": "[мутлу]",
+      "options": ["грустный", "злой", "счастливый", "усталый"],
+      "correctAnswer": "счастливый",
+      "explanation": "mutlu = счастливый. üzgün = грустный. Mutlu yıllar = С Новым годом!"
+    },
+    {
+      "id": "ex_2",
+      "type": "multiple_choice",
+      "question": "Как ответить «Я хорошо» на вопрос «Nasılsın?»",
+      "options": ["Kötüyüm", "Yorgunum", "İyiyim", "Hastayım"],
+      "correctAnswer": "İyiyim",
+      "explanation": "İyiyim = Я хорошо. iyi = хорошо + -yim (я есть). Kötüyüm = Я плохо."
+    },
+    {
+      "id": "ex_3",
+      "type": "match_pairs",
+      "question": "Соедини чувства с переводом",
+      "pairs": [
+        { "left": "yorgun", "right": "усталый" },
+        { "left": "hasta", "right": "больной" },
+        { "left": "aç", "right": "голодный" },
+        { "left": "kızgın", "right": "злой" }
+      ],
+      "correctAnswer": "all",
+      "explanation": "yorgun=усталый, hasta=больной, aç=голодный, kızgın=злой."
+    },
+    {
+      "id": "ex_4",
+      "type": "multiple_choice",
+      "question": "Что означает слово?",
+      "word": "üzgün",
+      "pronun": "[юзгюн]",
+      "options": ["счастливый", "злой", "грустный", "удивлённый"],
+      "correctAnswer": "грустный",
+      "explanation": "üzgün = грустный/расстроенный. Буквы ü и ğ — специфика турецкого языка."
+    },
+    {
+      "id": "ex_5",
+      "type": "fill_blank",
+      "question": "«Nasılsın?» означает:",
+      "options": ["Как тебя зовут?", "Откуда ты?", "Как ты?", "Сколько лет?"],
+      "correctAnswer": "Как ты?",
+      "explanation": "Nasılsın? = Как ты? (неформально). Nasılsınız? = Как вы? (формально)."
+    }
+  ]
+}

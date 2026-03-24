@@ -1,0 +1,71 @@
+{
+  "id": "lesson_12",
+  "title": "Vücut — Тело",
+  "level": "a1",
+  "language": "turkish",
+  "xpReward": 90,
+  "estimatedMinutes": 20,
+  "vocabulary": [
+    { "tr": "baş", "ru": "голова", "pronunciation": "баш" },
+    { "tr": "göz", "ru": "глаз", "pronunciation": "гёз" },
+    { "tr": "kulak", "ru": "ухо", "pronunciation": "кулак" },
+    { "tr": "ağız", "ru": "рот", "pronunciation": "ааз" },
+    { "tr": "burun", "ru": "нос", "pronunciation": "бурун" },
+    { "tr": "el", "ru": "рука (кисть)", "pronunciation": "эл" },
+    { "tr": "ayak", "ru": "нога / ступня", "pronunciation": "айак" },
+    { "tr": "kalp", "ru": "сердце", "pronunciation": "калп" },
+    { "tr": "dil", "ru": "язык", "pronunciation": "дил" },
+    { "tr": "diş", "ru": "зуб", "pronunciation": "диш" }
+  ],
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "multiple_choice",
+      "question": "Что означает слово?",
+      "word": "göz",
+      "pronun": "[гёз]",
+      "options": ["нос", "рот", "глаз", "ухо"],
+      "correctAnswer": "глаз",
+      "explanation": "göz = глаз. Göz также означает «ячейка» и используется во многих выражениях."
+    },
+    {
+      "id": "ex_2",
+      "type": "multiple_choice",
+      "question": "Как по-турецки «язык»?",
+      "options": ["diş", "dil", "dudak", "ağız"],
+      "correctAnswer": "dil",
+      "explanation": "dil = язык (и орган тела, и язык как речь). Türkçe = турецкий dil."
+    },
+    {
+      "id": "ex_3",
+      "type": "match_pairs",
+      "question": "Соедини части тела с переводом",
+      "pairs": [
+        { "left": "baş", "right": "голова" },
+        { "left": "kulak", "right": "ухо" },
+        { "left": "el", "right": "рука" },
+        { "left": "ayak", "right": "нога" }
+      ],
+      "correctAnswer": "all",
+      "explanation": "baş=голова, kulak=ухо, el=рука, ayak=нога."
+    },
+    {
+      "id": "ex_4",
+      "type": "multiple_choice",
+      "question": "Что означает слово?",
+      "word": "kalp",
+      "pronun": "[калп]",
+      "options": ["лёгкие", "желудок", "мозг", "сердце"],
+      "correctAnswer": "сердце",
+      "explanation": "kalp = сердце. Это слово арабского происхождения."
+    },
+    {
+      "id": "ex_5",
+      "type": "fill_blank",
+      "question": "«burun» означает:",
+      "options": ["рот", "нос", "щека", "подбородок"],
+      "correctAnswer": "нос",
+      "explanation": "burun = нос. ağız = рот. yanak = щека. çene = подбородок."
+    }
+  ]
+}

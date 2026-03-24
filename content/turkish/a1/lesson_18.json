@@ -1,0 +1,71 @@
+{
+  "id": "lesson_18",
+  "title": "Giysi — Одежда",
+  "level": "a1",
+  "language": "turkish",
+  "xpReward": 110,
+  "estimatedMinutes": 20,
+  "vocabulary": [
+    { "tr": "gömlek", "ru": "рубашка", "pronunciation": "гёмлэк" },
+    { "tr": "pantolon", "ru": "брюки", "pronunciation": "пантолон" },
+    { "tr": "etek", "ru": "юбка", "pronunciation": "этэк" },
+    { "tr": "elbise", "ru": "платье", "pronunciation": "элбисэ" },
+    { "tr": "ceket", "ru": "пиджак / куртка", "pronunciation": "джэкэт" },
+    { "tr": "ayakkabı", "ru": "обувь / туфли", "pronunciation": "айаккабы" },
+    { "tr": "çorap", "ru": "носки", "pronunciation": "чорап" },
+    { "tr": "şapka", "ru": "шапка / шляпа", "pronunciation": "шапка" },
+    { "tr": "giyinmek", "ru": "одеваться", "pronunciation": "гийинмэк" },
+    { "tr": "renk", "ru": "цвет", "pronunciation": "рэнк" }
+  ],
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "multiple_choice",
+      "question": "Что означает слово?",
+      "word": "ayakkabı",
+      "pronun": "[айаккабы]",
+      "options": ["шапка", "носки", "обувь", "пояс"],
+      "correctAnswer": "обувь",
+      "explanation": "ayakkabı = обувь/туфли. ayak = нога + kabı = оболочка."
+    },
+    {
+      "id": "ex_2",
+      "type": "multiple_choice",
+      "question": "Как по-турецки «платье»?",
+      "options": ["gömlek", "etek", "ceket", "elbise"],
+      "correctAnswer": "elbise",
+      "explanation": "elbise = платье. etek = юбка. gömlek = рубашка. ceket = пиджак/куртка."
+    },
+    {
+      "id": "ex_3",
+      "type": "match_pairs",
+      "question": "Соедини одежду с переводом",
+      "pairs": [
+        { "left": "gömlek", "right": "рубашка" },
+        { "left": "pantolon", "right": "брюки" },
+        { "left": "çorap", "right": "носки" },
+        { "left": "şapka", "right": "шапка" }
+      ],
+      "correctAnswer": "all",
+      "explanation": "gömlek=рубашка, pantolon=брюки, çorap=носки, şapka=шапка."
+    },
+    {
+      "id": "ex_4",
+      "type": "multiple_choice",
+      "question": "Что означает слово?",
+      "word": "ceket",
+      "pronun": "[джэкэт]",
+      "options": ["платье", "юбка", "пиджак", "пальто"],
+      "correctAnswer": "пиджак",
+      "explanation": "ceket = пиджак/куртка. Слово из французского «jaquette»."
+    },
+    {
+      "id": "ex_5",
+      "type": "fill_blank",
+      "question": "«etek» — это:",
+      "options": ["рубашка", "юбка", "платье", "шорты"],
+      "correctAnswer": "юбка",
+      "explanation": "etek = юбка. elbise = платье. Популярная одежда в Турции!"
+    }
+  ]
+}

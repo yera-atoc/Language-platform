@@ -1,0 +1,71 @@
+{
+  "id": "lesson_13",
+  "title": "Hava durumu — Погода",
+  "level": "a1",
+  "language": "turkish",
+  "xpReward": 100,
+  "estimatedMinutes": 20,
+  "vocabulary": [
+    { "tr": "hava", "ru": "погода / воздух", "pronunciation": "хава" },
+    { "tr": "güneş", "ru": "солнце", "pronunciation": "гюнэш" },
+    { "tr": "yağmur", "ru": "дождь", "pronunciation": "ямур" },
+    { "tr": "kar", "ru": "снег", "pronunciation": "кар" },
+    { "tr": "rüzgar", "ru": "ветер", "pronunciation": "рюзгяр" },
+    { "tr": "sıcak", "ru": "жарко / горячий", "pronunciation": "сыджак" },
+    { "tr": "soğuk", "ru": "холодно / холодный", "pronunciation": "соук" },
+    { "tr": "bulutlu", "ru": "облачно", "pronunciation": "булутлу" },
+    { "tr": "Hava nasıl?", "ru": "Какая погода?", "pronunciation": "хава насыл?" },
+    { "tr": "derece", "ru": "градус", "pronunciation": "дэрэджэ" }
+  ],
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "multiple_choice",
+      "question": "Что означает слово?",
+      "word": "yağmur",
+      "pronun": "[ямур]",
+      "options": ["снег", "ветер", "дождь", "гроза"],
+      "correctAnswer": "дождь",
+      "explanation": "yağmur = дождь. kar = снег. rüzgar = ветер."
+    },
+    {
+      "id": "ex_2",
+      "type": "multiple_choice",
+      "question": "Как спросить «Какая погода?»",
+      "options": ["Saat kaç?", "Hava nasıl?", "Nerelisin?", "Ne zaman?"],
+      "correctAnswer": "Hava nasıl?",
+      "explanation": "Hava nasıl? = Какая погода? nasıl? = как? Hava = погода/воздух."
+    },
+    {
+      "id": "ex_3",
+      "type": "match_pairs",
+      "question": "Соедини погоду с переводом",
+      "pairs": [
+        { "left": "güneş", "right": "солнце" },
+        { "left": "kar", "right": "снег" },
+        { "left": "sıcak", "right": "жарко" },
+        { "left": "soğuk", "right": "холодно" }
+      ],
+      "correctAnswer": "all",
+      "explanation": "güneş=солнце, kar=снег, sıcak=жарко, soğuk=холодно."
+    },
+    {
+      "id": "ex_4",
+      "type": "multiple_choice",
+      "question": "Что означает слово?",
+      "word": "bulutlu",
+      "pronun": "[булутлу]",
+      "options": ["солнечно", "ветрено", "облачно", "туманно"],
+      "correctAnswer": "облачно",
+      "explanation": "bulutlu = облачно. bulut = облако. Суффикс -lu/-lü/-lu/-lü = «имеющий»."
+    },
+    {
+      "id": "ex_5",
+      "type": "fill_blank",
+      "question": "«otuz _______» = «тридцать градусов»",
+      "options": ["dakika", "derece", "saat", "metre"],
+      "correctAnswer": "derece",
+      "explanation": "derece = градус. otuz derece = 30 градусов. Лето в Турции — часто больше 35 derece!"
+    }
+  ]
+}

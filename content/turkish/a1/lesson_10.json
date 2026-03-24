@@ -1,0 +1,71 @@
+{
+  "id": "lesson_10",
+  "title": "Şehir — Город",
+  "level": "a1",
+  "language": "turkish",
+  "xpReward": 90,
+  "estimatedMinutes": 20,
+  "vocabulary": [
+    { "tr": "şehir", "ru": "город", "pronunciation": "шэхир" },
+    { "tr": "sokak", "ru": "улица", "pronunciation": "сокак" },
+    { "tr": "cadde", "ru": "проспект / широкая улица", "pronunciation": "джаддэ" },
+    { "tr": "park", "ru": "парк", "pronunciation": "парк" },
+    { "tr": "hastane", "ru": "больница", "pronunciation": "хастанэ" },
+    { "tr": "okul", "ru": "школа", "pronunciation": "окул" },
+    { "tr": "market", "ru": "магазин", "pronunciation": "маркэт" },
+    { "tr": "restoran", "ru": "ресторан", "pronunciation": "рэсторан" },
+    { "tr": "nerede?", "ru": "где?", "pronunciation": "нэрэдэ?" },
+    { "tr": "yakın", "ru": "близко", "pronunciation": "якын" }
+  ],
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "multiple_choice",
+      "question": "Что означает слово?",
+      "word": "hastane",
+      "pronun": "[хастанэ]",
+      "options": ["школа", "больница", "аптека", "магазин"],
+      "correctAnswer": "больница",
+      "explanation": "hastane = больница. hasta = больной/пациент + -hane (суффикс места)."
+    },
+    {
+      "id": "ex_2",
+      "type": "multiple_choice",
+      "question": "Как по-турецки спросить «где?»",
+      "options": ["ne zaman?", "nasıl?", "nerede?", "ne kadar?"],
+      "correctAnswer": "nerede?",
+      "explanation": "nerede? = где? ne zaman? = когда? nasıl? = как? ne kadar? = сколько?"
+    },
+    {
+      "id": "ex_3",
+      "type": "match_pairs",
+      "question": "Соедини места с переводом",
+      "pairs": [
+        { "left": "okul", "right": "школа" },
+        { "left": "park", "right": "парк" },
+        { "left": "market", "right": "магазин" },
+        { "left": "restoran", "right": "ресторан" }
+      ],
+      "correctAnswer": "all",
+      "explanation": "okul=школа, park=парк, market=магазин, restoran=ресторан."
+    },
+    {
+      "id": "ex_4",
+      "type": "multiple_choice",
+      "question": "Что означает слово?",
+      "word": "yakın",
+      "pronun": "[якын]",
+      "options": ["далеко", "близко", "направо", "налево"],
+      "correctAnswer": "близко",
+      "explanation": "yakın = близко. uzak = далеко. sağ = правый. sol = левый."
+    },
+    {
+      "id": "ex_5",
+      "type": "fill_blank",
+      "question": "«_______» по-турецки значит «улица»:",
+      "options": ["şehir", "cadde", "sokak", "park"],
+      "correctAnswer": "sokak",
+      "explanation": "sokak = улица (узкая). cadde = проспект (широкая). Оба слова означают улицу, но разного масштаба."
+    }
+  ]
+}

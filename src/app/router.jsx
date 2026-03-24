@@ -1,5 +1,6 @@
 import { createBrowserRouter } from 'react-router-dom'
 import Home from '@pages/Home'
+import Lessons from '@pages/Lessons'
 import Lesson from '@pages/Lesson'
 import Progress from '@pages/Progress'
 import Profile from '@pages/Profile'
@@ -13,10 +14,13 @@ const router = createBrowserRouter([
   {
     element: <ProtectedRoute />,
     children: [
+      { path: '/lessons/:language/:level', element: <Lessons /> },
+      { path: '/lessons/:language', element: <Lessons /> },
       { path: '/lesson/:language/:level/:lessonId', element: <Lesson /> },
       { path: '/progress', element: <Progress /> },
       { path: '/profile', element: <Profile /> },
       { path: '/exam/:language', element: <ExamPrep /> },
+      { path: '/exam', element: <ExamPrep /> },
     ],
   },
 ])

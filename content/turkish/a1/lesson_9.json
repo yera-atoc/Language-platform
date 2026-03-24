@@ -1,0 +1,69 @@
+{
+  "id": "lesson_9",
+  "title": "Saat — Время",
+  "level": "a1",
+  "language": "turkish",
+  "xpReward": 90,
+  "estimatedMinutes": 20,
+  "vocabulary": [
+    { "tr": "saat", "ru": "час / время / часы", "pronunciation": "саат" },
+    { "tr": "dakika", "ru": "минута", "pronunciation": "дакика" },
+    { "tr": "sabah", "ru": "утро", "pronunciation": "сабах" },
+    { "tr": "öğlen", "ru": "полдень", "pronunciation": "оулэн" },
+    { "tr": "akşam", "ru": "вечер", "pronunciation": "акшам" },
+    { "tr": "gece", "ru": "ночь", "pronunciation": "гэджэ" },
+    { "tr": "şimdi", "ru": "сейчас", "pronunciation": "шимди" },
+    { "tr": "Saat kaç?", "ru": "Сколько времени?", "pronunciation": "саат кач?" },
+    { "tr": "buçuk", "ru": "половина (30 мин)", "pronunciation": "бучук" },
+    { "tr": "çeyrek", "ru": "четверть (15 мин)", "pronunciation": "чэйрэк" }
+  ],
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "multiple_choice",
+      "question": "Что означает слово?",
+      "word": "sabah",
+      "pronun": "[сабах]",
+      "options": ["вечер", "ночь", "утро", "полдень"],
+      "correctAnswer": "утро",
+      "explanation": "sabah = утро. Порядок дня: sabah(утро) → öğlen(полдень) → akşam(вечер) → gece(ночь)."
+    },
+    {
+      "id": "ex_2",
+      "type": "multiple_choice",
+      "question": "Как спросить «Сколько времени?»",
+      "options": ["Saat kaç?", "Bugün ne?", "Nerelisin?", "Adın ne?"],
+      "correctAnswer": "Saat kaç?",
+      "explanation": "Saat kaç? = Сколько времени? Дословно: «Час сколько?»"
+    },
+    {
+      "id": "ex_3",
+      "type": "match_pairs",
+      "question": "Соедини слова с переводом",
+      "pairs": [
+        { "left": "sabah", "right": "утро" },
+        { "left": "akşam", "right": "вечер" },
+        { "left": "gece", "right": "ночь" },
+        { "left": "şimdi", "right": "сейчас" }
+      ],
+      "correctAnswer": "all",
+      "explanation": "sabah=утро, akşam=вечер, gece=ночь, şimdi=сейчас."
+    },
+    {
+      "id": "ex_4",
+      "type": "multiple_choice",
+      "question": "«Saat üç buçuk» — это сколько?",
+      "options": ["3:00", "3:15", "3:30", "3:45"],
+      "correctAnswer": "3:30",
+      "explanation": "buçuk = половина. üç buçuk = три с половиной = 3:30."
+    },
+    {
+      "id": "ex_5",
+      "type": "fill_blank",
+      "question": "«_______» означает «минута» по-турецки:",
+      "options": ["saat", "gece", "dakika", "çeyrek"],
+      "correctAnswer": "dakika",
+      "explanation": "dakika = минута. saat = час. Эти слова арабского происхождения."
+    }
+  ]
+}

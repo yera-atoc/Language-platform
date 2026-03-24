@@ -1,0 +1,71 @@
+{
+  "id": "lesson_16",
+  "title": "Meslekler — Профессии",
+  "level": "a1",
+  "language": "turkish",
+  "xpReward": 110,
+  "estimatedMinutes": 20,
+  "vocabulary": [
+    { "tr": "öğretmen", "ru": "учитель", "pronunciation": "оуретмэн" },
+    { "tr": "doktor", "ru": "врач", "pronunciation": "доктор" },
+    { "tr": "mühendis", "ru": "инженер", "pronunciation": "мюхэндис" },
+    { "tr": "avukat", "ru": "адвокат", "pronunciation": "авукат" },
+    { "tr": "aşçı", "ru": "повар", "pronunciation": "ашчы" },
+    { "tr": "polis", "ru": "полицейский", "pronunciation": "полис" },
+    { "tr": "hemşire", "ru": "медсестра", "pronunciation": "хэмширэ" },
+    { "tr": "mimar", "ru": "архитектор", "pronunciation": "мимар" },
+    { "tr": "Ne iş yapıyorsunuz?", "ru": "Кем вы работаете?", "pronunciation": "нэ иш япыйорсунуз?" },
+    { "tr": "çalışmak", "ru": "работать", "pronunciation": "чалышмак" }
+  ],
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "multiple_choice",
+      "question": "Что означает слово?",
+      "word": "öğretmen",
+      "pronun": "[оуретмэн]",
+      "options": ["врач", "учитель", "инженер", "адвокат"],
+      "correctAnswer": "учитель",
+      "explanation": "öğretmen = учитель. öğrenmek = учиться. -men суффикс профессии."
+    },
+    {
+      "id": "ex_2",
+      "type": "multiple_choice",
+      "question": "Как по-турецки «повар»?",
+      "options": ["polis", "hemşire", "aşçı", "mimar"],
+      "correctAnswer": "aşçı",
+      "explanation": "aşçı = повар. aş = блюдо/еда. -çı суффикс профессии (тот, кто делает)."
+    },
+    {
+      "id": "ex_3",
+      "type": "match_pairs",
+      "question": "Соедини профессии с переводом",
+      "pairs": [
+        { "left": "doktor", "right": "врач" },
+        { "left": "polis", "right": "полицейский" },
+        { "left": "avukat", "right": "адвокат" },
+        { "left": "mimar", "right": "архитектор" }
+      ],
+      "correctAnswer": "all",
+      "explanation": "doktor=врач, polis=полицейский, avukat=адвокат, mimar=архитектор."
+    },
+    {
+      "id": "ex_4",
+      "type": "multiple_choice",
+      "question": "Что означает слово?",
+      "word": "mühendis",
+      "pronun": "[мюхэндис]",
+      "options": ["архитектор", "программист", "инженер", "техник"],
+      "correctAnswer": "инженер",
+      "explanation": "mühendis = инженер. Слово арабского происхождения. Популярная профессия в Турции!"
+    },
+    {
+      "id": "ex_5",
+      "type": "fill_blank",
+      "question": "«Ben _______im» (Я — учитель)",
+      "options": ["doktor", "öğretmen", "aşçı", "polis"],
+      "correctAnswer": "öğretmen",
+      "explanation": "Ben öğretmenim = Я учитель. Суффикс -im/-ım/-um/-üm = «я есть»."
+    }
+  ]
+}

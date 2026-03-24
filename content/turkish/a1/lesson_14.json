@@ -1,0 +1,71 @@
+{
+  "id": "lesson_14",
+  "title": "Alışveriş — Покупки",
+  "level": "a1",
+  "language": "turkish",
+  "xpReward": 100,
+  "estimatedMinutes": 20,
+  "vocabulary": [
+    { "tr": "para", "ru": "деньги", "pronunciation": "пара" },
+    { "tr": "fiyat", "ru": "цена", "pronunciation": "фийат" },
+    { "tr": "ucuz", "ru": "дёшево", "pronunciation": "уджуз" },
+    { "tr": "pahalı", "ru": "дорого", "pronunciation": "пахалы" },
+    { "tr": "Ne kadar?", "ru": "Сколько стоит?", "pronunciation": "нэ кадар?" },
+    { "tr": "lira", "ru": "лира (валюта)", "pronunciation": "лира" },
+    { "tr": "satın almak", "ru": "покупать", "pronunciation": "сатын алмак" },
+    { "tr": "vermek", "ru": "давать", "pronunciation": "вэрмэк" },
+    { "tr": "teşekkürler", "ru": "спасибо (неформ.)", "pronunciation": "тэшэккюрлэр" },
+    { "tr": "hesap", "ru": "счёт", "pronunciation": "хэсап" }
+  ],
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "multiple_choice",
+      "question": "Как спросить «Сколько стоит?»",
+      "options": ["Nerede?", "Ne zaman?", "Ne kadar?", "Nasıl?"],
+      "correctAnswer": "Ne kadar?",
+      "explanation": "Ne kadar? = Сколько стоит? / Сколько? Используется в магазинах постоянно."
+    },
+    {
+      "id": "ex_2",
+      "type": "multiple_choice",
+      "question": "Что означает слово?",
+      "word": "pahalı",
+      "pronun": "[пахалы]",
+      "options": ["дёшево", "бесплатно", "дорого", "скидка"],
+      "correctAnswer": "дорого",
+      "explanation": "pahalı = дорого. ucuz = дёшево. Противоположные слова!"
+    },
+    {
+      "id": "ex_3",
+      "type": "match_pairs",
+      "question": "Соедини слова с переводом",
+      "pairs": [
+        { "left": "para", "right": "деньги" },
+        { "left": "fiyat", "right": "цена" },
+        { "left": "ucuz", "right": "дёшево" },
+        { "left": "hesap", "right": "счёт" }
+      ],
+      "correctAnswer": "all",
+      "explanation": "para=деньги, fiyat=цена, ucuz=дёшево, hesap=счёт."
+    },
+    {
+      "id": "ex_4",
+      "type": "multiple_choice",
+      "question": "Что означает слово?",
+      "word": "vermek",
+      "pronun": "[вэрмэк]",
+      "options": ["брать", "давать", "платить", "искать"],
+      "correctAnswer": "давать",
+      "explanation": "vermek = давать. almak = брать/покупать. Суффикс -mek/-mak = инфинитив."
+    },
+    {
+      "id": "ex_5",
+      "type": "fill_blank",
+      "question": "Турецкая валюта называется:",
+      "options": ["dolar", "euro", "lira", "ruble"],
+      "correctAnswer": "lira",
+      "explanation": "lira = турецкая лира (₺). Türk lirası = турецкая лира."
+    }
+  ]
+}

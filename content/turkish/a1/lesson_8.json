@@ -1,0 +1,69 @@
+{
+  "id": "lesson_8",
+  "title": "Sayılar 11–100 — Числа 11–100",
+  "level": "a1",
+  "language": "turkish",
+  "xpReward": 80,
+  "estimatedMinutes": 20,
+  "vocabulary": [
+    { "tr": "on bir", "ru": "11", "pronunciation": "он бир" },
+    { "tr": "on beş", "ru": "15", "pronunciation": "он бэш" },
+    { "tr": "yirmi", "ru": "20", "pronunciation": "йирми" },
+    { "tr": "otuz", "ru": "30", "pronunciation": "отуз" },
+    { "tr": "kırk", "ru": "40", "pronunciation": "кырк" },
+    { "tr": "elli", "ru": "50", "pronunciation": "элли" },
+    { "tr": "altmış", "ru": "60", "pronunciation": "алтмыш" },
+    { "tr": "yetmiş", "ru": "70", "pronunciation": "йэтмиш" },
+    { "tr": "seksen", "ru": "80", "pronunciation": "сэксэн" },
+    { "tr": "yüz", "ru": "100", "pronunciation": "йюз" }
+  ],
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "multiple_choice",
+      "question": "Что означает слово?",
+      "word": "elli",
+      "pronun": "[элли]",
+      "options": ["30", "40", "50", "60"],
+      "correctAnswer": "50",
+      "explanation": "elli = 50. Запомни: otuz(30), kırk(40), elli(50), altmış(60)."
+    },
+    {
+      "id": "ex_2",
+      "type": "multiple_choice",
+      "question": "Как по-турецки «75»?",
+      "options": ["yetmiş beş", "yetmiş dört", "seksen beş", "altmış beş"],
+      "correctAnswer": "yetmiş beş",
+      "explanation": "75 = yetmiş(70) + beş(5) = yetmiş beş. В турецком числа строятся так же, как в русском!"
+    },
+    {
+      "id": "ex_3",
+      "type": "match_pairs",
+      "question": "Соедини числа с цифрами",
+      "pairs": [
+        { "left": "yirmi", "right": "20" },
+        { "left": "kırk", "right": "40" },
+        { "left": "seksen", "right": "80" },
+        { "left": "yüz", "right": "100" }
+      ],
+      "correctAnswer": "all",
+      "explanation": "yirmi=20, kırk=40, seksen=80, yüz=100."
+    },
+    {
+      "id": "ex_4",
+      "type": "multiple_choice",
+      "question": "Как по-турецки «33»?",
+      "options": ["otuz iki", "otuz üç", "kırk üç", "yirmi üç"],
+      "correctAnswer": "otuz üç",
+      "explanation": "33 = otuz(30) + üç(3) = otuz üç. Десятки + единицы, без союза."
+    },
+    {
+      "id": "ex_5",
+      "type": "fill_blank",
+      "question": "«yetmiş» — это:",
+      "options": ["60", "70", "80", "90"],
+      "correctAnswer": "70",
+      "explanation": "yetmiş = 70. altmış=60, yetmiş=70, seksen=80, doksan=90, yüz=100."
+    }
+  ]
+}

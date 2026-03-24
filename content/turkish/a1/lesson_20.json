@@ -1,0 +1,83 @@
+{
+  "id": "lesson_20",
+  "title": "A1 Tekrar — Итоговое повторение A1",
+  "level": "a1",
+  "language": "turkish",
+  "xpReward": 150,
+  "estimatedMinutes": 25,
+  "vocabulary": [],
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "multiple_choice",
+      "question": "Что означает «Günaydın»?",
+      "word": "Урок 1",
+      "options": ["Добрый вечер", "Доброе утро", "Спокойной ночи", "Привет"],
+      "correctAnswer": "Доброе утро",
+      "explanation": "Günaydın = Доброе утро. Помнишь первый урок? Ты прошёл уже 19 уроков!"
+    },
+    {
+      "id": "ex_2",
+      "type": "match_pairs",
+      "question": "Итог: соедини числа с цифрами",
+      "pairs": [
+        { "left": "otuz", "right": "30" },
+        { "left": "elli", "right": "50" },
+        { "left": "seksen", "right": "80" },
+        { "left": "yüz", "right": "100" }
+      ],
+      "correctAnswer": "all",
+      "explanation": "otuz=30, elli=50, seksen=80, yüz=100. Числа — основа языка!"
+    },
+    {
+      "id": "ex_3",
+      "type": "multiple_choice",
+      "question": "Как по-турецки «больница»?",
+      "options": ["okul", "market", "hastane", "restoran"],
+      "correctAnswer": "hastane",
+      "explanation": "hastane = больница. hasta = больной. Урок 10 — город!"
+    },
+    {
+      "id": "ex_4",
+      "type": "match_pairs",
+      "question": "Итог: семья и профессии",
+      "pairs": [
+        { "left": "anne", "right": "мама" },
+        { "left": "öğretmen", "right": "учитель" },
+        { "left": "doktor", "right": "врач" },
+        { "left": "baba", "right": "папа" }
+      ],
+      "correctAnswer": "all",
+      "explanation": "anne=мама, baba=папа, öğretmen=учитель, doktor=врач."
+    },
+    {
+      "id": "ex_5",
+      "type": "multiple_choice",
+      "question": "Что означает «mutlu»?",
+      "options": ["усталый", "злой", "грустный", "счастливый"],
+      "correctAnswer": "счастливый",
+      "explanation": "mutlu = счастливый. Поздравляем с завершением уровня A1! Mutlu musun? (Ты счастлив?)"
+    },
+    {
+      "id": "ex_6",
+      "type": "fill_blank",
+      "question": "Как спросить «Сколько стоит?»",
+      "options": ["Nerede?", "Ne kadar?", "Nasılsın?", "Nerelisin?"],
+      "correctAnswer": "Ne kadar?",
+      "explanation": "Ne kadar? = Сколько стоит? Очень нужная фраза в магазинах и на базаре!"
+    },
+    {
+      "id": "ex_7",
+      "type": "match_pairs",
+      "question": "Итог: транспорт и одежда",
+      "pairs": [
+        { "left": "uçak", "right": "самолёт" },
+        { "left": "gömlek", "right": "рубашка" },
+        { "left": "otobüs", "right": "автобус" },
+        { "left": "ayakkabı", "right": "обувь" }
+      ],
+      "correctAnswer": "all",
+      "explanation": "uçak=самолёт, gömlek=рубашка, otobüs=автобус, ayakkabı=обувь."
+    }
+  ]
+}

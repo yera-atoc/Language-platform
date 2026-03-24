@@ -1,0 +1,71 @@
+{
+  "id": "lesson_4",
+  "title": "Renkler — Цвета",
+  "level": "a1",
+  "language": "turkish",
+  "xpReward": 60,
+  "estimatedMinutes": 15,
+  "vocabulary": [
+    { "tr": "kırmızı", "ru": "красный", "pronunciation": "кырмызы" },
+    { "tr": "mavi", "ru": "синий / голубой", "pronunciation": "мави" },
+    { "tr": "yeşil", "ru": "зелёный", "pronunciation": "йэшил" },
+    { "tr": "sarı", "ru": "жёлтый", "pronunciation": "сары" },
+    { "tr": "siyah", "ru": "чёрный", "pronunciation": "сийах" },
+    { "tr": "beyaz", "ru": "белый", "pronunciation": "бэйаз" },
+    { "tr": "turuncu", "ru": "оранжевый", "pronunciation": "туRunджу" },
+    { "tr": "mor", "ru": "фиолетовый", "pronunciation": "мор" },
+    { "tr": "pembe", "ru": "розовый", "pronunciation": "пэмбэ" },
+    { "tr": "kahverengi", "ru": "коричневый", "pronunciation": "кахвэрэнги" }
+  ],
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "multiple_choice",
+      "question": "Что означает слово?",
+      "word": "kırmızı",
+      "pronun": "[кырмызы]",
+      "options": ["синий", "зелёный", "красный", "жёлтый"],
+      "correctAnswer": "красный",
+      "explanation": "kırmızı = красный. Цвет турецкого флага — kırmızı ve beyaz (красный и белый)."
+    },
+    {
+      "id": "ex_2",
+      "type": "multiple_choice",
+      "question": "Как по-турецки «белый»?",
+      "options": ["siyah", "beyaz", "sarı", "mor"],
+      "correctAnswer": "beyaz",
+      "explanation": "beyaz = белый. siyah = чёрный. Противоположные цвета!"
+    },
+    {
+      "id": "ex_3",
+      "type": "match_pairs",
+      "question": "Соедини цвета с переводом",
+      "pairs": [
+        { "left": "mavi", "right": "синий" },
+        { "left": "yeşil", "right": "зелёный" },
+        { "left": "sarı", "right": "жёлтый" },
+        { "left": "pembe", "right": "розовый" }
+      ],
+      "correctAnswer": "all",
+      "explanation": "mavi=синий, yeşil=зелёный, sarı=жёлтый, pembe=розовый."
+    },
+    {
+      "id": "ex_4",
+      "type": "multiple_choice",
+      "question": "Что означает слово?",
+      "word": "turuncu",
+      "pronun": "[туRunджу]",
+      "options": ["розовый", "фиолетовый", "оранжевый", "коричневый"],
+      "correctAnswer": "оранжевый",
+      "explanation": "turuncu = оранжевый. Происходит от слова «portakal» (апельсин)."
+    },
+    {
+      "id": "ex_5",
+      "type": "fill_blank",
+      "question": "Трава _______ (зелёная). Выбери нужный цвет:",
+      "options": ["kırmızı", "mavi", "yeşil", "sarı"],
+      "correctAnswer": "yeşil",
+      "explanation": "Çimen yeşildir = Трава зелёная. yeşil = зелёный."
+    }
+  ]
+}

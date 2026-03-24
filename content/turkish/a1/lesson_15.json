@@ -1,0 +1,71 @@
+{
+  "id": "lesson_15",
+  "title": "Ulaşım — Транспорт",
+  "level": "a1",
+  "language": "turkish",
+  "xpReward": 100,
+  "estimatedMinutes": 20,
+  "vocabulary": [
+    { "tr": "otobüs", "ru": "автобус", "pronunciation": "отобюс" },
+    { "tr": "metro", "ru": "метро", "pronunciation": "мэтро" },
+    { "tr": "araba", "ru": "машина", "pronunciation": "araба" },
+    { "tr": "uçak", "ru": "самолёт", "pronunciation": "учак" },
+    { "tr": "tren", "ru": "поезд", "pronunciation": "трэн" },
+    { "tr": "gemi", "ru": "корабль / паром", "pronunciation": "гэми" },
+    { "tr": "bisiklet", "ru": "велосипед", "pronunciation": "бисиклэт" },
+    { "tr": "taksi", "ru": "такси", "pronunciation": "такси" },
+    { "tr": "durak", "ru": "остановка", "pronunciation": "дурак" },
+    { "tr": "bilet", "ru": "билет", "pronunciation": "билэт" }
+  ],
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "multiple_choice",
+      "question": "Что означает слово?",
+      "word": "uçak",
+      "pronun": "[учак]",
+      "options": ["поезд", "корабль", "автобус", "самолёт"],
+      "correctAnswer": "самолёт",
+      "explanation": "uçak = самолёт. uçmak = летать. -ak суффикс существительного."
+    },
+    {
+      "id": "ex_2",
+      "type": "multiple_choice",
+      "question": "Как по-турецки «остановка»?",
+      "options": ["bilet", "gemi", "durak", "yol"],
+      "correctAnswer": "durak",
+      "explanation": "durak = остановка. durmak = останавливаться. bilet = билет."
+    },
+    {
+      "id": "ex_3",
+      "type": "match_pairs",
+      "question": "Соедини транспорт с переводом",
+      "pairs": [
+        { "left": "otobüs", "right": "автобус" },
+        { "left": "araba", "right": "машина" },
+        { "left": "tren", "right": "поезд" },
+        { "left": "bisiklet", "right": "велосипед" }
+      ],
+      "correctAnswer": "all",
+      "explanation": "otobüs=автобус, araba=машина, tren=поезд, bisiklet=велосипед."
+    },
+    {
+      "id": "ex_4",
+      "type": "multiple_choice",
+      "question": "Что означает слово?",
+      "word": "gemi",
+      "pronun": "[гэми]",
+      "options": ["самолёт", "поезд", "корабль", "метро"],
+      "correctAnswer": "корабль",
+      "explanation": "gemi = корабль/паром. Турция омывается морями, поэтому gemi очень важное слово!"
+    },
+    {
+      "id": "ex_5",
+      "type": "fill_blank",
+      "question": "«_______» означает «билет» по-турецки:",
+      "options": ["para", "bilet", "durak", "yol"],
+      "correctAnswer": "bilet",
+      "explanation": "bilet = билет. Слово пришло из французского «billet»."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "lesson_3",
+  "title": "Sayılar 1–10 — Числа 1–10",
+  "level": "a1",
+  "language": "turkish",
+  "xpReward": 60,
+  "estimatedMinutes": 15,
+  "vocabulary": [
+    { "tr": "bir", "ru": "1", "pronunciation": "бир" },
+    { "tr": "iki", "ru": "2", "pronunciation": "ики" },
+    { "tr": "üç", "ru": "3", "pronunciation": "юч" },
+    { "tr": "dört", "ru": "4", "pronunciation": "дёрт" },
+    { "tr": "beş", "ru": "5", "pronunciation": "бэш" },
+    { "tr": "altı", "ru": "6", "pronunciation": "алты" },
+    { "tr": "yedi", "ru": "7", "pronunciation": "йэди" },
+    { "tr": "sekiz", "ru": "8", "pronunciation": "сэкиз" },
+    { "tr": "dokuz", "ru": "9", "pronunciation": "докуз" },
+    { "tr": "on", "ru": "10", "pronunciation": "он" }
+  ],
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "multiple_choice",
+      "question": "Что означает слово?",
+      "word": "beş",
+      "pronun": "[бэш]",
+      "options": ["3", "5", "7", "9"],
+      "correctAnswer": "5",
+      "explanation": "beş = 5. Запомни: bir(1), iki(2), üç(3), dört(4), beş(5)."
+    },
+    {
+      "id": "ex_2",
+      "type": "multiple_choice",
+      "question": "Как по-турецки будет цифра 7?",
+      "options": ["altı", "sekiz", "yedi", "dokuz"],
+      "correctAnswer": "yedi",
+      "explanation": "yedi = 7. Следующие: sekiz(8), dokuz(9), on(10)."
+    },
+    {
+      "id": "ex_3",
+      "type": "match_pairs",
+      "question": "Соедини числа с цифрами",
+      "pairs": [
+        { "left": "bir", "right": "1" },
+        { "left": "dört", "right": "4" },
+        { "left": "sekiz", "right": "8" },
+        { "left": "on", "right": "10" }
+      ],
+      "correctAnswer": "all",
+      "explanation": "bir=1, dört=4, sekiz=8, on=10. Учи по парам!"
+    },
+    {
+      "id": "ex_4",
+      "type": "multiple_choice",
+      "question": "Что означает слово?",
+      "word": "dokuz",
+      "pronun": "[докуз]",
+      "options": ["6", "7", "8", "9"],
+      "correctAnswer": "9",
+      "explanation": "dokuz = 9. Порядок: yedi(7), sekiz(8), dokuz(9), on(10)."
+    },
+    {
+      "id": "ex_5",
+      "type": "fill_blank",
+      "question": "Сколько будет «iki + üç»?",
+      "options": ["dört", "beş", "altı", "yedi"],
+      "correctAnswer": "beş",
+      "explanation": "iki(2) + üç(3) = beş(5). Всё верно!"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "lesson_5",
+  "title": "Aile — Семья",
+  "level": "a1",
+  "language": "turkish",
+  "xpReward": 70,
+  "estimatedMinutes": 20,
+  "vocabulary": [
+    { "tr": "anne", "ru": "мама", "pronunciation": "аннэ" },
+    { "tr": "baba", "ru": "папа", "pronunciation": "баба" },
+    { "tr": "kardeş", "ru": "брат / сестра", "pronunciation": "кардэш" },
+    { "tr": "ağabey", "ru": "старший брат", "pronunciation": "аабэй" },
+    { "tr": "abla", "ru": "старшая сестра", "pronunciation": "абла" },
+    { "tr": "büyükanne", "ru": "бабушка", "pronunciation": "бюйюканнэ" },
+    { "tr": "büyükbaba", "ru": "дедушка", "pronunciation": "бюйюкбаба" },
+    { "tr": "çocuk", "ru": "ребёнок", "pronunciation": "чоджук" },
+    { "tr": "kız", "ru": "девочка / дочь", "pronunciation": "кыз" },
+    { "tr": "oğul", "ru": "сын", "pronunciation": "оул" }
+  ],
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "multiple_choice",
+      "question": "Что означает слово?",
+      "word": "büyükanne",
+      "pronun": "[бюйюканнэ]",
+      "options": ["мама", "тётя", "бабушка", "сестра"],
+      "correctAnswer": "бабушка",
+      "explanation": "büyükanne = бабушка. Дословно: «büyük» (большой/старший) + «anne» (мама)."
+    },
+    {
+      "id": "ex_2",
+      "type": "multiple_choice",
+      "question": "Как по-турецки «старший брат»?",
+      "options": ["kardeş", "abla", "ağabey", "oğul"],
+      "correctAnswer": "ağabey",
+      "explanation": "ağabey = старший брат. abla = старшая сестра. kardeş = брат или сестра (младший/ая)."
+    },
+    {
+      "id": "ex_3",
+      "type": "match_pairs",
+      "question": "Соедини членов семьи с переводом",
+      "pairs": [
+        { "left": "anne", "right": "мама" },
+        { "left": "baba", "right": "папа" },
+        { "left": "kız", "right": "дочь" },
+        { "left": "oğul", "right": "сын" }
+      ],
+      "correctAnswer": "all",
+      "explanation": "anne=мама, baba=папа, kız=дочь/девочка, oğul=сын."
+    },
+    {
+      "id": "ex_4",
+      "type": "multiple_choice",
+      "question": "Что означает слово?",
+      "word": "çocuk",
+      "pronun": "[чоджук]",
+      "options": ["взрослый", "ребёнок", "подросток", "младенец"],
+      "correctAnswer": "ребёнок",
+      "explanation": "çocuk = ребёнок. Множественное число: çocuklar = дети."
+    },
+    {
+      "id": "ex_5",
+      "type": "fill_blank",
+      "question": "Старший дедушка по-турецки: «büyük_______»",
+      "options": ["anne", "baba", "kardeş", "çocuk"],
+      "correctAnswer": "baba",
+      "explanation": "büyükbaba = дедушка. büyük=большой/старший + baba=папа."
+    }
+  ]
+}

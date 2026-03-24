@@ -1,0 +1,71 @@
+{
+  "id": "lesson_6",
+  "title": "Günler ve aylar — Дни и месяцы",
+  "level": "a1",
+  "language": "turkish",
+  "xpReward": 70,
+  "estimatedMinutes": 20,
+  "vocabulary": [
+    { "tr": "Pazartesi", "ru": "понедельник", "pronunciation": "пазартэси" },
+    { "tr": "Salı", "ru": "вторник", "pronunciation": "салы" },
+    { "tr": "Çarşamba", "ru": "среда", "pronunciation": "чаршамба" },
+    { "tr": "Perşembe", "ru": "четверг", "pronunciation": "пэршэмбэ" },
+    { "tr": "Cuma", "ru": "пятница", "pronunciation": "джума" },
+    { "tr": "Cumartesi", "ru": "суббота", "pronunciation": "джумартэси" },
+    { "tr": "Pazar", "ru": "воскресенье", "pronunciation": "пазар" },
+    { "tr": "hafta", "ru": "неделя", "pronunciation": "хафта" },
+    { "tr": "bugün", "ru": "сегодня", "pronunciation": "бугюн" },
+    { "tr": "yarın", "ru": "завтра", "pronunciation": "йарын" }
+  ],
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "multiple_choice",
+      "question": "Что означает слово?",
+      "word": "Cuma",
+      "pronun": "[джума]",
+      "options": ["среда", "четверг", "пятница", "суббота"],
+      "correctAnswer": "пятница",
+      "explanation": "Cuma = пятница. Это слово арабского происхождения — джума-намаз (пятничная молитва)."
+    },
+    {
+      "id": "ex_2",
+      "type": "multiple_choice",
+      "question": "Как по-турецки «сегодня»?",
+      "options": ["yarın", "dün", "bugün", "hafta"],
+      "correctAnswer": "bugün",
+      "explanation": "bugün = сегодня. yarın = завтра. dün = вчера."
+    },
+    {
+      "id": "ex_3",
+      "type": "match_pairs",
+      "question": "Соедини дни с переводом",
+      "pairs": [
+        { "left": "Pazartesi", "right": "понедельник" },
+        { "left": "Çarşamba", "right": "среда" },
+        { "left": "Cumartesi", "right": "суббота" },
+        { "left": "Pazar", "right": "воскресенье" }
+      ],
+      "correctAnswer": "all",
+      "explanation": "Pazartesi=пн, Çarşamba=ср, Cumartesi=сб, Pazar=вс."
+    },
+    {
+      "id": "ex_4",
+      "type": "multiple_choice",
+      "question": "Что означает слово?",
+      "word": "Perşembe",
+      "pronun": "[пэршэмбэ]",
+      "options": ["вторник", "среда", "четверг", "пятница"],
+      "correctAnswer": "четверг",
+      "explanation": "Perşembe = четверг. Perşembe происходит от персидского «panj-şamba» (пятый день)."
+    },
+    {
+      "id": "ex_5",
+      "type": "fill_blank",
+      "question": "«_______» означает «завтра» по-турецки:",
+      "options": ["bugün", "yarın", "dün", "hafta"],
+      "correctAnswer": "yarın",
+      "explanation": "yarın = завтра. bugün = сегодня. dün = вчера."
+    }
+  ]
+}
