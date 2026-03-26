@@ -1,0 +1,722 @@
+{
+  "language": "chinese",
+  "languageRu": "Китайский язык",
+  "flag": "🇨🇳",
+  "exam": "HSK",
+  "examDescription": "Hanyu Shuiping Kaoshi — официальный экзамен по китайскому языку",
+  "levels": {
+    "hsk0": {
+      "title": "HSK 0 — Абсолютный ноль",
+      "description": "Тоны, пиньинь, черты, первые иероглифы",
+      "totalLessons": 10,
+      "xpRequired": 0,
+      "color": "#A29BFE",
+      "lessons": [
+        {
+          "id": "lesson_1",
+          "title": "四声 — Четыре тона",
+          "xp": 40
+        },
+        {
+          "id": "lesson_2",
+          "title": "拼音 — Пиньинь",
+          "xp": 40
+        },
+        {
+          "id": "lesson_3",
+          "title": "笔画 — Черты",
+          "xp": 40
+        },
+        {
+          "id": "lesson_4",
+          "title": "数字 1-10 — Числа",
+          "xp": 40
+        },
+        {
+          "id": "lesson_5",
+          "title": "基本汉字 — Иероглифы",
+          "xp": 40
+        },
+        {
+          "id": "lesson_6",
+          "title": "问候语 — Приветствия",
+          "xp": 40
+        },
+        {
+          "id": "lesson_7",
+          "title": "声调练习 — Тоны",
+          "xp": 40
+        },
+        {
+          "id": "lesson_8",
+          "title": "认识汉字 — Методика",
+          "xp": 40
+        },
+        {
+          "id": "lesson_9",
+          "title": "日常用语 — Фразы",
+          "xp": 40
+        },
+        {
+          "id": "lesson_10",
+          "title": "HSK 0 总结 — Итог",
+          "xp": 40
+        }
+      ]
+    },
+    "hsk1": {
+      "title": "HSK 1 — Начинающий",
+      "description": "150 слов, базовые фразы, знакомство с иероглифами",
+      "totalLessons": 20,
+      "xpRequired": 500,
+      "color": "#FF6B6B",
+      "lessons": [
+        {
+          "id": "lesson_1",
+          "title": "你好！— Приветствия и тоны",
+          "xp": 60
+        },
+        {
+          "id": "lesson_2",
+          "title": "我是谁？— Знакомство",
+          "xp": 60
+        },
+        {
+          "id": "lesson_3",
+          "title": "数字 1-10 — Числа 1-10",
+          "xp": 60
+        },
+        {
+          "id": "lesson_4",
+          "title": "家人 — Семья",
+          "xp": 70
+        },
+        {
+          "id": "lesson_5",
+          "title": "时间 — Время и дни недели",
+          "xp": 70
+        },
+        {
+          "id": "lesson_6",
+          "title": "吃什么？— Еда и напитки",
+          "xp": 80
+        },
+        {
+          "id": "lesson_7",
+          "title": "多少钱？— Числа 11-100 и цены",
+          "xp": 80
+        },
+        {
+          "id": "lesson_8",
+          "title": "在哪里？— Место и направления",
+          "xp": 90
+        },
+        {
+          "id": "lesson_9",
+          "title": "颜色 — Цвета и описание",
+          "xp": 90
+        },
+        {
+          "id": "lesson_10",
+          "title": "身体 — Тело и здоровье",
+          "xp": 90
+        },
+        {
+          "id": "lesson_11",
+          "title": "工作 — Профессии",
+          "xp": 100
+        },
+        {
+          "id": "lesson_12",
+          "title": "天气 — Погода и сезоны",
+          "xp": 100
+        },
+        {
+          "id": "lesson_13",
+          "title": "交通 — Транспорт",
+          "xp": 100
+        },
+        {
+          "id": "lesson_14",
+          "title": "购物 — Покупки",
+          "xp": 100
+        },
+        {
+          "id": "lesson_15",
+          "title": "爱好 — Хобби и увлечения",
+          "xp": 110
+        },
+        {
+          "id": "lesson_16",
+          "title": "学习 — Учёба и школа",
+          "xp": 110
+        },
+        {
+          "id": "lesson_17",
+          "title": "动物 — Животные",
+          "xp": 110
+        },
+        {
+          "id": "lesson_18",
+          "title": "房子 — Дом и мебель",
+          "xp": 120
+        },
+        {
+          "id": "lesson_19",
+          "title": "情感 — Чувства и эмоции",
+          "xp": 120
+        },
+        {
+          "id": "lesson_20",
+          "title": "HSK 1 复习 — Итоговое повторение",
+          "xp": 150
+        }
+      ]
+    },
+    "hsk2": {
+      "title": "HSK 2 — 300 слов",
+      "description": "300 слов, повседневное общение",
+      "totalLessons": 20,
+      "xpRequired": 1800,
+      "color": "#FFA07A",
+      "lessons": [
+        {
+          "id": "lesson_1",
+          "title": "HSK2 第1课",
+          "xp": 80
+        },
+        {
+          "id": "lesson_2",
+          "title": "HSK2 第2课",
+          "xp": 80
+        },
+        {
+          "id": "lesson_3",
+          "title": "HSK2 第3课",
+          "xp": 80
+        },
+        {
+          "id": "lesson_4",
+          "title": "HSK2 第4课",
+          "xp": 80
+        },
+        {
+          "id": "lesson_5",
+          "title": "HSK2 第5课",
+          "xp": 80
+        },
+        {
+          "id": "lesson_6",
+          "title": "HSK2 第6课",
+          "xp": 80
+        },
+        {
+          "id": "lesson_7",
+          "title": "HSK2 第7课",
+          "xp": 80
+        },
+        {
+          "id": "lesson_8",
+          "title": "HSK2 第8课",
+          "xp": 80
+        },
+        {
+          "id": "lesson_9",
+          "title": "HSK2 第9课",
+          "xp": 80
+        },
+        {
+          "id": "lesson_10",
+          "title": "HSK2 第10课",
+          "xp": 80
+        },
+        {
+          "id": "lesson_11",
+          "title": "HSK2 第11课",
+          "xp": 80
+        },
+        {
+          "id": "lesson_12",
+          "title": "HSK2 第12课",
+          "xp": 80
+        },
+        {
+          "id": "lesson_13",
+          "title": "HSK2 第13课",
+          "xp": 80
+        },
+        {
+          "id": "lesson_14",
+          "title": "HSK2 第14课",
+          "xp": 80
+        },
+        {
+          "id": "lesson_15",
+          "title": "HSK2 第15课",
+          "xp": 80
+        },
+        {
+          "id": "lesson_16",
+          "title": "HSK2 第16课",
+          "xp": 80
+        },
+        {
+          "id": "lesson_17",
+          "title": "HSK2 第17课",
+          "xp": 80
+        },
+        {
+          "id": "lesson_18",
+          "title": "HSK2 第18课",
+          "xp": 80
+        },
+        {
+          "id": "lesson_19",
+          "title": "HSK2 第19课",
+          "xp": 80
+        },
+        {
+          "id": "lesson_20",
+          "title": "HSK2 第20课",
+          "xp": 80
+        }
+      ]
+    },
+    "hsk3": {
+      "title": "HSK 3 — 600 слов",
+      "description": "600 слов, уверенное общение",
+      "totalLessons": 20,
+      "xpRequired": 5000,
+      "color": "#FFD700",
+      "lessons": [
+        {
+          "id": "lesson_1",
+          "title": "HSK3 第1课",
+          "xp": 100
+        },
+        {
+          "id": "lesson_2",
+          "title": "HSK3 第2课",
+          "xp": 100
+        },
+        {
+          "id": "lesson_3",
+          "title": "HSK3 第3课",
+          "xp": 100
+        },
+        {
+          "id": "lesson_4",
+          "title": "HSK3 第4课",
+          "xp": 100
+        },
+        {
+          "id": "lesson_5",
+          "title": "HSK3 第5课",
+          "xp": 100
+        },
+        {
+          "id": "lesson_6",
+          "title": "HSK3 第6课",
+          "xp": 100
+        },
+        {
+          "id": "lesson_7",
+          "title": "HSK3 第7课",
+          "xp": 100
+        },
+        {
+          "id": "lesson_8",
+          "title": "HSK3 第8课",
+          "xp": 100
+        },
+        {
+          "id": "lesson_9",
+          "title": "HSK3 第9课",
+          "xp": 100
+        },
+        {
+          "id": "lesson_10",
+          "title": "HSK3 第10课",
+          "xp": 100
+        },
+        {
+          "id": "lesson_11",
+          "title": "HSK3 第11课",
+          "xp": 100
+        },
+        {
+          "id": "lesson_12",
+          "title": "HSK3 第12课",
+          "xp": 100
+        },
+        {
+          "id": "lesson_13",
+          "title": "HSK3 第13课",
+          "xp": 100
+        },
+        {
+          "id": "lesson_14",
+          "title": "HSK3 第14课",
+          "xp": 100
+        },
+        {
+          "id": "lesson_15",
+          "title": "HSK3 第15课",
+          "xp": 100
+        },
+        {
+          "id": "lesson_16",
+          "title": "HSK3 第16课",
+          "xp": 100
+        },
+        {
+          "id": "lesson_17",
+          "title": "HSK3 第17课",
+          "xp": 100
+        },
+        {
+          "id": "lesson_18",
+          "title": "HSK3 第18课",
+          "xp": 100
+        },
+        {
+          "id": "lesson_19",
+          "title": "HSK3 第19课",
+          "xp": 100
+        },
+        {
+          "id": "lesson_20",
+          "title": "HSK3 第20课",
+          "xp": 100
+        }
+      ]
+    },
+    "hsk4": {
+      "title": "HSK 4 — 1200 слов",
+      "description": "1200 слов, сложные темы",
+      "totalLessons": 20,
+      "xpRequired": 10000,
+      "color": "#98FB98",
+      "lessons": [
+        {
+          "id": "lesson_1",
+          "title": "HSK4 第1课",
+          "xp": 120
+        },
+        {
+          "id": "lesson_2",
+          "title": "HSK4 第2课",
+          "xp": 120
+        },
+        {
+          "id": "lesson_3",
+          "title": "HSK4 第3课",
+          "xp": 120
+        },
+        {
+          "id": "lesson_4",
+          "title": "HSK4 第4课",
+          "xp": 120
+        },
+        {
+          "id": "lesson_5",
+          "title": "HSK4 第5课",
+          "xp": 120
+        },
+        {
+          "id": "lesson_6",
+          "title": "HSK4 第6课",
+          "xp": 120
+        },
+        {
+          "id": "lesson_7",
+          "title": "HSK4 第7课",
+          "xp": 120
+        },
+        {
+          "id": "lesson_8",
+          "title": "HSK4 第8课",
+          "xp": 120
+        },
+        {
+          "id": "lesson_9",
+          "title": "HSK4 第9课",
+          "xp": 120
+        },
+        {
+          "id": "lesson_10",
+          "title": "HSK4 第10课",
+          "xp": 120
+        },
+        {
+          "id": "lesson_11",
+          "title": "HSK4 第11课",
+          "xp": 120
+        },
+        {
+          "id": "lesson_12",
+          "title": "HSK4 第12课",
+          "xp": 120
+        },
+        {
+          "id": "lesson_13",
+          "title": "HSK4 第13课",
+          "xp": 120
+        },
+        {
+          "id": "lesson_14",
+          "title": "HSK4 第14课",
+          "xp": 120
+        },
+        {
+          "id": "lesson_15",
+          "title": "HSK4 第15课",
+          "xp": 120
+        },
+        {
+          "id": "lesson_16",
+          "title": "HSK4 第16课",
+          "xp": 120
+        },
+        {
+          "id": "lesson_17",
+          "title": "HSK4 第17课",
+          "xp": 120
+        },
+        {
+          "id": "lesson_18",
+          "title": "HSK4 第18课",
+          "xp": 120
+        },
+        {
+          "id": "lesson_19",
+          "title": "HSK4 第19课",
+          "xp": 120
+        },
+        {
+          "id": "lesson_20",
+          "title": "HSK4 第20课",
+          "xp": 120
+        }
+      ]
+    },
+    "hsk5": {
+      "title": "HSK 5 — 2500 слов",
+      "description": "2500 слов, академический стиль",
+      "totalLessons": 20,
+      "xpRequired": 20000,
+      "color": "#98FB98",
+      "lessons": [
+        {
+          "id": "lesson_1",
+          "title": "HSK5 第1课",
+          "xp": 150
+        },
+        {
+          "id": "lesson_2",
+          "title": "HSK5 第2课",
+          "xp": 150
+        },
+        {
+          "id": "lesson_3",
+          "title": "HSK5 第3课",
+          "xp": 150
+        },
+        {
+          "id": "lesson_4",
+          "title": "HSK5 第4课",
+          "xp": 150
+        },
+        {
+          "id": "lesson_5",
+          "title": "HSK5 第5课",
+          "xp": 150
+        },
+        {
+          "id": "lesson_6",
+          "title": "HSK5 第6课",
+          "xp": 150
+        },
+        {
+          "id": "lesson_7",
+          "title": "HSK5 第7课",
+          "xp": 150
+        },
+        {
+          "id": "lesson_8",
+          "title": "HSK5 第8课",
+          "xp": 150
+        },
+        {
+          "id": "lesson_9",
+          "title": "HSK5 第9课",
+          "xp": 150
+        },
+        {
+          "id": "lesson_10",
+          "title": "HSK5 第10课",
+          "xp": 150
+        },
+        {
+          "id": "lesson_11",
+          "title": "HSK5 第11课",
+          "xp": 150
+        },
+        {
+          "id": "lesson_12",
+          "title": "HSK5 第12课",
+          "xp": 150
+        },
+        {
+          "id": "lesson_13",
+          "title": "HSK5 第13课",
+          "xp": 150
+        },
+        {
+          "id": "lesson_14",
+          "title": "HSK5 第14课",
+          "xp": 150
+        },
+        {
+          "id": "lesson_15",
+          "title": "HSK5 第15课",
+          "xp": 150
+        },
+        {
+          "id": "lesson_16",
+          "title": "HSK5 第16课",
+          "xp": 150
+        },
+        {
+          "id": "lesson_17",
+          "title": "HSK5 第17课",
+          "xp": 150
+        },
+        {
+          "id": "lesson_18",
+          "title": "HSK5 第18课",
+          "xp": 150
+        },
+        {
+          "id": "lesson_19",
+          "title": "HSK5 第19课",
+          "xp": 150
+        },
+        {
+          "id": "lesson_20",
+          "title": "HSK5 第20课",
+          "xp": 150
+        }
+      ]
+    },
+    "hsk6": {
+      "title": "HSK 6 — 5000 слов",
+      "description": "5000+ слов, мастерство",
+      "totalLessons": 20,
+      "xpRequired": 35000,
+      "color": "#B0E0E6",
+      "lessons": [
+        {
+          "id": "lesson_1",
+          "title": "HSK6 第1课",
+          "xp": 180
+        },
+        {
+          "id": "lesson_2",
+          "title": "HSK6 第2课",
+          "xp": 180
+        },
+        {
+          "id": "lesson_3",
+          "title": "HSK6 第3课",
+          "xp": 180
+        },
+        {
+          "id": "lesson_4",
+          "title": "HSK6 第4课",
+          "xp": 180
+        },
+        {
+          "id": "lesson_5",
+          "title": "HSK6 第5课",
+          "xp": 180
+        },
+        {
+          "id": "lesson_6",
+          "title": "HSK6 第6课",
+          "xp": 180
+        },
+        {
+          "id": "lesson_7",
+          "title": "HSK6 第7课",
+          "xp": 180
+        },
+        {
+          "id": "lesson_8",
+          "title": "HSK6 第8课",
+          "xp": 180
+        },
+        {
+          "id": "lesson_9",
+          "title": "HSK6 第9课",
+          "xp": 180
+        },
+        {
+          "id": "lesson_10",
+          "title": "HSK6 第10课",
+          "xp": 180
+        },
+        {
+          "id": "lesson_11",
+          "title": "HSK6 第11课",
+          "xp": 180
+        },
+        {
+          "id": "lesson_12",
+          "title": "HSK6 第12课",
+          "xp": 180
+        },
+        {
+          "id": "lesson_13",
+          "title": "HSK6 第13课",
+          "xp": 180
+        },
+        {
+          "id": "lesson_14",
+          "title": "HSK6 第14课",
+          "xp": 180
+        },
+        {
+          "id": "lesson_15",
+          "title": "HSK6 第15课",
+          "xp": 180
+        },
+        {
+          "id": "lesson_16",
+          "title": "HSK6 第16课",
+          "xp": 180
+        },
+        {
+          "id": "lesson_17",
+          "title": "HSK6 第17课",
+          "xp": 180
+        },
+        {
+          "id": "lesson_18",
+          "title": "HSK6 第18课",
+          "xp": 180
+        },
+        {
+          "id": "lesson_19",
+          "title": "HSK6 第19课",
+          "xp": 180
+        },
+        {
+          "id": "lesson_20",
+          "title": "HSK6 第20课",
+          "xp": 180
+        }
+      ]
+    }
+  }
+}

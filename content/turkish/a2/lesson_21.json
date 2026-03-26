@@ -1,0 +1,305 @@
+{
+  "id": "lesson_21",
+  "title": "A2 Tekrar — Итог элементарного уровня",
+  "level": "a2",
+  "language": "turkish",
+  "xpReward": 80,
+  "estimatedMinutes": 25,
+  "intro": {
+    "text": "Поздравляем! Уровень A2 пройден. Теперь ты можешь: строить сложные предложения с причастиями и деепричастиями, использовать все времена, понимать пассивный залог, читать простые тексты, общаться в повседневных ситуациях.",
+    "goals": [
+      "Освоить тему: A2 Tekrar — Итог элементарного уровня",
+      "Применить в диалоге",
+      "Закрепить упражнениями",
+      "Расширить словарный запас"
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g1",
+      "title": "Грамматика урока",
+      "explanation": "Поздравляем! Уровень A2 пройден. Теперь ты можешь: строить сложные предложения с причастиями и деепричастиями, использовать все времена, понимать пассивный залог, читать простые тексты, общаться в повседневных ситуациях.",
+      "table": {
+        "headers": [
+          "Форма",
+          "Правило",
+          "Пример"
+        ],
+        "rows": [
+          [
+            "zira",
+            "поскольку",
+            "зи-ра"
+          ],
+          [
+            "ne kadar",
+            "насколько",
+            "нэ ка-дар"
+          ],
+          [
+            "üstelik",
+            "к тому же",
+            "юс-тэ-лик"
+          ],
+          [
+            "halbuki",
+            "тогда как",
+            "хал-бу-ки"
+          ]
+        ]
+      },
+      "note": "Уровень A2 Элементарный"
+    }
+  ],
+  "vocabulary": [
+    {
+      "tr": "zira",
+      "ru": "поскольку",
+      "pronunciation": "зи-ра",
+      "example_tr": "Gelmedim, zira hastaydım.",
+      "example_ru": "Не пришёл, поскольку болел."
+    },
+    {
+      "tr": "ne kadar",
+      "ru": "насколько",
+      "pronunciation": "нэ ка-дар",
+      "example_tr": "Ne kadar güzel!",
+      "example_ru": "Насколько красиво!"
+    },
+    {
+      "tr": "üstelik",
+      "ru": "к тому же",
+      "pronunciation": "юс-тэ-лик",
+      "example_tr": "Akıllı, üstelik çalışkan.",
+      "example_ru": "Умный, к тому же трудолюбивый."
+    },
+    {
+      "tr": "halbuki",
+      "ru": "тогда как",
+      "pronunciation": "хал-бу-ки",
+      "example_tr": "Gelmedi, halbuki bekliyordum.",
+      "example_ru": "Не пришёл, хотя я ждал."
+    },
+    {
+      "tr": "oysa",
+      "ru": "между тем",
+      "pronunciation": "ой-са",
+      "example_tr": "Söyledi, oysa bilmiyordu.",
+      "example_ru": "Сказал, между тем не знал."
+    },
+    {
+      "tr": "yine de",
+      "ru": "тем не менее",
+      "pronunciation": "йи-нэ дэ",
+      "example_tr": "Zor, yine de yapacağım.",
+      "example_ru": "Трудно, тем не менее сделаю."
+    },
+    {
+      "tr": "bunun yanı sıra",
+      "ru": "помимо этого",
+      "pronunciation": "бу-нун йа-ны сы-ра",
+      "example_tr": "Güzel, bunun yanı sıra ucuz.",
+      "example_ru": "Красивое, плюс ещё дешёвое."
+    },
+    {
+      "tr": "sonuç olarak",
+      "ru": "в итоге",
+      "pronunciation": "со-нуч о-ла-рак",
+      "example_tr": "Sonuç olarak başardık.",
+      "example_ru": "В итоге мы справились."
+    },
+    {
+      "tr": "A2 bitti",
+      "ru": "A2 завершён",
+      "pronunciation": "а и-ки бит-ти",
+      "example_tr": "B1'e geçiyorum!",
+      "example_ru": "Перехожу на B1!"
+    },
+    {
+      "tr": "ilerliyorum",
+      "ru": "я прогрессирую",
+      "pronunciation": "и-лэр-ли-йо-рум",
+      "example_tr": "Türkçem ilerliyor.",
+      "example_ru": "Мой турецкий прогрессирует."
+    },
+    {
+      "tr": "gurur duyuyorum",
+      "ru": "я горжусь",
+      "pronunciation": "гу-рур ду-йу-йо-рум",
+      "example_tr": "Kendimle gurur duyuyorum.",
+      "example_ru": "Горжусь собой."
+    },
+    {
+      "tr": "hedef",
+      "ru": "цель",
+      "pronunciation": "хэ-дэф",
+      "example_tr": "Hedefime ulaşıyorum.",
+      "example_ru": "Достигаю своей цели."
+    }
+  ],
+  "dialogue": {
+    "title": "Диалог — A2 Tekrar — Итог элементарного уровня",
+    "context": "Реальная ситуация.",
+    "lines": [
+      {
+        "speaker": "A",
+        "tr": "Gelmedim, zira hastaydım.",
+        "ru": "Не пришёл, поскольку болел.",
+        "note": ""
+      },
+      {
+        "speaker": "B",
+        "tr": "Ne kadar güzel!",
+        "ru": "Насколько красиво!",
+        "note": ""
+      },
+      {
+        "speaker": "A",
+        "tr": "Akıllı, üstelik çalışkan.",
+        "ru": "Умный, к тому же трудолюбивый.",
+        "note": ""
+      }
+    ]
+  },
+  "cultural_note": {
+    "title": "Культурный контекст",
+    "text": "Урок 21 уровня A2 Элементарный. Практикуй каждый день!"
+  },
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "multiple_choice",
+      "question": "Что из этого относится к теме «a2 tekrar»?",
+      "options": [
+        "Вариант А",
+        "Вариант Б",
+        "Вариант В",
+        "Вариант Г"
+      ],
+      "correctAnswer": "Вариант А",
+      "explanation": "Ключевое понятие темы a2 tekrar"
+    },
+    {
+      "id": "ex_2",
+      "type": "multiple_choice",
+      "question": "Выбери правильную форму глагола:",
+      "options": [
+        "-iyor",
+        "-di",
+        "-ecek",
+        "-mış"
+      ],
+      "correctAnswer": "-iyor",
+      "explanation": "Настоящее продолженное: глагол+-iyor+личное окончание"
+    },
+    {
+      "id": "ex_3",
+      "type": "match_pairs",
+      "question": "Соедини слова",
+      "pairs": [
+        {
+          "left": "var",
+          "right": "есть"
+        },
+        {
+          "left": "yok",
+          "right": "нет"
+        },
+        {
+          "left": "gibi",
+          "right": "как"
+        },
+        {
+          "left": "için",
+          "right": "для"
+        }
+      ],
+      "correctAnswer": "all",
+      "explanation": "all"
+    },
+    {
+      "id": "ex_4",
+      "type": "fill_blank",
+      "question": "«Ben ___ gidiyorum» = «Я иду в школу»",
+      "options": [
+        "okula",
+        "okulda",
+        "okuldan",
+        "okul"
+      ],
+      "correctAnswer": "okula",
+      "explanation": "Суффикс направления -a/-e: okul+a = в школу"
+    },
+    {
+      "id": "ex_5",
+      "type": "multiple_choice",
+      "question": "Как образуется прошедшее время?",
+      "options": [
+        "глагол + -iyor",
+        "глагол + -di/-dı",
+        "глагол + -ecek",
+        "глагол + -miş"
+      ],
+      "correctAnswer": "глагол + -di/-dı",
+      "explanation": "Простое прошедшее: gitmek → gitti (ушёл)"
+    },
+    {
+      "id": "ex_6",
+      "type": "multiple_choice",
+      "question": "«Yarın ne yapacaksın?» означает:",
+      "options": [
+        "Что ты делаешь?",
+        "Что ты делал?",
+        "Что ты будешь делать завтра?",
+        "Зачем ты здесь?"
+      ],
+      "correctAnswer": "Что ты будешь делать завтра?",
+      "explanation": "yarın=завтра, yapacaksın=ты сделаешь (-ecek будущее)"
+    },
+    {
+      "id": "ex_7",
+      "type": "fill_blank",
+      "question": "Отрицание глагола: «gitmek» → «___»",
+      "options": [
+        "gitmemek",
+        "gitmeyorum",
+        "gitmiyor",
+        "gitmek değil"
+      ],
+      "correctAnswer": "gitmemek",
+      "explanation": "Отрицательный инфинитив: глагол + -me/-ma + мек/мак"
+    },
+    {
+      "id": "ex_8",
+      "type": "match_pairs",
+      "question": "Соедини времена",
+      "pairs": [
+        {
+          "left": "gidiyorum",
+          "right": "иду сейчас"
+        },
+        {
+          "left": "gittim",
+          "right": "я пошёл"
+        },
+        {
+          "left": "gideceğim",
+          "right": "я пойду"
+        },
+        {
+          "left": "gitmiştim",
+          "right": "я уже ходил"
+        }
+      ],
+      "correctAnswer": "all",
+      "explanation": "all"
+    }
+  ],
+  "summary": {
+    "title": "Итог урока",
+    "points": [
+      "A2 Tekrar — Итог элементарного уровня"
+    ],
+    "next_lesson": "Переходи на следующий уровень!"
+  }
+}

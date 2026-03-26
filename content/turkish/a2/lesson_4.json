@@ -1,0 +1,305 @@
+{
+  "id": "lesson_4",
+  "title": "-miş Zaman — Косвенное прошедшее",
+  "level": "a2",
+  "language": "turkish",
+  "xpReward": 80,
+  "estimatedMinutes": 25,
+  "intro": {
+    "text": "-miş zaman — прошедшее недостоверное. Говорящий сам НЕ видел события, он слышал/предполагает. Gelmiş = Говорят, он пришёл (я сам не видел). Это очень важное различие — в русском нет аналога!",
+    "goals": [
+      "Освоить тему: -miş Zaman — Косвенное прошедшее",
+      "Применить в диалоге",
+      "Закрепить упражнениями",
+      "Расширить словарный запас"
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g1",
+      "title": "Грамматика урока",
+      "explanation": "-miş zaman — прошедшее недостоверное. Говорящий сам НЕ видел события, он слышал/предполагает. Gelmiş = Говорят, он пришёл (я сам не видел). Это очень важное различие — в русском нет аналога!",
+      "table": {
+        "headers": [
+          "Форма",
+          "Правило",
+          "Пример"
+        ],
+        "rows": [
+          [
+            "gelmiş",
+            "говорят пришёл",
+            "гэл-миш"
+          ],
+          [
+            "gitmiş",
+            "говорят ушёл",
+            "гит-миш"
+          ],
+          [
+            "olmuş",
+            "говорят стало",
+            "ол-муш"
+          ],
+          [
+            "söylemiş",
+            "говорят сказал",
+            "сёй-лэ-миш"
+          ]
+        ]
+      },
+      "note": "Уровень A2 Элементарный"
+    }
+  ],
+  "vocabulary": [
+    {
+      "tr": "gelmiş",
+      "ru": "говорят пришёл",
+      "pronunciation": "гэл-миш",
+      "example_tr": "Ali gelmiş ama ben görmedim.",
+      "example_ru": "Говорят, Али пришёл, но я не видел."
+    },
+    {
+      "tr": "gitmiş",
+      "ru": "говорят ушёл",
+      "pronunciation": "гит-миш",
+      "example_tr": "O İstanbul'a gitmiş.",
+      "example_ru": "Говорят, он уехал в Стамбул."
+    },
+    {
+      "tr": "olmuş",
+      "ru": "говорят стало",
+      "pronunciation": "ол-муш",
+      "example_tr": "Ne olmuş?",
+      "example_ru": "Что там произошло (говорят)?"
+    },
+    {
+      "tr": "söylemiş",
+      "ru": "говорят сказал",
+      "pronunciation": "сёй-лэ-миш",
+      "example_tr": "Bunu söylemiş.",
+      "example_ru": "Говорят, он это сказал."
+    },
+    {
+      "tr": "yapmış",
+      "ru": "говорят сделал",
+      "pronunciation": "йап-муш",
+      "example_tr": "Ne yapmış?",
+      "example_ru": "Что он там сделал?"
+    },
+    {
+      "tr": "uyumuş",
+      "ru": "говорят спал",
+      "pronunciation": "у-йу-муш",
+      "example_tr": "Bütün gün uyumuş!",
+      "example_ru": "Говорят, спал весь день!"
+    },
+    {
+      "tr": "yemiş",
+      "ru": "говорят съел",
+      "pronunciation": "йэ-миш",
+      "example_tr": "Hepsini yemiş!",
+      "example_ru": "Говорят, съел всё!"
+    },
+    {
+      "tr": "duydum",
+      "ru": "я услышал",
+      "pronunciation": "дуй-дум",
+      "example_tr": "Bunu duydum.",
+      "example_ru": "Я это слышал."
+    },
+    {
+      "tr": "sanırım",
+      "ru": "думаю/полагаю",
+      "pronunciation": "са-ны-рым",
+      "example_tr": "Sanırım eve gitti.",
+      "example_ru": "Думаю, он пошёл домой."
+    },
+    {
+      "tr": "galiba",
+      "ru": "наверное",
+      "pronunciation": "га-ли-ба",
+      "example_tr": "Galiba haklısın.",
+      "example_ru": "Наверное, ты прав."
+    },
+    {
+      "tr": "demek ki",
+      "ru": "значит",
+      "pronunciation": "дэ-мэк ки",
+      "example_tr": "Demek ki biliyormuş.",
+      "example_ru": "Значит, он знал."
+    },
+    {
+      "tr": "meğer",
+      "ru": "оказывается",
+      "pronunciation": "мэ-эр",
+      "example_tr": "Meğer hasta imiş.",
+      "example_ru": "Оказывается, он был болен."
+    }
+  ],
+  "dialogue": {
+    "title": "Диалог — -miş Zaman — Косвенное прошедшее",
+    "context": "Реальная ситуация.",
+    "lines": [
+      {
+        "speaker": "A",
+        "tr": "Ali gelmiş ama ben görmedim.",
+        "ru": "Говорят, Али пришёл, но я не видел.",
+        "note": ""
+      },
+      {
+        "speaker": "B",
+        "tr": "O İstanbul'a gitmiş.",
+        "ru": "Говорят, он уехал в Стамбул.",
+        "note": ""
+      },
+      {
+        "speaker": "A",
+        "tr": "Ne olmuş?",
+        "ru": "Что там произошло (говорят)?",
+        "note": ""
+      }
+    ]
+  },
+  "cultural_note": {
+    "title": "Культурный контекст",
+    "text": "Урок 4 уровня A2 Элементарный. Практикуй каждый день!"
+  },
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "multiple_choice",
+      "question": "Что из этого относится к теме «-miş zaman»?",
+      "options": [
+        "Вариант А",
+        "Вариант Б",
+        "Вариант В",
+        "Вариант Г"
+      ],
+      "correctAnswer": "Вариант А",
+      "explanation": "Ключевое понятие темы -miş zaman"
+    },
+    {
+      "id": "ex_2",
+      "type": "multiple_choice",
+      "question": "Выбери правильную форму глагола:",
+      "options": [
+        "-iyor",
+        "-di",
+        "-ecek",
+        "-mış"
+      ],
+      "correctAnswer": "-iyor",
+      "explanation": "Настоящее продолженное: глагол+-iyor+личное окончание"
+    },
+    {
+      "id": "ex_3",
+      "type": "match_pairs",
+      "question": "Соедини слова",
+      "pairs": [
+        {
+          "left": "var",
+          "right": "есть"
+        },
+        {
+          "left": "yok",
+          "right": "нет"
+        },
+        {
+          "left": "gibi",
+          "right": "как"
+        },
+        {
+          "left": "için",
+          "right": "для"
+        }
+      ],
+      "correctAnswer": "all",
+      "explanation": "all"
+    },
+    {
+      "id": "ex_4",
+      "type": "fill_blank",
+      "question": "«Ben ___ gidiyorum» = «Я иду в школу»",
+      "options": [
+        "okula",
+        "okulda",
+        "okuldan",
+        "okul"
+      ],
+      "correctAnswer": "okula",
+      "explanation": "Суффикс направления -a/-e: okul+a = в школу"
+    },
+    {
+      "id": "ex_5",
+      "type": "multiple_choice",
+      "question": "Как образуется прошедшее время?",
+      "options": [
+        "глагол + -iyor",
+        "глагол + -di/-dı",
+        "глагол + -ecek",
+        "глагол + -miş"
+      ],
+      "correctAnswer": "глагол + -di/-dı",
+      "explanation": "Простое прошедшее: gitmek → gitti (ушёл)"
+    },
+    {
+      "id": "ex_6",
+      "type": "multiple_choice",
+      "question": "«Yarın ne yapacaksın?» означает:",
+      "options": [
+        "Что ты делаешь?",
+        "Что ты делал?",
+        "Что ты будешь делать завтра?",
+        "Зачем ты здесь?"
+      ],
+      "correctAnswer": "Что ты будешь делать завтра?",
+      "explanation": "yarın=завтра, yapacaksın=ты сделаешь (-ecek будущее)"
+    },
+    {
+      "id": "ex_7",
+      "type": "fill_blank",
+      "question": "Отрицание глагола: «gitmek» → «___»",
+      "options": [
+        "gitmemek",
+        "gitmeyorum",
+        "gitmiyor",
+        "gitmek değil"
+      ],
+      "correctAnswer": "gitmemek",
+      "explanation": "Отрицательный инфинитив: глагол + -me/-ma + мек/мак"
+    },
+    {
+      "id": "ex_8",
+      "type": "match_pairs",
+      "question": "Соедини времена",
+      "pairs": [
+        {
+          "left": "gidiyorum",
+          "right": "иду сейчас"
+        },
+        {
+          "left": "gittim",
+          "right": "я пошёл"
+        },
+        {
+          "left": "gideceğim",
+          "right": "я пойду"
+        },
+        {
+          "left": "gitmiştim",
+          "right": "я уже ходил"
+        }
+      ],
+      "correctAnswer": "all",
+      "explanation": "all"
+    }
+  ],
+  "summary": {
+    "title": "Итог урока",
+    "points": [
+      "-miş Zaman — Косвенное прошедшее"
+    ],
+    "next_lesson": "Урок 5"
+  }
+}

@@ -1,0 +1,305 @@
+{
+  "id": "lesson_1",
+  "title": "Geniş Zaman — Настоящее общее время",
+  "level": "a2",
+  "language": "turkish",
+  "xpReward": 80,
+  "estimatedMinutes": 25,
+  "intro": {
+    "text": "Geniş zaman (широкое время) — это время для привычек и постоянных фактов. Суффикс: -er/-ar/-ir/-ır/-ur/-ür. Он отличается от настоящего продолженного (-iyor). Her gün çay içerim = Я пью чай каждый день (привычка).",
+    "goals": [
+      "Освоить тему: Geniş Zaman — Настоящее общее время",
+      "Применить в диалоге",
+      "Закрепить упражнениями",
+      "Расширить словарный запас"
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g1",
+      "title": "Грамматика урока",
+      "explanation": "Geniş zaman (широкое время) — это время для привычек и постоянных фактов. Суффикс: -er/-ar/-ir/-ır/-ur/-ür. Он отличается от настоящего продолженного (-iyor). Her gün çay içerim = Я пью чай каждый день (привычка).",
+      "table": {
+        "headers": [
+          "Форма",
+          "Правило",
+          "Пример"
+        ],
+        "rows": [
+          [
+            "Her gün",
+            "каждый день",
+            "хэр гюн"
+          ],
+          [
+            "Bazen",
+            "иногда",
+            "ба-зэн"
+          ],
+          [
+            "Hiçbir zaman",
+            "никогда",
+            "хич-бир за-ман"
+          ],
+          [
+            "Her zaman",
+            "всегда",
+            "хэр за-ман"
+          ]
+        ]
+      },
+      "note": "Уровень A2 Элементарный"
+    }
+  ],
+  "vocabulary": [
+    {
+      "tr": "Her gün",
+      "ru": "каждый день",
+      "pronunciation": "хэр гюн",
+      "example_tr": "Her gün koşarım.",
+      "example_ru": "Каждый день бегаю."
+    },
+    {
+      "tr": "Bazen",
+      "ru": "иногда",
+      "pronunciation": "ба-зэн",
+      "example_tr": "Bazen kitap okurum.",
+      "example_ru": "Иногда читаю книги."
+    },
+    {
+      "tr": "Hiçbir zaman",
+      "ru": "никогда",
+      "pronunciation": "хич-бир за-ман",
+      "example_tr": "Hiçbir zaman sigara içmem.",
+      "example_ru": "Никогда не курю."
+    },
+    {
+      "tr": "Her zaman",
+      "ru": "всегда",
+      "pronunciation": "хэр за-ман",
+      "example_tr": "Her zaman doğruyu söylerim.",
+      "example_ru": "Всегда говорю правду."
+    },
+    {
+      "tr": "gelmek",
+      "ru": "приходить (geniş)",
+      "pronunciation": "гэл-мэк",
+      "example_tr": "O buraya sık gelir.",
+      "example_ru": "Он сюда часто приходит."
+    },
+    {
+      "tr": "yapmak",
+      "ru": "делать (geniş)",
+      "pronunciation": "йап-мак",
+      "example_tr": "Ne yaparsın?",
+      "example_ru": "Что ты делаешь (обычно)?"
+    },
+    {
+      "tr": "sevmek",
+      "ru": "любить",
+      "pronunciation": "сэв-мэк",
+      "example_tr": "Müzik severim.",
+      "example_ru": "Я люблю музыку."
+    },
+    {
+      "tr": "içmek",
+      "ru": "пить",
+      "pronunciation": "ич-мэк",
+      "example_tr": "Sabah kahve içerim.",
+      "example_ru": "Утром пью кофе."
+    },
+    {
+      "tr": "uyumak",
+      "ru": "спать",
+      "pronunciation": "у-йу-мак",
+      "example_tr": "Erken uyurum.",
+      "example_ru": "Рано сплю."
+    },
+    {
+      "tr": "kalkmak",
+      "ru": "вставать",
+      "pronunciation": "кал-кмак",
+      "example_tr": "Saat yedide kalkarım.",
+      "example_ru": "Встаю в семь."
+    },
+    {
+      "tr": "çalışmak",
+      "ru": "работать",
+      "pronunciation": "ча-лыш-мак",
+      "example_tr": "Haftada beş gün çalışırım.",
+      "example_ru": "Работаю пять дней в неделю."
+    },
+    {
+      "tr": "alışkanlık",
+      "ru": "привычка",
+      "pronunciation": "а-лыш-кан-лык",
+      "example_tr": "Bu benim alışkanlığım.",
+      "example_ru": "Это моя привычка."
+    }
+  ],
+  "dialogue": {
+    "title": "Диалог — Geniş Zaman — Настоящее общее время",
+    "context": "Реальная ситуация.",
+    "lines": [
+      {
+        "speaker": "A",
+        "tr": "Her gün koşarım.",
+        "ru": "Каждый день бегаю.",
+        "note": ""
+      },
+      {
+        "speaker": "B",
+        "tr": "Bazen kitap okurum.",
+        "ru": "Иногда читаю книги.",
+        "note": ""
+      },
+      {
+        "speaker": "A",
+        "tr": "Hiçbir zaman sigara içmem.",
+        "ru": "Никогда не курю.",
+        "note": ""
+      }
+    ]
+  },
+  "cultural_note": {
+    "title": "Культурный контекст",
+    "text": "Урок 1 уровня A2 Элементарный. Практикуй каждый день!"
+  },
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "multiple_choice",
+      "question": "Что из этого относится к теме «geniş zaman»?",
+      "options": [
+        "Вариант А",
+        "Вариант Б",
+        "Вариант В",
+        "Вариант Г"
+      ],
+      "correctAnswer": "Вариант А",
+      "explanation": "Ключевое понятие темы geniş zaman"
+    },
+    {
+      "id": "ex_2",
+      "type": "multiple_choice",
+      "question": "Выбери правильную форму глагола:",
+      "options": [
+        "-iyor",
+        "-di",
+        "-ecek",
+        "-mış"
+      ],
+      "correctAnswer": "-iyor",
+      "explanation": "Настоящее продолженное: глагол+-iyor+личное окончание"
+    },
+    {
+      "id": "ex_3",
+      "type": "match_pairs",
+      "question": "Соедини слова",
+      "pairs": [
+        {
+          "left": "var",
+          "right": "есть"
+        },
+        {
+          "left": "yok",
+          "right": "нет"
+        },
+        {
+          "left": "gibi",
+          "right": "как"
+        },
+        {
+          "left": "için",
+          "right": "для"
+        }
+      ],
+      "correctAnswer": "all",
+      "explanation": "all"
+    },
+    {
+      "id": "ex_4",
+      "type": "fill_blank",
+      "question": "«Ben ___ gidiyorum» = «Я иду в школу»",
+      "options": [
+        "okula",
+        "okulda",
+        "okuldan",
+        "okul"
+      ],
+      "correctAnswer": "okula",
+      "explanation": "Суффикс направления -a/-e: okul+a = в школу"
+    },
+    {
+      "id": "ex_5",
+      "type": "multiple_choice",
+      "question": "Как образуется прошедшее время?",
+      "options": [
+        "глагол + -iyor",
+        "глагол + -di/-dı",
+        "глагол + -ecek",
+        "глагол + -miş"
+      ],
+      "correctAnswer": "глагол + -di/-dı",
+      "explanation": "Простое прошедшее: gitmek → gitti (ушёл)"
+    },
+    {
+      "id": "ex_6",
+      "type": "multiple_choice",
+      "question": "«Yarın ne yapacaksın?» означает:",
+      "options": [
+        "Что ты делаешь?",
+        "Что ты делал?",
+        "Что ты будешь делать завтра?",
+        "Зачем ты здесь?"
+      ],
+      "correctAnswer": "Что ты будешь делать завтра?",
+      "explanation": "yarın=завтра, yapacaksın=ты сделаешь (-ecek будущее)"
+    },
+    {
+      "id": "ex_7",
+      "type": "fill_blank",
+      "question": "Отрицание глагола: «gitmek» → «___»",
+      "options": [
+        "gitmemek",
+        "gitmeyorum",
+        "gitmiyor",
+        "gitmek değil"
+      ],
+      "correctAnswer": "gitmemek",
+      "explanation": "Отрицательный инфинитив: глагол + -me/-ma + мек/мак"
+    },
+    {
+      "id": "ex_8",
+      "type": "match_pairs",
+      "question": "Соедини времена",
+      "pairs": [
+        {
+          "left": "gidiyorum",
+          "right": "иду сейчас"
+        },
+        {
+          "left": "gittim",
+          "right": "я пошёл"
+        },
+        {
+          "left": "gideceğim",
+          "right": "я пойду"
+        },
+        {
+          "left": "gitmiştim",
+          "right": "я уже ходил"
+        }
+      ],
+      "correctAnswer": "all",
+      "explanation": "all"
+    }
+  ],
+  "summary": {
+    "title": "Итог урока",
+    "points": [
+      "Geniş Zaman — Настоящее общее время"
+    ],
+    "next_lesson": "Урок 2"
+  }
+}

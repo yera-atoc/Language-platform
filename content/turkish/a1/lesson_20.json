@@ -1,0 +1,274 @@
+{
+  "id": "lesson_20",
+  "title": "A1 Tekrar — Итоговое повторение",
+  "level": "a1",
+  "language": "turkish",
+  "xpReward": 150,
+  "estimatedMinutes": 20,
+  "intro": {
+    "text": "Поздравляем! Ты прошёл все 19 уроков уровня A1. Этот урок — финальное повторение всего что ты выучил. Проверь себя — готов ли ты к уровню A2?",
+    "goals": [
+      "Повторить все ключевые темы A1",
+      "Проверить знание грамматических правил",
+      "Применить словарный запас в контексте",
+      "Оценить готовность к уровню A2"
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g1",
+      "title": "Ключевая грамматика урока",
+      "explanation": "Изучи правило ниже — оно поможет понять всё что в этом уроке.",
+      "table": {
+        "headers": [
+          "Турецкий",
+          "Русский",
+          "Пример"
+        ],
+        "rows": [
+          [
+            "—",
+            "—",
+            "—"
+          ]
+        ]
+      },
+      "note": ""
+    }
+  ],
+  "vocabulary": [
+    {
+      "tr": "Merhaba",
+      "ru": "Привет",
+      "pronunciation": "мэр-ха-ба",
+      "example_tr": "Merhaba, nasılsın?",
+      "example_ru": "Привет, как дела?"
+    },
+    {
+      "tr": "Adım",
+      "ru": "Моё имя",
+      "pronunciation": "а-дым",
+      "example_tr": "Adım Zara, memnun oldum.",
+      "example_ru": "Меня зовут Зара, приятно познакомиться."
+    },
+    {
+      "tr": "Türkçe öğreniyorum",
+      "ru": "Я учу турецкий",
+      "pronunciation": "тюрк-чэ ою-рэ-ни-йо-рум",
+      "example_tr": "Türkçe öğreniyorum çünkü Türkiye'yi seviyorum.",
+      "example_ru": "Учу турецкий потому что люблю Турцию."
+    },
+    {
+      "tr": "Anladım",
+      "ru": "Я понял",
+      "pronunciation": "ан-ла-дым",
+      "example_tr": "Anladım, teşekkürler.",
+      "example_ru": "Понял, спасибо."
+    },
+    {
+      "tr": "Anlayamadım",
+      "ru": "Не понял",
+      "pronunciation": "ан-ла-йа-ма-дым",
+      "example_tr": "Anlayamadım, tekrar söyler misiniz?",
+      "example_ru": "Не понял, не могли бы повторить?"
+    },
+    {
+      "tr": "Lütfen yavaş konuşun",
+      "ru": "Говорите медленнее",
+      "pronunciation": "лют-фэн йа-ваш ко-ну-шун",
+      "example_tr": "Lütfen yavaş konuşun, yeni öğreniyorum.",
+      "example_ru": "Говорите медленнее, я только учусь."
+    },
+    {
+      "tr": "Türkçe biliyor musunuz?",
+      "ru": "Вы говорите по-турецки?",
+      "pronunciation": "тюрк-чэ би-ли-йор му-су-нуз",
+      "example_tr": "Türkçe biliyor musunuz?",
+      "example_ru": "Вы говорите по-турецки?"
+    },
+    {
+      "tr": "Biraz",
+      "ru": "немного",
+      "pronunciation": "би-раз",
+      "example_tr": "Biraz Türkçe biliyorum.",
+      "example_ru": "Я немного знаю турецкий."
+    },
+    {
+      "tr": "Çok güzel!",
+      "ru": "Очень хорошо!",
+      "pronunciation": "чок гю-зэл",
+      "example_tr": "Türkçen çok güzel!",
+      "example_ru": "Твой турецкий очень хороший!"
+    },
+    {
+      "tr": "Teşekkürler",
+      "ru": "Спасибо",
+      "pronunciation": "тэ-шэк-кюр-лер",
+      "example_tr": "Her şey için teşekkürler.",
+      "example_ru": "Спасибо за всё."
+    },
+    {
+      "tr": "A1 bitti",
+      "ru": "A1 завершён",
+      "pronunciation": "а бир бит-ти",
+      "example_tr": "A1 bitti, A2'ye geçiyorum!",
+      "example_ru": "A1 завершён, перехожу на A2!"
+    },
+    {
+      "tr": "Öğrenmek",
+      "ru": "учиться",
+      "pronunciation": "ою-рэн-мэк",
+      "example_tr": "Türkçe öğrenmek eğlenceli!",
+      "example_ru": "Учить турецкий весело!"
+    }
+  ],
+  "dialogue": {
+    "title": "Диалог — урок 20",
+    "context": "Практика в реальной ситуации.",
+    "lines": [
+      {
+        "speaker": "А",
+        "tr": "Merhaba, nasılsın?",
+        "ru": "Привет, как дела?",
+        "note": ""
+      },
+      {
+        "speaker": "Б",
+        "tr": "Adım Zara, memnun oldum.",
+        "ru": "Меня зовут Зара, приятно познакомиться.",
+        "note": ""
+      }
+    ]
+  },
+  "cultural_note": {
+    "title": "Культурная заметка",
+    "text": "Турция — удивительная страна с богатой историей и культурой."
+  },
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "multiple_choice",
+      "question": "«Türkçe öğreniyorum» означает:",
+      "options": [
+        "Я знаю турецкий",
+        "Я учу турецкий",
+        "Я учил турецкий",
+        "Мне нравится турецкий"
+      ],
+      "correctAnswer": "Я учу турецкий",
+      "explanation": "öğreniyorum = я учу (настоящее продолженное). Türkçe = турецкий язык."
+    },
+    {
+      "id": "ex_2",
+      "type": "multiple_choice",
+      "question": "«Anlayamadım, tekrar söyler misiniz?» означает:",
+      "options": [
+        "Я не согласен",
+        "Я не слышу",
+        "Не поняли, не могли бы повторить?",
+        "Говорите быстрее"
+      ],
+      "correctAnswer": "Не поняли, не могли бы повторить?",
+      "explanation": "Anlayamadım = не смог понять. tekrar = ещё раз. söyler misiniz? = не скажете ли?"
+    },
+    {
+      "id": "ex_3",
+      "type": "match_pairs",
+      "question": "Итог A1: соедини фразы с переводом",
+      "pairs": [
+        {
+          "left": "Merhaba",
+          "right": "Привет"
+        },
+        {
+          "left": "Teşekkürler",
+          "right": "Спасибо"
+        },
+        {
+          "left": "Anladım",
+          "right": "Понял"
+        },
+        {
+          "left": "Biraz",
+          "right": "немного"
+        }
+      ],
+      "correctAnswer": "all",
+      "explanation": "Merhaba=привет, Teşekkürler=спасибо, Anladım=понял, Biraz=немного."
+    },
+    {
+      "id": "ex_4",
+      "type": "multiple_choice",
+      "question": "«Lütfen yavaş konuşun» означает:",
+      "options": [
+        "Говорите громче",
+        "Говорите медленнее",
+        "Говорите по-русски",
+        "Повторите"
+      ],
+      "correctAnswer": "Говорите медленнее",
+      "explanation": "yavaş = медленно. konuşun = говорите. Очень важная фраза для начинающих!"
+    },
+    {
+      "id": "ex_5",
+      "type": "fill_blank",
+      "question": "«Biraz Türkçe ___» = «Я немного знаю турецкий»",
+      "options": [
+        "öğreniyorum",
+        "biliyorum",
+        "istiyorum",
+        "seviyorum"
+      ],
+      "correctAnswer": "biliyorum",
+      "explanation": "biliyorum = я знаю (от bilmek = знать). Biraz Türkçe biliyorum = Я немного знаю турецкий."
+    },
+    {
+      "id": "ex_6",
+      "type": "multiple_choice",
+      "question": "«Türkçen çok güzel!» означает:",
+      "options": [
+        "Турция очень красивая",
+        "Твой турецкий очень хороший",
+        "Турецкий язык сложный",
+        "Я учу турецкий"
+      ],
+      "correctAnswer": "Твой турецкий очень хороший",
+      "explanation": "Türkçe-n = твой турецкий (-n = твой). çok güzel = очень хорошо. Лучший комплимент для учащегося!"
+    },
+    {
+      "id": "ex_7",
+      "type": "multiple_choice",
+      "question": "Как сказать «Я не понимаю» по-турецки?",
+      "options": [
+        "Anlamıyorum.",
+        "Bilmiyorum.",
+        "İstemiyorum.",
+        "Görmüyorum."
+      ],
+      "correctAnswer": "Anlamıyorum.",
+      "explanation": "anlamak = понимать. -mıyor+um = не... (отрицание). Anlamıyorum = Я не понимаю."
+    },
+    {
+      "id": "ex_8",
+      "type": "fill_blank",
+      "question": "«A1 bitti, A2'ye ___!» = «A1 закончен, перехожу на A2!»",
+      "options": [
+        "gidiyorum",
+        "geliyorum",
+        "geçiyorum",
+        "bakıyorum"
+      ],
+      "correctAnswer": "geçiyorum",
+      "explanation": "geçmek = переходить. geçiyorum = я перехожу. A2'ye geçiyorum = Перехожу на A2!"
+    }
+  ],
+  "summary": {
+    "title": "Что ты выучил",
+    "points": [
+      "A1 Tekrar — Итоговое повторение",
+      "Словарный запас расширен",
+      "Практика в реальных ситуациях"
+    ],
+    "next_lesson": "Поздравляем! Уровень A1 завершён. Переходи на A2!"
+  }
+}

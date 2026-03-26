@@ -1,0 +1,316 @@
+{
+  "id": "lesson_9",
+  "title": "Zaman İfadeleri — Время: дни, месяцы, сезоны",
+  "level": "a0",
+  "language": "turkish",
+  "xpReward": 40,
+  "estimatedMinutes": 25,
+  "intro": {
+    "text": "Без слов о времени невозможно общаться. Когда? Сегодня? Вчера? В какой день? В турецком дни недели и месяцы имеют арабо-персидское происхождение, но используются легко. Главное — запомнить суффикс -da/-de для 'в (день/месяц)'.",
+    "goals": [
+      "Назвать дни недели",
+      "Назвать месяцы",
+      "Сказать 'сегодня', 'завтра', 'вчера'",
+      "Говорить о расписании"
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g1",
+      "title": "Дни недели и их происхождение",
+      "explanation": "Дни недели в турецком имеют арабо-персидское происхождение. Исключение: Pazar (воскресенье) = рынок. В воскресенье традиционно был базарный день.",
+      "table": {
+        "headers": [
+          "День",
+          "Турецкий",
+          "Произношение",
+          "Значение корня"
+        ],
+        "rows": [
+          [
+            "Понедельник",
+            "Pazartesi",
+            "па-зар-ТЭ-си",
+            "Pazar + ertesi = 'день после рынка'"
+          ],
+          [
+            "Вторник",
+            "Salı",
+            "са-ЛЫ",
+            "Арабское (второй день)"
+          ],
+          [
+            "Среда",
+            "Çarşamba",
+            "чар-ШАМ-ба",
+            "Персидское (четыре+вечер)"
+          ],
+          [
+            "Четверг",
+            "Perşembe",
+            "пэр-ШЭМ-бэ",
+            "Персидское (пять+вечер)"
+          ],
+          [
+            "Пятница",
+            "Cuma",
+            "ДЖУ-ма",
+            "Арабское (собрание/молитва)"
+          ],
+          [
+            "Суббота",
+            "Cumartesi",
+            "джу-мар-ТЭ-си",
+            "Cuma + ertesi = 'день после Джума'"
+          ],
+          [
+            "Воскресенье",
+            "Pazar",
+            "па-ЗАР",
+            "Рынок/базар (персидское)"
+          ]
+        ]
+      },
+      "note": "'В понедельник' = Pazartesi'de. Суффикс -de/-da после дня. Pazar'da = в воскресенье (A→-da). Salı'da = во вторник (I→-da)."
+    }
+  ],
+  "vocabulary": [
+    {
+      "tr": "bugün",
+      "ru": "сегодня",
+      "pronunciation": "бу-ГЮН",
+      "example_tr": "Bugün Pazartesi.",
+      "example_ru": "Сегодня понедельник."
+    },
+    {
+      "tr": "yarın",
+      "ru": "завтра",
+      "pronunciation": "йа-РЫН",
+      "example_tr": "Yarın Salı.",
+      "example_ru": "Завтра вторник."
+    },
+    {
+      "tr": "dün",
+      "ru": "вчера",
+      "pronunciation": "дюн",
+      "example_tr": "Dün Pazar'dı.",
+      "example_ru": "Вчера было воскресенье."
+    },
+    {
+      "tr": "hafta",
+      "ru": "неделя",
+      "pronunciation": "ХАФ-та",
+      "example_tr": "Bu hafta yoğun.",
+      "example_ru": "Эта неделя напряжённая."
+    },
+    {
+      "tr": "ay",
+      "ru": "месяц",
+      "pronunciation": "ай",
+      "example_tr": "Bu ay Mart.",
+      "example_ru": "Этот месяц март."
+    },
+    {
+      "tr": "yıl",
+      "ru": "год",
+      "pronunciation": "йыл",
+      "example_tr": "Bu yıl öğreniyorum.",
+      "example_ru": "В этом году учусь."
+    },
+    {
+      "tr": "Pazartesi",
+      "ru": "понедельник",
+      "pronunciation": "па-зар-тэ-СИ",
+      "example_tr": "Pazartesi ders var.",
+      "example_ru": "В понедельник есть урок."
+    },
+    {
+      "tr": "Cuma",
+      "ru": "пятница",
+      "pronunciation": "ДЖУ-ма",
+      "example_tr": "Cuma namazı.",
+      "example_ru": "Пятничная молитва."
+    },
+    {
+      "tr": "Pazar",
+      "ru": "воскресенье/рынок",
+      "pronunciation": "па-ЗАР",
+      "example_tr": "Pazar günü tatil.",
+      "example_ru": "Воскресенье — выходной."
+    },
+    {
+      "tr": "hafta sonu",
+      "ru": "выходные",
+      "pronunciation": "хаф-та со-НУ",
+      "example_tr": "Hafta sonu dinleniyorum.",
+      "example_ru": "В выходные отдыхаю."
+    },
+    {
+      "tr": "sabah",
+      "ru": "утро",
+      "pronunciation": "са-БАХ",
+      "example_tr": "Sabah kahvaltı yapıyorum.",
+      "example_ru": "Утром завтракаю."
+    },
+    {
+      "tr": "akşam",
+      "ru": "вечер",
+      "pronunciation": "ак-ШАМ",
+      "example_tr": "Akşam ders çalışıyorum.",
+      "example_ru": "Вечером учусь."
+    }
+  ],
+  "dialogue": {
+    "title": "Диалог",
+    "context": "Практика.",
+    "lines": [
+      {
+        "speaker": "Зарина",
+        "tr": "Bugün ne günü?",
+        "ru": "Какой сегодня день?",
+        "note": "ne günü = какой день (что за день)"
+      },
+      {
+        "speaker": "Айше",
+        "tr": "Bugün Çarşamba.",
+        "ru": "Сегодня среда.",
+        "note": "Çarşamba = среда."
+      },
+      {
+        "speaker": "Зарина",
+        "tr": "Yarın Türkçe dersim var.",
+        "ru": "Завтра у меня урок турецкого.",
+        "note": "ders+im = мой урок. var = есть."
+      }
+    ]
+  },
+  "cultural_note": {
+    "title": "Пятница — особый день",
+    "text": "Cuma (пятница) — священный день в исламе. В Турции в пятницу полдень многие мужчины идут на молитву (cuma namazı). Офисы могут закрываться на час. Cumartesi (суббота) и Pazar (воскресенье) — официальные выходные. Интересно: слово 'базар' в русском пришло через тюркские языки из персидского 'bazar' = рынок."
+  },
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "multiple_choice",
+      "question": "'Сегодня пятница' по-турецки:",
+      "options": [
+        "Bugün Cuma.",
+        "Bugün Pazar.",
+        "Bugün Salı.",
+        "Dün Cuma."
+      ],
+      "correctAnswer": "Bugün Cuma.",
+      "explanation": "bugün = сегодня. Cuma = пятница [ДЖУ-ма]. C в турецком = ДЖ!"
+    },
+    {
+      "id": "ex_2",
+      "type": "multiple_choice",
+      "question": "Что означает 'yarın'?",
+      "options": [
+        "вчера",
+        "сегодня",
+        "завтра",
+        "на прошлой неделе"
+      ],
+      "correctAnswer": "завтра",
+      "explanation": "yarın = завтра. dün = вчера. bugün = сегодня. Три главных слова о времени!"
+    },
+    {
+      "id": "ex_3",
+      "type": "match_pairs",
+      "question": "Соедини дни недели",
+      "pairs": [
+        {
+          "left": "Pazartesi",
+          "right": "понедельник"
+        },
+        {
+          "left": "Çarşamba",
+          "right": "среда"
+        },
+        {
+          "left": "Cuma",
+          "right": "пятница"
+        },
+        {
+          "left": "Pazar",
+          "right": "воскресенье"
+        }
+      ],
+      "correctAnswer": "all",
+      "explanation": "Pazartesi=пн, Çarşamba=ср, Cuma=пт, Pazar=вс."
+    },
+    {
+      "id": "ex_4",
+      "type": "multiple_choice",
+      "question": "'Hafta sonu' означает:",
+      "options": [
+        "рабочая неделя",
+        "выходные",
+        "начало недели",
+        "конец месяца"
+      ],
+      "correctAnswer": "выходные",
+      "explanation": "hafta = неделя, sonu = конец. hafta sonu = конец недели = выходные."
+    },
+    {
+      "id": "ex_5",
+      "type": "fill_blank",
+      "question": "'В понедельник у меня урок' = 'Pazartesi___ders var'",
+      "options": [
+        "'da",
+        "'de",
+        "'te",
+        "'ye"
+      ],
+      "correctAnswer": "'de",
+      "explanation": "Pazartesi: последняя гласная İ — передняя → -de. Pazartesi'de = в понедельник."
+    },
+    {
+      "id": "ex_6",
+      "type": "multiple_choice",
+      "question": "'Dün' означает:",
+      "options": [
+        "сегодня",
+        "завтра",
+        "вчера",
+        "скоро"
+      ],
+      "correctAnswer": "вчера",
+      "explanation": "dün = вчера. bugün = сегодня. yarın = завтра."
+    },
+    {
+      "id": "ex_7",
+      "type": "multiple_choice",
+      "question": "'Sabah' означает:",
+      "options": [
+        "вечер",
+        "утро",
+        "ночь",
+        "день"
+      ],
+      "correctAnswer": "утро",
+      "explanation": "sabah = утро. akşam = вечер. gece = ночь. öğlen = полдень."
+    },
+    {
+      "id": "ex_8",
+      "type": "fill_blank",
+      "question": "'Завтра воскресенье' = 'Yarın ___'",
+      "options": [
+        "Cuma",
+        "Cumartesi",
+        "Pazar",
+        "Pazartesi"
+      ],
+      "correctAnswer": "Pazar",
+      "explanation": "Pazar = воскресенье. Буквально = рынок/базар. Традиционно в воскресенье был базарный день."
+    }
+  ],
+  "summary": {
+    "title": "Что ты выучил",
+    "points": [
+      "Zaman İfadeleri — Время: дни, месяцы, сезоны"
+    ],
+    "next_lesson": "Урок 10"
+  }
+}

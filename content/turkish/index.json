@@ -1,0 +1,670 @@
+{
+  "language": "turkish",
+  "languageRu": "Турецкий язык",
+  "flag": "🇹🇷",
+  "exam": "ТОМЕР",
+  "examDescription": "Сертификат владения турецким языком (Türkçe yeterlik sınavı)",
+  "levels": {
+    "a0": {
+      "title": "A0 — Нулевой старт",
+      "description": "Алфавит, произношение, гармония гласных — фундамент языка",
+      "totalLessons": 20,
+      "xpRequired": 0,
+      "color": "#A8E6CF",
+      "lessons": [
+        {
+          "id": "lesson_1",
+          "title": "Türk Alfabesi — Алфавит",
+          "xp": 40
+        },
+        {
+          "id": "lesson_2",
+          "title": "Sesli Harfler — Гласные",
+          "xp": 40
+        },
+        {
+          "id": "lesson_3",
+          "title": "Ünsüz Harfler — Согласные",
+          "xp": 40
+        },
+        {
+          "id": "lesson_4",
+          "title": "Yumuşak G — Буква Ğ",
+          "xp": 40
+        },
+        {
+          "id": "lesson_5",
+          "title": "Hece Yapısı — Слоги",
+          "xp": 40
+        },
+        {
+          "id": "lesson_6",
+          "title": "Ünlü Uyumu — Гармония гласных",
+          "xp": 40
+        },
+        {
+          "id": "lesson_7",
+          "title": "Büyük Ünlü Uyumu — Большая гармония",
+          "xp": 40
+        },
+        {
+          "id": "lesson_8",
+          "title": "Küçük Ünlü Uyumu — Малая гармония",
+          "xp": 40
+        },
+        {
+          "id": "lesson_9",
+          "title": "Ünsüz Değişimi — Изменения согласных",
+          "xp": 40
+        },
+        {
+          "id": "lesson_10",
+          "title": "Türkçe Sesleri — Спецзвуки",
+          "xp": 40
+        },
+        {
+          "id": "lesson_11",
+          "title": "Sayılar 1-10 — Числа",
+          "xp": 40
+        },
+        {
+          "id": "lesson_12",
+          "title": "Renkler — Цвета",
+          "xp": 40
+        },
+        {
+          "id": "lesson_13",
+          "title": "Temel Kelimeler — Первые слова",
+          "xp": 40
+        },
+        {
+          "id": "lesson_14",
+          "title": "Türk İsimleri — Имена",
+          "xp": 40
+        },
+        {
+          "id": "lesson_15",
+          "title": "Vurgu — Ударение",
+          "xp": 40
+        },
+        {
+          "id": "lesson_16",
+          "title": "Hızlı Okuma — Чтение",
+          "xp": 40
+        },
+        {
+          "id": "lesson_17",
+          "title": "Cümle Yapısı — Предложение",
+          "xp": 40
+        },
+        {
+          "id": "lesson_18",
+          "title": "Soru Cümleleri — Вопросы",
+          "xp": 40
+        },
+        {
+          "id": "lesson_19",
+          "title": "Dinleme — Слушание",
+          "xp": 40
+        },
+        {
+          "id": "lesson_20",
+          "title": "A0 Tekrar — Итог A0",
+          "xp": 40
+        }
+      ]
+    },
+    "a1": {
+      "title": "A1 — Начинающий",
+      "description": "Базовые фразы и знакомство с языком",
+      "totalLessons": 20,
+      "xpRequired": 500,
+      "color": "#4ECDC4",
+      "lessons": [
+        {
+          "id": "lesson_1",
+          "title": "Merhaba! — Приветствия",
+          "xp": 50
+        },
+        {
+          "id": "lesson_2",
+          "title": "Ben kimim? — Знакомство",
+          "xp": 50
+        },
+        {
+          "id": "lesson_3",
+          "title": "Sayılar 1-10 — Числа 1-10",
+          "xp": 60
+        },
+        {
+          "id": "lesson_4",
+          "title": "Renkler — Цвета",
+          "xp": 60
+        },
+        {
+          "id": "lesson_5",
+          "title": "Aile — Семья",
+          "xp": 70
+        },
+        {
+          "id": "lesson_6",
+          "title": "Günler ve aylar — Дни и месяцы",
+          "xp": 70
+        },
+        {
+          "id": "lesson_7",
+          "title": "Yiyecekler — Еда",
+          "xp": 80
+        },
+        {
+          "id": "lesson_8",
+          "title": "Sayılar 11-100 — Числа 11-100",
+          "xp": 80
+        },
+        {
+          "id": "lesson_9",
+          "title": "Saat — Время",
+          "xp": 90
+        },
+        {
+          "id": "lesson_10",
+          "title": "Şehir — Город",
+          "xp": 90
+        },
+        {
+          "id": "lesson_11",
+          "title": "Hayvanlar — Животные",
+          "xp": 90
+        },
+        {
+          "id": "lesson_12",
+          "title": "Vücut — Тело",
+          "xp": 90
+        },
+        {
+          "id": "lesson_13",
+          "title": "Hava durumu — Погода",
+          "xp": 100
+        },
+        {
+          "id": "lesson_14",
+          "title": "Alışveriş — Покупки",
+          "xp": 100
+        },
+        {
+          "id": "lesson_15",
+          "title": "Ulaşım — Транспорт",
+          "xp": 100
+        },
+        {
+          "id": "lesson_16",
+          "title": "Meslekler — Профессии",
+          "xp": 110
+        },
+        {
+          "id": "lesson_17",
+          "title": "Ev — Дом",
+          "xp": 110
+        },
+        {
+          "id": "lesson_18",
+          "title": "Giysi — Одежда",
+          "xp": 110
+        },
+        {
+          "id": "lesson_19",
+          "title": "Duygular — Чувства и эмоции",
+          "xp": 120
+        },
+        {
+          "id": "lesson_20",
+          "title": "A1 Tekrar — Повторение A1",
+          "xp": 150
+        }
+      ]
+    },
+    "a2": {
+      "title": "A2 — Элементарный",
+      "description": "Повседневные ситуации и простые диалоги",
+      "totalLessons": 20,
+      "xpRequired": 2500,
+      "color": "#44CF6C"
+    },
+    "b1": {
+      "title": "B1 — Уверенное общение",
+      "description": "Уверенное общение, сложная грамматика",
+      "totalLessons": 20,
+      "xpRequired": 5000,
+      "color": "#FFD93D",
+      "lessons": [
+        {
+          "id": "lesson_1",
+          "title": "B1 Урок 1",
+          "xp": 100
+        },
+        {
+          "id": "lesson_2",
+          "title": "B1 Урок 2",
+          "xp": 100
+        },
+        {
+          "id": "lesson_3",
+          "title": "B1 Урок 3",
+          "xp": 100
+        },
+        {
+          "id": "lesson_4",
+          "title": "B1 Урок 4",
+          "xp": 100
+        },
+        {
+          "id": "lesson_5",
+          "title": "B1 Урок 5",
+          "xp": 100
+        },
+        {
+          "id": "lesson_6",
+          "title": "B1 Урок 6",
+          "xp": 100
+        },
+        {
+          "id": "lesson_7",
+          "title": "B1 Урок 7",
+          "xp": 100
+        },
+        {
+          "id": "lesson_8",
+          "title": "B1 Урок 8",
+          "xp": 100
+        },
+        {
+          "id": "lesson_9",
+          "title": "B1 Урок 9",
+          "xp": 100
+        },
+        {
+          "id": "lesson_10",
+          "title": "B1 Урок 10",
+          "xp": 100
+        },
+        {
+          "id": "lesson_11",
+          "title": "B1 Урок 11",
+          "xp": 100
+        },
+        {
+          "id": "lesson_12",
+          "title": "B1 Урок 12",
+          "xp": 100
+        },
+        {
+          "id": "lesson_13",
+          "title": "B1 Урок 13",
+          "xp": 100
+        },
+        {
+          "id": "lesson_14",
+          "title": "B1 Урок 14",
+          "xp": 100
+        },
+        {
+          "id": "lesson_15",
+          "title": "B1 Урок 15",
+          "xp": 100
+        },
+        {
+          "id": "lesson_16",
+          "title": "B1 Урок 16",
+          "xp": 100
+        },
+        {
+          "id": "lesson_17",
+          "title": "B1 Урок 17",
+          "xp": 100
+        },
+        {
+          "id": "lesson_18",
+          "title": "B1 Урок 18",
+          "xp": 100
+        },
+        {
+          "id": "lesson_19",
+          "title": "B1 Урок 19",
+          "xp": 100
+        },
+        {
+          "id": "lesson_20",
+          "title": "B1 Урок 20",
+          "xp": 100
+        }
+      ]
+    },
+    "b2": {
+      "title": "B2 — Академический турецкий",
+      "description": "Академический турецкий, публицистика",
+      "totalLessons": 20,
+      "xpRequired": 10000,
+      "color": "#FF9F43",
+      "lessons": [
+        {
+          "id": "lesson_1",
+          "title": "B2 Урок 1",
+          "xp": 120
+        },
+        {
+          "id": "lesson_2",
+          "title": "B2 Урок 2",
+          "xp": 120
+        },
+        {
+          "id": "lesson_3",
+          "title": "B2 Урок 3",
+          "xp": 120
+        },
+        {
+          "id": "lesson_4",
+          "title": "B2 Урок 4",
+          "xp": 120
+        },
+        {
+          "id": "lesson_5",
+          "title": "B2 Урок 5",
+          "xp": 120
+        },
+        {
+          "id": "lesson_6",
+          "title": "B2 Урок 6",
+          "xp": 120
+        },
+        {
+          "id": "lesson_7",
+          "title": "B2 Урок 7",
+          "xp": 120
+        },
+        {
+          "id": "lesson_8",
+          "title": "B2 Урок 8",
+          "xp": 120
+        },
+        {
+          "id": "lesson_9",
+          "title": "B2 Урок 9",
+          "xp": 120
+        },
+        {
+          "id": "lesson_10",
+          "title": "B2 Урок 10",
+          "xp": 120
+        },
+        {
+          "id": "lesson_11",
+          "title": "B2 Урок 11",
+          "xp": 120
+        },
+        {
+          "id": "lesson_12",
+          "title": "B2 Урок 12",
+          "xp": 120
+        },
+        {
+          "id": "lesson_13",
+          "title": "B2 Урок 13",
+          "xp": 120
+        },
+        {
+          "id": "lesson_14",
+          "title": "B2 Урок 14",
+          "xp": 120
+        },
+        {
+          "id": "lesson_15",
+          "title": "B2 Урок 15",
+          "xp": 120
+        },
+        {
+          "id": "lesson_16",
+          "title": "B2 Урок 16",
+          "xp": 120
+        },
+        {
+          "id": "lesson_17",
+          "title": "B2 Урок 17",
+          "xp": 120
+        },
+        {
+          "id": "lesson_18",
+          "title": "B2 Урок 18",
+          "xp": 120
+        },
+        {
+          "id": "lesson_19",
+          "title": "B2 Урок 19",
+          "xp": 120
+        },
+        {
+          "id": "lesson_20",
+          "title": "B2 Урок 20",
+          "xp": 120
+        }
+      ]
+    },
+    "c1": {
+      "title": "C1 — Продвинутый уровень",
+      "description": "Продвинутый уровень, литература",
+      "totalLessons": 20,
+      "xpRequired": 20000,
+      "color": "#DDA0DD",
+      "lessons": [
+        {
+          "id": "lesson_1",
+          "title": "C1 Урок 1",
+          "xp": 150
+        },
+        {
+          "id": "lesson_2",
+          "title": "C1 Урок 2",
+          "xp": 150
+        },
+        {
+          "id": "lesson_3",
+          "title": "C1 Урок 3",
+          "xp": 150
+        },
+        {
+          "id": "lesson_4",
+          "title": "C1 Урок 4",
+          "xp": 150
+        },
+        {
+          "id": "lesson_5",
+          "title": "C1 Урок 5",
+          "xp": 150
+        },
+        {
+          "id": "lesson_6",
+          "title": "C1 Урок 6",
+          "xp": 150
+        },
+        {
+          "id": "lesson_7",
+          "title": "C1 Урок 7",
+          "xp": 150
+        },
+        {
+          "id": "lesson_8",
+          "title": "C1 Урок 8",
+          "xp": 150
+        },
+        {
+          "id": "lesson_9",
+          "title": "C1 Урок 9",
+          "xp": 150
+        },
+        {
+          "id": "lesson_10",
+          "title": "C1 Урок 10",
+          "xp": 150
+        },
+        {
+          "id": "lesson_11",
+          "title": "C1 Урок 11",
+          "xp": 150
+        },
+        {
+          "id": "lesson_12",
+          "title": "C1 Урок 12",
+          "xp": 150
+        },
+        {
+          "id": "lesson_13",
+          "title": "C1 Урок 13",
+          "xp": 150
+        },
+        {
+          "id": "lesson_14",
+          "title": "C1 Урок 14",
+          "xp": 150
+        },
+        {
+          "id": "lesson_15",
+          "title": "C1 Урок 15",
+          "xp": 150
+        },
+        {
+          "id": "lesson_16",
+          "title": "C1 Урок 16",
+          "xp": 150
+        },
+        {
+          "id": "lesson_17",
+          "title": "C1 Урок 17",
+          "xp": 150
+        },
+        {
+          "id": "lesson_18",
+          "title": "C1 Урок 18",
+          "xp": 150
+        },
+        {
+          "id": "lesson_19",
+          "title": "C1 Урок 19",
+          "xp": 150
+        },
+        {
+          "id": "lesson_20",
+          "title": "C1 Урок 20",
+          "xp": 150
+        }
+      ]
+    },
+    "c2": {
+      "title": "C2 — Мастерство",
+      "description": "Мастерство, язык носителя",
+      "totalLessons": 20,
+      "xpRequired": 35000,
+      "color": "#B0C4DE",
+      "lessons": [
+        {
+          "id": "lesson_1",
+          "title": "C2 Урок 1",
+          "xp": 180
+        },
+        {
+          "id": "lesson_2",
+          "title": "C2 Урок 2",
+          "xp": 180
+        },
+        {
+          "id": "lesson_3",
+          "title": "C2 Урок 3",
+          "xp": 180
+        },
+        {
+          "id": "lesson_4",
+          "title": "C2 Урок 4",
+          "xp": 180
+        },
+        {
+          "id": "lesson_5",
+          "title": "C2 Урок 5",
+          "xp": 180
+        },
+        {
+          "id": "lesson_6",
+          "title": "C2 Урок 6",
+          "xp": 180
+        },
+        {
+          "id": "lesson_7",
+          "title": "C2 Урок 7",
+          "xp": 180
+        },
+        {
+          "id": "lesson_8",
+          "title": "C2 Урок 8",
+          "xp": 180
+        },
+        {
+          "id": "lesson_9",
+          "title": "C2 Урок 9",
+          "xp": 180
+        },
+        {
+          "id": "lesson_10",
+          "title": "C2 Урок 10",
+          "xp": 180
+        },
+        {
+          "id": "lesson_11",
+          "title": "C2 Урок 11",
+          "xp": 180
+        },
+        {
+          "id": "lesson_12",
+          "title": "C2 Урок 12",
+          "xp": 180
+        },
+        {
+          "id": "lesson_13",
+          "title": "C2 Урок 13",
+          "xp": 180
+        },
+        {
+          "id": "lesson_14",
+          "title": "C2 Урок 14",
+          "xp": 180
+        },
+        {
+          "id": "lesson_15",
+          "title": "C2 Урок 15",
+          "xp": 180
+        },
+        {
+          "id": "lesson_16",
+          "title": "C2 Урок 16",
+          "xp": 180
+        },
+        {
+          "id": "lesson_17",
+          "title": "C2 Урок 17",
+          "xp": 180
+        },
+        {
+          "id": "lesson_18",
+          "title": "C2 Урок 18",
+          "xp": 180
+        },
+        {
+          "id": "lesson_19",
+          "title": "C2 Урок 19",
+          "xp": 180
+        },
+        {
+          "id": "lesson_20",
+          "title": "C2 Урок 20",
+          "xp": 180
+        }
+      ]
+    }
+  }
+}

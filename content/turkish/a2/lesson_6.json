@@ -1,0 +1,305 @@
+{
+  "id": "lesson_6",
+  "title": "Koşullu Cümle — Условные предложения",
+  "level": "a2",
+  "language": "turkish",
+  "xpReward": 80,
+  "estimatedMinutes": 25,
+  "intro": {
+    "text": "Условие в турецком выражается суффиксом -se/-sa. Eğer gelirsen, görüşürüz = Если придёшь, увидимся. Есть два типа: реальное условие (-se/-sa) и нереальное (-seydi/-saydı).",
+    "goals": [
+      "Освоить тему: Koşullu Cümle — Условные предложения",
+      "Применить в диалоге",
+      "Закрепить упражнениями",
+      "Расширить словарный запас"
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g1",
+      "title": "Грамматика урока",
+      "explanation": "Условие в турецком выражается суффиксом -se/-sa. Eğer gelirsen, görüşürüz = Если придёшь, увидимся. Есть два типа: реальное условие (-se/-sa) и нереальное (-seydi/-saydı).",
+      "table": {
+        "headers": [
+          "Форма",
+          "Правило",
+          "Пример"
+        ],
+        "rows": [
+          [
+            "eğer",
+            "если",
+            "э-эр"
+          ],
+          [
+            "gelirse",
+            "если придёт",
+            "гэл-ир-сэ"
+          ],
+          [
+            "olursa",
+            "если будет",
+            "о-лур-са"
+          ],
+          [
+            "bilseydin",
+            "если бы ты знал",
+            "бил-сэй-дин"
+          ]
+        ]
+      },
+      "note": "Уровень A2 Элементарный"
+    }
+  ],
+  "vocabulary": [
+    {
+      "tr": "eğer",
+      "ru": "если",
+      "pronunciation": "э-эр",
+      "example_tr": "Eğer yorulsam dinlenirim.",
+      "example_ru": "Если устану, отдохну."
+    },
+    {
+      "tr": "gelirse",
+      "ru": "если придёт",
+      "pronunciation": "гэл-ир-сэ",
+      "example_tr": "Gelirse haber ver.",
+      "example_ru": "Если придёт, дай знать."
+    },
+    {
+      "tr": "olursa",
+      "ru": "если будет",
+      "pronunciation": "о-лур-са",
+      "example_tr": "Hava güzel olursa piknik yaparız.",
+      "example_ru": "Если будет хорошая погода, пикник."
+    },
+    {
+      "tr": "bilseydin",
+      "ru": "если бы ты знал",
+      "pronunciation": "бил-сэй-дин",
+      "example_tr": "Bilseydin söylerdin.",
+      "example_ru": "Если бы знал, сказал бы."
+    },
+    {
+      "tr": "gelseydi",
+      "ru": "если бы пришёл",
+      "pronunciation": "гэл-сэй-ди",
+      "example_tr": "O da gelseydi iyi olurdu.",
+      "example_ru": "Было бы хорошо, если б он тоже пришёл."
+    },
+    {
+      "tr": "olmasaydı",
+      "ru": "если бы не было",
+      "pronunciation": "ол-ма-сай-ды",
+      "example_tr": "Sen olmasaydın ne yapardım?",
+      "example_ru": "Что бы я делал без тебя?"
+    },
+    {
+      "tr": "-se/-sa",
+      "ru": "суффикс условия",
+      "pronunciation": "реальное",
+      "example_tr": "Yorulursan otur.",
+      "example_ru": "Если устанешь, садись."
+    },
+    {
+      "tr": "-seydi/-saydı",
+      "ru": "нереальное условие",
+      "pronunciation": "прошедшее",
+      "example_tr": "Gelseydi iyi olurdu.",
+      "example_ru": "Если б пришёл, было б хорошо."
+    },
+    {
+      "tr": "ama",
+      "ru": "но",
+      "pronunciation": "а-ма",
+      "example_tr": "Gelmek istedim ama yoruldum.",
+      "example_ru": "Хотел прийти, но устал."
+    },
+    {
+      "tr": "yoksa",
+      "ru": "иначе/а не то",
+      "pronunciation": "йок-са",
+      "example_tr": "Hızlan yoksa geç kalırsın.",
+      "example_ru": "Торопись, иначе опоздаешь."
+    },
+    {
+      "tr": "-mazsa/-mezse",
+      "ru": "если не",
+      "pronunciation": "отрицание условия",
+      "example_tr": "Gelmezse ne olur?",
+      "example_ru": "Что будет если не придёт?"
+    },
+    {
+      "tr": "şayet",
+      "ru": "при условии что",
+      "pronunciation": "ша-йэт",
+      "example_tr": "Şayet saat 8'de olursa...",
+      "example_ru": "При условии что в 8 часов..."
+    }
+  ],
+  "dialogue": {
+    "title": "Диалог — Koşullu Cümle — Условные предложения",
+    "context": "Реальная ситуация.",
+    "lines": [
+      {
+        "speaker": "A",
+        "tr": "Eğer yorulsam dinlenirim.",
+        "ru": "Если устану, отдохну.",
+        "note": ""
+      },
+      {
+        "speaker": "B",
+        "tr": "Gelirse haber ver.",
+        "ru": "Если придёт, дай знать.",
+        "note": ""
+      },
+      {
+        "speaker": "A",
+        "tr": "Hava güzel olursa piknik yaparız.",
+        "ru": "Если будет хорошая погода, пикник.",
+        "note": ""
+      }
+    ]
+  },
+  "cultural_note": {
+    "title": "Культурный контекст",
+    "text": "Урок 6 уровня A2 Элементарный. Практикуй каждый день!"
+  },
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "multiple_choice",
+      "question": "Что из этого относится к теме «koşullu cümle»?",
+      "options": [
+        "Вариант А",
+        "Вариант Б",
+        "Вариант В",
+        "Вариант Г"
+      ],
+      "correctAnswer": "Вариант А",
+      "explanation": "Ключевое понятие темы koşullu cümle"
+    },
+    {
+      "id": "ex_2",
+      "type": "multiple_choice",
+      "question": "Выбери правильную форму глагола:",
+      "options": [
+        "-iyor",
+        "-di",
+        "-ecek",
+        "-mış"
+      ],
+      "correctAnswer": "-iyor",
+      "explanation": "Настоящее продолженное: глагол+-iyor+личное окончание"
+    },
+    {
+      "id": "ex_3",
+      "type": "match_pairs",
+      "question": "Соедини слова",
+      "pairs": [
+        {
+          "left": "var",
+          "right": "есть"
+        },
+        {
+          "left": "yok",
+          "right": "нет"
+        },
+        {
+          "left": "gibi",
+          "right": "как"
+        },
+        {
+          "left": "için",
+          "right": "для"
+        }
+      ],
+      "correctAnswer": "all",
+      "explanation": "all"
+    },
+    {
+      "id": "ex_4",
+      "type": "fill_blank",
+      "question": "«Ben ___ gidiyorum» = «Я иду в школу»",
+      "options": [
+        "okula",
+        "okulda",
+        "okuldan",
+        "okul"
+      ],
+      "correctAnswer": "okula",
+      "explanation": "Суффикс направления -a/-e: okul+a = в школу"
+    },
+    {
+      "id": "ex_5",
+      "type": "multiple_choice",
+      "question": "Как образуется прошедшее время?",
+      "options": [
+        "глагол + -iyor",
+        "глагол + -di/-dı",
+        "глагол + -ecek",
+        "глагол + -miş"
+      ],
+      "correctAnswer": "глагол + -di/-dı",
+      "explanation": "Простое прошедшее: gitmek → gitti (ушёл)"
+    },
+    {
+      "id": "ex_6",
+      "type": "multiple_choice",
+      "question": "«Yarın ne yapacaksın?» означает:",
+      "options": [
+        "Что ты делаешь?",
+        "Что ты делал?",
+        "Что ты будешь делать завтра?",
+        "Зачем ты здесь?"
+      ],
+      "correctAnswer": "Что ты будешь делать завтра?",
+      "explanation": "yarın=завтра, yapacaksın=ты сделаешь (-ecek будущее)"
+    },
+    {
+      "id": "ex_7",
+      "type": "fill_blank",
+      "question": "Отрицание глагола: «gitmek» → «___»",
+      "options": [
+        "gitmemek",
+        "gitmeyorum",
+        "gitmiyor",
+        "gitmek değil"
+      ],
+      "correctAnswer": "gitmemek",
+      "explanation": "Отрицательный инфинитив: глагол + -me/-ma + мек/мак"
+    },
+    {
+      "id": "ex_8",
+      "type": "match_pairs",
+      "question": "Соедини времена",
+      "pairs": [
+        {
+          "left": "gidiyorum",
+          "right": "иду сейчас"
+        },
+        {
+          "left": "gittim",
+          "right": "я пошёл"
+        },
+        {
+          "left": "gideceğim",
+          "right": "я пойду"
+        },
+        {
+          "left": "gitmiştim",
+          "right": "я уже ходил"
+        }
+      ],
+      "correctAnswer": "all",
+      "explanation": "all"
+    }
+  ],
+  "summary": {
+    "title": "Итог урока",
+    "points": [
+      "Koşullu Cümle — Условные предложения"
+    ],
+    "next_lesson": "Урок 7"
+  }
+}

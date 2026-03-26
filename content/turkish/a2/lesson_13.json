@@ -1,0 +1,305 @@
+{
+  "id": "lesson_13",
+  "title": "Bağlaçlar — Союзы и связки",
+  "level": "a2",
+  "language": "turkish",
+  "xpReward": 80,
+  "estimatedMinutes": 25,
+  "intro": {
+    "text": "Союзы (bağlaç) связывают части предложения. ve = и, ama/fakat = но, çünkü = потому что, ki = что/чтобы, ya...ya = или...или, hem...hem = и...и, ne...ne = ни...ни.",
+    "goals": [
+      "Освоить тему: Bağlaçlar — Союзы и связки",
+      "Применить в диалоге",
+      "Закрепить упражнениями",
+      "Расширить словарный запас"
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g1",
+      "title": "Грамматика урока",
+      "explanation": "Союзы (bağlaç) связывают части предложения. ve = и, ama/fakat = но, çünkü = потому что, ki = что/чтобы, ya...ya = или...или, hem...hem = и...и, ne...ne = ни...ни.",
+      "table": {
+        "headers": [
+          "Форма",
+          "Правило",
+          "Пример"
+        ],
+        "rows": [
+          [
+            "ve",
+            "и",
+            "вэ"
+          ],
+          [
+            "ama",
+            "но",
+            "а-ма"
+          ],
+          [
+            "fakat",
+            "однако",
+            "фа-кат"
+          ],
+          [
+            "çünkü",
+            "потому что",
+            "чюн-кю"
+          ]
+        ]
+      },
+      "note": "Уровень A2 Элементарный"
+    }
+  ],
+  "vocabulary": [
+    {
+      "tr": "ve",
+      "ru": "и",
+      "pronunciation": "вэ",
+      "example_tr": "Sen ve ben.",
+      "example_ru": "Ты и я."
+    },
+    {
+      "tr": "ama",
+      "ru": "но",
+      "pronunciation": "а-ма",
+      "example_tr": "Güzel ama pahalı.",
+      "example_ru": "Красивый но дорогой."
+    },
+    {
+      "tr": "fakat",
+      "ru": "однако",
+      "pronunciation": "фа-кат",
+      "example_tr": "İstedi, fakat yapamadı.",
+      "example_ru": "Хотел, однако не смог."
+    },
+    {
+      "tr": "çünkü",
+      "ru": "потому что",
+      "pronunciation": "чюн-кю",
+      "example_tr": "Gelemem çünkü hastayım.",
+      "example_ru": "Не могу прийти, потому что болен."
+    },
+    {
+      "tr": "ki",
+      "ru": "что/чтобы",
+      "pronunciation": "ки",
+      "example_tr": "Biliyorum ki haklısın.",
+      "example_ru": "Знаю что ты прав."
+    },
+    {
+      "tr": "ile",
+      "ru": "с/и",
+      "pronunciation": "и-лэ",
+      "example_tr": "Seninle gelmek istiyorum.",
+      "example_ru": "Хочу прийти с тобой."
+    },
+    {
+      "tr": "ya...ya",
+      "ru": "или...или",
+      "pronunciation": "йа...йа",
+      "example_tr": "Ya gel ya git.",
+      "example_ru": "Или приходи или уходи."
+    },
+    {
+      "tr": "hem...hem",
+      "ru": "и...и (оба)",
+      "pronunciation": "хэм...хэм",
+      "example_tr": "Hem güzel hem akıllı.",
+      "example_ru": "И красивая и умная."
+    },
+    {
+      "tr": "ne...ne",
+      "ru": "ни...ни",
+      "pronunciation": "нэ...нэ",
+      "example_tr": "Ne yedi ne içti.",
+      "example_ru": "Ни ел ни пил."
+    },
+    {
+      "tr": "öyleyse",
+      "ru": "тогда/итак",
+      "pronunciation": "ёй-лэй-сэ",
+      "example_tr": "Öyleyse gidelim.",
+      "example_ru": "Тогда пойдём."
+    },
+    {
+      "tr": "dolayısıyla",
+      "ru": "следовательно",
+      "pronunciation": "до-лай-сый-йла",
+      "example_tr": "Dolayısıyla haklısın.",
+      "example_ru": "Следовательно ты прав."
+    },
+    {
+      "tr": "rağmen",
+      "ru": "несмотря на",
+      "pronunciation": "ра-мэн",
+      "example_tr": "Yorgun olmasına rağmen çalıştı.",
+      "example_ru": "Несмотря на усталость, работал."
+    }
+  ],
+  "dialogue": {
+    "title": "Диалог — Bağlaçlar — Союзы и связки",
+    "context": "Реальная ситуация.",
+    "lines": [
+      {
+        "speaker": "A",
+        "tr": "Sen ve ben.",
+        "ru": "Ты и я.",
+        "note": ""
+      },
+      {
+        "speaker": "B",
+        "tr": "Güzel ama pahalı.",
+        "ru": "Красивый но дорогой.",
+        "note": ""
+      },
+      {
+        "speaker": "A",
+        "tr": "İstedi, fakat yapamadı.",
+        "ru": "Хотел, однако не смог.",
+        "note": ""
+      }
+    ]
+  },
+  "cultural_note": {
+    "title": "Культурный контекст",
+    "text": "Урок 13 уровня A2 Элементарный. Практикуй каждый день!"
+  },
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "multiple_choice",
+      "question": "Что из этого относится к теме «bağlaçlar»?",
+      "options": [
+        "Вариант А",
+        "Вариант Б",
+        "Вариант В",
+        "Вариант Г"
+      ],
+      "correctAnswer": "Вариант А",
+      "explanation": "Ключевое понятие темы bağlaçlar"
+    },
+    {
+      "id": "ex_2",
+      "type": "multiple_choice",
+      "question": "Выбери правильную форму глагола:",
+      "options": [
+        "-iyor",
+        "-di",
+        "-ecek",
+        "-mış"
+      ],
+      "correctAnswer": "-iyor",
+      "explanation": "Настоящее продолженное: глагол+-iyor+личное окончание"
+    },
+    {
+      "id": "ex_3",
+      "type": "match_pairs",
+      "question": "Соедини слова",
+      "pairs": [
+        {
+          "left": "var",
+          "right": "есть"
+        },
+        {
+          "left": "yok",
+          "right": "нет"
+        },
+        {
+          "left": "gibi",
+          "right": "как"
+        },
+        {
+          "left": "için",
+          "right": "для"
+        }
+      ],
+      "correctAnswer": "all",
+      "explanation": "all"
+    },
+    {
+      "id": "ex_4",
+      "type": "fill_blank",
+      "question": "«Ben ___ gidiyorum» = «Я иду в школу»",
+      "options": [
+        "okula",
+        "okulda",
+        "okuldan",
+        "okul"
+      ],
+      "correctAnswer": "okula",
+      "explanation": "Суффикс направления -a/-e: okul+a = в школу"
+    },
+    {
+      "id": "ex_5",
+      "type": "multiple_choice",
+      "question": "Как образуется прошедшее время?",
+      "options": [
+        "глагол + -iyor",
+        "глагол + -di/-dı",
+        "глагол + -ecek",
+        "глагол + -miş"
+      ],
+      "correctAnswer": "глагол + -di/-dı",
+      "explanation": "Простое прошедшее: gitmek → gitti (ушёл)"
+    },
+    {
+      "id": "ex_6",
+      "type": "multiple_choice",
+      "question": "«Yarın ne yapacaksın?» означает:",
+      "options": [
+        "Что ты делаешь?",
+        "Что ты делал?",
+        "Что ты будешь делать завтра?",
+        "Зачем ты здесь?"
+      ],
+      "correctAnswer": "Что ты будешь делать завтра?",
+      "explanation": "yarın=завтра, yapacaksın=ты сделаешь (-ecek будущее)"
+    },
+    {
+      "id": "ex_7",
+      "type": "fill_blank",
+      "question": "Отрицание глагола: «gitmek» → «___»",
+      "options": [
+        "gitmemek",
+        "gitmeyorum",
+        "gitmiyor",
+        "gitmek değil"
+      ],
+      "correctAnswer": "gitmemek",
+      "explanation": "Отрицательный инфинитив: глагол + -me/-ma + мек/мак"
+    },
+    {
+      "id": "ex_8",
+      "type": "match_pairs",
+      "question": "Соедини времена",
+      "pairs": [
+        {
+          "left": "gidiyorum",
+          "right": "иду сейчас"
+        },
+        {
+          "left": "gittim",
+          "right": "я пошёл"
+        },
+        {
+          "left": "gideceğim",
+          "right": "я пойду"
+        },
+        {
+          "left": "gitmiştim",
+          "right": "я уже ходил"
+        }
+      ],
+      "correctAnswer": "all",
+      "explanation": "all"
+    }
+  ],
+  "summary": {
+    "title": "Итог урока",
+    "points": [
+      "Bağlaçlar — Союзы и связки"
+    ],
+    "next_lesson": "Урок 14"
+  }
+}

@@ -1,0 +1,305 @@
+{
+  "id": "lesson_15",
+  "title": "İş Hayatı — Деловой турецкий",
+  "level": "a2",
+  "language": "turkish",
+  "xpReward": 80,
+  "estimatedMinutes": 25,
+  "intro": {
+    "text": "Деловая лексика: toplantı (совещание), rapor (отчёт), sunum (презентация), proje (проект). Вежливые формы в деловой переписке: Saygılarımla (С уважением), Rica ederim (Пожалуйста).",
+    "goals": [
+      "Освоить тему: İş Hayatı — Деловой турецкий",
+      "Применить в диалоге",
+      "Закрепить упражнениями",
+      "Расширить словарный запас"
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g1",
+      "title": "Грамматика урока",
+      "explanation": "Деловая лексика: toplantı (совещание), rapor (отчёт), sunum (презентация), proje (проект). Вежливые формы в деловой переписке: Saygılarımla (С уважением), Rica ederim (Пожалуйста).",
+      "table": {
+        "headers": [
+          "Форма",
+          "Правило",
+          "Пример"
+        ],
+        "rows": [
+          [
+            "toplantı",
+            "совещание",
+            "топ-лан-ты"
+          ],
+          [
+            "rapor",
+            "отчёт",
+            "ра-пор"
+          ],
+          [
+            "sunum",
+            "презентация",
+            "су-нум"
+          ],
+          [
+            "proje",
+            "проект",
+            "про-джэ"
+          ]
+        ]
+      },
+      "note": "Уровень A2 Элементарный"
+    }
+  ],
+  "vocabulary": [
+    {
+      "tr": "toplantı",
+      "ru": "совещание",
+      "pronunciation": "топ-лан-ты",
+      "example_tr": "Toplantıda ne konuştunuz?",
+      "example_ru": "Что обсуждали на совещании?"
+    },
+    {
+      "tr": "rapor",
+      "ru": "отчёт",
+      "pronunciation": "ра-пор",
+      "example_tr": "Raporu hazırladım.",
+      "example_ru": "Я подготовил отчёт."
+    },
+    {
+      "tr": "sunum",
+      "ru": "презентация",
+      "pronunciation": "су-нум",
+      "example_tr": "Sunum çok iyiydi.",
+      "example_ru": "Презентация была очень хорошей."
+    },
+    {
+      "tr": "proje",
+      "ru": "проект",
+      "pronunciation": "про-джэ",
+      "example_tr": "Projemiz nasıl gidiyor?",
+      "example_ru": "Как идёт наш проект?"
+    },
+    {
+      "tr": "müdür",
+      "ru": "директор",
+      "pronunciation": "мю-дюр",
+      "example_tr": "Müdür beni çağırdı.",
+      "example_ru": "Директор меня вызвал."
+    },
+    {
+      "tr": "çalışan",
+      "ru": "сотрудник",
+      "pronunciation": "ча-лы-шан",
+      "example_tr": "Çalışanlar toplantıda.",
+      "example_ru": "Сотрудники на совещании."
+    },
+    {
+      "tr": "maaş",
+      "ru": "зарплата",
+      "pronunciation": "ма-аш",
+      "example_tr": "Maaşım düşük.",
+      "example_ru": "Моя зарплата низкая."
+    },
+    {
+      "tr": "izin",
+      "ru": "отпуск/разрешение",
+      "pronunciation": "и-зин",
+      "example_tr": "İzin almak istiyorum.",
+      "example_ru": "Хочу взять отпуск."
+    },
+    {
+      "tr": "işe girmek",
+      "ru": "устроиться на работу",
+      "pronunciation": "и-шэ гир-мэк",
+      "example_tr": "Yeni işe girdim.",
+      "example_ru": "Устроился на новую работу."
+    },
+    {
+      "tr": "işten çıkmak",
+      "ru": "уволиться",
+      "pronunciation": "иш-тэн чык-мак",
+      "example_tr": "İşten çıktım.",
+      "example_ru": "Я уволился."
+    },
+    {
+      "tr": "terfi",
+      "ru": "повышение",
+      "pronunciation": "тэр-фи",
+      "example_tr": "Terfi aldım!",
+      "example_ru": "Меня повысили!"
+    },
+    {
+      "tr": "kariyer",
+      "ru": "карьера",
+      "pronunciation": "ка-ри-йэр",
+      "example_tr": "Kariyerim nasıl gelişecek?",
+      "example_ru": "Как будет развиваться моя карьера?"
+    }
+  ],
+  "dialogue": {
+    "title": "Диалог — İş Hayatı — Деловой турецкий",
+    "context": "Реальная ситуация.",
+    "lines": [
+      {
+        "speaker": "A",
+        "tr": "Toplantıda ne konuştunuz?",
+        "ru": "Что обсуждали на совещании?",
+        "note": ""
+      },
+      {
+        "speaker": "B",
+        "tr": "Raporu hazırladım.",
+        "ru": "Я подготовил отчёт.",
+        "note": ""
+      },
+      {
+        "speaker": "A",
+        "tr": "Sunum çok iyiydi.",
+        "ru": "Презентация была очень хорошей.",
+        "note": ""
+      }
+    ]
+  },
+  "cultural_note": {
+    "title": "Культурный контекст",
+    "text": "Урок 15 уровня A2 Элементарный. Практикуй каждый день!"
+  },
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "multiple_choice",
+      "question": "Что из этого относится к теме «iş hayatı»?",
+      "options": [
+        "Вариант А",
+        "Вариант Б",
+        "Вариант В",
+        "Вариант Г"
+      ],
+      "correctAnswer": "Вариант А",
+      "explanation": "Ключевое понятие темы iş hayatı"
+    },
+    {
+      "id": "ex_2",
+      "type": "multiple_choice",
+      "question": "Выбери правильную форму глагола:",
+      "options": [
+        "-iyor",
+        "-di",
+        "-ecek",
+        "-mış"
+      ],
+      "correctAnswer": "-iyor",
+      "explanation": "Настоящее продолженное: глагол+-iyor+личное окончание"
+    },
+    {
+      "id": "ex_3",
+      "type": "match_pairs",
+      "question": "Соедини слова",
+      "pairs": [
+        {
+          "left": "var",
+          "right": "есть"
+        },
+        {
+          "left": "yok",
+          "right": "нет"
+        },
+        {
+          "left": "gibi",
+          "right": "как"
+        },
+        {
+          "left": "için",
+          "right": "для"
+        }
+      ],
+      "correctAnswer": "all",
+      "explanation": "all"
+    },
+    {
+      "id": "ex_4",
+      "type": "fill_blank",
+      "question": "«Ben ___ gidiyorum» = «Я иду в школу»",
+      "options": [
+        "okula",
+        "okulda",
+        "okuldan",
+        "okul"
+      ],
+      "correctAnswer": "okula",
+      "explanation": "Суффикс направления -a/-e: okul+a = в школу"
+    },
+    {
+      "id": "ex_5",
+      "type": "multiple_choice",
+      "question": "Как образуется прошедшее время?",
+      "options": [
+        "глагол + -iyor",
+        "глагол + -di/-dı",
+        "глагол + -ecek",
+        "глагол + -miş"
+      ],
+      "correctAnswer": "глагол + -di/-dı",
+      "explanation": "Простое прошедшее: gitmek → gitti (ушёл)"
+    },
+    {
+      "id": "ex_6",
+      "type": "multiple_choice",
+      "question": "«Yarın ne yapacaksın?» означает:",
+      "options": [
+        "Что ты делаешь?",
+        "Что ты делал?",
+        "Что ты будешь делать завтра?",
+        "Зачем ты здесь?"
+      ],
+      "correctAnswer": "Что ты будешь делать завтра?",
+      "explanation": "yarın=завтра, yapacaksın=ты сделаешь (-ecek будущее)"
+    },
+    {
+      "id": "ex_7",
+      "type": "fill_blank",
+      "question": "Отрицание глагола: «gitmek» → «___»",
+      "options": [
+        "gitmemek",
+        "gitmeyorum",
+        "gitmiyor",
+        "gitmek değil"
+      ],
+      "correctAnswer": "gitmemek",
+      "explanation": "Отрицательный инфинитив: глагол + -me/-ma + мек/мак"
+    },
+    {
+      "id": "ex_8",
+      "type": "match_pairs",
+      "question": "Соедини времена",
+      "pairs": [
+        {
+          "left": "gidiyorum",
+          "right": "иду сейчас"
+        },
+        {
+          "left": "gittim",
+          "right": "я пошёл"
+        },
+        {
+          "left": "gideceğim",
+          "right": "я пойду"
+        },
+        {
+          "left": "gitmiştim",
+          "right": "я уже ходил"
+        }
+      ],
+      "correctAnswer": "all",
+      "explanation": "all"
+    }
+  ],
+  "summary": {
+    "title": "Итог урока",
+    "points": [
+      "İş Hayatı — Деловой турецкий"
+    ],
+    "next_lesson": "Урок 16"
+  }
+}

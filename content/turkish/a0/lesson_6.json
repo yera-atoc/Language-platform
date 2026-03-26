@@ -1,0 +1,338 @@
+{
+  "id": "lesson_6",
+  "title": "Temel Cümleler — Первые предложения",
+  "level": "a0",
+  "language": "turkish",
+  "xpReward": 40,
+  "estimatedMinutes": 25,
+  "intro": {
+    "text": "Пора строить первые предложения! В турецком глагол стоит В КОНЦЕ предложения. Это главное структурное отличие от русского. Структура: Подлежащее + (Дополнение) + Глагол. Привыкнуть несложно — казахский и монгольский устроены так же.",
+    "goals": [
+      "Понять порядок слов SOV",
+      "Строить простые предложения",
+      "Использовать глагол 'быть'",
+      "Задавать простые вопросы"
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g1",
+      "title": "SOV — Субъект + Объект + Глагол",
+      "explanation": "Русский: Я люблю чай (SVO). Турецкий: Ben çay SEVİYORUM (SOV). Глагол всегда последний. Это нужно выработать как рефлекс.",
+      "table": {
+        "headers": [
+          "Структура",
+          "Русский",
+          "Турецкий",
+          "Дословно"
+        ],
+        "rows": [
+          [
+            "SVO (русский)",
+            "Я пью воду.",
+            "—",
+            "—"
+          ],
+          [
+            "SOV (турецкий)",
+            "—",
+            "Ben su içiyorum.",
+            "Я воду пью."
+          ],
+          [
+            "SVO (русский)",
+            "Она любит кошек.",
+            "—",
+            "—"
+          ],
+          [
+            "SOV (турецкий)",
+            "—",
+            "O kedi seviyor.",
+            "Она кошек любит."
+          ]
+        ]
+      },
+      "note": "Совет: при переводе с русского сначала поставь подлежащее, потом всё остальное, а глагол — в конец."
+    },
+    {
+      "id": "g2",
+      "title": "Глагол 'быть' — суффикс, не слово",
+      "explanation": "В настоящем времени 'быть' в турецком выражается не словом, а суффиксом. Ben öğrenciyim = Я студент. Суффикс -yim/-im/-um/-üm добавляется к последнему слову.",
+      "table": {
+        "headers": [
+          "Лицо",
+          "Суффикс",
+          "Пример",
+          "Перевод"
+        ],
+        "rows": [
+          [
+            "Ben (я)",
+            "-(y)im/-(y)ım",
+            "Ben öğrenciyim",
+            "Я студент"
+          ],
+          [
+            "Sen (ты)",
+            "-(s)in/-(s)ın",
+            "Sen öğrencisin",
+            "Ты студент"
+          ],
+          [
+            "O (он/она)",
+            "—",
+            "O öğrenci",
+            "Он/она студент (нет суффикса!)"
+          ],
+          [
+            "Biz (мы)",
+            "-(y)iz/-(y)ız",
+            "Biz öğrenciyiz",
+            "Мы студенты"
+          ]
+        ]
+      },
+      "note": "Замечаешь гармонию гласных? öğrenci (передняя İ) → -yim, -sin, -yiz. Если бы слово было на задней гласной: -(y)ım, -(s)ın, -(y)ız."
+    }
+  ],
+  "vocabulary": [
+    {
+      "tr": "Ben",
+      "ru": "я",
+      "pronunciation": "бэн",
+      "example_tr": "Ben Türkçe öğreniyorum.",
+      "example_ru": "Я учу турецкий."
+    },
+    {
+      "tr": "Sen",
+      "ru": "ты",
+      "pronunciation": "сэн",
+      "example_tr": "Sen nerelisin?",
+      "example_ru": "Откуда ты?"
+    },
+    {
+      "tr": "O",
+      "ru": "он/она",
+      "pronunciation": "о",
+      "example_tr": "O çok çalışkan.",
+      "example_ru": "Он/она очень трудолюбивый."
+    },
+    {
+      "tr": "Biz",
+      "ru": "мы",
+      "pronunciation": "биз",
+      "example_tr": "Biz arkadaşız.",
+      "example_ru": "Мы друзья."
+    },
+    {
+      "tr": "içmek",
+      "ru": "пить",
+      "pronunciation": "ич-МЭК",
+      "example_tr": "Su içiyorum.",
+      "example_ru": "Я пью воду."
+    },
+    {
+      "tr": "yemek",
+      "ru": "есть",
+      "pronunciation": "йэ-МЭК",
+      "example_tr": "Elma yiyorum.",
+      "example_ru": "Я ем яблоко."
+    },
+    {
+      "tr": "sevmek",
+      "ru": "любить",
+      "pronunciation": "сэв-МЭК",
+      "example_tr": "Türkçe seviyorum.",
+      "example_ru": "Я люблю турецкий."
+    },
+    {
+      "tr": "bilmek",
+      "ru": "знать",
+      "pronunciation": "бил-МЭК",
+      "example_tr": "Türkçe biliyorum.",
+      "example_ru": "Я знаю турецкий."
+    },
+    {
+      "tr": "öğrenci",
+      "ru": "студент",
+      "pronunciation": "ёу-рэн-ДЖИ",
+      "example_tr": "Ben öğrenciyim.",
+      "example_ru": "Я студент."
+    },
+    {
+      "tr": "öğretmen",
+      "ru": "учитель",
+      "pronunciation": "ёу-рэт-МЭН",
+      "example_tr": "O öğretmendir.",
+      "example_ru": "Он учитель."
+    },
+    {
+      "tr": "çalışkan",
+      "ru": "трудолюбивый",
+      "pronunciation": "ча-лыш-КАН",
+      "example_tr": "Çok çalışkanım.",
+      "example_ru": "Я очень трудолюбивый."
+    },
+    {
+      "tr": "anlıyorum",
+      "ru": "я понимаю",
+      "pronunciation": "ан-лы-ЙО-рум",
+      "example_tr": "Türkçe anlıyorum.",
+      "example_ru": "Я понимаю по-турецки."
+    }
+  ],
+  "dialogue": {
+    "title": "Диалог урока 6",
+    "context": "Практика произношения.",
+    "lines": [
+      {
+        "speaker": "Учитель",
+        "tr": "Ben öğretmenim. Sen kim?",
+        "ru": "Я учитель. Ты кто?",
+        "note": "kim=кто"
+      },
+      {
+        "speaker": "Зарина",
+        "tr": "Ben öğrenciyim. Kazakistanlıyım.",
+        "ru": "Я студентка. Я из Казахстана.",
+        "note": "Kazakistanlı=казахстанец, -yım=я"
+      },
+      {
+        "speaker": "Учитель",
+        "tr": "Türkçe biliyor musun?",
+        "ru": "Ты знаешь турецкий?",
+        "note": "biliyor musun=знаешь ли ты"
+      }
+    ]
+  },
+  "cultural_note": {
+    "title": "Турецкий порядок слов SOV",
+    "text": "SOV (Subject-Object-Verb) — порядок слов в турецком, японском, корейском, казахском, монгольском. Около 45% языков мира используют SOV. Русский и английский — SVO. Знакомство с SOV через турецкий помогает в изучении других тюркских и алтайских языков."
+  },
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "multiple_choice",
+      "question": "Как перевести 'Ben su içiyorum'?",
+      "options": [
+        "Я хочу воду",
+        "Я пью воду",
+        "Вода — это я",
+        "Пьёт воду"
+      ],
+      "correctAnswer": "Я пью воду",
+      "explanation": "Ben=я, su=вода, içiyorum=пью (я). SOV: Я + воду + пью."
+    },
+    {
+      "id": "ex_2",
+      "type": "multiple_choice",
+      "question": "Как сказать 'Я студент'?",
+      "options": [
+        "Ben öğrenci.",
+        "Ben öğrenciyim.",
+        "Ben öğrencisim.",
+        "Öğrenci benim."
+      ],
+      "correctAnswer": "Ben öğrenciyim.",
+      "explanation": "öğrenciyim: öğrenci+yim (суффикс 'я есть', гармония: передняя İ→yim)."
+    },
+    {
+      "id": "ex_3",
+      "type": "match_pairs",
+      "question": "Соедини местоимения",
+      "pairs": [
+        {
+          "left": "Ben",
+          "right": "Я"
+        },
+        {
+          "left": "Sen",
+          "right": "Ты"
+        },
+        {
+          "left": "O",
+          "right": "Он/Она"
+        },
+        {
+          "left": "Biz",
+          "right": "Мы"
+        }
+      ],
+      "correctAnswer": "all",
+      "explanation": "Ben=я, Sen=ты, O=он/она, Biz=мы. Обрати внимание: O = и он и она!"
+    },
+    {
+      "id": "ex_4",
+      "type": "multiple_choice",
+      "question": "В турецком глагол стоит...",
+      "options": [
+        "в начале предложения",
+        "в середине",
+        "в конце предложения",
+        "не важно где"
+      ],
+      "correctAnswer": "в конце предложения",
+      "explanation": "SOV: Субъект + Объект + Глагол. Ben su İÇİYORUM. Глагол всегда последний!"
+    },
+    {
+      "id": "ex_5",
+      "type": "fill_blank",
+      "question": "'Я учитель' = 'Ben ___'",
+      "options": [
+        "öğrencisin",
+        "öğretmenin",
+        "öğretmenim",
+        "öğretmeniz"
+      ],
+      "correctAnswer": "öğretmenim",
+      "explanation": "öğretmen + -im (суффикс 'я'). Последняя гласная E → передняя → -im. Ben öğretmenim."
+    },
+    {
+      "id": "ex_6",
+      "type": "multiple_choice",
+      "question": "'O çok çalışkan' означает:",
+      "options": [
+        "Он/она очень ленивый",
+        "Он/она учитель",
+        "Он/она очень трудолюбивый",
+        "Это очень сложно"
+      ],
+      "correctAnswer": "Он/она очень трудолюбивый",
+      "explanation": "O=он/она, çok=очень, çalışkan=трудолюбивый. Нет суффикса 'быть' для 3-го лица!"
+    },
+    {
+      "id": "ex_7",
+      "type": "multiple_choice",
+      "question": "Как спросить 'Ты знаешь турецкий'?",
+      "options": [
+        "Türkçe biliyor musun?",
+        "Türkçe biliyorum musun?",
+        "Türkçe bilmek mi?",
+        "Türkçe sen bilir?"
+      ],
+      "correctAnswer": "Türkçe biliyor musun?",
+      "explanation": "biliyor musun = знаешь ли ты? -yor = настоящее время, musun = вопрос для 'ты'."
+    },
+    {
+      "id": "ex_8",
+      "type": "fill_blank",
+      "question": "'Я люблю чай' = 'Ben çay ___'",
+      "options": [
+        "içiyorum",
+        "seviyorum",
+        "yiyorum",
+        "biliyorum"
+      ],
+      "correctAnswer": "seviyorum",
+      "explanation": "sevmek=любить, seviyorum=я люблю. Ben çay seviyorum = Я люблю чай."
+    }
+  ],
+  "summary": {
+    "title": "Что ты выучил",
+    "points": [
+      "Temel Cümleler — Первые предложения"
+    ],
+    "next_lesson": "Урок 7"
+  }
+}
