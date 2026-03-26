@@ -2,18 +2,17 @@ import { useEffect } from 'react'
 import { RouterProvider } from 'react-router-dom'
 import router from './router'
 import { useFirestoreSync, pullFromFirestore } from '@hooks/useFirestoreSync'
+import { useAuth } from '@hooks/useAuth'
 import useUserStore from '@store/userStore'
 import '@styles/globals.css'
 
 // ── Sync wrapper ─────────────────────────────────────────────
-// Separate component so hooks run inside RouterProvider context
 function SyncLayer() {
-  // Activate bidirectional Firestore sync
-  useFirestoreSync()
+  useAuth()           // keeps Zustand user.uid in sync with Firebase Auth
+  useFirestoreSync()  // bidirectional Firestore sync
 
   const uid = useUserStore(s => s.user?.uid)
 
-  // Pull fresh data when user returns to the tab
   useEffect(() => {
     function handleVisibility() {
       if (document.visibilityState === 'visible' && uid) {

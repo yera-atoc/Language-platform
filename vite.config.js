@@ -11,8 +11,9 @@ export default defineConfig({
       '@components': resolve(__dirname, 'src/components'),
       '@pages': resolve(__dirname, 'src/pages'),
       '@hooks': resolve(__dirname, 'src/hooks'),
-      '@store': resolve(__dirname, 'src/store'),
-      '@styles': resolve(__dirname, 'src/styles'),
+      '@store':      resolve(__dirname, 'src/store'),
+      '@styles':     resolve(__dirname, 'src/styles'),
+      '@utils':      resolve(__dirname, 'src/utils'),
     },
   },
   build: {
@@ -22,6 +23,5 @@ export default defineConfig({
   server: {
     port: 3000,
     open: true,
-    allowedHosts: ['sb-3q94k94rka5d.vercel.run'],
   },
 })

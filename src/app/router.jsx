@@ -5,6 +5,7 @@ import Lesson from '@pages/Lesson'
 import Progress from '@pages/Progress'
 import Profile from '@pages/Profile'
 import ExamPrep from '@pages/ExamPrep'
+import ExamTest from '@pages/ExamTest'
 import Auth from '@pages/Auth'
 import ProtectedRoute from '@components/ui/ProtectedRoute'
 
@@ -21,6 +22,7 @@ const router = createBrowserRouter([
       { path: '/profile', element: <Profile /> },
       { path: '/exam/:language', element: <ExamPrep /> },
       { path: '/exam', element: <ExamPrep /> },
+      { path: '/exam-test/:language/:testId', element: <ExamTest /> },
     ],
   },
 ])
