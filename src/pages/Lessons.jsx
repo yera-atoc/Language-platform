@@ -1,11 +1,11 @@
 import { useState } from 'react'
-import { useParams, useNavigate } from 'react-router-dom'
+import { useParams, useNavigate, Link } from 'react-router-dom'
+import { motion, AnimatePresence } from 'framer-motion'
 import useProgressStore from '@store/progressStore'
 import useUserStore from '@store/userStore'
+import { Card, Badge, Progress, Button, Icons } from '@components/ui'
 import turkishData from '@content/turkish/index.json'
 import chineseData from '@content/chinese/index.json'
-
-// ── Language registry ────────────────────────────────────────
 
 const LANG_DATA = {
   turkish: turkishData,
@@ -13,311 +13,313 @@ const LANG_DATA = {
 }
 
 const LANG_META = {
-  turkish: { flag: '🇹🇷', name: 'Турецкий', exam: 'ТОМЕР', color: '#E74C3C' },
-  chinese: { flag: '🇨🇳', name: 'Китайский', exam: 'HSK', color: '#E67E22' },
-  korean:  { flag: '🇰🇷', name: 'Корейский', exam: 'TOPIK', color: '#3498DB' },
+  turkish: { name: 'Turkish', nativeName: 'Turkce', color: 'turkish' },
+  chinese: { name: 'Chinese', nativeName: 'Chinese', color: 'chinese' },
 }
 
-const LEVEL_COLORS = {
-  a0: '#A8E6CF', a1: '#4ECDC4', a2: '#44CF6C',
-  b1: '#FFD93D', b2: '#FF9F43', c1: '#DDA0DD', c2: '#B0C4DE',
-  hsk0: '#FFB7B2', hsk1: '#FF6B6B', hsk2: '#FFA07A',
-  hsk3: '#FFD700', hsk4: '#98FB98', hsk5: '#98FB98', hsk6: '#B0E0E6',
+const LEVEL_BADGE_VARIANTS = {
+  a0: 'a1', a1: 'a1', a2: 'a2',
+  b1: 'b1', b2: 'b2', c1: 'c1', c2: 'c2',
+  hsk0: 'a1', hsk1: 'a1', hsk2: 'a2',
+  hsk3: 'b1', hsk4: 'b2', hsk5: 'c1', hsk6: 'c2', hsk7: 'c2',
 }
-
-// ── Main Component ───────────────────────────────────────────
 
 export default function Lessons() {
   const { language = 'turkish', level: levelParam } = useParams()
-  // Default level depends on language
-  const defaultLevel = language === 'chinese' ? 'hsk0' : 'a0'
+  const defaultLevel = language === 'chinese' ? 'hsk1' : 'a1'
   const navigate = useNavigate()
 
   const { getLevelProgress, getLessonProgress, isLessonUnlocked } = useProgressStore()
   const { xp, streak } = useUserStore()
 
   const langData = LANG_DATA[language]
-  const langMeta = LANG_META[language] ?? { flag: '🌐', name: language, exam: '—', color: '#6C63FF' }
+  const langMeta = LANG_META[language] ?? { name: language, color: 'primary' }
 
-  const levelKeys  = langData ? Object.keys(langData.levels) : []
+  const levelKeys = langData ? Object.keys(langData.levels) : []
   const [activeLevel, setActiveLevel] = useState(levelParam ?? defaultLevel)
 
-  const levelInfo  = langData?.levels?.[activeLevel]
-  const lessons    = levelInfo?.lessons ?? []
-  const levelColor = LEVEL_COLORS[activeLevel] ?? '#6C63FF'
+  const levelInfo = langData?.levels?.[activeLevel]
+  const lessons = levelInfo?.lessons ?? []
+  const levelBadgeVariant = LEVEL_BADGE_VARIANTS[activeLevel] ?? 'primary'
 
-  // Progress for current level
   const { completed } = getLevelProgress(language, activeLevel)
-  const total          = lessons.length
-  const pct            = total > 0 ? Math.round((completed / total) * 100) : 0
+  const total = lessons.length
+  const pct = total > 0 ? Math.round((completed / total) * 100) : 0
 
-  // Is a level tab unlocked?
   function isLevelUnlocked(key) {
     const idx = levelKeys.indexOf(key)
     if (idx === 0) return true
-    const prevKey     = levelKeys[idx - 1]
+    const prevKey = levelKeys[idx - 1]
     const prevLessons = langData?.levels?.[prevKey]?.lessons?.length ?? 0
     return getLevelProgress(language, prevKey).completed >= prevLessons
   }
 
-  // Overall accuracy from completed lessons
   const avgAccuracy = (() => {
     const scores = lessons
-      .map((l, i) => getLessonProgress(language, activeLevel, l.id)?.score)
+      .map((l) => getLessonProgress(language, activeLevel, l.id)?.score)
       .filter(Boolean)
     return scores.length > 0 ? Math.round(scores.reduce((a, b) => a + b, 0) / scores.length) : null
   })()
 
   return (
-    <div style={s.screen}>
-      <div style={s.bgGrid} />
-
-      {/* ── Header ── */}
-      <header style={s.header}>
-        <button style={s.backBtn} onClick={() => navigate(-1)}>←</button>
-        <div style={{ flex: 1 }}>
-          <div style={s.headerLang}>
-            {langMeta.flag} {langMeta.name} · {langMeta.exam}
+    <div className="min-h-screen bg-background">
+      {/* Header */}
+      <header className="sticky top-0 z-40 bg-surface/80 backdrop-blur-lg border-b border-border-light">
+        <div className="container-app flex items-center gap-4 h-16">
+          <button 
+            onClick={() => navigate(-1)}
+            className="w-10 h-10 rounded-xl bg-surface border border-border flex items-center justify-center hover:bg-primary/5 hover:border-primary/30 transition-colors"
+          >
+            <Icons.arrowLeft className="w-5 h-5 text-text-secondary" />
+          </button>
+          <div className="flex-1">
+            <p className="text-xs font-medium text-text-muted uppercase tracking-wider">
+              {langMeta.name}
+            </p>
+            <h1 className="text-lg font-bold text-text-primary">
+              Level {activeLevel.toUpperCase()}
+            </h1>
           </div>
-          <div style={s.headerTitle}>
-            Уровень {activeLevel.toUpperCase()}
-          </div>
+          <Badge variant={levelBadgeVariant} size="lg">
+            {activeLevel.toUpperCase()}
+          </Badge>
         </div>
-        <span style={{ fontSize: 24 }}>🎯</span>
       </header>
 
-      {/* ── Level tabs ── */}
-      <div style={s.tabs}>
-        {levelKeys.map(key => {
-          const unlocked = isLevelUnlocked(key)
-          const isActive = key === activeLevel
-          const color    = LEVEL_COLORS[key] ?? '#6C63FF'
-          return (
-            <div
-              key={key}
-              onClick={() => unlocked && setActiveLevel(key)}
-              style={{
-                ...s.tab,
-                borderColor:  isActive ? `${color}80` : 'rgba(255,255,255,0.07)',
-                background:   isActive ? `${color}18` : '#1A1F35',
-                color:        isActive ? color : '#555E80',
-                opacity:      unlocked ? 1 : 0.4,
-                cursor:       unlocked ? 'pointer' : 'not-allowed',
-              }}
-            >
-              {key.toUpperCase()}{!unlocked && ' 🔒'}
+      <main className="container-app py-6 space-y-6">
+        {/* Level Tabs */}
+        <div className="flex gap-2 overflow-x-auto pb-2 scrollbar-hide -mx-4 px-4">
+          {levelKeys.map((key) => {
+            const unlocked = isLevelUnlocked(key)
+            const isActive = key === activeLevel
+            const variant = LEVEL_BADGE_VARIANTS[key] ?? 'neutral'
+            
+            return (
+              <button
+                key={key}
+                onClick={() => unlocked && setActiveLevel(key)}
+                disabled={!unlocked}
+                className={`
+                  flex-shrink-0 px-4 py-2 rounded-xl font-semibold text-sm
+                  transition-all duration-200 border-2
+                  ${isActive 
+                    ? 'bg-primary/10 border-primary text-primary' 
+                    : unlocked
+                      ? 'bg-surface border-border hover:border-primary/30 text-text-secondary hover:text-text-primary'
+                      : 'bg-surface/50 border-border-light text-text-muted cursor-not-allowed opacity-50'
+                  }
+                `}
+              >
+                {key.toUpperCase()}
+                {!unlocked && <Icons.lock className="w-3 h-3 ml-1 inline" />}
+              </button>
+            )
+          })}
+        </div>
+
+        {/* Progress Banner */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+        >
+          <Card className="p-5 bg-gradient-to-br from-primary/5 to-transparent border-primary/10">
+            <div className="flex items-center justify-between mb-3">
+              <div>
+                <h2 className="text-lg font-bold text-text-primary">
+                  {levelInfo?.title || `Level ${activeLevel.toUpperCase()}`}
+                </h2>
+                <p className="text-sm text-text-secondary">
+                  {completed} of {total} lessons completed
+                </p>
+              </div>
+              <div className="text-right">
+                <span className="text-2xl font-bold text-primary">{pct}%</span>
+              </div>
             </div>
-          )
-        })}
-      </div>
+            
+            <Progress value={pct} size="lg" className="mb-4" />
+            
+            <div className="grid grid-cols-3 gap-4 pt-3 border-t border-border-light">
+              <div className="text-center">
+                <div className="flex items-center justify-center gap-1 mb-1">
+                  <Icons.star className="w-4 h-4 text-xp" />
+                  <span className="text-lg font-bold text-text-primary">{xp}</span>
+                </div>
+                <span className="text-xs text-text-muted">Total XP</span>
+              </div>
+              <div className="text-center">
+                <div className="flex items-center justify-center gap-1 mb-1">
+                  <Icons.check className="w-4 h-4 text-success" />
+                  <span className="text-lg font-bold text-text-primary">
+                    {avgAccuracy ? `${avgAccuracy}%` : '-'}
+                  </span>
+                </div>
+                <span className="text-xs text-text-muted">Accuracy</span>
+              </div>
+              <div className="text-center">
+                <div className="flex items-center justify-center gap-1 mb-1">
+                  <Icons.fire className="w-4 h-4 text-streak" />
+                  <span className="text-lg font-bold text-text-primary">{streak}</span>
+                </div>
+                <span className="text-xs text-text-muted">Streak</span>
+              </div>
+            </div>
+          </Card>
+        </motion.div>
 
-      {/* ── Progress banner ── */}
-      <div style={{ ...s.banner, borderColor: `${levelColor}30`, background: `linear-gradient(135deg,${levelColor}10,rgba(108,99,255,0.06))` }}>
-        <div style={s.bannerTop}>
-          <span style={{ ...s.bannerLabel, color: levelColor }}>
-            Прогресс {activeLevel.toUpperCase()}
-          </span>
-          <span style={s.bannerCount}>{completed} / {total} уроков</span>
+        {/* Lessons List */}
+        <div className="space-y-3">
+          <h3 className="text-sm font-semibold text-text-muted uppercase tracking-wider">
+            Lessons
+          </h3>
+          
+          <AnimatePresence mode="wait">
+            <motion.div
+              key={activeLevel}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              className="space-y-2"
+            >
+              {lessons.map((lesson, idx) => {
+                const prog = getLessonProgress(language, activeLevel, lesson.id)
+                const done = !!prog?.completed
+                const unlocked = isLessonUnlocked(language, activeLevel, idx)
+                const isCurrent = !done && unlocked
+
+                return (
+                  <motion.div
+                    key={lesson.id}
+                    initial={{ opacity: 0, y: 10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: idx * 0.03 }}
+                  >
+                    <Card
+                      hover={unlocked}
+                      onClick={() => unlocked && navigate(`/lesson/${language}/${activeLevel}/${lesson.id}`)}
+                      className={`
+                        relative overflow-hidden transition-all
+                        ${!unlocked ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer'}
+                        ${isCurrent ? 'ring-2 ring-primary/30 bg-primary/5' : ''}
+                        ${done ? 'bg-success/5' : ''}
+                      `}
+                    >
+                      <div className="flex items-center gap-4 p-4">
+                        {/* Status Icon */}
+                        <div className={`
+                          w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0 font-bold text-sm
+                          ${done ? 'bg-success/10 text-success' : ''}
+                          ${isCurrent ? 'bg-primary/10 text-primary' : ''}
+                          ${!done && !isCurrent ? 'bg-text-muted/10 text-text-muted' : ''}
+                        `}>
+                          {done ? (
+                            <Icons.check className="w-6 h-6" />
+                          ) : isCurrent ? (
+                            <Icons.play className="w-6 h-6" />
+                          ) : (
+                            <Icons.lock className="w-5 h-5" />
+                          )}
+                        </div>
+
+                        {/* Lesson Info */}
+                        <div className="flex-1 min-w-0">
+                          <p className="text-xs font-medium text-text-muted uppercase tracking-wider">
+                            Lesson {idx + 1}
+                          </p>
+                          <h4 className={`font-semibold truncate ${done || isCurrent ? 'text-text-primary' : 'text-text-secondary'}`}>
+                            {lesson.title}
+                          </h4>
+                          <p className="text-sm text-text-muted mt-0.5">
+                            {done 
+                              ? 'Completed' 
+                              : isCurrent 
+                                ? 'Tap to start' 
+                                : 'Locked'
+                            }
+                          </p>
+                        </div>
+
+                        {/* Right Side */}
+                        <div className="flex flex-col items-end gap-1 flex-shrink-0">
+                          {prog?.score != null ? (
+                            <>
+                              <Badge 
+                                variant={prog.score >= 90 ? 'success' : prog.score >= 70 ? 'warning' : 'error'}
+                                size="sm"
+                              >
+                                {prog.score}%
+                              </Badge>
+                              <span className="text-xs text-text-muted">+{lesson.xp} XP</span>
+                            </>
+                          ) : isCurrent ? (
+                            <Badge variant="primary" size="sm">
+                              +{lesson.xp} XP
+                            </Badge>
+                          ) : null}
+                        </div>
+                      </div>
+
+                      {/* Active indicator */}
+                      {isCurrent && (
+                        <div className="absolute left-0 top-0 bottom-0 w-1 bg-primary" />
+                      )}
+                      {done && (
+                        <div className="absolute left-0 top-0 bottom-0 w-1 bg-success" />
+                      )}
+                    </Card>
+                  </motion.div>
+                )
+              })}
+
+              {lessons.length === 0 && (
+                <Card className="p-8 text-center">
+                  <Icons.book className="w-12 h-12 text-text-muted mx-auto mb-4" />
+                  <h4 className="font-semibold text-text-primary mb-2">Coming Soon</h4>
+                  <p className="text-sm text-text-secondary">
+                    Lessons for this level are being prepared
+                  </p>
+                </Card>
+              )}
+            </motion.div>
+          </AnimatePresence>
         </div>
-        <div style={s.barTrack}>
-          <div style={{ ...s.barFill, width: `${pct}%`, background: `linear-gradient(90deg,${levelColor},${levelColor}99)` }} />
+
+        {/* Bottom spacing */}
+        <div className="h-24 md:h-8" />
+      </main>
+
+      {/* Mobile Bottom Navigation */}
+      <nav className="md:hidden fixed bottom-0 left-0 right-0 bg-surface/95 backdrop-blur-lg border-t border-border-light z-50 safe-bottom">
+        <div className="flex items-center justify-around py-2">
+          {[
+            { path: '/', label: 'Home', icon: Icons.home },
+            { path: '/lessons', label: 'Lessons', icon: Icons.book, active: true },
+            { path: '/progress', label: 'Progress', icon: Icons.chart },
+            { path: '/profile', label: 'Profile', icon: Icons.user },
+          ].map((item) => {
+            const Icon = item.icon
+            return (
+              <Link
+                key={item.path}
+                to={item.path}
+                className={`
+                  relative flex flex-col items-center gap-1 px-4 py-2 rounded-xl transition-colors
+                  ${item.active ? 'text-primary' : 'text-text-secondary'}
+                `}
+              >
+                <Icon className="w-6 h-6" />
+                <span className="text-xs font-medium">{item.label}</span>
+                {item.active && (
+                  <motion.div
+                    layoutId="mobile-nav-indicator-lessons"
+                    className="absolute -top-2 w-12 h-1 bg-primary rounded-full"
+                  />
+                )}
+              </Link>
+            )
+          })}
         </div>
-        <div style={s.bannerStats}>
-          <BannerStat label="XP"      value={xp}                           />
-          <BannerStat label="Точность" value={avgAccuracy ? `${avgAccuracy}%` : '—'} />
-          <BannerStat label="Серия"   value={`🔥 ${streak}`}              />
-        </div>
-      </div>
-
-      {/* ── Lessons list ── */}
-      <div style={s.list}>
-        {lessons.map((lesson, idx) => {
-          const prog    = getLessonProgress(language, activeLevel, lesson.id)
-          const done    = !!prog?.completed
-          const unlocked = isLessonUnlocked(language, activeLevel, idx)
-          const isCurrent = !done && unlocked
-
-          return (
-            <LessonRow
-              key={lesson.id}
-              lesson={lesson}
-              index={idx}
-              done={done}
-              unlocked={unlocked}
-              isCurrent={isCurrent}
-              score={prog?.score ?? null}
-              levelColor={levelColor}
-              onClick={() => {
-                if (unlocked) navigate(`/lesson/${language}/${activeLevel}/${lesson.id}`)
-              }}
-            />
-          )
-        })}
-
-        {lessons.length === 0 && (
-          <div style={{ padding: '40px 20px', textAlign: 'center', color: '#555E80' }}>
-            Уроки для этого уровня скоро появятся
-          </div>
-        )}
-      </div>
-
-      <div style={{ height: 80 }} />
-
-      {/* ── Bottom nav ── */}
-      <BottomNav active="lessons" onNavigate={tab => {
-        if (tab === 'home')     navigate('/')
-        if (tab === 'progress') navigate('/progress')
-        if (tab === 'profile')  navigate('/profile')
-      }} />
+      </nav>
     </div>
   )
-}
-
-// ── LessonRow ────────────────────────────────────────────────
-
-function LessonRow({ lesson, index, done, unlocked, isCurrent, score, levelColor, onClick }) {
-  const [pressed, setPressed] = useState(false)
-
-  const statusIcon = done ? '✅' : isCurrent ? '▶' : '🔒'
-  const dotStyle   = done
-    ? { background: 'rgba(74,222,128,0.12)', borderColor: 'rgba(74,222,128,0.3)' }
-    : isCurrent
-    ? { background: `${levelColor}18`, borderColor: `${levelColor}55`, boxShadow: `0 0 12px ${levelColor}33` }
-    : { background: '#232840', borderColor: 'rgba(255,255,255,0.07)' }
-
-  return (
-    <div
-      onClick={onClick}
-      onMouseDown={() => unlocked && setPressed(true)}
-      onMouseUp={() => setPressed(false)}
-      onMouseLeave={() => setPressed(false)}
-      style={{
-        ...s.row,
-        opacity:   unlocked ? 1 : 0.45,
-        cursor:    unlocked ? 'pointer' : 'not-allowed',
-        transform: pressed ? 'scale(0.985)' : 'scale(1)',
-        transition: 'transform 0.12s ease',
-      }}
-    >
-      {/* Status dot */}
-      <div style={{ ...s.dot, ...dotStyle }}>
-        <span style={{ fontSize: done ? 18 : isCurrent ? 16 : 14 }}>{statusIcon}</span>
-      </div>
-
-      {/* Info */}
-      <div style={{ flex: 1, minWidth: 0 }}>
-        <div style={s.rowNum}>Урок {index + 1}</div>
-        <div style={{ ...s.rowTitle, color: isCurrent ? '#F0F2FF' : done ? '#F0F2FF' : '#8890B0' }}>
-          {lesson.title}
-        </div>
-        <div style={s.rowSub}>
-          {done ? '5 упражнений · Пройден'
-          : isCurrent ? 'Нажми чтобы начать'
-          : 'Заблокировано'}
-        </div>
-      </div>
-
-      {/* Right */}
-      <div style={s.rowRight}>
-        {score !== null ? (
-          <>
-            <ScoreBadge score={score} />
-            <div style={s.xpSmall}>+{lesson.xp} XP</div>
-          </>
-        ) : isCurrent ? (
-          <div style={{ ...s.xpBadge, color: '#FFD060', background: 'rgba(255,208,96,0.12)' }}>
-            +{lesson.xp} XP
-          </div>
-        ) : (
-          <span style={{ fontSize: 14, color: '#555E80' }}>🔒</span>
-        )}
-      </div>
-
-      {/* Active indicator line */}
-      {isCurrent && (
-        <div style={{
-          position: 'absolute', left: 0, top: '50%', transform: 'translateY(-50%)',
-          width: 3, height: 28, background: levelColor, borderRadius: '0 3px 3px 0',
-        }} />
-      )}
-    </div>
-  )
-}
-
-// ── Small helpers ────────────────────────────────────────────
-
-function ScoreBadge({ score }) {
-  const color = score >= 90 ? '#4ADE80' : score >= 70 ? '#FFD060' : '#FF7043'
-  return (
-    <div style={{ ...s.xpBadge, color, background: `${color}18` }}>{score}%</div>
-  )
-}
-
-function BannerStat({ label, value }) {
-  return (
-    <div style={{ fontSize: 12, color: '#8890B0' }}>
-      {label}: <span style={{ color: '#F0F2FF', fontWeight: 700 }}>{value}</span>
-    </div>
-  )
-}
-
-function BottomNav({ active, onNavigate }) {
-  const items = [
-    { id: 'home',     icon: '🏠', label: 'Главная' },
-    { id: 'lessons',  icon: '📖', label: 'Уроки'   },
-    { id: 'progress', icon: '📊', label: 'Прогресс'},
-    { id: 'ranking',  icon: '🏆', label: 'Рейтинг' },
-    { id: 'profile',  icon: '👤', label: 'Профиль' },
-  ]
-  return (
-    <nav style={s.nav}>
-      {items.map(item => (
-        <div key={item.id} onClick={() => onNavigate(item.id)} style={s.navItem}>
-          <span style={{
-            fontSize: 22,
-            filter: active === item.id ? 'drop-shadow(0 0 6px rgba(139,132,255,.7))' : 'none',
-          }}>
-            {item.icon}
-          </span>
-          <span style={{
-            fontSize: 10, fontWeight: 600, textTransform: 'uppercase', letterSpacing: '.5px',
-            color: active === item.id ? '#8B84FF' : '#555E80',
-          }}>
-            {item.label}
-          </span>
-        </div>
-      ))}
-    </nav>
-  )
-}
-
-// ── Styles ───────────────────────────────────────────────────
-
-const s = {
-  screen:      { background: '#080B14', color: '#F0F2FF', minHeight: '100vh', fontFamily: "'Outfit',sans-serif", position: 'relative' },
-  bgGrid:      { position: 'fixed', inset: 0, pointerEvents: 'none', zIndex: 0, backgroundImage: 'linear-gradient(rgba(108,99,255,0.03) 1px,transparent 1px),linear-gradient(90deg,rgba(108,99,255,0.03) 1px,transparent 1px)', backgroundSize: '40px 40px' },
-  header:      { maxWidth: 420, margin: '0 auto', padding: '16px 20px 12px', display: 'flex', alignItems: 'center', gap: 12, position: 'relative', zIndex: 10 },
-  backBtn:     { width: 36, height: 36, borderRadius: 10, background: '#1A1F35', border: '1px solid rgba(255,255,255,0.12)', display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer', fontSize: 15, color: '#8890B0', fontFamily: 'inherit', flexShrink: 0 },
-  headerLang:  { fontSize: 11, fontWeight: 700, color: '#555E80', textTransform: 'uppercase', letterSpacing: '.8px' },
-  headerTitle: { fontSize: 20, fontWeight: 800, marginTop: 2 },
-  tabs:        { maxWidth: 420, margin: '0 auto', display: 'flex', gap: 8, padding: '0 20px 16px', overflowX: 'auto', scrollbarWidth: 'none', position: 'relative', zIndex: 10 },
-  tab:         { flexShrink: 0, padding: '7px 16px', borderRadius: 20, fontSize: 12, fontWeight: 700, border: '1.5px solid', transition: 'all .15s', letterSpacing: '.3px' },
-  banner:      { maxWidth: 420, margin: '0 auto 4px', padding: '14px 16px', borderRadius: 18, border: '1px solid', position: 'relative', zIndex: 10, marginLeft: 20, marginRight: 20 },
-  bannerTop:   { display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 8 },
-  bannerLabel: { fontSize: 12, fontWeight: 700 },
-  bannerCount: { fontSize: 12, color: '#8890B0' },
-  barTrack:    { height: 6, background: '#232840', borderRadius: 3, overflow: 'hidden' },
-  barFill:     { height: '100%', borderRadius: 3, transition: 'width .8s ease' },
-  bannerStats: { display: 'flex', gap: 16, marginTop: 10 },
-  list:        { maxWidth: 420, margin: '8px auto 0', padding: '0 20px', position: 'relative', zIndex: 10 },
-  row:         { display: 'flex', alignItems: 'center', gap: 14, padding: '13px 0', borderBottom: '1px solid rgba(255,255,255,0.06)', position: 'relative' },
-  dot:         { width: 44, height: 44, borderRadius: 14, display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, border: '1.5px solid', transition: 'all .15s' },
-  rowNum:      { fontSize: 10, fontWeight: 700, color: '#555E80', textTransform: 'uppercase', letterSpacing: '.6px' },
-  rowTitle:    { fontSize: 14, fontWeight: 700, marginTop: 2, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' },
-  rowSub:      { fontSize: 12, color: '#555E80', marginTop: 2 },
-  rowRight:    { display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: 4, flexShrink: 0 },
-  xpBadge:    { fontSize: 11, fontWeight: 700, padding: '3px 8px', borderRadius: 8 },
-  xpSmall:    { fontSize: 11, color: '#555E80' },
-  nav:         { position: 'fixed', bottom: 0, left: '50%', transform: 'translateX(-50%)', width: '100%', maxWidth: 420, background: '#0D1120ee', borderTop: '1px solid rgba(255,255,255,0.07)', display: 'flex', padding: '10px 0 16px', zIndex: 100, backdropFilter: 'blur(12px)' },
-  navItem:     { flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 3, cursor: 'pointer', padding: '4px 0' },
 }
