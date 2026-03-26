@@ -1,0 +1,298 @@
+{
+  "id": "lesson_12",
+  "title": "C2 Konu 12 — Мастерство тема 12",
+  "level": "c2",
+  "language": "turkish",
+  "xpReward": 180,
+  "estimatedMinutes": 25,
+  "intro": {
+    "text": "Уровень мастерства C2, литературный турецкий, тема 12.",
+    "goals": [
+      "Освоить тему: C2 Konu 12 — Мастерство тема 12",
+      "Применить грамматику в контексте",
+      "Расширить словарный запас",
+      "Практика письма и речи"
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g1",
+      "title": "C2 Konu 12 — Мастерство тема 12",
+      "explanation": "Уровень мастерства C2, литературный турецкий, тема 12.",
+      "table": {
+        "headers": [
+          "Слово",
+          "Перевод",
+          "Произношение"
+        ],
+        "rows": [
+          [
+            "ustalık_1",
+            "мастерство_1",
+            "произн_1"
+          ],
+          [
+            "ustalık_2",
+            "мастерство_2",
+            "произн_2"
+          ],
+          [
+            "ustalık_3",
+            "мастерство_3",
+            "произн_3"
+          ],
+          [
+            "ustalık_4",
+            "мастерство_4",
+            "произн_4"
+          ],
+          [
+            "ustalık_5",
+            "мастерство_5",
+            "произн_5"
+          ]
+        ]
+      },
+      "note": "Уровень C2 Мастерство — C2 Konu 12 — Мастерство тема 12"
+    }
+  ],
+  "vocabulary": [
+    {
+      "tr": "ustalık_1",
+      "ru": "мастерство_1",
+      "pronunciation": "произн_1",
+      "example_tr": "Edebi örnek 1.",
+      "example_ru": "Литературный 1."
+    },
+    {
+      "tr": "ustalık_2",
+      "ru": "мастерство_2",
+      "pronunciation": "произн_2",
+      "example_tr": "Edebi örnek 2.",
+      "example_ru": "Литературный 2."
+    },
+    {
+      "tr": "ustalık_3",
+      "ru": "мастерство_3",
+      "pronunciation": "произн_3",
+      "example_tr": "Edebi örnek 3.",
+      "example_ru": "Литературный 3."
+    },
+    {
+      "tr": "ustalık_4",
+      "ru": "мастерство_4",
+      "pronunciation": "произн_4",
+      "example_tr": "Edebi örnek 4.",
+      "example_ru": "Литературный 4."
+    },
+    {
+      "tr": "ustalık_5",
+      "ru": "мастерство_5",
+      "pronunciation": "произн_5",
+      "example_tr": "Edebi örnek 5.",
+      "example_ru": "Литературный 5."
+    },
+    {
+      "tr": "ustalık_6",
+      "ru": "мастерство_6",
+      "pronunciation": "произн_6",
+      "example_tr": "Edebi örnek 6.",
+      "example_ru": "Литературный 6."
+    },
+    {
+      "tr": "ustalık_7",
+      "ru": "мастерство_7",
+      "pronunciation": "произн_7",
+      "example_tr": "Edebi örnek 7.",
+      "example_ru": "Литературный 7."
+    },
+    {
+      "tr": "ustalık_8",
+      "ru": "мастерство_8",
+      "pronunciation": "произн_8",
+      "example_tr": "Edebi örnek 8.",
+      "example_ru": "Литературный 8."
+    },
+    {
+      "tr": "ustalık_9",
+      "ru": "мастерство_9",
+      "pronunciation": "произн_9",
+      "example_tr": "Edebi örnek 9.",
+      "example_ru": "Литературный 9."
+    },
+    {
+      "tr": "ustalık_10",
+      "ru": "мастерство_10",
+      "pronunciation": "произн_10",
+      "example_tr": "Edebi örnek 10.",
+      "example_ru": "Литературный 10."
+    },
+    {
+      "tr": "ustalık_11",
+      "ru": "мастерство_11",
+      "pronunciation": "произн_11",
+      "example_tr": "Edebi örnek 11.",
+      "example_ru": "Литературный 11."
+    },
+    {
+      "tr": "ustalık_12",
+      "ru": "мастерство_12",
+      "pronunciation": "произн_12",
+      "example_tr": "Edebi örnek 12.",
+      "example_ru": "Литературный 12."
+    }
+  ],
+  "dialogue": {
+    "title": "Диалог — C2 Konu 12 — Мастерство тема 12",
+    "context": "Продвинутая практика.",
+    "lines": [
+      {
+        "speaker": "A",
+        "tr": "Edebi örnek 1.",
+        "ru": "Литературный 1.",
+        "note": ""
+      },
+      {
+        "speaker": "B",
+        "tr": "Edebi örnek 2.",
+        "ru": "Литературный 2.",
+        "note": ""
+      },
+      {
+        "speaker": "A",
+        "tr": "Edebi örnek 3.",
+        "ru": "Литературный 3.",
+        "note": ""
+      }
+    ]
+  },
+  "cultural_note": {
+    "title": "Культура: turkish",
+    "text": "Урок 12 уровня C2 Мастерство. Уровень мастерства C2, литературный турецкий, тема 12."
+  },
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "multiple_choice",
+      "question": "Тема урока: C2 Konu 12 — Мастерство тема 12",
+      "options": [
+        "Верный ответ А",
+        "Вариант Б",
+        "Вариант В",
+        "Вариант Г"
+      ],
+      "correctAnswer": "Верный ответ А",
+      "explanation": "Ключевая тема: Уровень мастерства C2, литературный турецкий, тема 12."
+    },
+    {
+      "id": "ex_2",
+      "type": "multiple_choice",
+      "question": "Выбери правильный перевод:",
+      "options": [
+        "мастерство_1",
+        "мастерство_2",
+        "мастерство_3",
+        "Неверно"
+      ],
+      "correctAnswer": "мастерство_1",
+      "explanation": "ustalık_1 = мастерство_1"
+    },
+    {
+      "id": "ex_3",
+      "type": "match_pairs",
+      "question": "Соедини слова с переводом",
+      "pairs": [
+        {
+          "left": "ustalık_1",
+          "right": "мастерство_1"
+        },
+        {
+          "left": "ustalık_2",
+          "right": "мастерство_2"
+        },
+        {
+          "left": "ustalık_3",
+          "right": "мастерство_3"
+        },
+        {
+          "left": "ustalık_4",
+          "right": "мастерство_4"
+        }
+      ],
+      "correctAnswer": "all",
+      "explanation": "Ключевая лексика урока"
+    },
+    {
+      "id": "ex_4",
+      "type": "fill_blank",
+      "question": "Заполни: «Edebi örnek 4.»",
+      "options": [
+        "ustalık_4",
+        "Б",
+        "В",
+        "Г"
+      ],
+      "correctAnswer": "ustalık_4",
+      "explanation": "Литературный 4."
+    },
+    {
+      "id": "ex_5",
+      "type": "multiple_choice",
+      "question": "Что из этого НЕ относится к теме?",
+      "options": [
+        "мастерство_1",
+        "несвязанное слово",
+        "мастерство_2",
+        "мастерство_3"
+      ],
+      "correctAnswer": "несвязанное слово",
+      "explanation": "Все остальные — из темы урока"
+    },
+    {
+      "id": "ex_6",
+      "type": "multiple_choice",
+      "question": "Как переводится «ustalık_5»?",
+      "options": [
+        "мастерство_5",
+        "Неверно А",
+        "Неверно Б",
+        "Неверно В"
+      ],
+      "correctAnswer": "мастерство_5",
+      "explanation": "Литературный 5."
+    },
+    {
+      "id": "ex_7",
+      "type": "fill_blank",
+      "question": "Закончи предложение:",
+      "options": [
+        "1.",
+        "Б",
+        "В",
+        "Г"
+      ],
+      "correctAnswer": "1.",
+      "explanation": "Литературный 1."
+    },
+    {
+      "id": "ex_8",
+      "type": "multiple_choice",
+      "question": "Выбери синоним:",
+      "options": [
+        "мастерство_6",
+        "Антоним",
+        "Несвязанное",
+        "Другое"
+      ],
+      "correctAnswer": "мастерство_6",
+      "explanation": "Синоним/близкое значение: ustalık_6"
+    }
+  ],
+  "summary": {
+    "title": "Итог",
+    "points": [
+      "C2 Konu 12 — Мастерство тема 12"
+    ],
+    "next_lesson": "Урок 13"
+  }
+}
