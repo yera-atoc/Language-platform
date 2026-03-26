@@ -3,69 +3,272 @@
   "title": "Hayvanlar — Животные",
   "level": "a1",
   "language": "turkish",
-  "xpReward": 90,
+  "xpReward": 80,
   "estimatedMinutes": 20,
-  "vocabulary": [
-    { "tr": "kedi", "ru": "кошка", "pronunciation": "кэди" },
-    { "tr": "köpek", "ru": "собака", "pronunciation": "кёпэк" },
-    { "tr": "kuş", "ru": "птица", "pronunciation": "куш" },
-    { "tr": "at", "ru": "лошадь", "pronunciation": "ат" },
-    { "tr": "inek", "ru": "корова", "pronunciation": "инэк" },
-    { "tr": "balık", "ru": "рыба", "pronunciation": "балык" },
-    { "tr": "aslan", "ru": "лев", "pronunciation": "аслан" },
-    { "tr": "fil", "ru": "слон", "pronunciation": "фил" },
-    { "tr": "tavşan", "ru": "кролик", "pronunciation": "тавшан" },
-    { "tr": "yılan", "ru": "змея", "pronunciation": "йылан" }
+  "intro": {
+    "text": "Животные — прекрасная тема для начинающих. Кошки в Турции особенные — стамбульские коты знамениты на весь мир. В этом уроке выучишь названия животных и научишься описывать их.",
+    "goals": [
+      "Назвать домашних и диких животных",
+      "Описать животное (цвет, размер)",
+      "Использовать есть/нет с животными",
+      "Говорить о любимых животных"
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g1",
+      "title": "Ключевая грамматика урока",
+      "explanation": "Изучи правило ниже — оно поможет понять всё что в этом уроке.",
+      "table": {
+        "headers": [
+          "Турецкий",
+          "Русский",
+          "Пример"
+        ],
+        "rows": [
+          [
+            "—",
+            "—",
+            "—"
+          ]
+        ]
+      },
+      "note": ""
+    }
   ],
+  "vocabulary": [
+    {
+      "tr": "kedi",
+      "ru": "кошка",
+      "pronunciation": "кэ-ди",
+      "example_tr": "İstanbul'da çok kedi var.",
+      "example_ru": "В Стамбуле много кошек."
+    },
+    {
+      "tr": "köpek",
+      "ru": "собака",
+      "pronunciation": "кё-пэк",
+      "example_tr": "Köpeğim çok sevimli.",
+      "example_ru": "Моя собака очень милая."
+    },
+    {
+      "tr": "kuş",
+      "ru": "птица",
+      "pronunciation": "куш",
+      "example_tr": "Bu kuş ne güzel!",
+      "example_ru": "Какая красивая птица!"
+    },
+    {
+      "tr": "at",
+      "ru": "лошадь",
+      "pronunciation": "ат",
+      "example_tr": "At çok güçlü hayvan.",
+      "example_ru": "Лошадь — очень сильное животное."
+    },
+    {
+      "tr": "inek",
+      "ru": "корова",
+      "pronunciation": "и-нэк",
+      "example_tr": "İnek sütü sağlıklı.",
+      "example_ru": "Коровье молоко полезно."
+    },
+    {
+      "tr": "aslan",
+      "ru": "лев",
+      "pronunciation": "ас-лан",
+      "example_tr": "Aslan ormanın kralı.",
+      "example_ru": "Лев — король леса."
+    },
+    {
+      "tr": "fil",
+      "ru": "слон",
+      "pronunciation": "фил",
+      "example_tr": "Filler çok akıllı.",
+      "example_ru": "Слоны очень умные."
+    },
+    {
+      "tr": "balık",
+      "ru": "рыба",
+      "pronunciation": "ба-лык",
+      "example_tr": "Akvaryumda beş balık var.",
+      "example_ru": "В аквариуме пять рыб."
+    },
+    {
+      "tr": "tavşan",
+      "ru": "кролик",
+      "pronunciation": "тав-шан",
+      "example_tr": "Tavşan hızlı koşar.",
+      "example_ru": "Кролик быстро бегает."
+    },
+    {
+      "tr": "yılan",
+      "ru": "змея",
+      "pronunciation": "йы-лан",
+      "example_tr": "Yılandan korkuyorum.",
+      "example_ru": "Я боюсь змей."
+    },
+    {
+      "tr": "hayvan",
+      "ru": "животное",
+      "pronunciation": "хай-ван",
+      "example_tr": "Bu hayvan ne?",
+      "example_ru": "Что это за животное?"
+    },
+    {
+      "tr": "sevimli",
+      "ru": "милый/симпатичный",
+      "pronunciation": "сэ-вим-ли",
+      "example_tr": "Çok sevimli!",
+      "example_ru": "Очень милый!"
+    }
+  ],
+  "dialogue": {
+    "title": "Диалог — урок 11",
+    "context": "Практика в реальной ситуации.",
+    "lines": [
+      {
+        "speaker": "А",
+        "tr": "İstanbul'da çok kedi var.",
+        "ru": "В Стамбуле много кошек.",
+        "note": ""
+      },
+      {
+        "speaker": "Б",
+        "tr": "Köpeğim çok sevimli.",
+        "ru": "Моя собака очень милая.",
+        "note": ""
+      }
+    ]
+  },
+  "cultural_note": {
+    "title": "Культурная заметка",
+    "text": "Турция — удивительная страна с богатой историей и культурой."
+  },
   "exercises": [
     {
       "id": "ex_1",
       "type": "multiple_choice",
-      "question": "Что означает слово?",
-      "word": "köpek",
-      "pronun": "[кёпэк]",
-      "options": ["кошка", "птица", "собака", "лошадь"],
-      "correctAnswer": "собака",
-      "explanation": "köpek = собака. kedi = кошка. Оба — популярные домашние животные в Турции!"
+      "question": "Кошка по-турецки:",
+      "options": [
+        "köpek",
+        "kuş",
+        "kedi",
+        "at"
+      ],
+      "correctAnswer": "kedi",
+      "explanation": "kedi = кошка. köpek = собака. kuş = птица. at = лошадь."
     },
     {
       "id": "ex_2",
       "type": "multiple_choice",
-      "question": "Как по-турецки «лев»?",
-      "options": ["fil", "at", "aslan", "inek"],
-      "correctAnswer": "aslan",
-      "explanation": "aslan = лев. Aslan — популярное турецкое имя, означает «лев»."
+      "question": "«Sevimli» означает:",
+      "options": [
+        "большой",
+        "быстрый",
+        "умный",
+        "милый/симпатичный"
+      ],
+      "correctAnswer": "милый/симпатичный",
+      "explanation": "sevimli = милый, симпатичный. sev- от sevmek = любить. -imli суффикс качества."
     },
     {
       "id": "ex_3",
       "type": "match_pairs",
       "question": "Соедини животных с переводом",
       "pairs": [
-        { "left": "kedi", "right": "кошка" },
-        { "left": "kuş", "right": "птица" },
-        { "left": "fil", "right": "слон" },
-        { "left": "tavşan", "right": "кролик" }
+        {
+          "left": "kedi",
+          "right": "кошка"
+        },
+        {
+          "left": "aslan",
+          "right": "лев"
+        },
+        {
+          "left": "fil",
+          "right": "слон"
+        },
+        {
+          "left": "tavşan",
+          "right": "кролик"
+        }
       ],
       "correctAnswer": "all",
-      "explanation": "kedi=кошка, kuş=птица, fil=слон, tavşan=кролик."
+      "explanation": "kedi=кошка, aslan=лев, fil=слон, tavşan=кролик."
     },
     {
       "id": "ex_4",
       "type": "multiple_choice",
-      "question": "Что означает слово?",
-      "word": "yılan",
-      "pronun": "[йылан]",
-      "options": ["рыба", "змея", "черепаха", "ящерица"],
-      "correctAnswer": "змея",
-      "explanation": "yılan = змея. Буква ı (без точки) читается как ы."
+      "question": "«Filler çok akıllı» означает:",
+      "options": [
+        "Слоны очень большие",
+        "Слоны очень умные",
+        "Слоны очень быстрые",
+        "Слоны очень красивые"
+      ],
+      "correctAnswer": "Слоны очень умные",
+      "explanation": "filler = слоны (fil + -ler = мн.ч.), akıllı = умный. çok = очень."
     },
     {
       "id": "ex_5",
       "type": "fill_blank",
-      "question": "«at» по-турецки означает:",
-      "options": ["корова", "овца", "лошадь", "коза"],
-      "correctAnswer": "лошадь",
-      "explanation": "at = лошадь. Очень короткое слово! inek = корова. koyun = овца."
+      "question": "«Köpeğim çok ___» = «Моя собака очень милая»",
+      "options": [
+        "büyük",
+        "hızlı",
+        "sevimli",
+        "güçlü"
+      ],
+      "correctAnswer": "sevimli",
+      "explanation": "sevimli = милый. Köpeğim çok sevimli = Моя собака очень милая."
+    },
+    {
+      "id": "ex_6",
+      "type": "multiple_choice",
+      "question": "«Yılandan korkuyorum» означает:",
+      "options": [
+        "Я люблю змей",
+        "Я вижу змею",
+        "Я боюсь змей",
+        "Я ищу змею"
+      ],
+      "correctAnswer": "Я боюсь змей",
+      "explanation": "korkuyorum = боюсь (от korkmak = бояться). yılandan = от/змеи (-dan = от)."
+    },
+    {
+      "id": "ex_7",
+      "type": "multiple_choice",
+      "question": "Как сказать «У меня есть собака»?",
+      "options": [
+        "Köpek yok.",
+        "Köpeğim var.",
+        "Ben köpek.",
+        "Köpek seviyorum."
+      ],
+      "correctAnswer": "Köpeğim var.",
+      "explanation": "Köpek + -im (мой) + var (есть) = Köpeğim var = У меня есть собака."
+    },
+    {
+      "id": "ex_8",
+      "type": "fill_blank",
+      "question": "«Akvaryumda ___ balık var» = «В аквариуме пять рыб»",
+      "options": [
+        "dört",
+        "beş",
+        "altı",
+        "yedi"
+      ],
+      "correctAnswer": "beş",
+      "explanation": "beş = 5. Akvaryumda beş balık var = В аквариуме пять рыб."
     }
-  ]
+  ],
+  "summary": {
+    "title": "Что ты выучил",
+    "points": [
+      "Hayvanlar — Животные",
+      "Словарный запас расширен",
+      "Практика в реальных ситуациях"
+    ],
+    "next_lesson": "Урок 12"
+  }
 }

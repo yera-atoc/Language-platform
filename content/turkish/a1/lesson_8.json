@@ -1,69 +1,73 @@
 {
   "id": "lesson_8",
-  "title": "Sayılar 11–100 — Числа 11–100",
+  "title": "Sayılar 11–100 — Числа 11–100 и цены",
   "level": "a1",
   "language": "turkish",
   "xpReward": 80,
   "estimatedMinutes": 20,
-  "vocabulary": [
-    { "tr": "on bir", "ru": "11", "pronunciation": "он бир" },
-    { "tr": "on beş", "ru": "15", "pronunciation": "он бэш" },
-    { "tr": "yirmi", "ru": "20", "pronunciation": "йирми" },
-    { "tr": "otuz", "ru": "30", "pronunciation": "отуз" },
-    { "tr": "kırk", "ru": "40", "pronunciation": "кырк" },
-    { "tr": "elli", "ru": "50", "pronunciation": "элли" },
-    { "tr": "altmış", "ru": "60", "pronunciation": "алтмыш" },
-    { "tr": "yetmiş", "ru": "70", "pronunciation": "йэтмиш" },
-    { "tr": "seksen", "ru": "80", "pronunciation": "сэксэн" },
-    { "tr": "yüz", "ru": "100", "pronunciation": "йюз" }
-  ],
-  "exercises": [
+  "intro": {
+    "text": "Выучив числа до 10, ты уже можешь считать до 99 — и это не шутка! Принцип турецких составных чисел абсолютно логичен: просто сложи десятки и единицы. Никаких исключений. Это один из самых удобных аспектов турецкого языка.",
+    "goals": ["Освоить десятки от 10 до 100", "Составлять любые числа до 99", "Называть цены и торговаться", "Понимать номера телефонов и адреса"]
+  },
+  "grammar": [
     {
-      "id": "ex_1",
-      "type": "multiple_choice",
-      "question": "Что означает слово?",
-      "word": "elli",
-      "pronun": "[элли]",
-      "options": ["30", "40", "50", "60"],
-      "correctAnswer": "50",
-      "explanation": "elli = 50. Запомни: otuz(30), kırk(40), elli(50), altmış(60)."
-    },
-    {
-      "id": "ex_2",
-      "type": "multiple_choice",
-      "question": "Как по-турецки «75»?",
-      "options": ["yetmiş beş", "yetmiş dört", "seksen beş", "altmış beş"],
-      "correctAnswer": "yetmiş beş",
-      "explanation": "75 = yetmiş(70) + beş(5) = yetmiş beş. В турецком числа строятся так же, как в русском!"
-    },
-    {
-      "id": "ex_3",
-      "type": "match_pairs",
-      "question": "Соедини числа с цифрами",
-      "pairs": [
-        { "left": "yirmi", "right": "20" },
-        { "left": "kırk", "right": "40" },
-        { "left": "seksen", "right": "80" },
-        { "left": "yüz", "right": "100" }
-      ],
-      "correctAnswer": "all",
-      "explanation": "yirmi=20, kırk=40, seksen=80, yüz=100."
-    },
-    {
-      "id": "ex_4",
-      "type": "multiple_choice",
-      "question": "Как по-турецки «33»?",
-      "options": ["otuz iki", "otuz üç", "kırk üç", "yirmi üç"],
-      "correctAnswer": "otuz üç",
-      "explanation": "33 = otuz(30) + üç(3) = otuz üç. Десятки + единицы, без союза."
-    },
-    {
-      "id": "ex_5",
-      "type": "fill_blank",
-      "question": "«yetmiş» — это:",
-      "options": ["60", "70", "80", "90"],
-      "correctAnswer": "70",
-      "explanation": "yetmiş = 70. altmış=60, yetmiş=70, seksen=80, doksan=90, yüz=100."
+      "id": "g1",
+      "title": "Десятки — основа системы",
+      "explanation": "Выучи 10 слов — и можешь считать до 99. Составные числа просто складываются: yirmi beş = 20+5 = 25.",
+      "table": {
+        "headers": ["Число", "Турецкий", "Произношение"],
+        "rows": [
+          ["10", "on", "он"],
+          ["20", "yirmi", "йир-ми"],
+          ["30", "otuz", "о-туз"],
+          ["40", "kırk", "кырк"],
+          ["50", "elli", "эл-ли"],
+          ["60", "altmış", "алт-мыш"],
+          ["70", "yetmiş", "йэт-миш"],
+          ["80", "seksen", "сэк-сэн"],
+          ["90", "doksan", "dok-san"],
+          ["100", "yüz", "йюз"]
+        ]
+      },
+      "note": "Составные числа: yirmi beş = 25, otuz üç = 33, kırk yedi = 47. Просто десятки + единицы!"
     }
-  ]
+  ],
+  "vocabulary": [
+    {"tr": "yirmi", "ru": "20", "pronunciation": "йир-ми", "example_tr": "Yirmi lira.", "example_ru": "Двадцать лир."},
+    {"tr": "otuz", "ru": "30", "pronunciation": "о-туз", "example_tr": "Otuz yaşındayım.", "example_ru": "Мне тридцать лет."},
+    {"tr": "elli", "ru": "50", "pronunciation": "эл-ли", "example_tr": "Elli dakika.", "example_ru": "Пятьдесят минут."},
+    {"tr": "yüz", "ru": "100", "pronunciation": "йюз", "example_tr": "Yüz lira çok değil.", "example_ru": "Сто лир — немного."},
+    {"tr": "indirim", "ru": "скидка", "pronunciation": "ин-ди-рим", "example_tr": "İndirim var mı?", "example_ru": "Есть скидка?"},
+    {"tr": "pahalı", "ru": "дорого", "pronunciation": "па-ха-лы", "example_tr": "Bu çok pahalı!", "example_ru": "Это очень дорого!"},
+    {"tr": "ucuz", "ru": "дёшево", "pronunciation": "у-джуз", "example_tr": "Çok ucuz, alıyorum!", "example_ru": "Очень дёшево, беру!"},
+    {"tr": "fiyat", "ru": "цена", "pronunciation": "фи-йат", "example_tr": "Fiyat ne kadar?", "example_ru": "Какая цена?"},
+    {"tr": "bozuk para", "ru": "мелочь/сдача", "pronunciation": "бо-зук па-ра", "example_tr": "Bozuk paranız var mı?", "example_ru": "У вас есть мелочь?"},
+    {"tr": "lira", "ru": "лира (валюта)", "pronunciation": "ли-ра", "example_tr": "Yüz lira yeter mi?", "example_ru": "Ста лир хватит?"},
+    {"tr": "almak", "ru": "брать/покупать", "pronunciation": "ал-мак", "example_tr": "Bunu alıyorum.", "example_ru": "Беру это."},
+    {"tr": "vermek", "ru": "давать", "pronunciation": "вэр-мэк", "example_tr": "Para veriyorum.", "example_ru": "Я даю деньги."}
+  ],
+  "dialogue": {
+    "title": "На рынке — торгуемся",
+    "context": "Турист торгуется на гранд-базаре Стамбула.",
+    "lines": [
+      {"speaker": "Продавец", "tr": "Hoş geldiniz! Bakın, güzel halılar!", "ru": "Добро пожаловать! Смотрите, красивые ковры!", "note": "bakmak = смотреть. halı = ковёр."},
+      {"speaker": "Турист", "tr": "Bu halı ne kadar?", "ru": "Сколько стоит этот ковёр?", "note": "bu = этот. ne kadar = сколько стоит."},
+      {"speaker": "Продавец", "tr": "Seksen lira.", "ru": "Восемьдесят лир.", "note": "seksen = 80."},
+      {"speaker": "Турист", "tr": "Çok pahalı! Elli lira olur mu?", "ru": "Очень дорого! Пятьдесят лир можно?", "note": "olur mu? = можно? подойдёт?"},
+      {"speaker": "Продавец", "tr": "Olmaz, yetmiş lira son fiyat.", "ru": "Нельзя, семьдесят лир — последняя цена.", "note": "olmaz = нельзя/нет. son fiyat = последняя цена."},
+      {"speaker": "Турист", "tr": "Tamam, alıyorum!", "ru": "Хорошо, беру!", "note": "alıyorum = беру/покупаю (от almak)."}
+    ]
+  },
+  "cultural_note": {"title": "Торговля в Турции", "text": "На турецких базарах и рынках принято торговаться (pazarlık yapmak). Это не грубость, а традиция! Начинай с половины названной цены. Если продавец говорит «son fiyat» (последняя цена) — он серьёзен. На фиксированных ценниках в магазинах (fiyat etiketi) торг неуместен."},
+  "exercises": [
+    {"id": "ex_1", "type": "multiple_choice", "question": "Как будет 35 по-турецки?", "options": ["yirmi beş", "otuz beş", "kırk beş", "elli beş"], "correctAnswer": "otuz beş", "explanation": "otuz = 30, beş = 5. 30+5 = otuz beş = 35."},
+    {"id": "ex_2", "type": "multiple_choice", "question": "Что означает «pahalı»?", "options": ["дёшево", "бесплатно", "дорого", "скидка"], "correctAnswer": "дорого", "explanation": "pahalı = дорого. ucuz = дёшево. Çok pahalı! = Очень дорого!"},
+    {"id": "ex_3", "type": "match_pairs", "question": "Соедини числа с цифрами", "pairs": [{"left": "yirmi", "right": "20"}, {"left": "kırk", "right": "40"}, {"left": "seksen", "right": "80"}, {"left": "yüz", "right": "100"}], "correctAnswer": "all", "explanation": "yirmi=20, kırk=40, seksen=80, yüz=100."},
+    {"id": "ex_4", "type": "multiple_choice", "question": "Как сказать «Есть скидка?»", "options": ["İndirim var mı?", "Fiyat ne kadar?", "Çok pahalı!", "Son fiyat?"], "correctAnswer": "İndirim var mı?", "explanation": "İndirim var mı? = Есть скидка? indirim = скидка, var mı? = есть ли?"},
+    {"id": "ex_5", "type": "fill_blank", "question": "«___ lira son fiyat» = «Семьдесят лир — последняя цена»", "options": ["altmış", "yetmiş", "seksen", "doksan"], "correctAnswer": "yetmiş", "explanation": "yetmiş = 70. altmış = 60, seksen = 80, doksan = 90."},
+    {"id": "ex_6", "type": "multiple_choice", "question": "Как сказать «Беру это!»", "options": ["Bunu istiyorum.", "Bunu alıyorum.", "Bunu veriyorum.", "Bunu bakıyorum."], "correctAnswer": "Bunu alıyorum.", "explanation": "alıyorum = я беру/покупаю (от almak). bunu = это (винительный падеж от bu)."},
+    {"id": "ex_7", "type": "multiple_choice", "question": "73 по-турецки:", "options": ["yetmiş dört", "yetmiş üç", "seksen üç", "altmış üç"], "correctAnswer": "yetmiş üç", "explanation": "yetmiş = 70, üç = 3. 70+3 = yetmiş üç = 73."},
+    {"id": "ex_8", "type": "fill_blank", "question": "«Çok ___» = «Очень дёшево»", "options": ["pahalı", "güzel", "ucuz", "büyük"], "correctAnswer": "ucuz", "explanation": "ucuz = дёшево. Çok ucuz = Очень дёшево. Противоположность pahalı (дорого)."}
+  ],
+  "summary": {"title": "Что ты выучил", "points": ["Десятки: yirmi, otuz, kırk, elli, altmış, yetmiş, seksen, doksan, yüz", "Составные числа: yirmi beş = 25, otuz üç = 33", "pahalı = дорого, ucuz = дёшево, indirim = скидка", "Ne kadar? = сколько стоит?", "Alıyorum! = Беру!"], "next_lesson": "Следующий урок: время — как читать часы"}
 }

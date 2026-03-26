@@ -1,72 +1,183 @@
 {
   "id": "lesson_1",
-  "title": "Merhaba! — Приветствия",
-  "titleRu": "Урок 1: Приветствия",
+  "title": "Merhaba! — Приветствия и прощания",
   "level": "a1",
   "language": "turkish",
-  "xpReward": 50,
-  "estimatedMinutes": 15,
-  "objectives": [
-    "Научиться здороваться и прощаться по-турецки",
-    "Узнать базовые вежливые фразы",
-    "Понять разницу между формальным и неформальным обращением"
+  "xpReward": 60,
+  "estimatedMinutes": 20,
+
+  "intro": {
+    "text": "Первое что нужно знать в любом языке — как поздороваться и попрощаться. В турецком есть несколько приветствий в зависимости от времени суток и степени вежливости. Турки очень ценят вежливость, поэтому правильное приветствие сразу создаёт хорошее впечатление.",
+    "goals": [
+      "Научиться здороваться в зависимости от времени суток",
+      "Понять разницу между формальным и неформальным обращением",
+      "Запомнить базовые вежливые фразы",
+      "Уметь представиться и спросить как дела"
+    ]
+  },
+
+  "grammar": [
+    {
+      "id": "g1",
+      "title": "Приветствия по времени суток",
+      "explanation": "В турецком, как и в русском, приветствие зависит от времени дня. Слово «Merhaba» универсально и подходит в любое время.",
+      "table": {
+        "headers": ["Турецкий", "Русский", "Когда использовать"],
+        "rows": [
+          ["Merhaba", "Привет / Здравствуйте", "В любое время"],
+          ["Günaydın", "Доброе утро", "До 12:00"],
+          ["İyi günler", "Добрый день", "12:00 – 18:00"],
+          ["İyi akşamlar", "Добрый вечер", "После 18:00"],
+          ["İyi geceler", "Спокойной ночи", "Перед сном"]
+        ]
+      },
+      "note": "Günaydın — дословно «хороший рассвет». gün = день/солнце, aydın = светлый."
+    },
+    {
+      "id": "g2",
+      "title": "Прощания — два варианта!",
+      "explanation": "В турецком есть два разных слова «до свидания» — одно говорит уходящий, другое — тот кто остаётся. Это важно запомнить!",
+      "table": {
+        "headers": ["Турецкий", "Русский", "Кто говорит"],
+        "rows": [
+          ["Güle güle", "До свидания", "Тот кто ОСТАЁТСЯ"],
+          ["Hoşça kal", "До свидания", "Тот кто УХОДИТ (одному)"],
+          ["Hoşça kalın", "До свидания", "Тот кто УХОДИТ (нескольким)"]
+        ]
+      },
+      "note": "Güle güle — дословно «уходи смеясь». Это пожелание счастливого пути уходящему."
+    },
+    {
+      "id": "g3",
+      "title": "Формальное и неформальное «ты»",
+      "explanation": "Турецкий язык различает «sen» (ты — неформально, с друзьями) и «siz» (Вы — формально, с незнакомыми и старшими). Это влияет на окончания глаголов.",
+      "table": {
+        "headers": ["Неформально (sen)", "Формально (siz)", "Перевод"],
+        "rows": [
+          ["Nasılsın?", "Nasılsınız?", "Как ты / Как вы?"],
+          ["İyiyim, sen?", "İyiyim, siz?", "Хорошо, а ты / а вы?"],
+          ["Adın ne?", "Adınız ne?", "Как тебя / вас зовут?"]
+        ]
+      },
+      "note": "С незнакомыми и старшими людьми всегда используй «siz» — это признак уважения."
+    }
   ],
+
   "vocabulary": [
-    { "tr": "Merhaba", "ru": "Привет / Здравствуйте", "pronunciation": "мэрхаба" },
-    { "tr": "Günaydın", "ru": "Доброе утро", "pronunciation": "гюнайдын" },
-    { "tr": "İyi günler", "ru": "Добрый день", "pronunciation": "ийи гюнлэр" },
-    { "tr": "İyi akşamlar", "ru": "Добрый вечер", "pronunciation": "ийи акшамлар" },
-    { "tr": "Hoşça kal", "ru": "До свидания (говорит остающийся)", "pronunciation": "хошча кал" },
-    { "tr": "Güle güle", "ru": "До свидания (говорит уходящий)", "pronunciation": "гюле гюле" },
-    { "tr": "Teşekkür ederim", "ru": "Спасибо", "pronunciation": "тэшэккюр эдэрим" },
-    { "tr": "Rica ederim", "ru": "Пожалуйста", "pronunciation": "риджа эдэрим" },
-    { "tr": "Evet", "ru": "Да", "pronunciation": "эвэт" },
-    { "tr": "Hayır", "ru": "Нет", "pronunciation": "хайыр" }
+    { "tr": "Merhaba", "ru": "Привет / Здравствуйте", "pronunciation": "мэр-ха-ба", "example_tr": "Merhaba, ben Ayşe!", "example_ru": "Привет, я Айше!" },
+    { "tr": "Günaydın", "ru": "Доброе утро", "pronunciation": "гюн-ай-дын", "example_tr": "Günaydın, öğretmenim!", "example_ru": "Доброе утро, учитель!" },
+    { "tr": "İyi günler", "ru": "Добрый день", "pronunciation": "и-йи гюн-лер", "example_tr": "İyi günler, nasılsınız?", "example_ru": "Добрый день, как вы?" },
+    { "tr": "İyi akşamlar", "ru": "Добрый вечер", "pronunciation": "и-йи ак-шам-лар", "example_tr": "İyi akşamlar, hoş geldiniz!", "example_ru": "Добрый вечер, добро пожаловать!" },
+    { "tr": "İyi geceler", "ru": "Спокойной ночи", "pronunciation": "и-йи ге-дже-лер", "example_tr": "İyi geceler, tatlı rüyalar!", "example_ru": "Спокойной ночи, сладких снов!" },
+    { "tr": "Hoşça kal", "ru": "До свидания (уходящий)", "pronunciation": "хош-ча кал", "example_tr": "Hoşça kal, yarın görüşürüz!", "example_ru": "Пока, увидимся завтра!" },
+    { "tr": "Güle güle", "ru": "До свидания (остающийся)", "pronunciation": "гю-ле гю-ле", "example_tr": "Güle güle, iyi yolculuklar!", "example_ru": "До свидания, счастливого пути!" },
+    { "tr": "Nasılsın?", "ru": "Как ты? (неформально)", "pronunciation": "на-сыл-сын", "example_tr": "Merhaba! Nasılsın?", "example_ru": "Привет! Как ты?" },
+    { "tr": "Nasılsınız?", "ru": "Как вы? (формально)", "pronunciation": "на-сыл-сы-ныз", "example_tr": "Günaydın! Nasılsınız?", "example_ru": "Доброе утро! Как вы?" },
+    { "tr": "İyiyim", "ru": "Я хорошо", "pronunciation": "и-йи-йим", "example_tr": "İyiyim, teşekkürler. Sen?", "example_ru": "Хорошо, спасибо. А ты?" },
+    { "tr": "Teşekkür ederim", "ru": "Спасибо (официально)", "pronunciation": "тэ-шэк-кюр э-дэ-рим", "example_tr": "Teşekkür ederim, çok naziksiniz.", "example_ru": "Спасибо, вы очень любезны." },
+    { "tr": "Rica ederim", "ru": "Пожалуйста / Не за что", "pronunciation": "ри-джа э-дэ-рим", "example_tr": "Teşekkürler! — Rica ederim.", "example_ru": "Спасибо! — Пожалуйста." }
   ],
+
+  "dialogue": {
+    "title": "В университете — первый день",
+    "context": "Студентка Зейнеп встречает преподавателя в коридоре утром.",
+    "lines": [
+      { "speaker": "Зейнеп", "tr": "Günaydın, hocam!", "ru": "Доброе утро, преподаватель!", "note": "hoca = учитель/преподаватель, -m = мой (притяжательный суффикс)" },
+      { "speaker": "Преподаватель", "tr": "Günaydın! Nasılsınız?", "ru": "Доброе утро! Как вы?", "note": "Обращение на «вы» — студент к преподавателю" },
+      { "speaker": "Зейнеп", "tr": "İyiyim, teşekkür ederim. Siz nasılsınız?", "ru": "Хорошо, спасибо. А вы как?", "note": "Siz = Вы (формально), правило вежливости" },
+      { "speaker": "Преподаватель", "tr": "Ben de iyiyim, teşekkürler.", "ru": "Я тоже хорошо, спасибо.", "note": "Ben de = Я тоже. de/da = тоже (всегда пишется отдельно)" },
+      { "speaker": "Зейнеп", "tr": "İyi günler, hocam!", "ru": "Хорошего дня, преподаватель!", "note": "Прощание когда уходишь — используй İyi günler / Hoşça kalın" },
+      { "speaker": "Преподаватель", "tr": "Güle güle, iyi dersler!", "ru": "До свидания, удачи на занятиях!", "note": "iyi dersler = хороших уроков (пожелание)" }
+    ]
+  },
+
+  "cultural_note": {
+    "title": "Культурная заметка: рукопожатие и поцелуй в щёку",
+    "text": "В Турции при встрече часто целуют в обе щёки — среди друзей и знакомых одного пола. С незнакомыми — рукопожатие. Молодые люди приветствуют старших особым жестом: берут руку старшего и подносят ко лбу. Это знак глубокого уважения."
+  },
+
   "exercises": [
     {
       "id": "ex_1",
       "type": "multiple_choice",
-      "question": "Как по-турецки будет «Доброе утро»?",
-      "options": ["Merhaba", "Günaydın", "İyi akşamlar", "Hoşça kal"],
+      "question": "Сейчас 8 утра. Как поздороваться?",
+      "options": ["İyi akşamlar", "İyi geceler", "Günaydın", "Hoşça kal"],
       "correctAnswer": "Günaydın",
-      "explanation": "Günaydın используется утром. Дословно: «хороший рассвет»."
+      "explanation": "Günaydın = Доброе утро — используется до 12:00. İyi akşamlar = вечер, İyi geceler = ночь."
     },
     {
       "id": "ex_2",
       "type": "multiple_choice",
-      "question": "Что означает «Teşekkür ederim»?",
-      "options": ["Привет", "Пока", "Спасибо", "Пожалуйста"],
-      "correctAnswer": "Спасибо",
-      "explanation": "Teşekkür ederim — официальная форма «спасибо». Неформально: Sağ ol."
+      "question": "Ты уходишь домой. Твой друг остаётся. Что ты скажешь?",
+      "options": ["Güle güle", "Hoşça kal", "İyi geceler", "Merhaba"],
+      "correctAnswer": "Hoşça kal",
+      "explanation": "Hoşça kal говорит тот кто УХОДИТ. Güle güle говорит тот кто ОСТАЁТСЯ. Ты уходишь — значит говоришь Hoşça kal."
     },
     {
       "id": "ex_3",
-      "type": "match_pairs",
-      "question": "Соедини турецкие слова с переводом",
-      "pairs": [
-        { "left": "Evet", "right": "Да" },
-        { "left": "Hayır", "right": "Нет" },
-        { "left": "Merhaba", "right": "Привет" },
-        { "left": "Rica ederim", "right": "Пожалуйста" }
-      ],
-      "correctAnswer": "all"
+      "type": "multiple_choice",
+      "question": "Как спросить «Как вы?» у незнакомого человека (формально)?",
+      "options": ["Nasılsın?", "Nasılsınız?", "Adın ne?", "İyiyim?"],
+      "correctAnswer": "Nasılsınız?",
+      "explanation": "Nasılsınız? — формальное «как вы?». Nasılsın? — неформальное «как ты?» для друзей. С незнакомыми используй -sınız."
     },
     {
       "id": "ex_4",
       "type": "multiple_choice",
-      "question": "Ты уходишь из дома. Что скажешь остающимся?",
-      "options": ["Hoşça kal", "Güle güle", "Merhaba", "Günaydın"],
-      "correctAnswer": "Güle güle",
-      "explanation": "Güle güle говорит тот, кто уходит. Hoşça kal говорит тот, кто остаётся."
+      "question": "Что означает «Ben de iyiyim»?",
+      "options": ["Я не хорошо", "Мне плохо", "Я тоже хорошо", "Как ты?"],
+      "correctAnswer": "Я тоже хорошо",
+      "explanation": "Ben = я, de = тоже, iyiyim = хорошо (я есть хороший). Ben de iyiyim = Я тоже хорошо."
     },
     {
       "id": "ex_5",
       "type": "fill_blank",
-      "question": "Допиши фразу: «İyi _______» (Добрый день)",
-      "options": ["günler", "geceler", "sabahlar", "akşamlar"],
-      "correctAnswer": "günler",
-      "explanation": "İyi günler = Добрый день. İyi akşamlar = Добрый вечер."
+      "question": "Заверши ответ: «Teşekkür ederim» → «_______»",
+      "hint": "Стандартный ответ на «спасибо»",
+      "options": ["Merhaba", "Rica ederim", "İyiyim", "Günaydın"],
+      "correctAnswer": "Rica ederim",
+      "explanation": "Rica ederim = Пожалуйста / Не за что. Это стандартный ответ на «teşekkür ederim» (спасибо)."
+    },
+    {
+      "id": "ex_6",
+      "type": "match_pairs",
+      "question": "Соедини приветствия с временем суток",
+      "pairs": [
+        { "left": "Günaydın", "right": "Утро" },
+        { "left": "İyi günler", "right": "День" },
+        { "left": "İyi akşamlar", "right": "Вечер" },
+        { "left": "İyi geceler", "right": "Ночь" }
+      ],
+      "correctAnswer": "all",
+      "explanation": "Günaydın=утро, İyi günler=день, İyi akşamlar=вечер, İyi geceler=ночь. Запомни порядок!"
+    },
+    {
+      "id": "ex_7",
+      "type": "multiple_choice",
+      "question": "Студент встречает преподавателя. Как правильно?",
+      "options": ["Nasılsın, hoca?", "Günaydın, hocam! Nasılsınız?", "Hey! İyimisin?", "Merhaba, sen nasılsın?"],
+      "correctAnswer": "Günaydın, hocam! Nasılsınız?",
+      "explanation": "С преподавателем нужно: 1) приветствие по времени суток 2) обращение hocam (мой учитель) 3) формальное Nasılsınız. Уважение обязательно!"
+    },
+    {
+      "id": "ex_8",
+      "type": "fill_blank",
+      "question": "Переведи: «Хорошо, спасибо. А вы?» — «_______, teşekkürler. Siz _______?»",
+      "options": ["İyiyim / nasılsınız", "Merhaba / nasılsın", "Günaydın / iyiyim", "Hoşça kal / nasılsın"],
+      "correctAnswer": "İyiyim / nasılsınız",
+      "explanation": "İyiyim = я хорошо. Siz nasılsınız? = А вы как? (формальное). Полная фраза: İyiyim, teşekkürler. Siz nasılsınız?"
     }
-  ]
+  ],
+
+  "summary": {
+    "title": "Что ты выучил в этом уроке",
+    "points": [
+      "5 приветствий по времени суток: Günaydın → İyi günler → İyi akşamlar → İyi geceler",
+      "Два прощания: Hoşça kal (уходящий) и Güle güle (остающийся)",
+      "Формальное Nasılsınız? vs неформальное Nasılsın?",
+      "Ответ на «спасибо»: Rica ederim",
+      "İyiyim = я хорошо, Ben de iyiyim = я тоже хорошо"
+    ],
+    "next_lesson": "В следующем уроке: как представиться, назвать имя и страну происхождения"
+  }
 }

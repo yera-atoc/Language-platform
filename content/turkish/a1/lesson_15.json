@@ -1,71 +1,274 @@
 {
   "id": "lesson_15",
-  "title": "Ulaşım — Транспорт",
+  "title": "Ulaşım — Транспорт и передвижение",
   "level": "a1",
   "language": "turkish",
   "xpReward": 100,
   "estimatedMinutes": 20,
-  "vocabulary": [
-    { "tr": "otobüs", "ru": "автобус", "pronunciation": "отобюс" },
-    { "tr": "metro", "ru": "метро", "pronunciation": "мэтро" },
-    { "tr": "araba", "ru": "машина", "pronunciation": "araба" },
-    { "tr": "uçak", "ru": "самолёт", "pronunciation": "учак" },
-    { "tr": "tren", "ru": "поезд", "pronunciation": "трэн" },
-    { "tr": "gemi", "ru": "корабль / паром", "pronunciation": "гэми" },
-    { "tr": "bisiklet", "ru": "велосипед", "pronunciation": "бисиклэт" },
-    { "tr": "taksi", "ru": "такси", "pronunciation": "такси" },
-    { "tr": "durak", "ru": "остановка", "pronunciation": "дурак" },
-    { "tr": "bilet", "ru": "билет", "pronunciation": "билэт" }
+  "intro": {
+    "text": "Турция — большая страна с развитой транспортной системой. В Стамбуле метро, трамваи, паромы и автобусы. Умение пользоваться транспортом открывает все двери.",
+    "goals": [
+      "Назвать виды транспорта",
+      "Купить билет",
+      "Спросить как добраться",
+      "Понять расписание"
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g1",
+      "title": "Ключевая грамматика урока",
+      "explanation": "Изучи правило ниже — оно поможет понять всё что в этом уроке.",
+      "table": {
+        "headers": [
+          "Турецкий",
+          "Русский",
+          "Пример"
+        ],
+        "rows": [
+          [
+            "—",
+            "—",
+            "—"
+          ]
+        ]
+      },
+      "note": ""
+    }
   ],
+  "vocabulary": [
+    {
+      "tr": "otobüs",
+      "ru": "автобус",
+      "pronunciation": "о-то-бюс",
+      "example_tr": "Otobüs kaçta?",
+      "example_ru": "Когда автобус?"
+    },
+    {
+      "tr": "metro",
+      "ru": "метро",
+      "pronunciation": "мэт-ро",
+      "example_tr": "Metro çok hızlı.",
+      "example_ru": "Метро очень быстрое."
+    },
+    {
+      "tr": "tramvay",
+      "ru": "трамвай",
+      "pronunciation": "трам-вай",
+      "example_tr": "Tramvay ucuz ve güzel.",
+      "example_ru": "Трамвай дёшевый и красивый."
+    },
+    {
+      "tr": "vapur",
+      "ru": "паром",
+      "pronunciation": "ва-пур",
+      "example_tr": "Vapurla Boğaz'ı geçiyorum.",
+      "example_ru": "Паромом пересекаю Босфор."
+    },
+    {
+      "tr": "taksi",
+      "ru": "такси",
+      "pronunciation": "так-си",
+      "example_tr": "Taksi pahalı ama hızlı.",
+      "example_ru": "Такси дорогое, но быстрое."
+    },
+    {
+      "tr": "bilet",
+      "ru": "билет",
+      "pronunciation": "би-лет",
+      "example_tr": "Bir bilet lütfen.",
+      "example_ru": "Один билет, пожалуйста."
+    },
+    {
+      "tr": "durak",
+      "ru": "остановка",
+      "pronunciation": "ду-рак",
+      "example_tr": "Bu durak hangisi?",
+      "example_ru": "Какая это остановка?"
+    },
+    {
+      "tr": "istasyon",
+      "ru": "станция/вокзал",
+      "pronunciation": "ис-тас-йон",
+      "example_tr": "İstasyon nerede?",
+      "example_ru": "Где вокзал?"
+    },
+    {
+      "tr": "gitmek",
+      "ru": "идти/ехать",
+      "pronunciation": "гит-мэк",
+      "example_tr": "Nereye gidiyorsunuz?",
+      "example_ru": "Куда вы едете?"
+    },
+    {
+      "tr": "binmek",
+      "ru": "садиться (в транспорт)",
+      "pronunciation": "бин-мэк",
+      "example_tr": "Otobüse biniyorum.",
+      "example_ru": "Я сажусь в автобус."
+    },
+    {
+      "tr": "inmek",
+      "ru": "выходить (из транспорта)",
+      "pronunciation": "ин-мэк",
+      "example_tr": "Bir sonraki duraksında iniyorum.",
+      "example_ru": "Выхожу на следующей остановке."
+    },
+    {
+      "tr": "transfer",
+      "ru": "пересадка",
+      "pronunciation": "трансфер",
+      "example_tr": "Transfer yapmam lazım.",
+      "example_ru": "Мне нужно сделать пересадку."
+    }
+  ],
+  "dialogue": {
+    "title": "Диалог — урок 15",
+    "context": "Практика в реальной ситуации.",
+    "lines": [
+      {
+        "speaker": "А",
+        "tr": "Otobüs kaçta?",
+        "ru": "Когда автобус?",
+        "note": ""
+      },
+      {
+        "speaker": "Б",
+        "tr": "Metro çok hızlı.",
+        "ru": "Метро очень быстрое.",
+        "note": ""
+      }
+    ]
+  },
+  "cultural_note": {
+    "title": "Культурная заметка",
+    "text": "Турция — удивительная страна с богатой историей и культурой."
+  },
   "exercises": [
     {
       "id": "ex_1",
       "type": "multiple_choice",
-      "question": "Что означает слово?",
-      "word": "uçak",
-      "pronun": "[учак]",
-      "options": ["поезд", "корабль", "автобус", "самолёт"],
-      "correctAnswer": "самолёт",
-      "explanation": "uçak = самолёт. uçmak = летать. -ak суффикс существительного."
+      "question": "«Otobüse biniyorum» означает:",
+      "options": [
+        "Я жду автобус",
+        "Я выхожу из автобуса",
+        "Я сажусь в автобус",
+        "Я ищу автобус"
+      ],
+      "correctAnswer": "Я сажусь в автобус",
+      "explanation": "binmek = садиться в транспорт. otobüs + -e = в автобус (суффикс направления)."
     },
     {
       "id": "ex_2",
       "type": "multiple_choice",
-      "question": "Как по-турецки «остановка»?",
-      "options": ["bilet", "gemi", "durak", "yol"],
-      "correctAnswer": "durak",
-      "explanation": "durak = остановка. durmak = останавливаться. bilet = билет."
+      "question": "«Transfer yapmam lazım» означает:",
+      "options": [
+        "Мне нужно купить билет",
+        "Мне нужно сделать пересадку",
+        "Мне нужно подождать",
+        "Мне нужно выйти"
+      ],
+      "correctAnswer": "Мне нужно сделать пересадку",
+      "explanation": "transfer = пересадка. yapmak = делать. lazım = нужно."
     },
     {
       "id": "ex_3",
       "type": "match_pairs",
       "question": "Соедини транспорт с переводом",
       "pairs": [
-        { "left": "otobüs", "right": "автобус" },
-        { "left": "araba", "right": "машина" },
-        { "left": "tren", "right": "поезд" },
-        { "left": "bisiklet", "right": "велосипед" }
+        {
+          "left": "otobüs",
+          "right": "автобус"
+        },
+        {
+          "left": "vapur",
+          "right": "паром"
+        },
+        {
+          "left": "tramvay",
+          "right": "трамвай"
+        },
+        {
+          "left": "taksi",
+          "right": "такси"
+        }
       ],
       "correctAnswer": "all",
-      "explanation": "otobüs=автобус, araba=машина, tren=поезд, bisiklet=велосипед."
+      "explanation": "otobüs=автобус, vapur=паром, tramvay=трамвай, taksi=такси."
     },
     {
       "id": "ex_4",
       "type": "multiple_choice",
-      "question": "Что означает слово?",
-      "word": "gemi",
-      "pronun": "[гэми]",
-      "options": ["самолёт", "поезд", "корабль", "метро"],
-      "correctAnswer": "корабль",
-      "explanation": "gemi = корабль/паром. Турция омывается морями, поэтому gemi очень важное слово!"
+      "question": "«Bir sonraki duraksında iniyorum» означает:",
+      "options": [
+        "Я выхожу здесь",
+        "Я выхожу на следующей остановке",
+        "Я еду до конца",
+        "Я пересаживаюсь"
+      ],
+      "correctAnswer": "Я выхожу на следующей остановке",
+      "explanation": "bir sonraki = следующий. durak = остановка. iniyorum = я выхожу."
     },
     {
       "id": "ex_5",
       "type": "fill_blank",
-      "question": "«_______» означает «билет» по-турецки:",
-      "options": ["para", "bilet", "durak", "yol"],
-      "correctAnswer": "bilet",
-      "explanation": "bilet = билет. Слово пришло из французского «billet»."
+      "question": "«___ lütfen» = «Один билет, пожалуйста»",
+      "options": [
+        "İki bilet",
+        "Bir bilet",
+        "Üç bilet",
+        "Dört bilet"
+      ],
+      "correctAnswer": "Bir bilet",
+      "explanation": "bir bilet = один билет. lütfen = пожалуйста. Самая нужная фраза в транспорте!"
+    },
+    {
+      "id": "ex_6",
+      "type": "multiple_choice",
+      "question": "«Nereye gidiyorsunuz?» означает:",
+      "options": [
+        "Откуда вы?",
+        "Куда вы едете?",
+        "Когда вы едете?",
+        "Как вы едете?"
+      ],
+      "correctAnswer": "Куда вы едете?",
+      "explanation": "nereye = куда (-e суффикс направления). gidiyorsunuz = вы едете/идёте."
+    },
+    {
+      "id": "ex_7",
+      "type": "multiple_choice",
+      "question": "«Metro çok hızlı» означает:",
+      "options": [
+        "Метро очень дорогое",
+        "Метро очень медленное",
+        "Метро очень быстрое",
+        "Метро очень старое"
+      ],
+      "correctAnswer": "Метро очень быстрое",
+      "explanation": "hızlı = быстрый. yavaş = медленный. Metro çok hızlı = Метро очень быстрое."
+    },
+    {
+      "id": "ex_8",
+      "type": "fill_blank",
+      "question": "«Bu ___ hangisi?» = «Какая это остановка?»",
+      "options": [
+        "cadde",
+        "sokak",
+        "durak",
+        "istasyon"
+      ],
+      "correctAnswer": "durak",
+      "explanation": "durak = остановка. Bu durak hangisi? = Какая это остановка? hangi = какой."
     }
-  ]
+  ],
+  "summary": {
+    "title": "Что ты выучил",
+    "points": [
+      "Ulaşım — Транспорт и передвижение",
+      "Словарный запас расширен",
+      "Практика в реальных ситуациях"
+    ],
+    "next_lesson": "Урок 16"
+  }
 }

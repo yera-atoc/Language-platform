@@ -1,71 +1,172 @@
 {
   "id": "lesson_5",
-  "title": "Aile — Семья",
+  "title": "Aile — Семья и близкие",
   "level": "a1",
   "language": "turkish",
   "xpReward": 70,
   "estimatedMinutes": 20,
-  "vocabulary": [
-    { "tr": "anne", "ru": "мама", "pronunciation": "аннэ" },
-    { "tr": "baba", "ru": "папа", "pronunciation": "баба" },
-    { "tr": "kardeş", "ru": "брат / сестра", "pronunciation": "кардэш" },
-    { "tr": "ağabey", "ru": "старший брат", "pronunciation": "аабэй" },
-    { "tr": "abla", "ru": "старшая сестра", "pronunciation": "абла" },
-    { "tr": "büyükanne", "ru": "бабушка", "pronunciation": "бюйюканнэ" },
-    { "tr": "büyükbaba", "ru": "дедушка", "pronunciation": "бюйюкбаба" },
-    { "tr": "çocuk", "ru": "ребёнок", "pronunciation": "чоджук" },
-    { "tr": "kız", "ru": "девочка / дочь", "pronunciation": "кыз" },
-    { "tr": "oğul", "ru": "сын", "pronunciation": "оул" }
+
+  "intro": {
+    "text": "Семья — одна из главных ценностей в турецкой культуре. Турки очень привязаны к семье и часто говорят о ней. Интересная особенность: в турецком есть отдельные слова для старшего и младшего брата/сестры, и суффикс принадлежности меняет значение слова. Это важная грамматическая тема.",
+    "goals": [
+      "Назвать всех членов семьи по-турецки",
+      "Освоить притяжательные суффиксы (-ım, -ın, -ı...)",
+      "Рассказать о своей семье",
+      "Понять разницу между ağabey/kardeş, abla/kardeş"
+    ]
+  },
+
+  "grammar": [
+    {
+      "id": "g1",
+      "title": "Притяжательные суффиксы — «мой, твой, его»",
+      "explanation": "В турецком нет слов «мой», «твой» — вместо них используются суффиксы, которые добавляются прямо к существительному. Суффикс меняется по гармонии гласных.",
+      "table": {
+        "headers": ["Суффикс", "Значение", "Пример с anne (мама)"],
+        "rows": [
+          ["-ım/-im/-um/-üm", "мой/моя", "annem = моя мама"],
+          ["-ın/-in/-un/-ün", "твой/твоя", "annen = твоя мама"],
+          ["-ı/-i/-u/-ü", "его/её", "annesi = его/её мама"],
+          ["-ımız/-imiz", "наш/наша", "annemiz = наша мама"],
+          ["-ınız/-iniz", "ваш/ваша", "anneniz = ваша мама"],
+          ["-ları/-leri", "их", "anneleri = их мама"]
+        ]
+      },
+      "note": "annem (моя мама) — обратите внимание: anne + m, согласная удваивается. Это происходит когда слово оканчивается на гласную."
+    },
+    {
+      "id": "g2",
+      "title": "Старший/младший — важное различие",
+      "explanation": "В турецком возраст в семье очень важен. Для старшего и младшего брата/сестры — разные слова.",
+      "table": {
+        "headers": ["Турецкий", "Русский", "Примечание"],
+        "rows": [
+          ["ağabey / abi", "старший брат", "abi — разговорная форма"],
+          ["abla", "старшая сестра", "—"],
+          ["kardeş", "младший брат / младшая сестра", "не уточняет пол"],
+          ["erkek kardeş", "младший брат", "erkek = мужчина"],
+          ["kız kardeş", "младшая сестра", "kız = девочка/дочь"]
+        ]
+      },
+      "note": "abi и abla используются и как обращение к незнакомому человеку старше тебя — это знак уважения."
+    }
   ],
+
+  "vocabulary": [
+    { "tr": "anne", "ru": "мама", "pronunciation": "ан-нэ", "example_tr": "Annem çok güzel.", "example_ru": "Моя мама очень красивая." },
+    { "tr": "baba", "ru": "папа", "pronunciation": "ба-ба", "example_tr": "Babam doktor.", "example_ru": "Мой папа — врач." },
+    { "tr": "ağabey / abi", "ru": "старший брат", "pronunciation": "аа-бэй / аби", "example_tr": "Abim İstanbul'da.", "example_ru": "Мой старший брат в Стамбуле." },
+    { "tr": "abla", "ru": "старшая сестра", "pronunciation": "аб-ла", "example_tr": "Ablam öğretmen.", "example_ru": "Моя старшая сестра — учитель." },
+    { "tr": "kardeş", "ru": "младший брат/сестра", "pronunciation": "кар-дэш", "example_tr": "Bir kardeşim var.", "example_ru": "У меня есть один брат/сестра." },
+    { "tr": "büyükanne", "ru": "бабушка", "pronunciation": "бю-юк-ан-нэ", "example_tr": "Büyükannem 70 yaşında.", "example_ru": "Моей бабушке 70 лет." },
+    { "tr": "büyükbaba", "ru": "дедушка", "pronunciation": "бю-юк-ба-ба", "example_tr": "Büyükbabam emekli.", "example_ru": "Мой дедушка на пенсии." },
+    { "tr": "eş", "ru": "супруг/супруга", "pronunciation": "эш", "example_tr": "Eşim mühendis.", "example_ru": "Мой супруг/супруга — инженер." },
+    { "tr": "çocuk", "ru": "ребёнок", "pronunciation": "чо-джук", "example_tr": "İki çocuğum var.", "example_ru": "У меня двое детей." },
+    { "tr": "aile", "ru": "семья", "pronunciation": "аи-лэ", "example_tr": "Ailem büyük.", "example_ru": "Моя семья большая." },
+    { "tr": "var", "ru": "есть (существует)", "pronunciation": "вар", "example_tr": "Kardeşim var.", "example_ru": "У меня есть брат/сестра." },
+    { "tr": "yok", "ru": "нет (не существует)", "pronunciation": "йок", "example_tr": "Kardeşim yok.", "example_ru": "У меня нет брата/сестры." }
+  ],
+
+  "dialogue": {
+    "title": "Рассказываем о семье",
+    "context": "Двое новых знакомых разговаривают о своих семьях.",
+    "lines": [
+      { "speaker": "Лейла", "tr": "Ailen büyük mü?", "ru": "У тебя большая семья?", "note": "aile-n = твоя семья. büyük = большой. -mu? = вопрос" },
+      { "speaker": "Эрен", "tr": "Evet, ailem büyük. Annem, babam, iki ağabeyim ve bir kız kardeşim var.", "ru": "Да, у меня большая семья. Есть мама, папа, два старших брата и младшая сестра.", "note": "var = есть. Перечисление членов семьи." },
+      { "speaker": "Лейла", "tr": "Vay! Kaç kardeşin var?", "ru": "Ого! Сколько у тебя братьев и сестёр?", "note": "Vay = ого/вот это да! kaç = сколько." },
+      { "speaker": "Эрен", "tr": "Üç kardeşim var. Sen?", "ru": "У меня трое братьев/сестёр. А у тебя?", "note": "üç kardeş = три брата/сестры. var = есть." },
+      { "speaker": "Лейла", "tr": "Benim kardeşim yok. Tek çocuğum.", "ru": "У меня нет братьев/сестёр. Я единственный ребёнок.", "note": "yok = нет (нет в наличии). tek = единственный." },
+      { "speaker": "Эрен", "tr": "Anne ve baban nerede yaşıyor?", "ru": "Где живут твои мама и папа?", "note": "nerede = где. yaşıyor = живёт (3-е лицо ед.ч.)" },
+      { "speaker": "Лейла", "tr": "Annem ve babam Almatı'da yaşıyor.", "ru": "Мои мама и папа живут в Алматы.", "note": "-da = в (суффикс местонахождения). Almatı'da = в Алматы." }
+    ]
+  },
+
+  "cultural_note": {
+    "title": "Семья в турецкой культуре",
+    "text": "В Турции семья (aile) — святое. Традиционно несколько поколений живут рядом или помогают друг другу. Обращение abi (старший брат) и abla (старшая сестра) используется и с незнакомыми людьми как знак уважения — например, в магазине: «Abi, ne kadar?» (Брат, сколько стоит?). Это создаёт тёплую атмосферу."
+  },
+
   "exercises": [
     {
       "id": "ex_1",
       "type": "multiple_choice",
-      "question": "Что означает слово?",
-      "word": "büyükanne",
-      "pronun": "[бюйюканнэ]",
-      "options": ["мама", "тётя", "бабушка", "сестра"],
-      "correctAnswer": "бабушка",
-      "explanation": "büyükanne = бабушка. Дословно: «büyük» (большой/старший) + «anne» (мама)."
+      "question": "Как сказать «моя мама» по-турецки?",
+      "options": ["benim anne", "annem", "anne benim", "annemin"],
+      "correctAnswer": "annem",
+      "explanation": "annem = моя мама. anne + -m (суффикс «мой»). Отдельного слова «мой» нет — только суффикс."
     },
     {
       "id": "ex_2",
       "type": "multiple_choice",
-      "question": "Как по-турецки «старший брат»?",
-      "options": ["kardeş", "abla", "ağabey", "oğul"],
-      "correctAnswer": "ağabey",
-      "explanation": "ağabey = старший брат. abla = старшая сестра. kardeş = брат или сестра (младший/ая)."
+      "question": "У тебя нет братьев и сестёр. Как сказать?",
+      "options": ["Kardeşim var.", "Kardeşim yok.", "Kardeş değil.", "Benim kardeş."],
+      "correctAnswer": "Kardeşim yok.",
+      "explanation": "yok = нет (не существует). var = есть. Kardeşim yok = У меня нет брата/сестры. -im = мой."
     },
     {
       "id": "ex_3",
-      "type": "match_pairs",
-      "question": "Соедини членов семьи с переводом",
-      "pairs": [
-        { "left": "anne", "right": "мама" },
-        { "left": "baba", "right": "папа" },
-        { "left": "kız", "right": "дочь" },
-        { "left": "oğul", "right": "сын" }
-      ],
-      "correctAnswer": "all",
-      "explanation": "anne=мама, baba=папа, kız=дочь/девочка, oğul=сын."
+      "type": "multiple_choice",
+      "question": "Ты обращаешься к незнакомой девушке старше тебя. Как вежливо?",
+      "options": ["Sen!", "Hanım!", "Abla!", "Kız!"],
+      "correctAnswer": "Abla!",
+      "explanation": "Abla = старшая сестра. В Турции так обращаются к незнакомым девушкам/женщинам немного старше тебя — это вежливо и дружелюбно."
     },
     {
       "id": "ex_4",
-      "type": "multiple_choice",
-      "question": "Что означает слово?",
-      "word": "çocuk",
-      "pronun": "[чоджук]",
-      "options": ["взрослый", "ребёнок", "подросток", "младенец"],
-      "correctAnswer": "ребёнок",
-      "explanation": "çocuk = ребёнок. Множественное число: çocuklar = дети."
+      "type": "match_pairs",
+      "question": "Соедини членов семьи с переводом",
+      "pairs": [
+        { "left": "büyükanne", "right": "бабушка" },
+        { "left": "eş", "right": "супруг/супруга" },
+        { "left": "çocuk", "right": "ребёнок" },
+        { "left": "ağabey", "right": "старший брат" }
+      ],
+      "correctAnswer": "all",
+      "explanation": "büyükanne=бабушка (большая мама), eş=супруг/супруга, çocuk=ребёнок, ağabey=старший брат."
     },
     {
       "id": "ex_5",
       "type": "fill_blank",
-      "question": "Старший дедушка по-турецки: «büyük_______»",
-      "options": ["anne", "baba", "kardeş", "çocuk"],
-      "correctAnswer": "baba",
-      "explanation": "büyükbaba = дедушка. büyük=большой/старший + baba=папа."
+      "question": "«У меня есть два ребёнка» — «İki _______ var»",
+      "options": ["çocuklarım", "çocuğum", "çocuk", "çocuklar"],
+      "correctAnswer": "çocuğum",
+      "explanation": "İki çocuğum var = У меня двое детей. çocuğ+um = мой ребёнок (çocuk → çocuğ перед гласным суффиксом). Но смысл «двое детей моих»."
+    },
+    {
+      "id": "ex_6",
+      "type": "multiple_choice",
+      "question": "Что означает «Ailem büyük»?",
+      "options": ["Я большой", "Моя семья большая", "Большая семья есть", "Семья там большая"],
+      "correctAnswer": "Моя семья большая",
+      "explanation": "aile-m = моя семья (-m = мой/моя), büyük = большой. Ailem büyük = Моя семья большая."
+    },
+    {
+      "id": "ex_7",
+      "type": "multiple_choice",
+      "question": "Ты рассказываешь: «Мой папа — врач». Как правильно?",
+      "options": ["Benim baba doktor.", "Babam doktor.", "Baba benim doktor.", "Doktor babam var."],
+      "correctAnswer": "Babam doktor.",
+      "explanation": "Babam doktor = Мой папа врач. baba+m = мой папа. Глагол «быть» = суффикс, который уже включён в babam."
+    },
+    {
+      "id": "ex_8",
+      "type": "fill_blank",
+      "question": "«Tek _______» означает «единственный ребёнок»",
+      "options": ["aile", "kardeş", "çocuk", "eş"],
+      "correctAnswer": "çocuk",
+      "explanation": "Tek çocuk = единственный ребёнок. tek = один/единственный. Можно сказать: Ben tek çocuğum = Я единственный ребёнок."
     }
-  ]
+  ],
+
+  "summary": {
+    "title": "Что ты выучил в этом уроке",
+    "points": [
+      "Семья: anne, baba, ağabey/abi, abla, kardeş, büyükanne, büyükbaba",
+      "Суффиксы принадлежности: annem=моя мама, annen=твоя мама",
+      "var = есть, yok = нет: Kardeşim var / Kardeşim yok",
+      "abi/abla — обращение к незнакомым старшим людям (знак уважения)",
+      "Ailem büyük / küçük = Моя семья большая / маленькая"
+    ],
+    "next_lesson": "В следующем уроке: дни недели и месяцы — как говорить о времени"
+  }
 }

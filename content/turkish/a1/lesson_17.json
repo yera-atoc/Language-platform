@@ -1,69 +1,274 @@
 {
   "id": "lesson_17",
-  "title": "Ev — Дом",
+  "title": "Ev ve Mobilya — Дом и мебель",
   "level": "a1",
   "language": "turkish",
-  "xpReward": 110,
+  "xpReward": 100,
   "estimatedMinutes": 20,
-  "vocabulary": [
-    { "tr": "ev", "ru": "дом", "pronunciation": "эв" },
-    { "tr": "oda", "ru": "комната", "pronunciation": "ода" },
-    { "tr": "mutfak", "ru": "кухня", "pronunciation": "мутфак" },
-    { "tr": "banyo", "ru": "ванная / туалет", "pronunciation": "банйо" },
-    { "tr": "yatak odası", "ru": "спальня", "pronunciation": "йатак одасы" },
-    { "tr": "salon", "ru": "гостиная / зал", "pronunciation": "салон" },
-    { "tr": "kapı", "ru": "дверь", "pronunciation": "капы" },
-    { "tr": "pencere", "ru": "окно", "pronunciation": "пэнджэрэ" },
-    { "tr": "masa", "ru": "стол", "pronunciation": "маса" },
-    { "tr": "sandalye", "ru": "стул", "pronunciation": "сандалйэ" }
+  "intro": {
+    "text": "Описать своё жильё, сказать что где находится — базовые навыки для разговора. Также научимся использовать суффикс местонахождения и глагол «находиться».",
+    "goals": [
+      "Описать типы жилья",
+      "Назвать комнаты и мебель",
+      "Сказать где что находится",
+      "Снять/арендовать квартиру"
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g1",
+      "title": "Ключевая грамматика урока",
+      "explanation": "Изучи правило ниже — оно поможет понять всё что в этом уроке.",
+      "table": {
+        "headers": [
+          "Турецкий",
+          "Русский",
+          "Пример"
+        ],
+        "rows": [
+          [
+            "—",
+            "—",
+            "—"
+          ]
+        ]
+      },
+      "note": ""
+    }
   ],
+  "vocabulary": [
+    {
+      "tr": "ev",
+      "ru": "дом/квартира",
+      "pronunciation": "эв",
+      "example_tr": "Evim küçük ama güzel.",
+      "example_ru": "Мой дом маленький, но красивый."
+    },
+    {
+      "tr": "daire",
+      "ru": "квартира",
+      "pronunciation": "да-и-рэ",
+      "example_tr": "Üç odalı daire arıyorum.",
+      "example_ru": "Ищу трёхкомнатную квартиру."
+    },
+    {
+      "tr": "oda",
+      "ru": "комната",
+      "pronunciation": "о-да",
+      "example_tr": "Kaç odalı?",
+      "example_ru": "Сколько комнат?"
+    },
+    {
+      "tr": "mutfak",
+      "ru": "кухня",
+      "pronunciation": "мут-фак",
+      "example_tr": "Mutfak büyük mü?",
+      "example_ru": "Кухня большая?"
+    },
+    {
+      "tr": "banyo",
+      "ru": "ванная",
+      "pronunciation": "бан-йо",
+      "example_tr": "Banyo ve tuvalet ayrı.",
+      "example_ru": "Ванная и туалет отдельные."
+    },
+    {
+      "tr": "yatak odası",
+      "ru": "спальня",
+      "pronunciation": "йа-так о-да-сы",
+      "example_tr": "Yatak odası çok rahat.",
+      "example_ru": "Спальня очень удобная."
+    },
+    {
+      "tr": "salon",
+      "ru": "гостиная",
+      "pronunciation": "са-лон",
+      "example_tr": "Salonda TV var.",
+      "example_ru": "В гостиной есть телевизор."
+    },
+    {
+      "tr": "masa",
+      "ru": "стол",
+      "pronunciation": "ма-са",
+      "example_tr": "Masada kitap var.",
+      "example_ru": "На столе есть книга."
+    },
+    {
+      "tr": "sandalye",
+      "ru": "стул",
+      "pronunciation": "сан-дал-йэ",
+      "example_tr": "Dört sandalye var.",
+      "example_ru": "Есть четыре стула."
+    },
+    {
+      "tr": "kira",
+      "ru": "аренда",
+      "pronunciation": "ки-ра",
+      "example_tr": "Kira ne kadar?",
+      "example_ru": "Сколько аренда?"
+    },
+    {
+      "tr": "komşu",
+      "ru": "сосед",
+      "pronunciation": "ком-шу",
+      "example_tr": "Komşularım çok iyi.",
+      "example_ru": "Мои соседи очень хорошие."
+    },
+    {
+      "tr": "balkon",
+      "ru": "балкон",
+      "pronunciation": "бал-кон",
+      "example_tr": "Balkonda çay içiyorum.",
+      "example_ru": "Пью чай на балконе."
+    }
+  ],
+  "dialogue": {
+    "title": "Диалог — урок 17",
+    "context": "Практика в реальной ситуации.",
+    "lines": [
+      {
+        "speaker": "А",
+        "tr": "Evim küçük ama güzel.",
+        "ru": "Мой дом маленький, но красивый.",
+        "note": ""
+      },
+      {
+        "speaker": "Б",
+        "tr": "Üç odalı daire arıyorum.",
+        "ru": "Ищу трёхкомнатную квартиру.",
+        "note": ""
+      }
+    ]
+  },
+  "cultural_note": {
+    "title": "Культурная заметка",
+    "text": "Турция — удивительная страна с богатой историей и культурой."
+  },
   "exercises": [
     {
       "id": "ex_1",
       "type": "multiple_choice",
-      "question": "Что означает слово?",
-      "word": "mutfak",
-      "pronun": "[мутфак]",
-      "options": ["спальня", "кухня", "гостиная", "ванная"],
-      "correctAnswer": "кухня",
-      "explanation": "mutfak = кухня. В турецких домах кухня — центр семейной жизни."
+      "question": "«Üç odalı daire arıyorum» означает:",
+      "options": [
+        "Я снимаю трёхкомнатную квартиру",
+        "Ищу трёхкомнатную квартиру",
+        "У меня трёхкомнатная квартира",
+        "Покупаю трёхкомнатную квартиру"
+      ],
+      "correctAnswer": "Ищу трёхкомнатную квартиру",
+      "explanation": "arıyorum = ищу (от aramak). üç odalı = трёхкомнатный. daire = квартира."
     },
     {
       "id": "ex_2",
       "type": "multiple_choice",
-      "question": "Как по-турецки «окно»?",
-      "options": ["kapı", "duvar", "pencere", "tavan"],
-      "correctAnswer": "pencere",
-      "explanation": "pencere = окно. kapı = дверь. duvar = стена. tavan = потолок."
+      "question": "«Kira ne kadar?» означает:",
+      "options": [
+        "Какой размер?",
+        "Сколько комнат?",
+        "Сколько аренда?",
+        "Где квартира?"
+      ],
+      "correctAnswer": "Сколько аренда?",
+      "explanation": "kira = аренда/съём. ne kadar = сколько. Kira ne kadar? = Сколько аренда?"
     },
     {
       "id": "ex_3",
       "type": "match_pairs",
-      "question": "Соедини слова с переводом",
+      "question": "Соедини комнаты с переводом",
       "pairs": [
-        { "left": "ev", "right": "дом" },
-        { "left": "oda", "right": "комната" },
-        { "left": "masa", "right": "стол" },
-        { "left": "sandalye", "right": "стул" }
+        {
+          "left": "mutfak",
+          "right": "кухня"
+        },
+        {
+          "left": "banyo",
+          "right": "ванная"
+        },
+        {
+          "left": "salon",
+          "right": "гостиная"
+        },
+        {
+          "left": "yatak odası",
+          "right": "спальня"
+        }
       ],
       "correctAnswer": "all",
-      "explanation": "ev=дом, oda=комната, masa=стол, sandalye=стул."
+      "explanation": "mutfak=кухня, banyo=ванная, salon=гостиная, yatak odası=спальня."
     },
     {
       "id": "ex_4",
       "type": "multiple_choice",
-      "question": "Что означает «yatak odası»?",
-      "options": ["гостиная", "кабинет", "спальня", "детская"],
-      "correctAnswer": "спальня",
-      "explanation": "yatak odası = спальня. yatak = кровать. odası = его комната (притяжательный суффикс)."
+      "question": "«Masada kitap var» означает:",
+      "options": [
+        "Книга большая",
+        "На столе есть книга",
+        "Книга дорогая",
+        "Книга красивая"
+      ],
+      "correctAnswer": "На столе есть книга",
+      "explanation": "masada = на столе (masa + -da). kitap = книга. var = есть."
     },
     {
       "id": "ex_5",
       "type": "fill_blank",
-      "question": "«banyo» означает:",
-      "options": ["кухня", "спальня", "ванная", "балкон"],
-      "correctAnswer": "ванная",
-      "explanation": "banyo = ванная/туалет. Слово пришло из итальянского «bagno»."
+      "question": "«Balkonda ___ içiyorum» = «Пью чай на балконе»",
+      "options": [
+        "kahve",
+        "su",
+        "çay",
+        "ayran"
+      ],
+      "correctAnswer": "çay",
+      "explanation": "çay = чай. balkonda = на балконе. Balkonda çay içmek = пить чай на балконе — турецкая традиция!"
+    },
+    {
+      "id": "ex_6",
+      "type": "multiple_choice",
+      "question": "«Komşularım çok iyi» означает:",
+      "options": [
+        "Мои соседи плохие",
+        "Мои соседи очень хорошие",
+        "Сосед один",
+        "У меня нет соседей"
+      ],
+      "correctAnswer": "Мои соседи очень хорошие",
+      "explanation": "komşu = сосед, -lar = мн.ч., -ım = мои. iyi = хороший. çok iyi = очень хороший."
+    },
+    {
+      "id": "ex_7",
+      "type": "multiple_choice",
+      "question": "Как спросить «Сколько комнат?»",
+      "options": [
+        "Kaç beden?",
+        "Kaç kişi?",
+        "Kaç oda?",
+        "Kaç numara?"
+      ],
+      "correctAnswer": "Kaç oda?",
+      "explanation": "kaç = сколько. oda = комната. Kaç oda? / Kaç odalı? = Сколько комнат?"
+    },
+    {
+      "id": "ex_8",
+      "type": "fill_blank",
+      "question": "«Evim küçük ama ___» = «Мой дом маленький, но красивый»",
+      "options": [
+        "pahalı",
+        "güzel",
+        "büyük",
+        "eski"
+      ],
+      "correctAnswer": "güzel",
+      "explanation": "güzel = красивый/хороший. ama = но. Evim küçük ama güzel = Мой дом маленький, но красивый."
     }
-  ]
+  ],
+  "summary": {
+    "title": "Что ты выучил",
+    "points": [
+      "Ev ve Mobilya — Дом и мебель",
+      "Словарный запас расширен",
+      "Практика в реальных ситуациях"
+    ],
+    "next_lesson": "Урок 18"
+  }
 }

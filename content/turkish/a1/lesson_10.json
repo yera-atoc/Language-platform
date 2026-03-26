@@ -1,71 +1,274 @@
 {
   "id": "lesson_10",
-  "title": "Şehir — Город",
+  "title": "Şehir — Город и ориентирование",
   "level": "a1",
   "language": "turkish",
-  "xpReward": 90,
+  "xpReward": 80,
   "estimatedMinutes": 20,
-  "vocabulary": [
-    { "tr": "şehir", "ru": "город", "pronunciation": "шэхир" },
-    { "tr": "sokak", "ru": "улица", "pronunciation": "сокак" },
-    { "tr": "cadde", "ru": "проспект / широкая улица", "pronunciation": "джаддэ" },
-    { "tr": "park", "ru": "парк", "pronunciation": "парк" },
-    { "tr": "hastane", "ru": "больница", "pronunciation": "хастанэ" },
-    { "tr": "okul", "ru": "школа", "pronunciation": "окул" },
-    { "tr": "market", "ru": "магазин", "pronunciation": "маркэт" },
-    { "tr": "restoran", "ru": "ресторан", "pronunciation": "рэсторан" },
-    { "tr": "nerede?", "ru": "где?", "pronunciation": "нэрэдэ?" },
-    { "tr": "yakın", "ru": "близко", "pronunciation": "якын" }
+  "intro": {
+    "text": "Как спросить дорогу, найти нужное место, понять ответ — это выживание в чужом городе. В этом уроке освоишь ключевые места города и суффикс местонахождения -da/-de.",
+    "goals": [
+      "Назвать места в городе",
+      "Спросить и показать дорогу",
+      "Понять суффикс -da/-de (где?)",
+      "Использовать предлоги и направления"
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g1",
+      "title": "Ключевая грамматика урока",
+      "explanation": "Изучи правило ниже — оно поможет понять всё что в этом уроке.",
+      "table": {
+        "headers": [
+          "Турецкий",
+          "Русский",
+          "Пример"
+        ],
+        "rows": [
+          [
+            "—",
+            "—",
+            "—"
+          ]
+        ]
+      },
+      "note": ""
+    }
   ],
+  "vocabulary": [
+    {
+      "tr": "şehir",
+      "ru": "город",
+      "pronunciation": "шэ-хир",
+      "example_tr": "Şehirde yaşıyorum.",
+      "example_ru": "Я живу в городе."
+    },
+    {
+      "tr": "cadde",
+      "ru": "проспект",
+      "pronunciation": "джад-дэ",
+      "example_tr": "Bu cadde çok kalabalık.",
+      "example_ru": "Этот проспект очень оживлённый."
+    },
+    {
+      "tr": "sokak",
+      "ru": "улица",
+      "pronunciation": "со-как",
+      "example_tr": "Sokak numarası kaç?",
+      "example_ru": "Номер улицы сколько?"
+    },
+    {
+      "tr": "hastane",
+      "ru": "больница",
+      "pronunciation": "хас-та-нэ",
+      "example_tr": "Hastane nerede?",
+      "example_ru": "Где больница?"
+    },
+    {
+      "tr": "okul",
+      "ru": "школа",
+      "pronunciation": "о-кул",
+      "example_tr": "Okul yakın mı?",
+      "example_ru": "Школа близко?"
+    },
+    {
+      "tr": "market",
+      "ru": "магазин",
+      "pronunciation": "мар-кэт",
+      "example_tr": "Markete gidiyorum.",
+      "example_ru": "Я иду в магазин."
+    },
+    {
+      "tr": "restoran",
+      "ru": "ресторан",
+      "pronunciation": "рэс-то-ран",
+      "example_tr": "Bu restoranı seviyorum.",
+      "example_ru": "Мне нравится этот ресторан."
+    },
+    {
+      "tr": "eczane",
+      "ru": "аптека",
+      "pronunciation": "эдж-за-нэ",
+      "example_tr": "Eczane nerede acaba?",
+      "example_ru": "Интересно, где аптека?"
+    },
+    {
+      "tr": "nerede",
+      "ru": "где",
+      "pronunciation": "нэ-рэ-дэ",
+      "example_tr": "Taksim nerede?",
+      "example_ru": "Где Таксим?"
+    },
+    {
+      "tr": "sağ",
+      "ru": "правый/направо",
+      "pronunciation": "са",
+      "example_tr": "Sağa dönün.",
+      "example_ru": "Поверните направо."
+    },
+    {
+      "tr": "sol",
+      "ru": "левый/налево",
+      "pronunciation": "сол",
+      "example_tr": "Sol tarafta.",
+      "example_ru": "С левой стороны."
+    },
+    {
+      "tr": "düz",
+      "ru": "прямо",
+      "pronunciation": "дюз",
+      "example_tr": "Düz gidin.",
+      "example_ru": "Идите прямо."
+    }
+  ],
+  "dialogue": {
+    "title": "Диалог — урок 10",
+    "context": "Практика в реальной ситуации.",
+    "lines": [
+      {
+        "speaker": "А",
+        "tr": "Şehirde yaşıyorum.",
+        "ru": "Я живу в городе.",
+        "note": ""
+      },
+      {
+        "speaker": "Б",
+        "tr": "Bu cadde çok kalabalık.",
+        "ru": "Этот проспект очень оживлённый.",
+        "note": ""
+      }
+    ]
+  },
+  "cultural_note": {
+    "title": "Культурная заметка",
+    "text": "Турция — удивительная страна с богатой историей и культурой."
+  },
   "exercises": [
     {
       "id": "ex_1",
       "type": "multiple_choice",
-      "question": "Что означает слово?",
-      "word": "hastane",
-      "pronun": "[хастанэ]",
-      "options": ["школа", "больница", "аптека", "магазин"],
-      "correctAnswer": "больница",
-      "explanation": "hastane = больница. hasta = больной/пациент + -hane (суффикс места)."
+      "question": "«Sağa dönün» означает:",
+      "options": [
+        "Идите прямо",
+        "Поверните налево",
+        "Поверните направо",
+        "Остановитесь"
+      ],
+      "correctAnswer": "Поверните направо",
+      "explanation": "sağ = правый. dönmek = поворачивать. Sağa dönün = Поверните направо."
     },
     {
       "id": "ex_2",
       "type": "multiple_choice",
-      "question": "Как по-турецки спросить «где?»",
-      "options": ["ne zaman?", "nasıl?", "nerede?", "ne kadar?"],
-      "correctAnswer": "nerede?",
-      "explanation": "nerede? = где? ne zaman? = когда? nasıl? = как? ne kadar? = сколько?"
+      "question": "Как спросить «Где аптека?»",
+      "options": [
+        "Eczane kaçta?",
+        "Eczane nerede?",
+        "Eczane ne kadar?",
+        "Eczane var mı?"
+      ],
+      "correctAnswer": "Eczane nerede?",
+      "explanation": "nerede = где. eczane = аптека. Nerede? — вопрос о местонахождении."
     },
     {
       "id": "ex_3",
       "type": "match_pairs",
       "question": "Соедини места с переводом",
       "pairs": [
-        { "left": "okul", "right": "школа" },
-        { "left": "park", "right": "парк" },
-        { "left": "market", "right": "магазин" },
-        { "left": "restoran", "right": "ресторан" }
+        {
+          "left": "hastane",
+          "right": "больница"
+        },
+        {
+          "left": "okul",
+          "right": "школа"
+        },
+        {
+          "left": "restoran",
+          "right": "ресторан"
+        },
+        {
+          "left": "eczane",
+          "right": "аптека"
+        }
       ],
       "correctAnswer": "all",
-      "explanation": "okul=школа, park=парк, market=магазин, restoran=ресторан."
+      "explanation": "hastane=больница, okul=школа, restoran=ресторан, eczane=аптека."
     },
     {
       "id": "ex_4",
       "type": "multiple_choice",
-      "question": "Что означает слово?",
-      "word": "yakın",
-      "pronun": "[якын]",
-      "options": ["далеко", "близко", "направо", "налево"],
-      "correctAnswer": "близко",
-      "explanation": "yakın = близко. uzak = далеко. sağ = правый. sol = левый."
+      "question": "«Düz gidin» означает:",
+      "options": [
+        "Поверните",
+        "Остановитесь",
+        "Идите прямо",
+        "Вернитесь"
+      ],
+      "correctAnswer": "Идите прямо",
+      "explanation": "düz = прямо. gidin = идите (от gitmek). Düz gidin = Идите прямо."
     },
     {
       "id": "ex_5",
       "type": "fill_blank",
-      "question": "«_______» по-турецки значит «улица»:",
-      "options": ["şehir", "cadde", "sokak", "park"],
-      "correctAnswer": "sokak",
-      "explanation": "sokak = улица (узкая). cadde = проспект (широкая). Оба слова означают улицу, но разного масштаба."
+      "question": "«Sol ___ var» = «С левой стороны есть»",
+      "options": [
+        "tarafta",
+        "taraf",
+        "tarafa",
+        "tarafın"
+      ],
+      "correctAnswer": "tarafta",
+      "explanation": "sol tarafta = с левой стороны. taraf = сторона, -ta = суффикс места."
+    },
+    {
+      "id": "ex_6",
+      "type": "multiple_choice",
+      "question": "Как сказать «Это близко?»",
+      "options": [
+        "Bu uzak mı?",
+        "Bu yakın mı?",
+        "Bu nerede?",
+        "Bu ne?"
+      ],
+      "correctAnswer": "Bu yakın mı?",
+      "explanation": "yakın = близко. uzak = далеко. Bu yakın mı? = Это близко?"
+    },
+    {
+      "id": "ex_7",
+      "type": "multiple_choice",
+      "question": "«Market nerede?» — правильный ответ:",
+      "options": [
+        "Market büyük.",
+        "Sağda, caddenin sonunda.",
+        "Market ucuz.",
+        "Pazartesi kapalı."
+      ],
+      "correctAnswer": "Sağda, caddenin sonunda.",
+      "explanation": "Sağda = справа, caddenin sonunda = в конце проспекта. Реальный ответ на вопрос о дороге."
+    },
+    {
+      "id": "ex_8",
+      "type": "fill_blank",
+      "question": "«Bu ___ hangisi?» = «Какая это остановка?»",
+      "options": [
+        "durak",
+        "cadde",
+        "sokak",
+        "şehir"
+      ],
+      "correctAnswer": "durak",
+      "explanation": "durak = остановка. Bu durak hangisi? = Какая это остановка?"
     }
-  ]
+  ],
+  "summary": {
+    "title": "Что ты выучил",
+    "points": [
+      "Şehir — Город и ориентирование",
+      "Словарный запас расширен",
+      "Практика в реальных ситуациях"
+    ],
+    "next_lesson": "Урок 11"
+  }
 }

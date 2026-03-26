@@ -1,69 +1,274 @@
 {
   "id": "lesson_9",
-  "title": "Saat — Время",
+  "title": "Saat — Время и часы",
   "level": "a1",
   "language": "turkish",
-  "xpReward": 90,
+  "xpReward": 80,
   "estimatedMinutes": 20,
-  "vocabulary": [
-    { "tr": "saat", "ru": "час / время / часы", "pronunciation": "саат" },
-    { "tr": "dakika", "ru": "минута", "pronunciation": "дакика" },
-    { "tr": "sabah", "ru": "утро", "pronunciation": "сабах" },
-    { "tr": "öğlen", "ru": "полдень", "pronunciation": "оулэн" },
-    { "tr": "akşam", "ru": "вечер", "pronunciation": "акшам" },
-    { "tr": "gece", "ru": "ночь", "pronunciation": "гэджэ" },
-    { "tr": "şimdi", "ru": "сейчас", "pronunciation": "шимди" },
-    { "tr": "Saat kaç?", "ru": "Сколько времени?", "pronunciation": "саат кач?" },
-    { "tr": "buçuk", "ru": "половина (30 мин)", "pronunciation": "бучук" },
-    { "tr": "çeyrek", "ru": "четверть (15 мин)", "pronunciation": "чэйрэк" }
+  "intro": {
+    "text": "Умение читать время — базовый навык. В турецком время читается иначе чем в русском: сначала час, потом минуты. Научишься говорить «без четверти», «полчаса» и договариваться о встречах.",
+    "goals": [
+      "Читать время на часах",
+      "Сказать в котором часу что-то происходит",
+      "Понять suффикс -de/-da для времени",
+      "Описывать распорядок дня"
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g1",
+      "title": "Ключевая грамматика урока",
+      "explanation": "Изучи правило ниже — оно поможет понять всё что в этом уроке.",
+      "table": {
+        "headers": [
+          "Турецкий",
+          "Русский",
+          "Пример"
+        ],
+        "rows": [
+          [
+            "—",
+            "—",
+            "—"
+          ]
+        ]
+      },
+      "note": ""
+    }
   ],
+  "vocabulary": [
+    {
+      "tr": "saat",
+      "ru": "час/часы",
+      "pronunciation": "са-ат",
+      "example_tr": "Saat kaç?",
+      "example_ru": "Который час?"
+    },
+    {
+      "tr": "dakika",
+      "ru": "минута",
+      "pronunciation": "да-ки-ка",
+      "example_tr": "Beş dakika bekleyin.",
+      "example_ru": "Подождите пять минут."
+    },
+    {
+      "tr": "buçuk",
+      "ru": "половина (30 мин)",
+      "pronunciation": "бу-чук",
+      "example_tr": "Saat üç buçuk.",
+      "example_ru": "Половина четвёртого (3:30)."
+    },
+    {
+      "tr": "çeyrek",
+      "ru": "четверть (15 мин)",
+      "pronunciation": "чэй-рэк",
+      "example_tr": "Çeyrek geçiyor.",
+      "example_ru": "Четверть первого."
+    },
+    {
+      "tr": "sabah",
+      "ru": "утро",
+      "pronunciation": "са-бах",
+      "example_tr": "Sabah sekizde kalkıyorum.",
+      "example_ru": "Я встаю в восемь утра."
+    },
+    {
+      "tr": "öğlen",
+      "ru": "полдень",
+      "pronunciation": "оу-лэн",
+      "example_tr": "Öğlen yemeği saat birde.",
+      "example_ru": "Обед в час дня."
+    },
+    {
+      "tr": "akşam",
+      "ru": "вечер",
+      "pronunciation": "ак-шам",
+      "example_tr": "Akşam altıda eve geliyorum.",
+      "example_ru": "Вечером в шесть прихожу домой."
+    },
+    {
+      "tr": "gece",
+      "ru": "ночь",
+      "pronunciation": "ге-дже",
+      "example_tr": "Gece yarısı uyuyorum.",
+      "example_ru": "Я сплю в полночь."
+    },
+    {
+      "tr": "erken",
+      "ru": "рано",
+      "pronunciation": "эр-кэн",
+      "example_tr": "Çok erken kalkıyorum.",
+      "example_ru": "Я встаю очень рано."
+    },
+    {
+      "tr": "geç",
+      "ru": "поздно",
+      "pronunciation": "гэч",
+      "example_tr": "Geç kalma!",
+      "example_ru": "Не опаздывай!"
+    },
+    {
+      "tr": "şimdi",
+      "ru": "сейчас",
+      "pronunciation": "шим-ди",
+      "example_tr": "Şimdi ne yapıyorsun?",
+      "example_ru": "Что ты сейчас делаешь?"
+    },
+    {
+      "tr": "ne zaman",
+      "ru": "когда",
+      "pronunciation": "нэ за-ман",
+      "example_tr": "Ne zaman geliyorsun?",
+      "example_ru": "Когда ты приходишь?"
+    }
+  ],
+  "dialogue": {
+    "title": "Диалог — урок 9",
+    "context": "Практика в реальной ситуации.",
+    "lines": [
+      {
+        "speaker": "А",
+        "tr": "Saat kaç?",
+        "ru": "Который час?",
+        "note": ""
+      },
+      {
+        "speaker": "Б",
+        "tr": "Beş dakika bekleyin.",
+        "ru": "Подождите пять минут.",
+        "note": ""
+      }
+    ]
+  },
+  "cultural_note": {
+    "title": "Культурная заметка",
+    "text": "Турция — удивительная страна с богатой историей и культурой."
+  },
   "exercises": [
     {
       "id": "ex_1",
       "type": "multiple_choice",
-      "question": "Что означает слово?",
-      "word": "sabah",
-      "pronun": "[сабах]",
-      "options": ["вечер", "ночь", "утро", "полдень"],
-      "correctAnswer": "утро",
-      "explanation": "sabah = утро. Порядок дня: sabah(утро) → öğlen(полдень) → akşam(вечер) → gece(ночь)."
+      "question": "Сейчас 3:30. Как сказать по-турецки?",
+      "options": [
+        "Üç buçuk",
+        "Üç çeyrek",
+        "Üçte bir",
+        "Saat üç"
+      ],
+      "correctAnswer": "Üç buçuk",
+      "explanation": "Üç buçuk = 3:30. buçuk = половина. saat üç buçuk = половина четвёртого."
     },
     {
       "id": "ex_2",
       "type": "multiple_choice",
-      "question": "Как спросить «Сколько времени?»",
-      "options": ["Saat kaç?", "Bugün ne?", "Nerelisin?", "Adın ne?"],
-      "correctAnswer": "Saat kaç?",
-      "explanation": "Saat kaç? = Сколько времени? Дословно: «Час сколько?»"
+      "question": "«Gece» означает:",
+      "options": [
+        "утро",
+        "день",
+        "вечер",
+        "ночь"
+      ],
+      "correctAnswer": "ночь",
+      "explanation": "gece = ночь. sabah = утро. öğlen = полдень. akşam = вечер."
     },
     {
       "id": "ex_3",
       "type": "match_pairs",
-      "question": "Соедини слова с переводом",
+      "question": "Соедини время суток с переводом",
       "pairs": [
-        { "left": "sabah", "right": "утро" },
-        { "left": "akşam", "right": "вечер" },
-        { "left": "gece", "right": "ночь" },
-        { "left": "şimdi", "right": "сейчас" }
+        {
+          "left": "sabah",
+          "right": "утро"
+        },
+        {
+          "left": "öğlen",
+          "right": "полдень"
+        },
+        {
+          "left": "akşam",
+          "right": "вечер"
+        },
+        {
+          "left": "gece",
+          "right": "ночь"
+        }
       ],
       "correctAnswer": "all",
-      "explanation": "sabah=утро, akşam=вечер, gece=ночь, şimdi=сейчас."
+      "explanation": "sabah=утро, öğlen=полдень, akşam=вечер, gece=ночь."
     },
     {
       "id": "ex_4",
       "type": "multiple_choice",
-      "question": "«Saat üç buçuk» — это сколько?",
-      "options": ["3:00", "3:15", "3:30", "3:45"],
-      "correctAnswer": "3:30",
-      "explanation": "buçuk = половина. üç buçuk = три с половиной = 3:30."
+      "question": "«Saat kaç?» означает:",
+      "options": [
+        "Который час?",
+        "Сколько стоит?",
+        "Сколько минут?",
+        "Как дела?"
+      ],
+      "correctAnswer": "Который час?",
+      "explanation": "Saat kaç? = Который час? saat = час/часы, kaç = сколько."
     },
     {
       "id": "ex_5",
       "type": "fill_blank",
-      "question": "«_______» означает «минута» по-турецки:",
-      "options": ["saat", "gece", "dakika", "çeyrek"],
-      "correctAnswer": "dakika",
-      "explanation": "dakika = минута. saat = час. Эти слова арабского происхождения."
+      "question": "«Çok ___» = «Очень поздно»",
+      "options": [
+        "erken",
+        "geç",
+        "şimdi",
+        "yarın"
+      ],
+      "correctAnswer": "geç",
+      "explanation": "geç = поздно. erken = рано. Geç kalma! = Не опаздывай!"
+    },
+    {
+      "id": "ex_6",
+      "type": "multiple_choice",
+      "question": "Как сказать «Я встаю рано»?",
+      "options": [
+        "Geç kalkıyorum.",
+        "Erken kalkıyorum.",
+        "Şimdi kalkıyorum.",
+        "Yarın kalkıyorum."
+      ],
+      "correctAnswer": "Erken kalkıyorum.",
+      "explanation": "erken = рано. kalkıyorum = я встаю (от kalkmak = вставать)."
+    },
+    {
+      "id": "ex_7",
+      "type": "multiple_choice",
+      "question": "В котором часу обед? «Öğle yemeği saat ___de»",
+      "options": [
+        "birde",
+        "bende",
+        "birinde",
+        "bir"
+      ],
+      "correctAnswer": "birde",
+      "explanation": "bir + -de = в час. birde = в час (дня). Суффикс -de = в/на."
+    },
+    {
+      "id": "ex_8",
+      "type": "fill_blank",
+      "question": "«Ne ___ geliyorsun?» = «Когда ты приходишь?»",
+      "options": [
+        "kadar",
+        "zaman",
+        "biraz",
+        "çok"
+      ],
+      "correctAnswer": "zaman",
+      "explanation": "Ne zaman = когда. Saat kaç = в котором часу. Разные вопросы!"
     }
-  ]
+  ],
+  "summary": {
+    "title": "Что ты выучил",
+    "points": [
+      "Saat — Время и часы",
+      "Словарный запас расширен",
+      "Практика в реальных ситуациях"
+    ],
+    "next_lesson": "Урок 10"
+  }
 }

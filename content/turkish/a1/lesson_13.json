@@ -1,71 +1,274 @@
 {
   "id": "lesson_13",
-  "title": "Hava durumu — Погода",
+  "title": "Hava Durumu — Погода",
   "level": "a1",
   "language": "turkish",
-  "xpReward": 100,
+  "xpReward": 80,
   "estimatedMinutes": 20,
-  "vocabulary": [
-    { "tr": "hava", "ru": "погода / воздух", "pronunciation": "хава" },
-    { "tr": "güneş", "ru": "солнце", "pronunciation": "гюнэш" },
-    { "tr": "yağmur", "ru": "дождь", "pronunciation": "ямур" },
-    { "tr": "kar", "ru": "снег", "pronunciation": "кар" },
-    { "tr": "rüzgar", "ru": "ветер", "pronunciation": "рюзгяр" },
-    { "tr": "sıcak", "ru": "жарко / горячий", "pronunciation": "сыджак" },
-    { "tr": "soğuk", "ru": "холодно / холодный", "pronunciation": "соук" },
-    { "tr": "bulutlu", "ru": "облачно", "pronunciation": "булутлу" },
-    { "tr": "Hava nasıl?", "ru": "Какая погода?", "pronunciation": "хава насыл?" },
-    { "tr": "derece", "ru": "градус", "pronunciation": "дэрэджэ" }
+  "intro": {
+    "text": "Разговор о погоде — универсальная тема во всех культурах. Турция имеет разнообразный климат: жаркое лето на юге, снежные зимы на востоке. Научишься описывать погоду и одеваться по сезону.",
+    "goals": [
+      "Описать погоду и климат",
+      "Использовать слова о температуре",
+      "Говорить о временах года",
+      "Понимать прогноз погоды"
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g1",
+      "title": "Ключевая грамматика урока",
+      "explanation": "Изучи правило ниже — оно поможет понять всё что в этом уроке.",
+      "table": {
+        "headers": [
+          "Турецкий",
+          "Русский",
+          "Пример"
+        ],
+        "rows": [
+          [
+            "—",
+            "—",
+            "—"
+          ]
+        ]
+      },
+      "note": ""
+    }
   ],
+  "vocabulary": [
+    {
+      "tr": "hava",
+      "ru": "погода/воздух",
+      "pronunciation": "ха-ва",
+      "example_tr": "Hava nasıl bugün?",
+      "example_ru": "Какая сегодня погода?"
+    },
+    {
+      "tr": "güneşli",
+      "ru": "солнечно",
+      "pronunciation": "гю-нэш-ли",
+      "example_tr": "Bugün çok güneşli.",
+      "example_ru": "Сегодня очень солнечно."
+    },
+    {
+      "tr": "yağmurlu",
+      "ru": "дождливо",
+      "pronunciation": "йа-мур-лу",
+      "example_tr": "Yarın yağmurlu.",
+      "example_ru": "Завтра будет дождь."
+    },
+    {
+      "tr": "karlı",
+      "ru": "снежно",
+      "pronunciation": "кар-лы",
+      "example_tr": "Dağlarda karlı.",
+      "example_ru": "В горах снежно."
+    },
+    {
+      "tr": "sıcak",
+      "ru": "жарко/горячий",
+      "pronunciation": "сы-джак",
+      "example_tr": "Yazın çok sıcak.",
+      "example_ru": "Летом очень жарко."
+    },
+    {
+      "tr": "soğuk",
+      "ru": "холодно/холодный",
+      "pronunciation": "со-ук",
+      "example_tr": "Kışın çok soğuk.",
+      "example_ru": "Зимой очень холодно."
+    },
+    {
+      "tr": "rüzgarlı",
+      "ru": "ветрено",
+      "pronunciation": "рюз-гар-лы",
+      "example_tr": "Bugün çok rüzgarlı.",
+      "example_ru": "Сегодня очень ветрено."
+    },
+    {
+      "tr": "bulutlu",
+      "ru": "облачно",
+      "pronunciation": "бу-лут-лу",
+      "example_tr": "Gökyüzü bulutlu.",
+      "example_ru": "Небо облачное."
+    },
+    {
+      "tr": "derece",
+      "ru": "градус",
+      "pronunciation": "дэ-рэ-дже",
+      "example_tr": "Bugün 35 derece!",
+      "example_ru": "Сегодня 35 градусов!"
+    },
+    {
+      "tr": "mevsim",
+      "ru": "сезон/время года",
+      "pronunciation": "мэв-сим",
+      "example_tr": "En sevdiğim mevsim ilkbahar.",
+      "example_ru": "Мой любимый сезон — весна."
+    },
+    {
+      "tr": "yaz",
+      "ru": "лето",
+      "pronunciation": "йаз",
+      "example_tr": "Yazın denize gidiyorum.",
+      "example_ru": "Летом я хожу на море."
+    },
+    {
+      "tr": "kış",
+      "ru": "зима",
+      "pronunciation": "кыш",
+      "example_tr": "Kış çok uzun burada.",
+      "example_ru": "Зима здесь очень долгая."
+    }
+  ],
+  "dialogue": {
+    "title": "Диалог — урок 13",
+    "context": "Практика в реальной ситуации.",
+    "lines": [
+      {
+        "speaker": "А",
+        "tr": "Hava nasıl bugün?",
+        "ru": "Какая сегодня погода?",
+        "note": ""
+      },
+      {
+        "speaker": "Б",
+        "tr": "Bugün çok güneşli.",
+        "ru": "Сегодня очень солнечно.",
+        "note": ""
+      }
+    ]
+  },
+  "cultural_note": {
+    "title": "Культурная заметка",
+    "text": "Турция — удивительная страна с богатой историей и культурой."
+  },
   "exercises": [
     {
       "id": "ex_1",
       "type": "multiple_choice",
-      "question": "Что означает слово?",
-      "word": "yağmur",
-      "pronun": "[ямур]",
-      "options": ["снег", "ветер", "дождь", "гроза"],
-      "correctAnswer": "дождь",
-      "explanation": "yağmur = дождь. kar = снег. rüzgar = ветер."
+      "question": "«Hava nasıl bugün?» означает:",
+      "options": [
+        "Как ты сегодня?",
+        "Какая сегодня погода?",
+        "Где ты сегодня?",
+        "Что сегодня?"
+      ],
+      "correctAnswer": "Какая сегодня погода?",
+      "explanation": "hava = погода/воздух. nasıl = как. bugün = сегодня. Стандартный вопрос о погоде."
     },
     {
       "id": "ex_2",
       "type": "multiple_choice",
-      "question": "Как спросить «Какая погода?»",
-      "options": ["Saat kaç?", "Hava nasıl?", "Nerelisin?", "Ne zaman?"],
-      "correctAnswer": "Hava nasıl?",
-      "explanation": "Hava nasıl? = Какая погода? nasıl? = как? Hava = погода/воздух."
+      "question": "«Bugün 35 derece» означает:",
+      "options": [
+        "Сегодня 35 минут",
+        "Сегодня 35 градусов",
+        "Сегодня 35 лир",
+        "Сегодня 35 людей"
+      ],
+      "correctAnswer": "Сегодня 35 градусов",
+      "explanation": "derece = градус. Bugün 35 derece! = Сегодня 35 градусов! Типичное турецкое лето."
     },
     {
       "id": "ex_3",
       "type": "match_pairs",
       "question": "Соедини погоду с переводом",
       "pairs": [
-        { "left": "güneş", "right": "солнце" },
-        { "left": "kar", "right": "снег" },
-        { "left": "sıcak", "right": "жарко" },
-        { "left": "soğuk", "right": "холодно" }
+        {
+          "left": "güneşli",
+          "right": "солнечно"
+        },
+        {
+          "left": "yağmurlu",
+          "right": "дождливо"
+        },
+        {
+          "left": "karlı",
+          "right": "снежно"
+        },
+        {
+          "left": "bulutlu",
+          "right": "облачно"
+        }
       ],
       "correctAnswer": "all",
-      "explanation": "güneş=солнце, kar=снег, sıcak=жарко, soğuk=холодно."
+      "explanation": "güneşli=солнечно, yağmurlu=дождливо, karlı=снежно, bulutlu=облачно."
     },
     {
       "id": "ex_4",
       "type": "multiple_choice",
-      "question": "Что означает слово?",
-      "word": "bulutlu",
-      "pronun": "[булутлу]",
-      "options": ["солнечно", "ветрено", "облачно", "туманно"],
-      "correctAnswer": "облачно",
-      "explanation": "bulutlu = облачно. bulut = облако. Суффикс -lu/-lü/-lu/-lü = «имеющий»."
+      "question": "«Yazın çok sıcak» означает:",
+      "options": [
+        "Летом очень холодно",
+        "Зимой очень жарко",
+        "Летом очень жарко",
+        "Весной очень тепло"
+      ],
+      "correctAnswer": "Летом очень жарко",
+      "explanation": "yaz = лето, -ın = суффикс времени (летом). sıcak = жарко. yazın = летом."
     },
     {
       "id": "ex_5",
       "type": "fill_blank",
-      "question": "«otuz _______» = «тридцать градусов»",
-      "options": ["dakika", "derece", "saat", "metre"],
-      "correctAnswer": "derece",
-      "explanation": "derece = градус. otuz derece = 30 градусов. Лето в Турции — часто больше 35 derece!"
+      "question": "«Kışın çok ___» = «Зимой очень холодно»",
+      "options": [
+        "sıcak",
+        "güneşli",
+        "soğuk",
+        "rüzgarlı"
+      ],
+      "correctAnswer": "soğuk",
+      "explanation": "soğuk = холодно/холодный. kışın = зимой (kış = зима + -ın)."
+    },
+    {
+      "id": "ex_6",
+      "type": "multiple_choice",
+      "question": "Как спросить «Завтра будет дождь?»",
+      "options": [
+        "Yarın yağmurlu mu?",
+        "Dün yağmurlu mu?",
+        "Bugün yağmur var mı?",
+        "Hava sıcak mı?"
+      ],
+      "correctAnswer": "Yarın yağmurlu mu?",
+      "explanation": "yarın = завтра. yağmurlu = дождливо. -mu? = вопрос да/нет."
+    },
+    {
+      "id": "ex_7",
+      "type": "multiple_choice",
+      "question": "«En sevdiğim mevsim ilkbahar» — что это значит?",
+      "options": [
+        "Лето — мой любимый сезон",
+        "Осень — мой любимый сезон",
+        "Весна — мой любимый сезон",
+        "Зима — мой любимый сезон"
+      ],
+      "correctAnswer": "Весна — мой любимый сезон",
+      "explanation": "ilkbahar = весна (ilk = первый, bahar = весна). en sevdiğim = мой любимый."
+    },
+    {
+      "id": "ex_8",
+      "type": "fill_blank",
+      "question": "«Rüzgar___» = «Очень ветрено»",
+      "options": [
+        "lı bugün",
+        "siz bugün",
+        "lu bugün",
+        "lar bugün"
+      ],
+      "correctAnswer": "lı bugün",
+      "explanation": "rüzgar+lı = ветреный (-lı суффикс наличия). Bugün çok rüzgarlı = Сегодня очень ветрено."
     }
-  ]
+  ],
+  "summary": {
+    "title": "Что ты выучил",
+    "points": [
+      "Hava Durumu — Погода",
+      "Словарный запас расширен",
+      "Практика в реальных ситуациях"
+    ],
+    "next_lesson": "Урок 14"
+  }
 }
