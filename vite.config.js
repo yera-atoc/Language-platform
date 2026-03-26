@@ -19,8 +19,9 @@ export default defineConfig({
     outDir: 'dist',
     sourcemap: true,
   },
-  server: {
-    port: 3000,
-    open: true,
+server: {
+  port: 3000,
+  open: true,
+  allowedHosts: ['sb-3q94k94rka5d.vercel.run'],
   },
 })
