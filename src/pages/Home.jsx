@@ -117,7 +117,7 @@ export default function Home() {
           <SectionHead title="Продолжить" />
           <div
             style={s.continueCard}
-            onClick={() => navigate(`/lesson/${activeLang}/${activeLang === 'chinese' ? 'hsk1' : 'a1'}/${continueLesson.id}`)}
+            onClick={() => navigate(`/lesson/${activeLang}/${activeLang === 'chinese' ? 'hsk0' : 'a0'}/${continueLesson.id}`)}
           >
             <div style={s.continueTop}>
               <div style={{ ...s.continueIcon, background: `linear-gradient(135deg,${langMeta.color},${langMeta.color}99)` }}>
@@ -129,7 +129,7 @@ export default function Home() {
               </div>
               <button
                 style={s.continueBtn}
-                onClick={e => { e.stopPropagation(); navigate(`/lesson/${activeLang}/${activeLang === 'chinese' ? 'hsk1' : 'a1'}/${continueLesson.id}`) }}
+                onClick={e => { e.stopPropagation(); navigate(`/lesson/${activeLang}/${activeLang === 'chinese' ? 'hsk0' : 'a0'}/${continueLesson.id}`) }}
               >
                 Идти
               </button>
@@ -180,7 +180,7 @@ export default function Home() {
       <BottomNav
         active="home"
         onNavigate={tab => {
-          if (tab === 'lessons')  navigate(`/lessons/${activeLang}/${activeLang === 'chinese' ? 'hsk1' : 'a1'}`)
+          if (tab === 'lessons')  navigate(`/lessons/${activeLang}/${activeLang === 'chinese' ? 'hsk0' : 'a0'}`)
           if (tab === 'progress') navigate('/progress')
           if (tab === 'profile')  navigate('/profile')
         }}

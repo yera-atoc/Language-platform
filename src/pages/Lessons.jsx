@@ -19,8 +19,10 @@ const LANG_META = {
 }
 
 const LEVEL_COLORS = {
-  a1: '#4ECDC4', a2: '#44CF6C', b1: '#FFD93D', b2: '#FF9F43',
-  hsk1: '#FF6B6B', hsk2: '#FFA07A', hsk3: '#FFD700', hsk4: '#98FB98',
+  a0: '#A8E6CF', a1: '#4ECDC4', a2: '#44CF6C',
+  b1: '#FFD93D', b2: '#FF9F43', c1: '#DDA0DD', c2: '#B0C4DE',
+  hsk0: '#FFB7B2', hsk1: '#FF6B6B', hsk2: '#FFA07A',
+  hsk3: '#FFD700', hsk4: '#98FB98', hsk5: '#98FB98', hsk6: '#B0E0E6',
 }
 
 // ── Main Component ───────────────────────────────────────────
@@ -28,7 +30,7 @@ const LEVEL_COLORS = {
 export default function Lessons() {
   const { language = 'turkish', level: levelParam } = useParams()
   // Default level depends on language
-  const defaultLevel = language === 'chinese' ? 'hsk1' : 'a1'
+  const defaultLevel = language === 'chinese' ? 'hsk0' : 'a0'
   const navigate = useNavigate()
 
   const { getLevelProgress, getLessonProgress, isLessonUnlocked } = useProgressStore()
