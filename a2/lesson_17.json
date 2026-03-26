@@ -1,0 +1,305 @@
+{
+  "id": "lesson_17",
+  "title": "Eğitim ve Okul — Образование",
+  "level": "a2",
+  "language": "turkish",
+  "xpReward": 80,
+  "estimatedMinutes": 25,
+  "intro": {
+    "text": "Школьная и университетская лексика. Üniversite (университет), sınav (экзамен), mezun olmak (окончить). Турция — страна с высоким уровнем образования, 8 лет обязательная школа.",
+    "goals": [
+      "Освоить тему: Eğitim ve Okul — Образование",
+      "Применить в диалоге",
+      "Закрепить упражнениями",
+      "Расширить словарный запас"
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g1",
+      "title": "Грамматика урока",
+      "explanation": "Школьная и университетская лексика. Üniversite (университет), sınav (экзамен), mezun olmak (окончить). Турция — страна с высоким уровнем образования, 8 лет обязательная школа.",
+      "table": {
+        "headers": [
+          "Форма",
+          "Правило",
+          "Пример"
+        ],
+        "rows": [
+          [
+            "üniversite",
+            "университет",
+            "юни-вэр-си-тэ"
+          ],
+          [
+            "sınav",
+            "экзамен",
+            "сы-нав"
+          ],
+          [
+            "mezun olmak",
+            "окончить",
+            "мэ-зун ол-мак"
+          ],
+          [
+            "bölüm",
+            "факультет/отдел",
+            "бё-люм"
+          ]
+        ]
+      },
+      "note": "Уровень A2 Элементарный"
+    }
+  ],
+  "vocabulary": [
+    {
+      "tr": "üniversite",
+      "ru": "университет",
+      "pronunciation": "юни-вэр-си-тэ",
+      "example_tr": "Üniversitede okuyorum.",
+      "example_ru": "Учусь в университете."
+    },
+    {
+      "tr": "sınav",
+      "ru": "экзамен",
+      "pronunciation": "сы-нав",
+      "example_tr": "Sınav ne zaman?",
+      "example_ru": "Когда экзамен?"
+    },
+    {
+      "tr": "mezun olmak",
+      "ru": "окончить",
+      "pronunciation": "мэ-зун ол-мак",
+      "example_tr": "Üniversiteden mezun oldum.",
+      "example_ru": "Окончил университет."
+    },
+    {
+      "tr": "bölüm",
+      "ru": "факультет/отдел",
+      "pronunciation": "бё-люм",
+      "example_tr": "Hangi bölümdesin?",
+      "example_ru": "На каком факультете?"
+    },
+    {
+      "tr": "ödev",
+      "ru": "домашнее задание",
+      "pronunciation": "ё-дэв",
+      "example_tr": "Ödevim çok.",
+      "example_ru": "У меня много д/з."
+    },
+    {
+      "tr": "not",
+      "ru": "оценка",
+      "pronunciation": "нот",
+      "example_tr": "Notlarım iyi.",
+      "example_ru": "У меня хорошие оценки."
+    },
+    {
+      "tr": "başarılı",
+      "ru": "успешный",
+      "pronunciation": "ба-ша-рыл-лы",
+      "example_tr": "Başarılı bir öğrenci.",
+      "example_ru": "Успешный студент."
+    },
+    {
+      "tr": "başarısız",
+      "ru": "неуспешный",
+      "pronunciation": "ба-ша-ры-сыз",
+      "example_tr": "Sınavdan başarısız oldum.",
+      "example_ru": "Провалил экзамен."
+    },
+    {
+      "tr": "burs",
+      "ru": "стипендия",
+      "pronunciation": "бурс",
+      "example_tr": "Burs aldım.",
+      "example_ru": "Получил стипендию."
+    },
+    {
+      "tr": "kütüphane",
+      "ru": "библиотека",
+      "pronunciation": "кю-тюп-ха-нэ",
+      "example_tr": "Kütüphanede çalışıyorum.",
+      "example_ru": "Работаю в библиотеке."
+    },
+    {
+      "tr": "öğretim üyesi",
+      "ru": "преподаватель",
+      "pronunciation": "ою-рэ-тим ю-йэ-си",
+      "example_tr": "Öğretim üyesi iyi.",
+      "example_ru": "Преподаватель хороший."
+    },
+    {
+      "tr": "ders programı",
+      "ru": "расписание",
+      "pronunciation": "дэрс прог-ра-мы",
+      "example_tr": "Ders programım doldu.",
+      "example_ru": "Расписание забито."
+    }
+  ],
+  "dialogue": {
+    "title": "Диалог — Eğitim ve Okul — Образование",
+    "context": "Реальная ситуация.",
+    "lines": [
+      {
+        "speaker": "A",
+        "tr": "Üniversitede okuyorum.",
+        "ru": "Учусь в университете.",
+        "note": ""
+      },
+      {
+        "speaker": "B",
+        "tr": "Sınav ne zaman?",
+        "ru": "Когда экзамен?",
+        "note": ""
+      },
+      {
+        "speaker": "A",
+        "tr": "Üniversiteden mezun oldum.",
+        "ru": "Окончил университет.",
+        "note": ""
+      }
+    ]
+  },
+  "cultural_note": {
+    "title": "Культурный контекст",
+    "text": "Урок 17 уровня A2 Элементарный. Практикуй каждый день!"
+  },
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "multiple_choice",
+      "question": "Что из этого относится к теме «eğitim»?",
+      "options": [
+        "Вариант А",
+        "Вариант Б",
+        "Вариант В",
+        "Вариант Г"
+      ],
+      "correctAnswer": "Вариант А",
+      "explanation": "Ключевое понятие темы eğitim"
+    },
+    {
+      "id": "ex_2",
+      "type": "multiple_choice",
+      "question": "Выбери правильную форму глагола:",
+      "options": [
+        "-iyor",
+        "-di",
+        "-ecek",
+        "-mış"
+      ],
+      "correctAnswer": "-iyor",
+      "explanation": "Настоящее продолженное: глагол+-iyor+личное окончание"
+    },
+    {
+      "id": "ex_3",
+      "type": "match_pairs",
+      "question": "Соедини слова",
+      "pairs": [
+        {
+          "left": "var",
+          "right": "есть"
+        },
+        {
+          "left": "yok",
+          "right": "нет"
+        },
+        {
+          "left": "gibi",
+          "right": "как"
+        },
+        {
+          "left": "için",
+          "right": "для"
+        }
+      ],
+      "correctAnswer": "all",
+      "explanation": "all"
+    },
+    {
+      "id": "ex_4",
+      "type": "fill_blank",
+      "question": "«Ben ___ gidiyorum» = «Я иду в школу»",
+      "options": [
+        "okula",
+        "okulda",
+        "okuldan",
+        "okul"
+      ],
+      "correctAnswer": "okula",
+      "explanation": "Суффикс направления -a/-e: okul+a = в школу"
+    },
+    {
+      "id": "ex_5",
+      "type": "multiple_choice",
+      "question": "Как образуется прошедшее время?",
+      "options": [
+        "глагол + -iyor",
+        "глагол + -di/-dı",
+        "глагол + -ecek",
+        "глагол + -miş"
+      ],
+      "correctAnswer": "глагол + -di/-dı",
+      "explanation": "Простое прошедшее: gitmek → gitti (ушёл)"
+    },
+    {
+      "id": "ex_6",
+      "type": "multiple_choice",
+      "question": "«Yarın ne yapacaksın?» означает:",
+      "options": [
+        "Что ты делаешь?",
+        "Что ты делал?",
+        "Что ты будешь делать завтра?",
+        "Зачем ты здесь?"
+      ],
+      "correctAnswer": "Что ты будешь делать завтра?",
+      "explanation": "yarın=завтра, yapacaksın=ты сделаешь (-ecek будущее)"
+    },
+    {
+      "id": "ex_7",
+      "type": "fill_blank",
+      "question": "Отрицание глагола: «gitmek» → «___»",
+      "options": [
+        "gitmemek",
+        "gitmeyorum",
+        "gitmiyor",
+        "gitmek değil"
+      ],
+      "correctAnswer": "gitmemek",
+      "explanation": "Отрицательный инфинитив: глагол + -me/-ma + мек/мак"
+    },
+    {
+      "id": "ex_8",
+      "type": "match_pairs",
+      "question": "Соедини времена",
+      "pairs": [
+        {
+          "left": "gidiyorum",
+          "right": "иду сейчас"
+        },
+        {
+          "left": "gittim",
+          "right": "я пошёл"
+        },
+        {
+          "left": "gideceğim",
+          "right": "я пойду"
+        },
+        {
+          "left": "gitmiştim",
+          "right": "я уже ходил"
+        }
+      ],
+      "correctAnswer": "all",
+      "explanation": "all"
+    }
+  ],
+  "summary": {
+    "title": "Итог урока",
+    "points": [
+      "Eğitim ve Okul — Образование"
+    ],
+    "next_lesson": "Урок 18"
+  }
+}

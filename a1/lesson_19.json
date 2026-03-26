@@ -1,0 +1,274 @@
+{
+  "id": "lesson_19",
+  "title": "Duygular ve Hisler — Чувства и эмоции",
+  "level": "a1",
+  "language": "turkish",
+  "xpReward": 150,
+  "estimatedMinutes": 20,
+  "intro": {
+    "text": "Выражать эмоции — это высший уровень владения языком. В этом уроке освоишь слова для описания своего состояния, научишься сочувствовать и поддерживать разговор.",
+    "goals": [
+      "Описать своё эмоциональное состояние",
+      "Выразить радость и сочувствие",
+      "Говорить о том что нравится и не нравится",
+      "Использовать глагол sevmek (любить)"
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g1",
+      "title": "Ключевая грамматика урока",
+      "explanation": "Изучи правило ниже — оно поможет понять всё что в этом уроке.",
+      "table": {
+        "headers": [
+          "Турецкий",
+          "Русский",
+          "Пример"
+        ],
+        "rows": [
+          [
+            "—",
+            "—",
+            "—"
+          ]
+        ]
+      },
+      "note": ""
+    }
+  ],
+  "vocabulary": [
+    {
+      "tr": "mutlu",
+      "ru": "счастливый",
+      "pronunciation": "мут-лу",
+      "example_tr": "Çok mutluyum!",
+      "example_ru": "Я очень счастлив!"
+    },
+    {
+      "tr": "üzgün",
+      "ru": "грустный",
+      "pronunciation": "юз-гюн",
+      "example_tr": "Neden üzgünsün?",
+      "example_ru": "Почему ты грустишь?"
+    },
+    {
+      "tr": "kızgın",
+      "ru": "злой/сердитый",
+      "pronunciation": "кыз-гын",
+      "example_tr": "Kızgın mısın?",
+      "example_ru": "Ты злишься?"
+    },
+    {
+      "tr": "yorgun",
+      "ru": "усталый",
+      "pronunciation": "йор-гун",
+      "example_tr": "Çok yorgunum.",
+      "example_ru": "Я очень устал."
+    },
+    {
+      "tr": "hasta",
+      "ru": "больной",
+      "pronunciation": "хас-та",
+      "example_tr": "Hasta mısın?",
+      "example_ru": "Ты болен?"
+    },
+    {
+      "tr": "heyecanlı",
+      "ru": "взволнованный",
+      "pronunciation": "хэ-йэ-джан-лы",
+      "example_tr": "Çok heyecanlıyım!",
+      "example_ru": "Я очень взволнован!"
+    },
+    {
+      "tr": "şaşırmış",
+      "ru": "удивлённый",
+      "pronunciation": "ша-шыр-мыш",
+      "example_tr": "Çok şaşırdım!",
+      "example_ru": "Я очень удивлён!"
+    },
+    {
+      "tr": "sevmek",
+      "ru": "любить",
+      "pronunciation": "сэв-мэк",
+      "example_tr": "Seni seviyorum.",
+      "example_ru": "Я тебя люблю."
+    },
+    {
+      "tr": "nefret etmek",
+      "ru": "ненавидеть",
+      "pronunciation": "нэф-рэт эт-мэк",
+      "example_tr": "Yalandan nefret ediyorum.",
+      "example_ru": "Я ненавижу ложь."
+    },
+    {
+      "tr": "korkmak",
+      "ru": "бояться",
+      "pronunciation": "корк-мак",
+      "example_tr": "Karanlıktan korkuyorum.",
+      "example_ru": "Я боюсь темноты."
+    },
+    {
+      "tr": "Nasılsın?",
+      "ru": "Как ты?",
+      "pronunciation": "на-сыл-сын",
+      "example_tr": "Nasılsın, iyi misin?",
+      "example_ru": "Как ты, всё хорошо?"
+    },
+    {
+      "tr": "İyiyim",
+      "ru": "Я хорошо",
+      "pronunciation": "и-йи-йим",
+      "example_tr": "İyiyim, teşekkürler!",
+      "example_ru": "Хорошо, спасибо!"
+    }
+  ],
+  "dialogue": {
+    "title": "Диалог — урок 19",
+    "context": "Практика в реальной ситуации.",
+    "lines": [
+      {
+        "speaker": "А",
+        "tr": "Çok mutluyum!",
+        "ru": "Я очень счастлив!",
+        "note": ""
+      },
+      {
+        "speaker": "Б",
+        "tr": "Neden üzgünsün?",
+        "ru": "Почему ты грустишь?",
+        "note": ""
+      }
+    ]
+  },
+  "cultural_note": {
+    "title": "Культурная заметка",
+    "text": "Турция — удивительная страна с богатой историей и культурой."
+  },
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "multiple_choice",
+      "question": "«Çok mutluyum» означает:",
+      "options": [
+        "Я очень грустный",
+        "Я очень злой",
+        "Я очень счастливый",
+        "Я очень устал"
+      ],
+      "correctAnswer": "Я очень счастливый",
+      "explanation": "mutlu = счастливый. çok = очень. -yum = я есть."
+    },
+    {
+      "id": "ex_2",
+      "type": "multiple_choice",
+      "question": "«Neden üzgünsün?» означает:",
+      "options": [
+        "Как ты?",
+        "Почему ты грустишь?",
+        "Ты в порядке?",
+        "Что случилось?"
+      ],
+      "correctAnswer": "Почему ты грустишь?",
+      "explanation": "neden = почему. üzgün = грустный. -sun = ты есть. Neden üzgünsün? = Почему ты грустный?"
+    },
+    {
+      "id": "ex_3",
+      "type": "match_pairs",
+      "question": "Соедини эмоции с переводом",
+      "pairs": [
+        {
+          "left": "mutlu",
+          "right": "счастливый"
+        },
+        {
+          "left": "üzgün",
+          "right": "грустный"
+        },
+        {
+          "left": "kızgın",
+          "right": "злой"
+        },
+        {
+          "left": "yorgun",
+          "right": "усталый"
+        }
+      ],
+      "correctAnswer": "all",
+      "explanation": "mutlu=счастливый, üzgün=грустный, kızgın=злой, yorgun=усталый."
+    },
+    {
+      "id": "ex_4",
+      "type": "multiple_choice",
+      "question": "«Seni seviyorum» означает:",
+      "options": [
+        "Я скучаю по тебе",
+        "Я тебя люблю",
+        "Я тебя вижу",
+        "Я тебя слышу"
+      ],
+      "correctAnswer": "Я тебя люблю",
+      "explanation": "seviyorum = люблю (от sevmek). seni = тебя (винительный от sen)."
+    },
+    {
+      "id": "ex_5",
+      "type": "fill_blank",
+      "question": "«Çok ___yım» = «Я очень взволнован»",
+      "options": [
+        "heyecanlı",
+        "heyecanl",
+        "heyecanlıy",
+        "heyecanlar"
+      ],
+      "correctAnswer": "heyecanlıy",
+      "explanation": "heyecanlıyım = я взволнован. heyecanlı + -yım. y добавляется перед гласным суффиксом."
+    },
+    {
+      "id": "ex_6",
+      "type": "multiple_choice",
+      "question": "«Karanlıktan korkuyorum» означает:",
+      "options": [
+        "Я люблю темноту",
+        "Я боюсь темноты",
+        "Я не вижу в темноте",
+        "Я хожу в темноте"
+      ],
+      "correctAnswer": "Я боюсь темноты",
+      "explanation": "korkmak = бояться. korkuyorum = я боюсь. karanlık = темнота. -tan = от."
+    },
+    {
+      "id": "ex_7",
+      "type": "multiple_choice",
+      "question": "«Hasta mısın?» означает:",
+      "options": [
+        "Ты устал?",
+        "Ты грустный?",
+        "Ты болен?",
+        "Ты злой?"
+      ],
+      "correctAnswer": "Ты болен?",
+      "explanation": "hasta = больной. -mısın? = вопрос для 2-го лица. Hasta mısın? = Ты болен?"
+    },
+    {
+      "id": "ex_8",
+      "type": "fill_blank",
+      "question": "«Çok ___yım» = «Я очень удивлён»",
+      "options": [
+        "şaşırmış",
+        "şaşırmışı",
+        "şaşırdım",
+        "şaşırmışım"
+      ],
+      "correctAnswer": "şaşırdım",
+      "explanation": "Çok şaşırdım! = Я очень удивлён! şaşırmak = удивляться. шаge прошедшее время."
+    }
+  ],
+  "summary": {
+    "title": "Что ты выучил",
+    "points": [
+      "Duygular ve Hisler — Чувства и эмоции",
+      "Словарный запас расширен",
+      "Практика в реальных ситуациях"
+    ],
+    "next_lesson": "Урок 20"
+  }
+}

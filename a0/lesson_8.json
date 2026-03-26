@@ -1,0 +1,321 @@
+{
+  "id": "lesson_8",
+  "title": "Tanışma Cümleleri — Знакомство: полные фразы",
+  "level": "a0",
+  "language": "turkish",
+  "xpReward": 40,
+  "estimatedMinutes": 25,
+  "intro": {
+    "text": "Пора объединить всё что выучил! В этом уроке практикуем полные диалоги знакомства. Ты уже знаешь буквы, гармонию гласных, числа, цвета, базовые предложения и вопросы. Теперь — живой разговор.",
+    "goals": [
+      "Представиться полностью",
+      "Рассказать о себе 5-6 предложений",
+      "Задать вопросы собеседнику",
+      "Вести простой диалог знакомства"
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g1",
+      "title": "Полное представление — шаблон",
+      "explanation": "Вот полный шаблон знакомства. Выучи его наизусть — это даст тебе уверенность в первом реальном разговоре.",
+      "table": {
+        "headers": [
+          "Фраза",
+          "Турецкий",
+          "Перевод"
+        ],
+        "rows": [
+          [
+            "Имя",
+            "Adım [имя]. / Ben [имя].",
+            "Меня зовут... / Я..."
+          ],
+          [
+            "Откуда",
+            "[Страна]lıyım.",
+            "Я из [страны]."
+          ],
+          [
+            "Где живу",
+            "[Город]'da yaşıyorum.",
+            "Я живу в [городе]."
+          ],
+          [
+            "Возраст",
+            "[Число] yaşındayım.",
+            "Мне ... лет."
+          ],
+          [
+            "Профессия",
+            "Ben [профессия]im/ım.",
+            "Я [профессия]."
+          ],
+          [
+            "Язык",
+            "Biraz Türkçe biliyorum.",
+            "Я немного знаю турецкий."
+          ]
+        ]
+      },
+      "note": "Шаблон работает для любого имени и страны. Просто подставь своё!"
+    }
+  ],
+  "vocabulary": [
+    {
+      "tr": "Adım",
+      "ru": "Меня зовут",
+      "pronunciation": "а-ДЫМ",
+      "example_tr": "Adım Zarina.",
+      "example_ru": "Меня зовут Зарина."
+    },
+    {
+      "tr": "nerelisin",
+      "ru": "откуда ты",
+      "pronunciation": "нэ-рэ-ли-СИН",
+      "example_tr": "Sen nerelisin?",
+      "example_ru": "Откуда ты?"
+    },
+    {
+      "tr": "Kazakistanlıyım",
+      "ru": "Я из Казахстана",
+      "pronunciation": "ка-зак-ис-тан-лы-ЙЫМ",
+      "example_tr": "Ben Kazakistanlıyım.",
+      "example_ru": "Я из Казахстана."
+    },
+    {
+      "tr": "yaşıyorum",
+      "ru": "живу (я)",
+      "pronunciation": "йа-шы-ЙО-рум",
+      "example_tr": "Almatı'da yaşıyorum.",
+      "example_ru": "Я живу в Алматы."
+    },
+    {
+      "tr": "yaşındayım",
+      "ru": "мне ... лет",
+      "pronunciation": "йа-шын-да-ЙЫМ",
+      "example_tr": "Yirmi iki yaşındayım.",
+      "example_ru": "Мне 22 года."
+    },
+    {
+      "tr": "öğrenciyim",
+      "ru": "я студент",
+      "pronunciation": "ёу-рэн-джи-ЙИМ",
+      "example_tr": "Ben öğrenciyim.",
+      "example_ru": "Я студентка."
+    },
+    {
+      "tr": "çalışıyorum",
+      "ru": "я работаю",
+      "pronunciation": "ча-лы-шы-ЙО-рум",
+      "example_tr": "Bankada çalışıyorum.",
+      "example_ru": "Я работаю в банке."
+    },
+    {
+      "tr": "biliyorum",
+      "ru": "знаю",
+      "pronunciation": "би-ли-ЙО-рум",
+      "example_tr": "Biraz Türkçe biliyorum.",
+      "example_ru": "Я немного знаю турецкий."
+    },
+    {
+      "tr": "memnun oldum",
+      "ru": "рад познакомиться",
+      "pronunciation": "мэм-нун ол-ДУМ",
+      "example_tr": "Memnun oldum!",
+      "example_ru": "Рад познакомиться!"
+    },
+    {
+      "tr": "hoş geldiniz",
+      "ru": "добро пожаловать",
+      "pronunciation": "хош гэл-ди-НИЗ",
+      "example_tr": "Hoş geldiniz!",
+      "example_ru": "Добро пожаловать!"
+    },
+    {
+      "tr": "görüşürüz",
+      "ru": "увидимся",
+      "pronunciation": "гё-рю-шю-РЮЗ",
+      "example_tr": "Yarın görüşürüz.",
+      "example_ru": "Увидимся завтра."
+    },
+    {
+      "tr": "kolay gelsin",
+      "ru": "удачи в работе",
+      "pronunciation": "ко-лай гэл-СИН",
+      "example_tr": "Kolay gelsin!",
+      "example_ru": "Лёгкой работы! (прощание)"
+    }
+  ],
+  "dialogue": {
+    "title": "Диалог",
+    "context": "Практика.",
+    "lines": [
+      {
+        "speaker": "Зарина",
+        "tr": "Merhaba! Adım Zarina. Ben Kazakistanlıyım.",
+        "ru": "Привет! Меня зовут Зарина. Я из Казахстана.",
+        "note": "Полное представление с именем и страной."
+      },
+      {
+        "speaker": "Мехмет",
+        "tr": "Merhaba Zarina! Ben Mehmet. İstanbul'dan geliyorum.",
+        "ru": "Привет Зарина! Я Мехмет. Я из Стамбула.",
+        "note": "İstanbul'dan = из Стамбула. -dan = суффикс 'из'."
+      },
+      {
+        "speaker": "Зарина",
+        "tr": "Kaç yaşındasın, Mehmet?",
+        "ru": "Сколько тебе лет, Мехмет?",
+        "note": "Прямой вопрос о возрасте — в Турции это норма."
+      },
+      {
+        "speaker": "Мехмет",
+        "tr": "Yirmi beş yaşındayım. Sen?",
+        "ru": "Мне 25 лет. А ты?",
+        "note": "yirmi beş = 25."
+      },
+      {
+        "speaker": "Зарина",
+        "tr": "Ben yirmi iki yaşındayım. Türkçe öğreniyorum.",
+        "ru": "Мне 22. Учу турецкий.",
+        "note": "öğreniyorum = учу (сейчас)."
+      },
+      {
+        "speaker": "Мехмет",
+        "tr": "Harika! Türkçen çok iyi!",
+        "ru": "Отлично! Твой турецкий очень хорош!",
+        "note": "Türkçe+n = твой турецкий (-n суффикс владения)."
+      }
+    ]
+  },
+  "cultural_note": {
+    "title": "Турецкое гостеприимство",
+    "text": "Турки известны своим гостеприимством (misafirpeverlik). Гость (misafir) — священный человек. Поговорка: 'Misafir on kisilik nasibini getirir' = Гость приносит удачу на десятерых. В первые минуты знакомства обязательно предложат чай. Отказаться — невежливо. Интерес к стране гостя и вопросы о семье — норма, не любопытство."
+  },
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "multiple_choice",
+      "question": "Как сказать 'Меня зовут Анна'?",
+      "options": [
+        "Ben Anna.",
+        "Ben Annayım.",
+        "Adım Anna.",
+        "Anna benim."
+      ],
+      "correctAnswer": "Adım Anna.",
+      "explanation": "Adım = моё имя (ad+ım). Или: Ben Annayım = Я Анна. Оба варианта правильны."
+    },
+    {
+      "id": "ex_2",
+      "type": "multiple_choice",
+      "question": "'Я из Казахстана' по-турецки:",
+      "options": [
+        "Ben Kazakistan.",
+        "Ben Kazakistanlıyım.",
+        "Kazakistan'ım.",
+        "Ben Kazakistanda."
+      ],
+      "correctAnswer": "Ben Kazakistanlıyım.",
+      "explanation": "Казахстан + -lı (суффикс принадлежности к месту) + -yım (я есть). Казахстанлыйым."
+    },
+    {
+      "id": "ex_3",
+      "type": "match_pairs",
+      "question": "Соедини фразы знакомства",
+      "pairs": [
+        {
+          "left": "Adım...",
+          "right": "Меня зовут..."
+        },
+        {
+          "left": "Memnun oldum",
+          "right": "Рад познакомиться"
+        },
+        {
+          "left": "Hoş geldiniz",
+          "right": "Добро пожаловать"
+        },
+        {
+          "left": "Görüşürüz",
+          "right": "Увидимся"
+        }
+      ],
+      "correctAnswer": "all",
+      "explanation": "Adım=меня зовут, Memnun oldum=рад познакомиться, Hoş geldiniz=добро пожаловать, Görüşürüz=увидимся."
+    },
+    {
+      "id": "ex_4",
+      "type": "multiple_choice",
+      "question": "'Мне 22 года' по-турецки:",
+      "options": [
+        "Ben yirmi iki yaşım.",
+        "Yirmi iki yaşındayım.",
+        "Ben yirmi iki yaş.",
+        "Yirmi iki yaşıyım."
+      ],
+      "correctAnswer": "Yirmi iki yaşındayım.",
+      "explanation": "yaşındayım = мне ... лет. yaş = возраст/год, -ında = в (этом возрасте), -yım = я."
+    },
+    {
+      "id": "ex_5",
+      "type": "fill_blank",
+      "question": "'Немного знаю турецкий' = 'Biraz Türkçe ___'",
+      "options": [
+        "öğreniyorum",
+        "seviyorum",
+        "biliyorum",
+        "istiyorum"
+      ],
+      "correctAnswer": "biliyorum",
+      "explanation": "bilmek = знать. biliyorum = я знаю. Biraz Türkçe biliyorum = Немного знаю турецкий."
+    },
+    {
+      "id": "ex_6",
+      "type": "multiple_choice",
+      "question": "'Yarın görüşürüz' означает:",
+      "options": [
+        "Пока навсегда",
+        "Увидимся завтра",
+        "До следующего раза",
+        "Хорошего вечера"
+      ],
+      "correctAnswer": "Увидимся завтра",
+      "explanation": "yarın = завтра. görüşürüz = мы увидимся (мы встретимся). görüşmek = встречаться/видеться."
+    },
+    {
+      "id": "ex_7",
+      "type": "multiple_choice",
+      "question": "Как спросить 'Откуда ты?'",
+      "options": [
+        "Neredesin?",
+        "Nerelisin?",
+        "Nereden geldin?",
+        "Nerede yaşıyorsun?"
+      ],
+      "correctAnswer": "Nerelisin?",
+      "explanation": "Nerelisin? = Откуда ты? nere=место, -li=суффикс происхождения, -sin=ты. Буквально: 'ты откуда-родом?'"
+    },
+    {
+      "id": "ex_8",
+      "type": "fill_blank",
+      "question": "'Я работаю в банке' = 'Banka___ çalışıyorum'",
+      "options": [
+        "'dan",
+        "'de",
+        "'da",
+        "'ya"
+      ],
+      "correctAnswer": "'da",
+      "explanation": "banka: последняя гласная A — задняя → -da. Bankada = в банке. çalışıyorum = я работаю."
+    }
+  ],
+  "summary": {
+    "title": "Что ты выучил",
+    "points": [
+      "Tanışma Cümleleri — Знакомство: полные фразы"
+    ],
+    "next_lesson": "Урок 9"
+  }
+}

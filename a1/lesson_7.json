@@ -1,0 +1,317 @@
+{
+  "id": "lesson_7",
+  "title": "Yiyecekler ve İçecekler — Еда и напитки",
+  "level": "a1",
+  "language": "turkish",
+  "xpReward": 70,
+  "estimatedMinutes": 20,
+  "intro": {
+    "text": "Еда — отличный способ познакомиться с культурой. Турецкая кухня богата и разнообразна. В этом уроке ты выучишь основные продукты и напитки, научишься делать заказ в ресторане и ходить в магазин.",
+    "goals": [
+      "Назвать основные продукты питания",
+      "Заказать еду в кафе",
+      "Сказать что ты любишь и не любишь есть",
+      "Освоить глагол istemek (хотеть)"
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g1",
+      "title": "Глагол istemek — хотеть",
+      "explanation": "istemek = хотеть. В настоящем времени: istiyorum (я хочу), istiyorsun (ты хочешь) и т.д. Используется для заказа в ресторане и покупок.",
+      "table": {
+        "headers": [
+          "Турецкий",
+          "Русский",
+          "Пример"
+        ],
+        "rows": [
+          [
+            "istiyorum",
+            "я хочу",
+            "Çay istiyorum."
+          ],
+          [
+            "istiyorsun",
+            "ты хочешь",
+            "Ne istiyorsun?"
+          ],
+          [
+            "istiyor",
+            "он/она хочет",
+            "Ne istiyor?"
+          ],
+          [
+            "istemiyorum",
+            "я не хочу",
+            "Kahve istemiyorum."
+          ]
+        ]
+      },
+      "note": ""
+    }
+  ],
+  "vocabulary": [
+    {
+      "tr": "ekmek",
+      "ru": "хлеб",
+      "pronunciation": "эк-мэк",
+      "example_tr": "Ekmek olmadan yemek olmaz.",
+      "example_ru": "Без хлеба нет еды."
+    },
+    {
+      "tr": "su",
+      "ru": "вода",
+      "pronunciation": "су",
+      "example_tr": "Bir bardak su lütfen.",
+      "example_ru": "Стакан воды, пожалуйста."
+    },
+    {
+      "tr": "çay",
+      "ru": "чай",
+      "pronunciation": "чай",
+      "example_tr": "Türkler çok çay içer.",
+      "example_ru": "Турки пьют много чая."
+    },
+    {
+      "tr": "kahve",
+      "ru": "кофе",
+      "pronunciation": "ках-вэ",
+      "example_tr": "Türk kahvesi çok güçlü.",
+      "example_ru": "Турецкий кофе очень крепкий."
+    },
+    {
+      "tr": "et",
+      "ru": "мясо",
+      "pronunciation": "эт",
+      "example_tr": "Kuzu eti çok lezzetli.",
+      "example_ru": "Баранина очень вкусная."
+    },
+    {
+      "tr": "tavuk",
+      "ru": "курица",
+      "pronunciation": "та-вук",
+      "example_tr": "Tavuk ızgara istiyorum.",
+      "example_ru": "Я хочу куриный гриль."
+    },
+    {
+      "tr": "balık",
+      "ru": "рыба",
+      "pronunciation": "ба-лык",
+      "example_tr": "Balık çok sağlıklı.",
+      "example_ru": "Рыба очень полезная."
+    },
+    {
+      "tr": "sebze",
+      "ru": "овощ",
+      "pronunciation": "сэб-зэ",
+      "example_tr": "Taze sebze yiyorum.",
+      "example_ru": "Я ем свежие овощи."
+    },
+    {
+      "tr": "meyve",
+      "ru": "фрукт",
+      "pronunciation": "мэй-вэ",
+      "example_tr": "Elma benim en sevdiğim meyve.",
+      "example_ru": "Яблоко — мой любимый фрукт."
+    },
+    {
+      "tr": "pilav",
+      "ru": "рис/плов",
+      "pronunciation": "пи-лав",
+      "example_tr": "Türk pilavı çok güzel.",
+      "example_ru": "Турецкий плов очень вкусный."
+    },
+    {
+      "tr": "lezzetli",
+      "ru": "вкусный",
+      "pronunciation": "лэз-зэт-ли",
+      "example_tr": "Bu yemek çok lezzetli!",
+      "example_ru": "Это блюдо очень вкусное!"
+    },
+    {
+      "tr": "açım",
+      "ru": "я голоден",
+      "pronunciation": "а-чым",
+      "example_tr": "Çok açım, yemek yiyelim!",
+      "example_ru": "Я очень голоден, давай поедим!"
+    }
+  ],
+  "dialogue": {
+    "title": "В ресторане — делаем заказ",
+    "context": "Туристка заказывает обед в турецком ресторане.",
+    "lines": [
+      {
+        "speaker": "Официант",
+        "tr": "Hoş geldiniz! Menü buyrun.",
+        "ru": "Добро пожаловать! Вот меню.",
+        "note": "Hoş geldiniz = добро пожаловать. buyrun = пожалуйста (вот)."
+      },
+      {
+        "speaker": "Зара",
+        "tr": "Teşekkürler. Ne tavsiye edersiniz?",
+        "ru": "Спасибо. Что вы рекомендуете?",
+        "note": "tavsiye etmek = рекомендовать. -siniz = вы (формально)."
+      },
+      {
+        "speaker": "Официант",
+        "tr": "Izgara tavuk çok güzel bugün.",
+        "ru": "Сегодня куриный гриль очень хорошо.",
+        "note": "ızgara = гриль. bugün = сегодня."
+      },
+      {
+        "speaker": "Зара",
+        "tr": "Tamam, ızgara tavuk istiyorum. Ve salata.",
+        "ru": "Хорошо, я хочу куриный гриль. И салат.",
+        "note": "tamam = хорошо/ладно. salata = салат."
+      },
+      {
+        "speaker": "Официант",
+        "tr": "İçecek olarak ne istersiniz?",
+        "ru": "Что будете пить?",
+        "note": "içecek = напиток. olarak = в качестве."
+      },
+      {
+        "speaker": "Зара",
+        "tr": "Ayran lütfen. Ayran nedir?",
+        "ru": "Айран, пожалуйста. Что такое айран?",
+        "note": "nedir = что это такое? nе+dir(суффикс «есть»)."
+      },
+      {
+        "speaker": "Официант",
+        "tr": "Ayran bir Türk içeceği — yoğurt ve su.",
+        "ru": "Айран — турецкий напиток — йогурт и вода.",
+        "note": "çok sağlıklı ve lezzetli! = очень полезный и вкусный!"
+      }
+    ]
+  },
+  "cultural_note": {
+    "title": "Турецкая кухня — мировое наследие",
+    "text": "Турецкая кухня входит в тройку лучших в мире. Кебаб (kebap), долма (dolma), баклава (baklava), айран (ayran) — всё это турецкие слова. Обед (öğle yemeği) традиционно самый важный приём пищи. Турки говорят «Afiyet olsun» (Приятного аппетита) — дословно «пусть будет здоровье»."
+  },
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "multiple_choice",
+      "question": "Как сказать «Я хочу чай»?",
+      "options": [
+        "Çay istiyor.",
+        "Çay istiyorum.",
+        "Çay istiyorsun.",
+        "Ben çay."
+      ],
+      "correctAnswer": "Çay istiyorum.",
+      "explanation": "istiyorum = я хочу (1-е лицо ед.ч. от istemek). Это ключевая фраза для ресторана!"
+    },
+    {
+      "id": "ex_2",
+      "type": "multiple_choice",
+      "question": "Что означает «lezzetli»?",
+      "options": [
+        "дорогой",
+        "вкусный",
+        "большой",
+        "свежий"
+      ],
+      "correctAnswer": "вкусный",
+      "explanation": "lezzetli = вкусный. Очень важное слово! çok lezzetli = очень вкусно."
+    },
+    {
+      "id": "ex_3",
+      "type": "match_pairs",
+      "question": "Соедини еду с переводом",
+      "pairs": [
+        {
+          "left": "ekmek",
+          "right": "хлеб"
+        },
+        {
+          "left": "et",
+          "right": "мясо"
+        },
+        {
+          "left": "meyve",
+          "right": "фрукт"
+        },
+        {
+          "left": "balık",
+          "right": "рыба"
+        }
+      ],
+      "correctAnswer": "all",
+      "explanation": "ekmek=хлеб, et=мясо, meyve=фрукт, balık=рыба."
+    },
+    {
+      "id": "ex_4",
+      "type": "multiple_choice",
+      "question": "«Ne tavsiye edersiniz?» означает:",
+      "options": [
+        "Что вы хотите?",
+        "Что вы рекомендуете?",
+        "Сколько стоит?",
+        "Вам нравится?"
+      ],
+      "correctAnswer": "Что вы рекомендуете?",
+      "explanation": "tavsiye etmek = рекомендовать. Полезная фраза в ресторане!"
+    },
+    {
+      "id": "ex_5",
+      "type": "fill_blank",
+      "question": "«Çok _______!» = «Очень вкусно!»",
+      "options": [
+        "lezzetli",
+        "güzel",
+        "büyük",
+        "pahalı"
+      ],
+      "correctAnswer": "lezzetli",
+      "explanation": "çok lezzetli = очень вкусно. Говори это в ресторане — хозяева будут рады!"
+    },
+    {
+      "id": "ex_6",
+      "type": "multiple_choice",
+      "question": "Айран — это:",
+      "options": [
+        "фруктовый сок",
+        "кофе",
+        "йогурт с водой",
+        "молочный коктейль"
+      ],
+      "correctAnswer": "йогурт с водой",
+      "explanation": "Ayran = кисломолочный напиток из йогурта, воды и соли. Национальный напиток Турции."
+    },
+    {
+      "id": "ex_7",
+      "type": "multiple_choice",
+      "question": "Как сказать «Приятного аппетита» по-турецки?",
+      "options": [
+        "Teşekkürler",
+        "Afiyet olsun",
+        "Hoş geldiniz",
+        "Çok güzel"
+      ],
+      "correctAnswer": "Afiyet olsun",
+      "explanation": "Afiyet olsun = Приятного аппетита. Говорят когда начинают есть или когда видят что кто-то ест."
+    },
+    {
+      "id": "ex_8",
+      "type": "fill_blank",
+      "question": "«___ istiyorum» = «Я не хочу»",
+      "options": [
+        "İste",
+        "İsteme",
+        "İstemi",
+        "İstemiyor"
+      ],
+      "correctAnswer": "İstemi",
+      "explanation": "İstemiyorum = Я не хочу. istemek → istemiyorum (отрицание через -me-). Не İstemi — полная форма İstemiyorum."
+    }
+  ],
+  "summary": {
+    "title": "Что ты выучил в этом уроке",
+    "points": [
+      "Yiyecekler ve İçecekler — Еда и напитки"
+    ],
+    "next_lesson": "Продолжай учить!"
+  }
+}

@@ -1,0 +1,298 @@
+{
+  "id": "lesson_3",
+  "title": "Türk Tarihi — История Турции",
+  "level": "b1",
+  "language": "turkish",
+  "xpReward": 100,
+  "estimatedMinutes": 25,
+  "intro": {
+    "text": "Изучаем исторический контекст. Osmanlı (Османская империя), Cumhuriyet (Республика), Atatürk (Ататюрк), inkılap (реформа).",
+    "goals": [
+      "Освоить тему: Türk Tarihi — История Турции",
+      "Применить грамматику в контексте",
+      "Расширить словарный запас",
+      "Практика письма и речи"
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g1",
+      "title": "Türk Tarihi — История Турции",
+      "explanation": "Изучаем исторический контекст. Osmanlı (Османская империя), Cumhuriyet (Республика), Atatürk (Ататюрк), inkılap (реформа).",
+      "table": {
+        "headers": [
+          "Слово",
+          "Перевод",
+          "Произношение"
+        ],
+        "rows": [
+          [
+            "Osmanlı",
+            "Османский",
+            "ос-ман-лы"
+          ],
+          [
+            "Cumhuriyet",
+            "Республика",
+            "джум-ху-ри-йэт"
+          ],
+          [
+            "inkılap",
+            "реформа/революция",
+            "ин-кы-лап"
+          ],
+          [
+            "bağımsızlık",
+            "независимость",
+            "ба-ымс-ыз-лык"
+          ],
+          [
+            "imparatorluk",
+            "империя",
+            "им-па-ра-тор-лук"
+          ]
+        ]
+      },
+      "note": "Уровень B1 Средний — Türk Tarihi — История Турции"
+    }
+  ],
+  "vocabulary": [
+    {
+      "tr": "Osmanlı",
+      "ru": "Османский",
+      "pronunciation": "ос-ман-лы",
+      "example_tr": "Osmanlı İmparatorluğu.",
+      "example_ru": "Османская империя."
+    },
+    {
+      "tr": "Cumhuriyet",
+      "ru": "Республика",
+      "pronunciation": "джум-ху-ри-йэт",
+      "example_tr": "Türkiye Cumhuriyeti.",
+      "example_ru": "Турецкая Республика."
+    },
+    {
+      "tr": "inkılap",
+      "ru": "реформа/революция",
+      "pronunciation": "ин-кы-лап",
+      "example_tr": "Atatürk inkılapları.",
+      "example_ru": "Реформы Ататюрка."
+    },
+    {
+      "tr": "bağımsızlık",
+      "ru": "независимость",
+      "pronunciation": "ба-ымс-ыз-лык",
+      "example_tr": "Bağımsızlık Savaşı.",
+      "example_ru": "Война за независимость."
+    },
+    {
+      "tr": "imparatorluk",
+      "ru": "империя",
+      "pronunciation": "им-па-ра-тор-лук",
+      "example_tr": "Büyük imparatorluk.",
+      "example_ru": "Великая империя."
+    },
+    {
+      "tr": "fetih",
+      "ru": "завоевание",
+      "pronunciation": "фэ-тих",
+      "example_tr": "İstanbul'un fethi.",
+      "example_ru": "Завоевание Стамбула."
+    },
+    {
+      "tr": "miras",
+      "ru": "наследие",
+      "pronunciation": "ми-рас",
+      "example_tr": "Kültürel miras.",
+      "example_ru": "Культурное наследие."
+    },
+    {
+      "tr": "savaş",
+      "ru": "война",
+      "pronunciation": "са-ваш",
+      "example_tr": "Uzun savaş.",
+      "example_ru": "Долгая война."
+    },
+    {
+      "tr": "barış",
+      "ru": "мир",
+      "pronunciation": "ба-рыш",
+      "example_tr": "Barış anlaşması.",
+      "example_ru": "Мирный договор."
+    },
+    {
+      "tr": "kurucu",
+      "ru": "основатель",
+      "pronunciation": "ку-ру-джу",
+      "example_tr": "Cumhuriyetin kurucusu.",
+      "example_ru": "Основатель Республики."
+    },
+    {
+      "tr": "yüzyıl",
+      "ru": "век/столетие",
+      "pronunciation": "йюз-йыл",
+      "example_tr": "19. yüzyıl.",
+      "example_ru": "19-й век."
+    },
+    {
+      "tr": "uygarlık",
+      "ru": "цивилизация",
+      "pronunciation": "уй-гар-лык",
+      "example_tr": "Anadolu uygarlıkları.",
+      "example_ru": "Цивилизации Анатолии."
+    }
+  ],
+  "dialogue": {
+    "title": "Диалог — Türk Tarihi — История Турции",
+    "context": "Продвинутая практика.",
+    "lines": [
+      {
+        "speaker": "A",
+        "tr": "Osmanlı İmparatorluğu.",
+        "ru": "Османская империя.",
+        "note": ""
+      },
+      {
+        "speaker": "B",
+        "tr": "Türkiye Cumhuriyeti.",
+        "ru": "Турецкая Республика.",
+        "note": ""
+      },
+      {
+        "speaker": "A",
+        "tr": "Atatürk inkılapları.",
+        "ru": "Реформы Ататюрка.",
+        "note": ""
+      }
+    ]
+  },
+  "cultural_note": {
+    "title": "Культура: turkish",
+    "text": "Урок 3 уровня B1 Средний. Изучаем исторический контекст. Osmanlı (Османская империя), Cumhuriyet (Республика), Atatürk (Ататюр"
+  },
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "multiple_choice",
+      "question": "Тема урока: Türk Tarihi — История Турции",
+      "options": [
+        "Верный ответ А",
+        "Вариант Б",
+        "Вариант В",
+        "Вариант Г"
+      ],
+      "correctAnswer": "Верный ответ А",
+      "explanation": "Ключевая тема: Изучаем исторический контекст. Osmanlı (Османская империя), Cumhuriyet (Республи"
+    },
+    {
+      "id": "ex_2",
+      "type": "multiple_choice",
+      "question": "Выбери правильный перевод:",
+      "options": [
+        "Османский",
+        "Республика",
+        "реформа/революция",
+        "Неверно"
+      ],
+      "correctAnswer": "Османский",
+      "explanation": "Osmanlı = Османский"
+    },
+    {
+      "id": "ex_3",
+      "type": "match_pairs",
+      "question": "Соедини слова с переводом",
+      "pairs": [
+        {
+          "left": "Osmanlı",
+          "right": "Османский"
+        },
+        {
+          "left": "Cumhuriyet",
+          "right": "Республика"
+        },
+        {
+          "left": "inkılap",
+          "right": "реформа/революция"
+        },
+        {
+          "left": "bağımsızlık",
+          "right": "независимость"
+        }
+      ],
+      "correctAnswer": "all",
+      "explanation": "Ключевая лексика урока"
+    },
+    {
+      "id": "ex_4",
+      "type": "fill_blank",
+      "question": "Заполни: «Bağımsızlık Savaşı.»",
+      "options": [
+        "bağımsızlık",
+        "Б",
+        "В",
+        "Г"
+      ],
+      "correctAnswer": "bağımsızlık",
+      "explanation": "Война за независимость."
+    },
+    {
+      "id": "ex_5",
+      "type": "multiple_choice",
+      "question": "Что из этого НЕ относится к теме?",
+      "options": [
+        "Османский",
+        "несвязанное слово",
+        "Республика",
+        "реформа/революция"
+      ],
+      "correctAnswer": "несвязанное слово",
+      "explanation": "Все остальные — из темы урока"
+    },
+    {
+      "id": "ex_6",
+      "type": "multiple_choice",
+      "question": "Как переводится «imparatorluk»?",
+      "options": [
+        "империя",
+        "Неверно А",
+        "Неверно Б",
+        "Неверно В"
+      ],
+      "correctAnswer": "империя",
+      "explanation": "Великая империя."
+    },
+    {
+      "id": "ex_7",
+      "type": "fill_blank",
+      "question": "Закончи предложение:",
+      "options": [
+        "İmparatorluğu.",
+        "Б",
+        "В",
+        "Г"
+      ],
+      "correctAnswer": "İmparatorluğu.",
+      "explanation": "Османская империя."
+    },
+    {
+      "id": "ex_8",
+      "type": "multiple_choice",
+      "question": "Выбери синоним:",
+      "options": [
+        "завоевание",
+        "Антоним",
+        "Несвязанное",
+        "Другое"
+      ],
+      "correctAnswer": "завоевание",
+      "explanation": "Синоним/близкое значение: fetih"
+    }
+  ],
+  "summary": {
+    "title": "Итог",
+    "points": [
+      "Türk Tarihi — История Турции"
+    ],
+    "next_lesson": "Урок 4"
+  }
+}

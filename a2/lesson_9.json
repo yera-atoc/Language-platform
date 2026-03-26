@@ -1,0 +1,305 @@
+{
+  "id": "lesson_9",
+  "title": "Sıfat Fiil — Причастия",
+  "level": "a2",
+  "language": "turkish",
+  "xpReward": 80,
+  "estimatedMinutes": 25,
+  "intro": {
+    "text": "Причастия (sıfat fiil) — глаголы в роли прилагательных. -an/-en = тот кто делает, -dık/-dığı = тот кого/что, -acak/-ecek = тот кто будет. Okuyan öğrenci = Читающий студент. Gördüğüm film = Фильм который я видел.",
+    "goals": [
+      "Освоить тему: Sıfat Fiil — Причастия",
+      "Применить в диалоге",
+      "Закрепить упражнениями",
+      "Расширить словарный запас"
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g1",
+      "title": "Грамматика урока",
+      "explanation": "Причастия (sıfat fiil) — глаголы в роли прилагательных. -an/-en = тот кто делает, -dık/-dığı = тот кого/что, -acak/-ecek = тот кто будет. Okuyan öğrenci = Читающий студент. Gördüğüm film = Фильм который я видел.",
+      "table": {
+        "headers": [
+          "Форма",
+          "Правило",
+          "Пример"
+        ],
+        "rows": [
+          [
+            "gelen",
+            "приходящий",
+            "гэ-лэн"
+          ],
+          [
+            "giden",
+            "уходящий",
+            "ги-дэн"
+          ],
+          [
+            "okuyan",
+            "читающий",
+            "о-ку-йан"
+          ],
+          [
+            "gördüğüm",
+            "которого я видел",
+            "гёр-дю-юм"
+          ]
+        ]
+      },
+      "note": "Уровень A2 Элементарный"
+    }
+  ],
+  "vocabulary": [
+    {
+      "tr": "gelen",
+      "ru": "приходящий",
+      "pronunciation": "гэ-лэн",
+      "example_tr": "Gelen adam kim?",
+      "example_ru": "Кто тот пришедший мужчина?"
+    },
+    {
+      "tr": "giden",
+      "ru": "уходящий",
+      "pronunciation": "ги-дэн",
+      "example_tr": "Giden tren hangisi?",
+      "example_ru": "Какой поезд уходящий?"
+    },
+    {
+      "tr": "okuyan",
+      "ru": "читающий",
+      "pronunciation": "о-ку-йан",
+      "example_tr": "Okuyan çocuk benim kardeşim.",
+      "example_ru": "Читающий ребёнок — мой брат."
+    },
+    {
+      "tr": "gördüğüm",
+      "ru": "которого я видел",
+      "pronunciation": "гёр-дю-юм",
+      "example_tr": "Gördüğüm film çok güzeldi.",
+      "example_ru": "Фильм который я видел был очень хорошим."
+    },
+    {
+      "tr": "bildiğim",
+      "ru": "который я знаю",
+      "pronunciation": "бил-ди-им",
+      "example_tr": "Bildiğim tek şey bu.",
+      "example_ru": "Единственное что я знаю — это."
+    },
+    {
+      "tr": "gelecek",
+      "ru": "который придёт",
+      "pronunciation": "гэ-лэ-джэк",
+      "example_tr": "Gelecek hafta.",
+      "example_ru": "На следующей неделе."
+    },
+    {
+      "tr": "yapacağım",
+      "ru": "который я сделаю",
+      "pronunciation": "йа-па-джа-ым",
+      "example_tr": "Yapacağım iş çok.",
+      "example_ru": "Работы которую сделаю много."
+    },
+    {
+      "tr": "olan",
+      "ru": "который есть/был",
+      "pronunciation": "о-лан",
+      "example_tr": "Olan şey bu.",
+      "example_ru": "Вот что случилось."
+    },
+    {
+      "tr": "sevdiğim",
+      "ru": "который я люблю",
+      "pronunciation": "сэв-ди-им",
+      "example_tr": "Sevdiğim müzik.",
+      "example_ru": "Музыка которую люблю."
+    },
+    {
+      "tr": "tanıdığım",
+      "ru": "которого я знаю",
+      "pronunciation": "та-ны-ды-ым",
+      "example_tr": "Tanıdığım biri.",
+      "example_ru": "Кто-то знакомый."
+    },
+    {
+      "tr": "-an/-en",
+      "ru": "деятель",
+      "pronunciation": "настоящее",
+      "example_tr": "gelen = приходящий",
+      "example_ru": "активное причастие"
+    },
+    {
+      "tr": "-dık/-dığı",
+      "ru": "объект",
+      "pronunciation": "прошедшее",
+      "example_tr": "gördüğüm = виденный мной",
+      "example_ru": "причастие прошедшего"
+    }
+  ],
+  "dialogue": {
+    "title": "Диалог — Sıfat Fiil — Причастия",
+    "context": "Реальная ситуация.",
+    "lines": [
+      {
+        "speaker": "A",
+        "tr": "Gelen adam kim?",
+        "ru": "Кто тот пришедший мужчина?",
+        "note": ""
+      },
+      {
+        "speaker": "B",
+        "tr": "Giden tren hangisi?",
+        "ru": "Какой поезд уходящий?",
+        "note": ""
+      },
+      {
+        "speaker": "A",
+        "tr": "Okuyan çocuk benim kardeşim.",
+        "ru": "Читающий ребёнок — мой брат.",
+        "note": ""
+      }
+    ]
+  },
+  "cultural_note": {
+    "title": "Культурный контекст",
+    "text": "Урок 9 уровня A2 Элементарный. Практикуй каждый день!"
+  },
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "multiple_choice",
+      "question": "Что из этого относится к теме «sıfat fiil»?",
+      "options": [
+        "Вариант А",
+        "Вариант Б",
+        "Вариант В",
+        "Вариант Г"
+      ],
+      "correctAnswer": "Вариант А",
+      "explanation": "Ключевое понятие темы sıfat fiil"
+    },
+    {
+      "id": "ex_2",
+      "type": "multiple_choice",
+      "question": "Выбери правильную форму глагола:",
+      "options": [
+        "-iyor",
+        "-di",
+        "-ecek",
+        "-mış"
+      ],
+      "correctAnswer": "-iyor",
+      "explanation": "Настоящее продолженное: глагол+-iyor+личное окончание"
+    },
+    {
+      "id": "ex_3",
+      "type": "match_pairs",
+      "question": "Соедини слова",
+      "pairs": [
+        {
+          "left": "var",
+          "right": "есть"
+        },
+        {
+          "left": "yok",
+          "right": "нет"
+        },
+        {
+          "left": "gibi",
+          "right": "как"
+        },
+        {
+          "left": "için",
+          "right": "для"
+        }
+      ],
+      "correctAnswer": "all",
+      "explanation": "all"
+    },
+    {
+      "id": "ex_4",
+      "type": "fill_blank",
+      "question": "«Ben ___ gidiyorum» = «Я иду в школу»",
+      "options": [
+        "okula",
+        "okulda",
+        "okuldan",
+        "okul"
+      ],
+      "correctAnswer": "okula",
+      "explanation": "Суффикс направления -a/-e: okul+a = в школу"
+    },
+    {
+      "id": "ex_5",
+      "type": "multiple_choice",
+      "question": "Как образуется прошедшее время?",
+      "options": [
+        "глагол + -iyor",
+        "глагол + -di/-dı",
+        "глагол + -ecek",
+        "глагол + -miş"
+      ],
+      "correctAnswer": "глагол + -di/-dı",
+      "explanation": "Простое прошедшее: gitmek → gitti (ушёл)"
+    },
+    {
+      "id": "ex_6",
+      "type": "multiple_choice",
+      "question": "«Yarın ne yapacaksın?» означает:",
+      "options": [
+        "Что ты делаешь?",
+        "Что ты делал?",
+        "Что ты будешь делать завтра?",
+        "Зачем ты здесь?"
+      ],
+      "correctAnswer": "Что ты будешь делать завтра?",
+      "explanation": "yarın=завтра, yapacaksın=ты сделаешь (-ecek будущее)"
+    },
+    {
+      "id": "ex_7",
+      "type": "fill_blank",
+      "question": "Отрицание глагола: «gitmek» → «___»",
+      "options": [
+        "gitmemek",
+        "gitmeyorum",
+        "gitmiyor",
+        "gitmek değil"
+      ],
+      "correctAnswer": "gitmemek",
+      "explanation": "Отрицательный инфинитив: глагол + -me/-ma + мек/мак"
+    },
+    {
+      "id": "ex_8",
+      "type": "match_pairs",
+      "question": "Соедини времена",
+      "pairs": [
+        {
+          "left": "gidiyorum",
+          "right": "иду сейчас"
+        },
+        {
+          "left": "gittim",
+          "right": "я пошёл"
+        },
+        {
+          "left": "gideceğim",
+          "right": "я пойду"
+        },
+        {
+          "left": "gitmiştim",
+          "right": "я уже ходил"
+        }
+      ],
+      "correctAnswer": "all",
+      "explanation": "all"
+    }
+  ],
+  "summary": {
+    "title": "Итог урока",
+    "points": [
+      "Sıfat Fiil — Причастия"
+    ],
+    "next_lesson": "Урок 10"
+  }
+}

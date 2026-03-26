@@ -1,0 +1,274 @@
+{
+  "id": "lesson_14",
+  "title": "Alışveriş — Покупки и магазины",
+  "level": "a1",
+  "language": "turkish",
+  "xpReward": 80,
+  "estimatedMinutes": 20,
+  "intro": {
+    "text": "Поход в магазин — ежедневная необходимость. В этом уроке освоишь весь словарь для шопинга: от поиска нужного товара до оплаты на кассе.",
+    "goals": [
+      "Найти нужный товар в магазине",
+      "Спросить размер, цвет, наличие",
+      "Оплатить покупку",
+      "Вернуть или обменять товар"
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g1",
+      "title": "Ключевая грамматика урока",
+      "explanation": "Изучи правило ниже — оно поможет понять всё что в этом уроке.",
+      "table": {
+        "headers": [
+          "Турецкий",
+          "Русский",
+          "Пример"
+        ],
+        "rows": [
+          [
+            "—",
+            "—",
+            "—"
+          ]
+        ]
+      },
+      "note": ""
+    }
+  ],
+  "vocabulary": [
+    {
+      "tr": "dükkan",
+      "ru": "магазин/лавка",
+      "pronunciation": "дюк-кан",
+      "example_tr": "Bu dükkan çok ucuz.",
+      "example_ru": "Этот магазин очень дёшевый."
+    },
+    {
+      "tr": "mağaza",
+      "ru": "торговый центр/магазин",
+      "pronunciation": "ма-аза",
+      "example_tr": "Mağazada indirim var.",
+      "example_ru": "В магазине скидки."
+    },
+    {
+      "tr": "kasa",
+      "ru": "касса",
+      "pronunciation": "ка-са",
+      "example_tr": "Kasa nerede?",
+      "example_ru": "Где касса?"
+    },
+    {
+      "tr": "fatura",
+      "ru": "чек/счёт",
+      "pronunciation": "фа-ту-ра",
+      "example_tr": "Fatura alabilir miyim?",
+      "example_ru": "Могу я получить чек?"
+    },
+    {
+      "tr": "beden",
+      "ru": "размер (одежды)",
+      "pronunciation": "бэ-дэн",
+      "example_tr": "Kaç beden giyiyorsunuz?",
+      "example_ru": "Какой размер вы носите?"
+    },
+    {
+      "tr": "numara",
+      "ru": "номер/размер (обуви)",
+      "pronunciation": "ну-ма-ра",
+      "example_tr": "Kaç numara?",
+      "example_ru": "Какой размер (обуви)?"
+    },
+    {
+      "tr": "denemek",
+      "ru": "примерить",
+      "pronunciation": "дэ-нэ-мэк",
+      "example_tr": "Deneyebilir miyim?",
+      "example_ru": "Могу я примерить?"
+    },
+    {
+      "tr": "iade",
+      "ru": "возврат",
+      "pronunciation": "иа-дэ",
+      "example_tr": "İade edebilir miyim?",
+      "example_ru": "Могу я вернуть?"
+    },
+    {
+      "tr": "kredi kartı",
+      "ru": "кредитная карта",
+      "pronunciation": "крэ-ди кар-ты",
+      "example_tr": "Kredi kartı geçerli mi?",
+      "example_ru": "Кредитная карта принимается?"
+    },
+    {
+      "tr": "nakit",
+      "ru": "наличные",
+      "pronunciation": "на-кит",
+      "example_tr": "Nakit mi kart mı?",
+      "example_ru": "Наличными или картой?"
+    },
+    {
+      "tr": "var mı",
+      "ru": "есть ли",
+      "pronunciation": "вар мы",
+      "example_tr": "Başka rengi var mı?",
+      "example_ru": "Есть другой цвет?"
+    },
+    {
+      "tr": "yok",
+      "ru": "нет (нет в наличии)",
+      "pronunciation": "йок",
+      "example_tr": "Maalesef yok.",
+      "example_ru": "К сожалению, нет."
+    }
+  ],
+  "dialogue": {
+    "title": "Диалог — урок 14",
+    "context": "Практика в реальной ситуации.",
+    "lines": [
+      {
+        "speaker": "А",
+        "tr": "Bu dükkan çok ucuz.",
+        "ru": "Этот магазин очень дёшевый.",
+        "note": ""
+      },
+      {
+        "speaker": "Б",
+        "tr": "Mağazada indirim var.",
+        "ru": "В магазине скидки.",
+        "note": ""
+      }
+    ]
+  },
+  "cultural_note": {
+    "title": "Культурная заметка",
+    "text": "Турция — удивительная страна с богатой историей и культурой."
+  },
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "multiple_choice",
+      "question": "В магазине: «Kredi kartı geçerli mi?» означает:",
+      "options": [
+        "Есть скидка?",
+        "Кредитная карта принимается?",
+        "Где касса?",
+        "Могу примерить?"
+      ],
+      "correctAnswer": "Кредитная карта принимается?",
+      "explanation": "kredi kartı = кредитная карта. geçerli = принимается/действительна."
+    },
+    {
+      "id": "ex_2",
+      "type": "multiple_choice",
+      "question": "«Kaç beden?» спрашивают в магазине, когда хотят узнать:",
+      "options": [
+        "цену",
+        "цвет",
+        "размер",
+        "наличие"
+      ],
+      "correctAnswer": "размер",
+      "explanation": "beden = размер (одежды). numara = размер (обуви). Kaç beden? = Какой размер?"
+    },
+    {
+      "id": "ex_3",
+      "type": "match_pairs",
+      "question": "Соедини слова с переводом",
+      "pairs": [
+        {
+          "left": "kasa",
+          "right": "касса"
+        },
+        {
+          "left": "indirim",
+          "right": "скидка"
+        },
+        {
+          "left": "iade",
+          "right": "возврат"
+        },
+        {
+          "left": "fatura",
+          "right": "чек"
+        }
+      ],
+      "correctAnswer": "all",
+      "explanation": "kasa=касса, indirim=скидка, iade=возврат, fatura=чек."
+    },
+    {
+      "id": "ex_4",
+      "type": "multiple_choice",
+      "question": "«Deneyebilir miyim?» означает:",
+      "options": [
+        "Могу купить?",
+        "Могу вернуть?",
+        "Могу примерить?",
+        "Могу посмотреть?"
+      ],
+      "correctAnswer": "Могу примерить?",
+      "explanation": "denemek = примерять. -ebilir miyim? = могу ли я? Deneyebilir miyim? = Могу я примерить?"
+    },
+    {
+      "id": "ex_5",
+      "type": "fill_blank",
+      "question": "«Maalesef ___» = «К сожалению, нет»",
+      "options": [
+        "var",
+        "tamam",
+        "evet",
+        "yok"
+      ],
+      "correctAnswer": "yok",
+      "explanation": "yok = нет (нет в наличии). Maalesef yok = К сожалению, нет. Maalesef = к сожалению."
+    },
+    {
+      "id": "ex_6",
+      "type": "multiple_choice",
+      "question": "Как спросить «Есть другой цвет?»",
+      "options": [
+        "Başka fiyat var mı?",
+        "Başka beden var mı?",
+        "Başka rengi var mı?",
+        "Başka mağaza var mı?"
+      ],
+      "correctAnswer": "Başka rengi var mı?",
+      "explanation": "başka = другой/ещё. renk = цвет. var mı? = есть ли? Başka rengi var mı? = Есть другой цвет?"
+    },
+    {
+      "id": "ex_7",
+      "type": "multiple_choice",
+      "question": "«Nakit mi kart mı?» — что спрашивает кассир?",
+      "options": [
+        "Большой или маленький?",
+        "Дорого или дёшево?",
+        "Наличными или картой?",
+        "Один или два?"
+      ],
+      "correctAnswer": "Наличными или картой?",
+      "explanation": "nakit = наличные. kart = карта. -mi ... -mi? = ... или ...?"
+    },
+    {
+      "id": "ex_8",
+      "type": "fill_blank",
+      "question": "«İade ___ miyim?» = «Могу я вернуть?»",
+      "options": [
+        "edebilir",
+        "ediyor",
+        "eden",
+        "etti"
+      ],
+      "correctAnswer": "edebilir",
+      "explanation": "iade edebilir miyim? = могу ли я вернуть? -ebilir = мочь/возможность."
+    }
+  ],
+  "summary": {
+    "title": "Что ты выучил",
+    "points": [
+      "Alışveriş — Покупки и магазины",
+      "Словарный запас расширен",
+      "Практика в реальных ситуациях"
+    ],
+    "next_lesson": "Урок 15"
+  }
+}

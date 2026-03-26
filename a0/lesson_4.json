@@ -1,0 +1,340 @@
+{
+  "id": "lesson_4",
+  "title": "Sayılar ve Telaffuz — Числа 0–20 и произношение",
+  "level": "a0",
+  "language": "turkish",
+  "xpReward": 40,
+  "estimatedMinutes": 25,
+  "intro": {
+    "text": "Числа — первое что нужно выучить в любом языке. В турецком числа 1-10 уникальны, 11-19 строятся по правилу, 20 = yirmi. Главная сложность: произношение üç (3) и dört (4) с умлаутами.",
+    "goals": [
+      "Выучить числа 0–20",
+      "Правильно произносить üç и dört",
+      "Считать предметы",
+      "Называть возраст и цены"
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g1",
+      "title": "Числа 0–10",
+      "explanation": "Выучи наизусть — они нужны постоянно. Обрати внимание: üç (3) с Ü, dört (4) с Ö.",
+      "table": {
+        "headers": [
+          "Цифра",
+          "Турецкий",
+          "Произношение",
+          "Запоминалка"
+        ],
+        "rows": [
+          [
+            "0",
+            "sıfır",
+            "сы-ФЫР",
+            "сифр — почти как 'цифра'!"
+          ],
+          [
+            "1",
+            "bir",
+            "БИР",
+            "bir (один) — пиво"
+          ],
+          [
+            "2",
+            "iki",
+            "И-ки",
+            "iki — и кино"
+          ],
+          [
+            "3",
+            "üç",
+            "ЮЧ",
+            "üç — ЮЧ три звука"
+          ],
+          [
+            "4",
+            "dört",
+            "ДЁРТ",
+            "dört — дверь"
+          ],
+          [
+            "5",
+            "beş",
+            "БЭШ",
+            "beş — беш пятёрок"
+          ],
+          [
+            "6",
+            "altı",
+            "ал-ТЫ",
+            "алтын (золото) — 6 букв"
+          ],
+          [
+            "7",
+            "yedi",
+            "йэ-ДИ",
+            "yedi — е-ди"
+          ],
+          [
+            "8",
+            "sekiz",
+            "сэ-КИЗ",
+            "sekiz — сэкиз"
+          ],
+          [
+            "9",
+            "dokuz",
+            "до-КУЗ",
+            "dokuz — дока"
+          ],
+          [
+            "10",
+            "on",
+            "ОН",
+            "on=он, 10 на счёт"
+          ]
+        ]
+      },
+      "note": "11-19: on bir (10+1), on iki (10+2)... 20=yirmi, 30=otuz, 40=kırk, 50=elli."
+    }
+  ],
+  "vocabulary": [
+    {
+      "tr": "sıfır",
+      "ru": "0 (ноль)",
+      "pronunciation": "сы-фыр",
+      "example_tr": "Telefon numarasında sıfır var.",
+      "example_ru": "В номере телефона есть ноль."
+    },
+    {
+      "tr": "bir",
+      "ru": "1",
+      "pronunciation": "бир",
+      "example_tr": "Bir elma lütfen.",
+      "example_ru": "Одно яблоко, пожалуйста."
+    },
+    {
+      "tr": "iki",
+      "ru": "2",
+      "pronunciation": "и-ки",
+      "example_tr": "İki çay istiyorum.",
+      "example_ru": "Хочу два чая."
+    },
+    {
+      "tr": "üç",
+      "ru": "3",
+      "pronunciation": "юч",
+      "example_tr": "Üç dakika bekleyin.",
+      "example_ru": "Подождите три минуты."
+    },
+    {
+      "tr": "dört",
+      "ru": "4",
+      "pronunciation": "дёрт",
+      "example_tr": "Dört mevsim var.",
+      "example_ru": "Есть четыре сезона."
+    },
+    {
+      "tr": "beş",
+      "ru": "5",
+      "pronunciation": "бэш",
+      "example_tr": "Beş yaşında bir çocuk.",
+      "example_ru": "Пятилетний ребёнок."
+    },
+    {
+      "tr": "altı",
+      "ru": "6",
+      "pronunciation": "ал-ты",
+      "example_tr": "Altı saat uyudum.",
+      "example_ru": "Я спал шесть часов."
+    },
+    {
+      "tr": "yedi",
+      "ru": "7",
+      "pronunciation": "йэ-ди",
+      "example_tr": "Yedi gün bir hafta.",
+      "example_ru": "Семь дней — неделя."
+    },
+    {
+      "tr": "sekiz",
+      "ru": "8",
+      "pronunciation": "сэ-киз",
+      "example_tr": "Sabah sekizde kalkıyorum.",
+      "example_ru": "Встаю в восемь утра."
+    },
+    {
+      "tr": "dokuz",
+      "ru": "9",
+      "pronunciation": "до-куз",
+      "example_tr": "Dokuz ay sürdü.",
+      "example_ru": "Длилось девять месяцев."
+    },
+    {
+      "tr": "on",
+      "ru": "10",
+      "pronunciation": "он",
+      "example_tr": "On lira lütfen.",
+      "example_ru": "Десять лир, пожалуйста."
+    },
+    {
+      "tr": "kaç",
+      "ru": "сколько?",
+      "pronunciation": "кач",
+      "example_tr": "Kaç tane istiyorsunuz?",
+      "example_ru": "Сколько штук хотите?"
+    }
+  ],
+  "dialogue": {
+    "title": "Диалог урока 4",
+    "context": "Практика произношения.",
+    "lines": [
+      {
+        "speaker": "Продавец",
+        "tr": "Kaç tane istiyorsunuz?",
+        "ru": "Сколько штук хотите?",
+        "note": "kaç=сколько, tane=штука"
+      },
+      {
+        "speaker": "Зарина",
+        "tr": "İki tane lütfen.",
+        "ru": "Две штуки пожалуйста.",
+        "note": "iki=2, tane=штука, lütfen=пожалуйста"
+      },
+      {
+        "speaker": "Продавец",
+        "tr": "Tamam, iki lira.",
+        "ru": "Хорошо, два лира.",
+        "note": "tamam=хорошо, iki lira=2 лиры"
+      }
+    ]
+  },
+  "cultural_note": {
+    "title": "Числа в турецком — тюркское наследие",
+    "text": "Турецкие числа — чисто тюркского происхождения, без арабских заимствований. Это важно: арабские и персидские слова тоже есть в турецком (около 30% словарного запаса), но числа — исконные. Казахские числа очень похожи: bir/бір, iki/екі, üç/үш, dört/төрт, beş/бес. Учи турецкий — помогает понять казахский!"
+  },
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "multiple_choice",
+      "question": "'Три' по-турецки:",
+      "options": [
+        "iki",
+        "üç",
+        "dört",
+        "beş"
+      ],
+      "correctAnswer": "üç",
+      "explanation": "üç [юч] = три. Ü произносится как Ю с округлёнными губами. üç = ЮЧ."
+    },
+    {
+      "id": "ex_2",
+      "type": "multiple_choice",
+      "question": "'Dört' означает:",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswer": "4",
+      "explanation": "dört = четыре. Ö = Ё с округлёнными губами. dört [ДЁРТ] = четыре."
+    },
+    {
+      "id": "ex_3",
+      "type": "match_pairs",
+      "question": "Соедини числа",
+      "pairs": [
+        {
+          "left": "bir",
+          "right": "1"
+        },
+        {
+          "left": "beş",
+          "right": "5"
+        },
+        {
+          "left": "sekiz",
+          "right": "8"
+        },
+        {
+          "left": "on",
+          "right": "10"
+        }
+      ],
+      "correctAnswer": "all",
+      "explanation": "bir=1, beş=5, sekiz=8, on=10."
+    },
+    {
+      "id": "ex_4",
+      "type": "multiple_choice",
+      "question": "Как сказать 'два чая'?",
+      "options": [
+        "iki çay",
+        "ikili çay",
+        "iki tane çaylar",
+        "iki çaylar"
+      ],
+      "correctAnswer": "iki çay",
+      "explanation": "iki çay = два чая. После числа существительное в единственном числе! НЕ çaylar."
+    },
+    {
+      "id": "ex_5",
+      "type": "fill_blank",
+      "question": "'Сколько?' по-турецки: '___'",
+      "options": [
+        "ne",
+        "nasıl",
+        "kaç",
+        "nerede"
+      ],
+      "correctAnswer": "kaç",
+      "explanation": "kaç = сколько? kaç tane? = сколько штук? kaç yaşındasın? = сколько лет?"
+    },
+    {
+      "id": "ex_6",
+      "type": "multiple_choice",
+      "question": "11 по-турецки:",
+      "options": [
+        "onbir",
+        "on bir",
+        "on iki",
+        "yirmi bir"
+      ],
+      "correctAnswer": "on bir",
+      "explanation": "11 = on bir (10+1). Пишется раздельно: on bir, on iki, on üç... до 19."
+    },
+    {
+      "id": "ex_7",
+      "type": "multiple_choice",
+      "question": "'Altı' означает:",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswer": "6",
+      "explanation": "altı = шесть. Помни: altı звучит как 'алты' — алтын (золото) тоже тюркское слово!"
+    },
+    {
+      "id": "ex_8",
+      "type": "fill_blank",
+      "question": "Два = iki, три = üç, четыре = ___",
+      "options": [
+        "beş",
+        "dört",
+        "altı",
+        "yedi"
+      ],
+      "correctAnswer": "dört",
+      "explanation": "dört = четыре. Порядок: bir(1), iki(2), üç(3), dört(4), beş(5)."
+    }
+  ],
+  "summary": {
+    "title": "Что ты выучил",
+    "points": [
+      "Sayılar ve Telaffuz — Числа 0–20 и произношение"
+    ],
+    "next_lesson": "Урок 5"
+  }
+}

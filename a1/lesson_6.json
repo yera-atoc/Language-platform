@@ -1,0 +1,311 @@
+{
+  "id": "lesson_6",
+  "title": "Günler ve Aylar — Дни недели и месяцы",
+  "level": "a1",
+  "language": "turkish",
+  "xpReward": 70,
+  "estimatedMinutes": 20,
+  "intro": {
+    "text": "Без знания дней и месяцев невозможно договориться о встрече, купить билет или понять расписание. Турецкие дни недели имеют арабское и персидское происхождение, а месяцы — латинское. Запомни их — они нужны каждый день.",
+    "goals": [
+      "Назвать все 7 дней недели",
+      "Назвать 12 месяцев",
+      "Спросить и сказать дату",
+      "Говорить о расписании"
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g1",
+      "title": "Суффикс -da/-de/-ta/-te (где? когда?)",
+      "explanation": "Чтобы сказать «в понедельник», «в январе», к слову добавляется суффикс -da/-de/-ta/-te. Выбор зависит от гармонии гласных и звонкости последней согласной.",
+      "table": {
+        "headers": [
+          "Турецкий",
+          "Русский",
+          "Пример"
+        ],
+        "rows": [
+          [
+            "Pazartesi",
+            "понедельник",
+            "Pazartesi-de = в понедельник"
+          ],
+          [
+            "Cuma",
+            "пятница",
+            "Cuma-da = в пятницу"
+          ],
+          [
+            "Ocak",
+            "январь",
+            "Ocak-ta = в январе"
+          ],
+          [
+            "Mart",
+            "март",
+            "Mart-ta = в марте"
+          ]
+        ]
+      },
+      "note": ""
+    }
+  ],
+  "vocabulary": [
+    {
+      "tr": "Pazartesi",
+      "ru": "понедельник",
+      "pronunciation": "па-зар-тэ-си",
+      "example_tr": "Pazartesi işe gidiyorum.",
+      "example_ru": "В понедельник иду на работу."
+    },
+    {
+      "tr": "Salı",
+      "ru": "вторник",
+      "pronunciation": "са-лы",
+      "example_tr": "Salı günü ders var.",
+      "example_ru": "Во вторник есть урок."
+    },
+    {
+      "tr": "Çarşamba",
+      "ru": "среда",
+      "pronunciation": "чар-шам-ба",
+      "example_tr": "Çarşamba güzel bir gün.",
+      "example_ru": "Среда — хороший день."
+    },
+    {
+      "tr": "Perşembe",
+      "ru": "четверг",
+      "pronunciation": "пэр-шэм-бэ",
+      "example_tr": "Perşembe akşamı buluşalım.",
+      "example_ru": "Встретимся в четверг вечером."
+    },
+    {
+      "tr": "Cuma",
+      "ru": "пятница",
+      "pronunciation": "джу-ма",
+      "example_tr": "Cuma namazı önemli.",
+      "example_ru": "Пятничная молитва важна."
+    },
+    {
+      "tr": "Cumartesi",
+      "ru": "суббота",
+      "pronunciation": "джу-мар-тэ-си",
+      "example_tr": "Cumartesi alışveriş yaparım.",
+      "example_ru": "В субботу я хожу по магазинам."
+    },
+    {
+      "tr": "Pazar",
+      "ru": "воскресенье",
+      "pronunciation": "па-зар",
+      "example_tr": "Pazar tatil günüdür.",
+      "example_ru": "Воскресенье — выходной."
+    },
+    {
+      "tr": "hafta",
+      "ru": "неделя",
+      "pronunciation": "хаф-та",
+      "example_tr": "Bu hafta çok yoğunum.",
+      "example_ru": "На этой неделе я очень занят."
+    },
+    {
+      "tr": "bugün",
+      "ru": "сегодня",
+      "pronunciation": "бу-гюн",
+      "example_tr": "Bugün hava güzel.",
+      "example_ru": "Сегодня погода хорошая."
+    },
+    {
+      "tr": "yarın",
+      "ru": "завтра",
+      "pronunciation": "йа-рын",
+      "example_tr": "Yarın görüşürüz.",
+      "example_ru": "Увидимся завтра."
+    },
+    {
+      "tr": "dün",
+      "ru": "вчера",
+      "pronunciation": "дюн",
+      "example_tr": "Dün sinemaya gittim.",
+      "example_ru": "Вчера я ходил в кино."
+    },
+    {
+      "tr": "ay",
+      "ru": "месяц",
+      "pronunciation": "ай",
+      "example_tr": "Bu ay çok meşgulüm.",
+      "example_ru": "В этом месяце я очень занят."
+    }
+  ],
+  "dialogue": {
+    "title": "Договариваемся о встрече",
+    "context": "Два друга договариваются о встрече по телефону.",
+    "lines": [
+      {
+        "speaker": "Айше",
+        "tr": "Merhaba! Pazartesi müsait misin?",
+        "ru": "Привет! Ты свободна в понедельник?",
+        "note": "müsait = свободный/disponible. -misin? = вопрос"
+      },
+      {
+        "speaker": "Фатима",
+        "tr": "Pazartesi değil, Salı olur mu?",
+        "ru": "В понедельник нет, подойдёт вторник?",
+        "note": "değil = нет (отрицание). olur = подойдёт/можно."
+      },
+      {
+        "speaker": "Айше",
+        "tr": "Salı güzel. Saat kaçta?",
+        "ru": "Вторник хорошо. В котором часу?",
+        "note": "saat kaçta? = в котором часу? -ta = в."
+      },
+      {
+        "speaker": "Фатима",
+        "tr": "Saat üçte, kahvede.",
+        "ru": "В три часа, в кафе.",
+        "note": "üç+te = в три. Суффикс -te после глухой согласной."
+      },
+      {
+        "speaker": "Айше",
+        "tr": "Harika! Pazar nerede?",
+        "ru": "Здорово! Какое кафе?",
+        "note": "harika = здорово/отлично. Pazar = воскресенье (здесь слово kafe подразумевается)"
+      },
+      {
+        "speaker": "Фатима",
+        "tr": "Taksim Meydanı'ndaki kafede.",
+        "ru": "В кафе на площади Таксим.",
+        "note": "Taksim = площадь в Стамбуле. -ndaki = которое находится в."
+      }
+    ]
+  },
+  "cultural_note": {
+    "title": "Пятница в Турции",
+    "text": "Cuma (пятница) — священный день в исламе. Большинство турецких мужчин ходят на пятничную молитву (cuma namazı). Магазины могут работать в сокращённом режиме в полдень пятницы. Cumartesi (суббота) и Pazar (воскресенье) — официальные выходные дни."
+  },
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "multiple_choice",
+      "question": "Сегодня пятница. Как сказать «в пятницу»?",
+      "options": [
+        "Cuma",
+        "Cumada",
+        "Cumayı",
+        "Cumadan"
+      ],
+      "correctAnswer": "Cumada",
+      "explanation": "Cuma+da = в пятницу. Суффикс -da/-de/-ta/-te обозначает место или время."
+    },
+    {
+      "id": "ex_2",
+      "type": "multiple_choice",
+      "question": "«Yarın» означает:",
+      "options": [
+        "вчера",
+        "сегодня",
+        "завтра",
+        "на следующей неделе"
+      ],
+      "correctAnswer": "завтра",
+      "explanation": "yarın = завтра. dün = вчера. bugün = сегодня. Три главных слова о времени!"
+    },
+    {
+      "id": "ex_3",
+      "type": "match_pairs",
+      "question": "Соедини дни с переводом",
+      "pairs": [
+        {
+          "left": "Pazartesi",
+          "right": "понедельник"
+        },
+        {
+          "left": "Çarşamba",
+          "right": "среда"
+        },
+        {
+          "left": "Cuma",
+          "right": "пятница"
+        },
+        {
+          "left": "Pazar",
+          "right": "воскресенье"
+        }
+      ],
+      "correctAnswer": "all",
+      "explanation": "Pazartesi=пн, Çarşamba=ср, Cuma=пт, Pazar=вс."
+    },
+    {
+      "id": "ex_4",
+      "type": "multiple_choice",
+      "question": "Как спросить «В котором часу?»",
+      "options": [
+        "Kaç yaşında?",
+        "Saat kaçta?",
+        "Ne zaman?",
+        "Kaç gün?"
+      ],
+      "correctAnswer": "Saat kaçta?",
+      "explanation": "Saat kaçta? = В котором часу? saat=час, kaç=сколько, -ta=в."
+    },
+    {
+      "id": "ex_5",
+      "type": "fill_blank",
+      "question": "«___ görüşürüz» = «Увидимся завтра»",
+      "options": [
+        "Dün",
+        "Bugün",
+        "Yarın",
+        "Hafta"
+      ],
+      "correctAnswer": "Yarın",
+      "explanation": "Yarın görüşürüz = Увидимся завтра. Очень часто используется при прощании!"
+    },
+    {
+      "id": "ex_6",
+      "type": "multiple_choice",
+      "question": "Вторник по-турецки:",
+      "options": [
+        "Cuma",
+        "Cumartesi",
+        "Salı",
+        "Perşembe"
+      ],
+      "correctAnswer": "Salı",
+      "explanation": "Salı = вторник. Cuma=пятница, Cumartesi=суббота, Perşembe=четверг."
+    },
+    {
+      "id": "ex_7",
+      "type": "multiple_choice",
+      "question": "Как сказать «на следующей неделе»?",
+      "options": [
+        "bu hafta",
+        "geçen hafta",
+        "gelecek hafta",
+        "hafta sonu"
+      ],
+      "correctAnswer": "gelecek hafta",
+      "explanation": "gelecek hafta = следующая неделя. bu hafta = эта неделя. geçen hafta = прошлая неделя."
+    },
+    {
+      "id": "ex_8",
+      "type": "fill_blank",
+      "question": "Subbota — «_______»",
+      "options": [
+        "Cuma",
+        "Pazar",
+        "Cumartesi",
+        "Salı"
+      ],
+      "correctAnswer": "Cumartesi",
+      "explanation": "Cumartesi = суббота. Cuma+ertesi: ertesi = следующий день после. Следующий после пятницы = суббота!"
+    }
+  ],
+  "summary": {
+    "title": "Что ты выучил в этом уроке",
+    "points": [
+      "Günler ve Aylar — Дни недели и месяцы"
+    ],
+    "next_lesson": "Продолжай учить!"
+  }
+}

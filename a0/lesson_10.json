@@ -1,0 +1,303 @@
+{
+  "id": "lesson_10",
+  "title": "A0 Tekrar — Итог: Ты готов к A1!",
+  "level": "a0",
+  "language": "turkish",
+  "xpReward": 40,
+  "estimatedMinutes": 25,
+  "intro": {
+    "text": "Поздравляем! Ты прошёл уровень A0. Теперь ты знаешь турецкий алфавит, умеешь читать, понимаешь гармонию гласных, знаешь числа, цвета, базовые предложения и можешь представиться. Это фундамент для всего что будет дальше. Проверим себя!",
+    "goals": [
+      "Повторить алфавит и специальные буквы",
+      "Проверить знание гармонии гласных",
+      "Убедиться в понимании SOV структуры",
+      "Подготовиться к A1"
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g1",
+      "title": "Итог A0 — что ты умеешь",
+      "explanation": "За 10 уроков A0 ты освоил фундамент турецкого. Давай проверим.",
+      "table": {
+        "headers": [
+          "Навык",
+          "Что ты умеешь",
+          "Пример"
+        ],
+        "rows": [
+          [
+            "Алфавит",
+            "Читать любое турецкое слово",
+            "Ç=Ч, Ş=Ш, Ğ=удлинение, İ/I=и/ы"
+          ],
+          [
+            "Гармония гласных",
+            "Предсказывать суффиксы",
+            "evDE, okulDA, şehirDE"
+          ],
+          [
+            "Числа",
+            "Считать до 20 и выше",
+            "bir, iki, üç...yirmi, otuz"
+          ],
+          [
+            "Фразы",
+            "Представиться полностью",
+            "Adım X, Kazakistanlıyım, X yaşındayım"
+          ],
+          [
+            "Структура",
+            "SOV порядок слов",
+            "Ben çay SEVİYORUM"
+          ],
+          [
+            "Вопросы",
+            "Задавать и отвечать",
+            "Nasılsın? — İyiyim!"
+          ]
+        ]
+      },
+      "note": "На уровне A1 ты начнёшь реально общаться: приветствия, знакомство, числа в контексте, первые диалоги. Алфавит и гармония будут автоматическими."
+    }
+  ],
+  "vocabulary": [
+    {
+      "tr": "Ç, Ş",
+      "ru": "Ч, Ш",
+      "pronunciation": "—",
+      "example_tr": "çay=чай, şeker=сахар",
+      "example_ru": "чай, сахар"
+    },
+    {
+      "tr": "Ö, Ü",
+      "ru": "О и У с умлаутом",
+      "pronunciation": "—",
+      "example_tr": "göz=глаз, üç=три",
+      "example_ru": "глаз, три"
+    },
+    {
+      "tr": "I ı / İ i",
+      "ru": "Ы / И",
+      "pronunciation": "—",
+      "example_tr": "ışık=свет, iyi=хорошо",
+      "example_ru": "свет, хорошо"
+    },
+    {
+      "tr": "Ğ",
+      "ru": "удлинение гласной",
+      "pronunciation": "—",
+      "example_tr": "dağ=гора [да:]",
+      "example_ru": "гора"
+    },
+    {
+      "tr": "-da/-de",
+      "ru": "в/на (место)",
+      "pronunciation": "—",
+      "example_tr": "evde=дома, okulda=в школе",
+      "example_ru": "дома, в школе"
+    },
+    {
+      "tr": "SOV",
+      "ru": "Подл+Доп+Глагол",
+      "pronunciation": "—",
+      "example_tr": "Ben su içiyorum",
+      "example_ru": "Я воду пью"
+    },
+    {
+      "tr": "mı/mi",
+      "ru": "вопрос да/нет",
+      "pronunciation": "—",
+      "example_tr": "Güzel mi?",
+      "example_ru": "Красиво?"
+    },
+    {
+      "tr": "Ben...yim",
+      "ru": "Я есть...",
+      "pronunciation": "—",
+      "example_tr": "Ben öğrenciyim",
+      "example_ru": "Я студент"
+    },
+    {
+      "tr": "Adım...",
+      "ru": "Меня зовут...",
+      "pronunciation": "—",
+      "example_tr": "Adım Zarina",
+      "example_ru": "Меня зовут Зарина"
+    },
+    {
+      "tr": "yaşındayım",
+      "ru": "мне ... лет",
+      "pronunciation": "—",
+      "example_tr": "22 yaşındayım",
+      "example_ru": "Мне 22"
+    },
+    {
+      "tr": "Nasılsın?",
+      "ru": "Как дела?",
+      "pronunciation": "—",
+      "example_tr": "İyiyim!",
+      "example_ru": "Хорошо!"
+    },
+    {
+      "tr": "Teşekkürler",
+      "ru": "Спасибо",
+      "pronunciation": "—",
+      "example_tr": "Çok teşekkürler!",
+      "example_ru": "Большое спасибо!"
+    }
+  ],
+  "dialogue": {
+    "title": "Диалог",
+    "context": "Практика.",
+    "lines": [
+      {
+        "speaker": "Зарина",
+        "tr": "Merhaba! Adım Zarina. Ben Kazakistanlıyım, Almatı'dan. Yirmi iki yaşındayım ve öğrenciyim.",
+        "ru": "Привет! Меня зовут Зарина. Я из Казахстана, из Алматы. Мне 22 года и я студентка.",
+        "note": "Полное представление — всё что выучили за A0!"
+      },
+      {
+        "speaker": "Мехмет",
+        "tr": "Harika! Türkçen çok iyi! Kaç aydır öğreniyorsun?",
+        "ru": "Отлично! Твой турецкий очень хорош! Сколько месяцев учишь?",
+        "note": "kaç ay = сколько месяцев. -dır = суффикс длительности."
+      },
+      {
+        "speaker": "Зарина",
+        "tr": "Teşekkürler! Sadece on gün! A0 seviyesindeyim.",
+        "ru": "Спасибо! Только десять дней! Я на уровне A0.",
+        "note": "on gün = десять дней. seviye = уровень."
+      }
+    ]
+  },
+  "cultural_note": {
+    "title": "Твой путь в турецком",
+    "text": "Уровень A0 — это твой личный подвиг. Турецкий алфавит, гармония гласных, первые предложения — ты прошёл через самое непривычное. Дальше будет легче: A1 — реальные разговоры, A2 — прошедшее время и истории, B1 — уверенное общение. Многие казахстаноязычные изучающие отмечают: после первого месяца турецкий становится почти знакомым из-за общих тюркских корней."
+  },
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "multiple_choice",
+      "question": "Как читается 'çarşamba'?",
+      "options": [
+        "[царшамба]",
+        "[сарсамба]",
+        "[чаршамба]",
+        "[джаршамба]"
+      ],
+      "correctAnswer": "[чаршамба]",
+      "explanation": "ç=Ч, a, r, ş=Ш, a, m, b, a. çarşamba [чар-ШАМ-ба] = среда."
+    },
+    {
+      "id": "ex_2",
+      "type": "multiple_choice",
+      "question": "Какой суффикс места у слова 'İstanbul' (последняя гласная U)?",
+      "options": [
+        "İstanbul'de",
+        "İstanbul'da",
+        "İstanbul'ta",
+        "İstanbul'te"
+      ],
+      "correctAnswer": "İstanbul'da",
+      "explanation": "U — задняя гласная → -da. İstanbul'da = в Стамбуле. Апостроф перед суффиксом у имён."
+    },
+    {
+      "id": "ex_3",
+      "type": "match_pairs",
+      "question": "Итог A0: соедини",
+      "pairs": [
+        {
+          "left": "Ç",
+          "right": "Ч"
+        },
+        {
+          "left": "Ş",
+          "right": "Ш"
+        },
+        {
+          "left": "-de/-da",
+          "right": "в/на"
+        },
+        {
+          "left": "SOV",
+          "right": "Подл+Доп+Глагол"
+        }
+      ],
+      "correctAnswer": "all",
+      "explanation": "Ç=Ч, Ş=Ш, -da/-de=в/на, SOV=порядок слов."
+    },
+    {
+      "id": "ex_4",
+      "type": "multiple_choice",
+      "question": "Как сказать 'Я студент' (я = ben, студент = öğrenci)?",
+      "options": [
+        "Ben öğrenci.",
+        "Ben öğrenciyim.",
+        "Öğrenci benim.",
+        "Ben öğrencisim."
+      ],
+      "correctAnswer": "Ben öğrenciyim.",
+      "explanation": "öğrenci (последняя İ — передняя) + -yim (я). Ben öğrenciyim!"
+    },
+    {
+      "id": "ex_5",
+      "type": "fill_blank",
+      "question": "'Güzel mi?' означает: '___?'",
+      "options": [
+        "Что это",
+        "Красиво",
+        "Где это",
+        "Как это"
+      ],
+      "correctAnswer": "Красиво",
+      "explanation": "Güzel mi? = Красиво? mi — вопросительная частица для передних гласных (E→mi)."
+    },
+    {
+      "id": "ex_6",
+      "type": "multiple_choice",
+      "question": "Завершение фразы: 'Ben Kazakistanlı___'",
+      "options": [
+        "yım",
+        "im",
+        "sın",
+        "iz"
+      ],
+      "correctAnswer": "yım",
+      "explanation": "Kazakistanlı (последняя I — задняя) → -yım. Kazakistanlıyım = Я из Казахстана."
+    },
+    {
+      "id": "ex_7",
+      "type": "multiple_choice",
+      "question": "В предложении 'Ben çay seviyorum' глагол стоит...",
+      "options": [
+        "в начале",
+        "в середине",
+        "в конце",
+        "после существительного"
+      ],
+      "correctAnswer": "в конце",
+      "explanation": "SOV: Ben (я) + çay (чай) + seviyorum (люблю). Глагол ВСЕГДА в конце в турецком!"
+    },
+    {
+      "id": "ex_8",
+      "type": "fill_blank",
+      "question": "'Мне 25 лет' = 'Yirmi beş ___'",
+      "options": [
+        "yaşındayım",
+        "yaşıyım",
+        "yaşım",
+        "yaşındasın"
+      ],
+      "correctAnswer": "yaşındayım",
+      "explanation": "yaşındayım = мне ... лет. yaş=возраст, -ında=в (этом возрасте), -yım=я. yirmi beş yaşındayım!"
+    }
+  ],
+  "summary": {
+    "title": "Что ты выучил",
+    "points": [
+      "A0 Tekrar — Итог: Ты готов к A1!"
+    ],
+    "next_lesson": "Поздравляем! A0 завершён — переходи на A1!"
+  }
+}

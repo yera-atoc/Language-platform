@@ -1,0 +1,305 @@
+{
+  "id": "lesson_8",
+  "title": "Edilgen Çatı — Страдательный залог",
+  "level": "a2",
+  "language": "turkish",
+  "xpReward": 80,
+  "estimatedMinutes": 25,
+  "intro": {
+    "text": "Пассивный залог (-il/-ıl/-ul/-ül после согласной, -n после гласной). Bu kitap yazıldı = Эта книга была написана. В турецком пассив используется чаще чем в русском — особенно в газетах и официальных текстах.",
+    "goals": [
+      "Освоить тему: Edilgen Çatı — Страдательный залог",
+      "Применить в диалоге",
+      "Закрепить упражнениями",
+      "Расширить словарный запас"
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g1",
+      "title": "Грамматика урока",
+      "explanation": "Пассивный залог (-il/-ıl/-ul/-ül после согласной, -n после гласной). Bu kitap yazıldı = Эта книга была написана. В турецком пассив используется чаще чем в русском — особенно в газетах и официальных текстах.",
+      "table": {
+        "headers": [
+          "Форма",
+          "Правило",
+          "Пример"
+        ],
+        "rows": [
+          [
+            "yazıldı",
+            "было написано",
+            "йа-зыл-ды"
+          ],
+          [
+            "yapıldı",
+            "было сделано",
+            "йа-пыл-ды"
+          ],
+          [
+            "açıldı",
+            "было открыто",
+            "а-чыл-ды"
+          ],
+          [
+            "kapatıldı",
+            "было закрыто",
+            "ка-па-тыл-ды"
+          ]
+        ]
+      },
+      "note": "Уровень A2 Элементарный"
+    }
+  ],
+  "vocabulary": [
+    {
+      "tr": "yazıldı",
+      "ru": "было написано",
+      "pronunciation": "йа-зыл-ды",
+      "example_tr": "Kitap yazıldı.",
+      "example_ru": "Книга была написана."
+    },
+    {
+      "tr": "yapıldı",
+      "ru": "было сделано",
+      "pronunciation": "йа-пыл-ды",
+      "example_tr": "Ev yapıldı.",
+      "example_ru": "Дом был построен."
+    },
+    {
+      "tr": "açıldı",
+      "ru": "было открыто",
+      "pronunciation": "а-чыл-ды",
+      "example_tr": "Kapı açıldı.",
+      "example_ru": "Дверь была открыта."
+    },
+    {
+      "tr": "kapatıldı",
+      "ru": "было закрыто",
+      "pronunciation": "ка-па-тыл-ды",
+      "example_tr": "Dükkan kapatıldı.",
+      "example_ru": "Магазин был закрыт."
+    },
+    {
+      "tr": "söylendi",
+      "ru": "было сказано",
+      "pronunciation": "сёй-лэн-ди",
+      "example_tr": "Bu söylendi.",
+      "example_ru": "Это было сказано."
+    },
+    {
+      "tr": "görüldü",
+      "ru": "было видно",
+      "pronunciation": "гё-рюл-дю",
+      "example_tr": "Sorun görüldü.",
+      "example_ru": "Проблема была замечена."
+    },
+    {
+      "tr": "bulundu",
+      "ru": "было найдено",
+      "pronunciation": "бу-лун-ду",
+      "example_tr": "Anahtar bulundu.",
+      "example_ru": "Ключ был найден."
+    },
+    {
+      "tr": "bilindi",
+      "ru": "было известно",
+      "pronunciation": "би-лин-ди",
+      "example_tr": "Bu biliniyordu.",
+      "example_ru": "Это было известно."
+    },
+    {
+      "tr": "taşındı",
+      "ru": "было перевезено",
+      "pronunciation": "та-шын-ды",
+      "example_tr": "Eşyalar taşındı.",
+      "example_ru": "Вещи были перевезены."
+    },
+    {
+      "tr": "satıldı",
+      "ru": "было продано",
+      "pronunciation": "са-тыл-ды",
+      "example_tr": "Araba satıldı.",
+      "example_ru": "Машина была продана."
+    },
+    {
+      "tr": "okundu",
+      "ru": "было прочитано",
+      "pronunciation": "о-кун-ду",
+      "example_tr": "Kitap okundu.",
+      "example_ru": "Книга была прочитана."
+    },
+    {
+      "tr": "duyuldu",
+      "ru": "было услышано",
+      "pronunciation": "ду-йул-ду",
+      "example_tr": "Haber duyuldu.",
+      "example_ru": "Новость была услышана."
+    }
+  ],
+  "dialogue": {
+    "title": "Диалог — Edilgen Çatı — Страдательный залог",
+    "context": "Реальная ситуация.",
+    "lines": [
+      {
+        "speaker": "A",
+        "tr": "Kitap yazıldı.",
+        "ru": "Книга была написана.",
+        "note": ""
+      },
+      {
+        "speaker": "B",
+        "tr": "Ev yapıldı.",
+        "ru": "Дом был построен.",
+        "note": ""
+      },
+      {
+        "speaker": "A",
+        "tr": "Kapı açıldı.",
+        "ru": "Дверь была открыта.",
+        "note": ""
+      }
+    ]
+  },
+  "cultural_note": {
+    "title": "Культурный контекст",
+    "text": "Урок 8 уровня A2 Элементарный. Практикуй каждый день!"
+  },
+  "exercises": [
+    {
+      "id": "ex_1",
+      "type": "multiple_choice",
+      "question": "Что из этого относится к теме «edilgen çatı»?",
+      "options": [
+        "Вариант А",
+        "Вариант Б",
+        "Вариант В",
+        "Вариант Г"
+      ],
+      "correctAnswer": "Вариант А",
+      "explanation": "Ключевое понятие темы edilgen çatı"
+    },
+    {
+      "id": "ex_2",
+      "type": "multiple_choice",
+      "question": "Выбери правильную форму глагола:",
+      "options": [
+        "-iyor",
+        "-di",
+        "-ecek",
+        "-mış"
+      ],
+      "correctAnswer": "-iyor",
+      "explanation": "Настоящее продолженное: глагол+-iyor+личное окончание"
+    },
+    {
+      "id": "ex_3",
+      "type": "match_pairs",
+      "question": "Соедини слова",
+      "pairs": [
+        {
+          "left": "var",
+          "right": "есть"
+        },
+        {
+          "left": "yok",
+          "right": "нет"
+        },
+        {
+          "left": "gibi",
+          "right": "как"
+        },
+        {
+          "left": "için",
+          "right": "для"
+        }
+      ],
+      "correctAnswer": "all",
+      "explanation": "all"
+    },
+    {
+      "id": "ex_4",
+      "type": "fill_blank",
+      "question": "«Ben ___ gidiyorum» = «Я иду в школу»",
+      "options": [
+        "okula",
+        "okulda",
+        "okuldan",
+        "okul"
+      ],
+      "correctAnswer": "okula",
+      "explanation": "Суффикс направления -a/-e: okul+a = в школу"
+    },
+    {
+      "id": "ex_5",
+      "type": "multiple_choice",
+      "question": "Как образуется прошедшее время?",
+      "options": [
+        "глагол + -iyor",
+        "глагол + -di/-dı",
+        "глагол + -ecek",
+        "глагол + -miş"
+      ],
+      "correctAnswer": "глагол + -di/-dı",
+      "explanation": "Простое прошедшее: gitmek → gitti (ушёл)"
+    },
+    {
+      "id": "ex_6",
+      "type": "multiple_choice",
+      "question": "«Yarın ne yapacaksın?» означает:",
+      "options": [
+        "Что ты делаешь?",
+        "Что ты делал?",
+        "Что ты будешь делать завтра?",
+        "Зачем ты здесь?"
+      ],
+      "correctAnswer": "Что ты будешь делать завтра?",
+      "explanation": "yarın=завтра, yapacaksın=ты сделаешь (-ecek будущее)"
+    },
+    {
+      "id": "ex_7",
+      "type": "fill_blank",
+      "question": "Отрицание глагола: «gitmek» → «___»",
+      "options": [
+        "gitmemek",
+        "gitmeyorum",
+        "gitmiyor",
+        "gitmek değil"
+      ],
+      "correctAnswer": "gitmemek",
+      "explanation": "Отрицательный инфинитив: глагол + -me/-ma + мек/мак"
+    },
+    {
+      "id": "ex_8",
+      "type": "match_pairs",
+      "question": "Соедини времена",
+      "pairs": [
+        {
+          "left": "gidiyorum",
+          "right": "иду сейчас"
+        },
+        {
+          "left": "gittim",
+          "right": "я пошёл"
+        },
+        {
+          "left": "gideceğim",
+          "right": "я пойду"
+        },
+        {
+          "left": "gitmiştim",
+          "right": "я уже ходил"
+        }
+      ],
+      "correctAnswer": "all",
+      "explanation": "all"
+    }
+  ],
+  "summary": {
+    "title": "Итог урока",
+    "points": [
+      "Edilgen Çatı — Страдательный залог"
+    ],
+    "next_lesson": "Урок 9"
+  }
+}
