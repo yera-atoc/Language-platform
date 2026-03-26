@@ -7,9 +7,11 @@ import turkishData from '@content/turkish/index.json'
 
 // ── Data ─────────────────────────────────────────────────────
 
+import chineseData from '@content/chinese/index.json'
+
 const LANGUAGES = [
   { code: 'turkish',  flag: '🇹🇷', name: 'Турецкий',   exam: 'ТОМЕР', color: '#E74C3C', phase: 1, data: turkishData },
-  { code: 'chinese',  flag: '🇨🇳', name: 'Китайский',  exam: 'HSK',   color: '#E67E22', phase: 2 },
+  { code: 'chinese',  flag: '🇨🇳', name: 'Китайский',  exam: 'HSK',   color: '#E67E22', phase: 1, data: chineseData },
   { code: 'korean',   flag: '🇰🇷', name: 'Корейский',  exam: 'TOPIK', color: '#3498DB', phase: 2 },
   { code: 'arabic',   flag: '🇸🇦', name: 'Арабский',   exam: '—',     color: '#27AE60', phase: 3 },
   { code: 'spanish',  flag: '🇪🇸', name: 'Испанский',  exam: 'DELE',  color: '#F39C12', phase: 3 },
@@ -115,7 +117,7 @@ export default function Home() {
           <SectionHead title="Продолжить" />
           <div
             style={s.continueCard}
-            onClick={() => navigate(`/lesson/${activeLang}/a1/${continueLesson.id}`)}
+            onClick={() => navigate(`/lesson/${activeLang}/${activeLang === 'chinese' ? 'hsk1' : 'a1'}/${continueLesson.id}`)}
           >
             <div style={s.continueTop}>
               <div style={{ ...s.continueIcon, background: `linear-gradient(135deg,${langMeta.color},${langMeta.color}99)` }}>
@@ -127,7 +129,7 @@ export default function Home() {
               </div>
               <button
                 style={s.continueBtn}
-                onClick={e => { e.stopPropagation(); navigate(`/lesson/${activeLang}/a1/${continueLesson.id}`) }}
+                onClick={e => { e.stopPropagation(); navigate(`/lesson/${activeLang}/${activeLang === 'chinese' ? 'hsk1' : 'a1'}/${continueLesson.id}`) }}
               >
                 Идти
               </button>
@@ -178,7 +180,7 @@ export default function Home() {
       <BottomNav
         active="home"
         onNavigate={tab => {
-          if (tab === 'lessons')  navigate(`/lessons/${activeLang}/a1`)
+          if (tab === 'lessons')  navigate(`/lessons/${activeLang}/${activeLang === 'chinese' ? 'hsk1' : 'a1'}`)
           if (tab === 'progress') navigate('/progress')
           if (tab === 'profile')  navigate('/profile')
         }}

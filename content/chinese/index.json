@@ -1,0 +1,59 @@
+{
+  "language": "chinese",
+  "languageRu": "Китайский язык",
+  "flag": "🇨🇳",
+  "exam": "HSK",
+  "examDescription": "Hanyu Shuiping Kaoshi — официальный экзамен по китайскому языку",
+  "levels": {
+    "hsk1": {
+      "title": "HSK 1 — Начинающий",
+      "description": "150 слов, базовые фразы, знакомство с иероглифами",
+      "totalLessons": 20,
+      "xpRequired": 0,
+      "color": "#FF6B6B",
+      "lessons": [
+        { "id": "lesson_1",  "title": "你好！— Приветствия и тоны",          "xp": 60 },
+        { "id": "lesson_2",  "title": "我是谁？— Знакомство",                "xp": 60 },
+        { "id": "lesson_3",  "title": "数字 1-10 — Числа 1-10",             "xp": 60 },
+        { "id": "lesson_4",  "title": "家人 — Семья",                        "xp": 70 },
+        { "id": "lesson_5",  "title": "时间 — Время и дни недели",           "xp": 70 },
+        { "id": "lesson_6",  "title": "吃什么？— Еда и напитки",             "xp": 80 },
+        { "id": "lesson_7",  "title": "多少钱？— Числа 11-100 и цены",       "xp": 80 },
+        { "id": "lesson_8",  "title": "在哪里？— Место и направления",       "xp": 90 },
+        { "id": "lesson_9",  "title": "颜色 — Цвета и описание",             "xp": 90 },
+        { "id": "lesson_10", "title": "身体 — Тело и здоровье",              "xp": 90 },
+        { "id": "lesson_11", "title": "工作 — Профессии",                   "xp": 100 },
+        { "id": "lesson_12", "title": "天气 — Погода и сезоны",             "xp": 100 },
+        { "id": "lesson_13", "title": "交通 — Транспорт",                   "xp": 100 },
+        { "id": "lesson_14", "title": "购物 — Покупки",                     "xp": 100 },
+        { "id": "lesson_15", "title": "爱好 — Хобби и увлечения",           "xp": 110 },
+        { "id": "lesson_16", "title": "学习 — Учёба и школа",               "xp": 110 },
+        { "id": "lesson_17", "title": "动物 — Животные",                    "xp": 110 },
+        { "id": "lesson_18", "title": "房子 — Дом и мебель",                "xp": 120 },
+        { "id": "lesson_19", "title": "情感 — Чувства и эмоции",            "xp": 120 },
+        { "id": "lesson_20", "title": "HSK 1 复习 — Итоговое повторение",   "xp": 150 }
+      ]
+    },
+    "hsk2": {
+      "title": "HSK 2 — Элементарный",
+      "description": "300 слов, повседневное общение",
+      "totalLessons": 20,
+      "xpRequired": 1800,
+      "color": "#FFA07A"
+    },
+    "hsk3": {
+      "title": "HSK 3 — Средний",
+      "description": "600 слов, уверенное общение",
+      "totalLessons": 20,
+      "xpRequired": 5000,
+      "color": "#FFD700"
+    },
+    "hsk4": {
+      "title": "HSK 4 — Выше среднего",
+      "description": "1200 слов, сложные темы",
+      "totalLessons": 20,
+      "xpRequired": 10000,
+      "color": "#98FB98"
+    }
+  }
+}

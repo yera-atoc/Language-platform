@@ -3,11 +3,13 @@ import { useNavigate } from 'react-router-dom'
 import useUserStore from '@store/userStore'
 import useProgressStore from '@store/progressStore'
 import turkishData from '@content/turkish/index.json'
+import chineseData from '@content/chinese/index.json'
 
 // ── Constants ────────────────────────────────────────────────
 
 const LANG_LIST = [
   { code: 'turkish', flag: '🇹🇷', name: 'Турецкий', data: turkishData },
+  { code: 'chinese', flag: '🇨🇳', name: 'Китайский', data: chineseData },
 ]
 
 const LEVEL_COLORS = {

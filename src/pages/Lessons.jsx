@@ -3,11 +3,13 @@ import { useParams, useNavigate } from 'react-router-dom'
 import useProgressStore from '@store/progressStore'
 import useUserStore from '@store/userStore'
 import turkishData from '@content/turkish/index.json'
+import chineseData from '@content/chinese/index.json'
 
 // ── Language registry ────────────────────────────────────────
 
 const LANG_DATA = {
   turkish: turkishData,
+  chinese: chineseData,
 }
 
 const LANG_META = {
@@ -18,12 +20,15 @@ const LANG_META = {
 
 const LEVEL_COLORS = {
   a1: '#4ECDC4', a2: '#44CF6C', b1: '#FFD93D', b2: '#FF9F43',
+  hsk1: '#FF6B6B', hsk2: '#FFA07A', hsk3: '#FFD700', hsk4: '#98FB98',
 }
 
 // ── Main Component ───────────────────────────────────────────
 
 export default function Lessons() {
-  const { language = 'turkish', level: levelParam = 'a1' } = useParams()
+  const { language = 'turkish', level: levelParam } = useParams()
+  // Default level depends on language
+  const defaultLevel = language === 'chinese' ? 'hsk1' : 'a1'
   const navigate = useNavigate()
 
   const { getLevelProgress, getLessonProgress, isLessonUnlocked } = useProgressStore()
@@ -33,7 +38,7 @@ export default function Lessons() {
   const langMeta = LANG_META[language] ?? { flag: '🌐', name: language, exam: '—', color: '#6C63FF' }
 
   const levelKeys  = langData ? Object.keys(langData.levels) : []
-  const [activeLevel, setActiveLevel] = useState(levelParam)
+  const [activeLevel, setActiveLevel] = useState(levelParam ?? defaultLevel)
 
   const levelInfo  = langData?.levels?.[activeLevel]
   const lessons    = levelInfo?.lessons ?? []
